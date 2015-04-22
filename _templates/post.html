@@ -1,0 +1,27 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+  <header>
+  <h2>{{ title }}</h2>
+  <time date-time="{{ date }}">{{ date }}</time>
+  <a href="#">{{ author }}</a>
+  <a href="#">{{ category }}</a>
+  <ul>
+    {{#each fonts }}
+      <li><a href="/fonts-in-use/{{this}}">{{ this }}</a></li>
+    {{/each}}
+  </ul>
+  </header>
+  <article>{{{ contents }}}</article>
+</body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "name": "blog.losttype.com",
+  "version": "3.0.0",
+  "description": "The Lost Type Co-op blog.",
+  "homepage": "http://blog.losttype.com",
+  "author": "Kenneth Ormandy <hello@kennethormandy.com> (http://kennethormandy.com)",
+  "license": "Copyright © 2011–2015 The Lost Type Co-op",
+  "private": true,
+  "repository": "git@github.com:losttype/blog.losttype.com.git",
+  "keywords": [],
+  "devDependencies": {
+    "handlebars": "^3.0.2",
+    "metalsmith": "^1.6.0",
+    "metalsmith-browser-sync": "^1.0.0",
+    "metalsmith-collections": "^0.7.0",
+    "metalsmith-imagemin": "0.0.1",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-metadata": "0.0.1",
+    "metalsmith-permalinks": "^0.1.1",
+    "metalsmith-sass": "^0.7.0",
+    "metalsmith-serve": "0.0.3",
+    "metalsmith-tags": "^0.8.2",
+    "metalsmith-templates": "^0.7.0",
+    "metalsmith-watch": "^0.2.0",
+    "surge": "^0.11.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified…yet! Pull requests on https://github.com/losttype/blog.losttype.com are greatly appreciated.\" && exit 1",
+    "start": "node_modules/metalsmith/bin/metalsmith"
+  }
+}
