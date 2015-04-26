@@ -15,6 +15,20 @@
   <h2>{{ title }}</h2>
   <time date-time="{{ date }}">{{ date }}</time>
   <a href="#">{{ author }}</a>
+
+  {{!--
+  {{#each items}}
+      {{! Will pass the current item in items to your partial }}
+      {{> item-template this}}
+  {{/each}}
+  --}}
+
+  {{!-- {{#each authors }}
+  Id: {{@key}} Name: {{this.name}}
+  {{/each}} --}}
+
+  {{> author }}
+
   <a href="#">{{ category }}</a>
   <ul>
     {{#each fonts }}
