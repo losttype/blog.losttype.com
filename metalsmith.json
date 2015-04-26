@@ -14,9 +14,7 @@
       }
     },
     "metalsmith-markdown": {},
-    "metalsmith-permalinks": {
-      "pattern": ":title"
-    },
+    "metalsmith-date-in-filename": {},
     "metalsmith-tags": {
       "handle": "fonts",
       "path": "fonts-in-use/:tag/index.html",
@@ -24,9 +22,19 @@
       "sortBy": "date",
       "reverse": true
     },
+    "metalsmith-metadata": {
+      "authors": "authors.json"
+    },
+    "metalsmith-register-partials": {
+      "directory": "_includes"
+    },
     "metalsmith-templates": {
       "engine": "handlebars",
       "directory": "_templates"
+    },
+    "metalsmith-permalinks": {
+      "relative": false,
+      "pattern": ":title"
     },
     "metalsmith-imagemin": {
       "optimizationLevel": 3,

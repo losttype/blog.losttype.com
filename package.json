@@ -13,10 +13,12 @@
     "metalsmith": "^1.6.0",
     "metalsmith-browser-sync": "^1.0.0",
     "metalsmith-collections": "^0.7.0",
+    "metalsmith-date-in-filename": "0.0.13",
     "metalsmith-imagemin": "0.0.1",
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-metadata": "0.0.1",
-    "metalsmith-permalinks": "^0.1.1",
+    "metalsmith-permalinks": "^0.4.0",
+    "metalsmith-register-partials": "^1.0.2",
     "metalsmith-sass": "^0.7.0",
     "metalsmith-serve": "0.0.3",
     "metalsmith-tags": "^0.8.2",
@@ -26,6 +28,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified…yet! Pull requests on https://github.com/losttype/blog.losttype.com are greatly appreciated.\" && exit 1",
-    "start": "node_modules/metalsmith/bin/metalsmith"
+    "start": "node_modules/metalsmith/bin/metalsmith",
+    "postinstall": "cp ./node_modules/losttype-contributors/index.json ./src/authors.json"
   }
 }
