@@ -23,7 +23,7 @@
       "reverse": true
     },
     "metalsmith-metadata": {
-      "authors": "authors.json"
+      "authors": "_authors.json"
     },
     "metalsmith-register-partials": {
       "directory": "_includes"
@@ -32,6 +32,15 @@
       "engine": "handlebars",
       "directory": "_templates"
     },
+    "metalsmith-publish": {
+      "articles": {
+        "draft": true,
+        "private": true,
+        "future": true,
+        "futureFn": "npm run trigger"
+      }
+    },
+    "metalsmith-typogr": {},
     "metalsmith-permalinks": {
       "relative": false,
       "pattern": ":slug"
