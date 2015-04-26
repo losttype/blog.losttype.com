@@ -12,6 +12,7 @@ build/Release
 node_modules
 components
 bower_components
+src/authors.json
 
 # Compile directories
 build/
