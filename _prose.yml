@@ -1,0 +1,66 @@
+prose:
+  rooturl: "src"
+  siteurl: "http://blog.losttype.com/"
+  # relativeLinks: "http://prose.github.io/starter/links.jsonp"
+  ignore: ["media"]
+  media: "media"
+  metadata:
+    src:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+      - name: "template"
+        field:
+          element: "hidden"
+          label: "Template"
+          value: "post.html"
+      - name: "author"
+        field:
+          element: "select"
+          label: "Author"
+          value: riley-cran
+          options:
+            - "name": "Riley Cran"
+              "value": riley-cran
+            - "name": "Danelle Cheney"
+              "value": danelle-cheney
+            - "name": "Frances MacLeod"
+              "value": frances-macLeod
+            - "name": "Kenneth Ormandy"
+              "value": kenneth-ormandy
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          help: "YYYY-MM-DD HH:MM:SS"
+          value: "2016-01-01 14:30:00"
+      - name: "fonts"
+        field:
+          element: "multiselect"
+          label: "Fonts"
+          placeholder: "Choose fonts…"
+          help: "Tag all Lost Type fonts mentioned in the post."
+          alterable: true
+          options: [ "Pigeon", "Nelma", "Liberator", "Deming EP", "Tightrope", "Onramp", "Pompadour Numerals", "Highlands", "Saturn V", "Muncie", "Habana", "Tommaso", "Wisdom Script", "Governor", "Ministry", "Duke", "Mensch", "Quaver Sans", "Quaver Serif", "Aldine", "Vevey", "Outage", "Airship 27", "Ranger", "Hellforge", "Oil Can", "Homestead", "Airplane", "Ribbon", "Alexis", "Haymaker", "Valencia", "Carton", "Lavanderia", "Atreyu", "Arvil", "Bender", "Cubano", "Blanch", "Bemio", "Sullivan", "Abraham Lincoln", "Geared", "Edmondsans", "Maven Pro", "Mission Script", "Venera", "Dude", "Mission Gothic", "Cylburn", "Fairview", "Klinic Slab", "Enemy", "Dude Hank Pro", "Orwellian" ]
+      - name: "category"
+        field:
+          element: "select"
+          label: "Category"
+          value: "news"
+          options:
+            - "name": "News"
+              "value": "news"
+            - "name": "Fonts in Use"
+              "value": "fonts-in-use"
+            - "name": "Field Trip Amsterdam"
+              "value": "fieldtripam"
+            - "name": "Field Trip New York"
+              "value": "fieldtripny"
+            - "name": "Field Trip San Francisco"
+              "value": "fieldtripsf"
+      - name: "comments"
+        field:
+          element: checkbox
+          label: "Comments"
+          value: false
