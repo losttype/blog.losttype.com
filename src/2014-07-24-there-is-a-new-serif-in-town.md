@@ -4,7 +4,7 @@ author: greyhood
 date: 2014-07-24
 category: news
 fonts: dude, dude hank
-template: post.html
+template: post.hbt
 ---
 
 ![](http://www.losttype.com/images/hank_banner.jpg)

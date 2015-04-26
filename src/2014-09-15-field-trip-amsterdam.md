@@ -3,7 +3,7 @@ title: Field Trip Amsterdam!
 author: rileycran
 date: 2014-09-15
 category: fieldtripam
-template: post.html
+template: post.hbt
 ---
 
 ![](http://losttype.com/blog/wp-content/uploads/2014/09/amsterdam_post.png)
@@ -16,4 +16,4 @@ A dozen designers from Lost Type (and from our kind sponsor, [Dropbox](http://dr
 
 Check back here soon for more updates!
 
-P.S Thanks to [Cade Cran](http://cadecran.com) and [Neil Secretario](http://neilsecretario.com/) for this year’s logo and lettering, respectively!
+P.S. Thanks to [Cade Cran](http://cadecran.com) and [Neil Secretario](http://neilsecretario.com/) for this year’s logo and lettering, respectively!
