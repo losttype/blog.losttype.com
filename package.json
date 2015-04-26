@@ -24,6 +24,7 @@
     "metalsmith-serve": "0.0.3",
     "metalsmith-tags": "^0.8.2",
     "metalsmith-templates": "^0.7.0",
+    "metalsmith-typogr": "^0.1.0",
     "metalsmith-watch": "^0.2.0",
     "surge": "^0.11.1"
   },
