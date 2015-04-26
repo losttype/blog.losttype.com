@@ -14,7 +14,7 @@
       }
     },
     "metalsmith-markdown": {},
-    "metalsmith-date-in-filename": {},
+    "metalsmith-jekyll-dates": {},
     "metalsmith-tags": {
       "handle": "fonts",
       "path": "fonts-in-use/:tag/index.html",
@@ -34,7 +34,7 @@
     },
     "metalsmith-permalinks": {
       "relative": false,
-      "pattern": ":title"
+      "pattern": ":slug"
     },
     "metalsmith-imagemin": {
       "optimizationLevel": 3,

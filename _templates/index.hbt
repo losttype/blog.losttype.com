@@ -21,7 +21,7 @@
       {{#each collections.posts}}
           <li>
               <header>
-              <a href="{{ this.path }}"><h2>{{ this.title }}</h2></a>
+              <a href="{{ this.slug }}"><h2>{{ this.title }}</h2></a>
               <time date-time="{{ date }}">{{ this.date }}</time>
               <a href="#">{{ this.author }}</a>
               <a href="#">{{ this.category }}</a>
