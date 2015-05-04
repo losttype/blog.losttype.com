@@ -28,6 +28,7 @@
     "metalsmith-register-partials": {
       "directory": "_includes"
     },
+    "metalsmith-handlebars-within": {},
     "metalsmith-templates": {
       "engine": "handlebars",
       "directory": "_templates"

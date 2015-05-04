@@ -8,8 +8,11 @@
     Might want to make this go to a listing of
     all the posts by that author at a later point.
   --}}
-    <a href="/about#{{ author }}">{{ author }}</a>
-  {{> author }}
+  <a href="/about#{{ author }}">
+    {{#within authors author }}
+      {{this.name}}
+    {{/within}}
+  </a>
   <a href="#">{{ category }}</a>
   <ul>
     {{#each fonts }}

@@ -1,5 +1,0 @@
-<h1>{{ author.name }}</h1>
-
-<pre><code>
-Name: {{ authors.[author.toString()].name }}
-</code></pre>
