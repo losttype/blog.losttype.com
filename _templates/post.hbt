@@ -1,34 +1,15 @@
-<!doctype html>
-<html class="no-js" lang="">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>{{ title }}</title>
-  <meta name="description" content="{{ description }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+{{> header }}
 
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <link rel="stylesheet" href="/css/index.css">
-</head>
-<body>
+<article>
   <header>
-  <h2>{{ title }}</h2>
+  <h1>{{ title }}</h1>
   <time date-time="{{ date }}">{{ date }}</time>
-  <a href="#">{{ author }}</a>
-
   {{!--
-  {{#each items}}
-      {{! Will pass the current item in items to your partial }}
-      {{> item-template this}}
-  {{/each}}
+    Might want to make this go to a listing of
+    all the posts by that author at a later point.
   --}}
-
-  {{!-- {{#each authors }}
-  Id: {{@key}} Name: {{this.name}}
-  {{/each}} --}}
-
+    <a href="/about#{{ author }}">{{ author }}</a>
   {{> author }}
-
   <a href="#">{{ category }}</a>
   <ul>
     {{#each fonts }}
@@ -36,6 +17,7 @@
     {{/each}}
   </ul>
   </header>
-  <article>{{{ contents }}}</article>
-</body>
-</html>
+  {{{ contents }}}
+</article>
+
+{{> footer }}

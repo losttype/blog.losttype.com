@@ -1,27 +1,16 @@
-<!doctype html>
-<html class="no-js" lang="">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>{{ title }}</title>
-  <meta name="description" content="{{ description }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+{{> header }}
 
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <link rel="stylesheet" href="css/index.css">
-</head>
-<body>
-  <pre>
-  {{tag}}
-</pre>
-  <h1>{{ title }}</h1>
-  <p>{{ description }}</p>
+<h1>{{ title }}</h1>
+<p>{{ description }}</p>
 
-  <ul>
-      {{#each collections.posts}}
-          <li>
-              <header>
-              <a href="{{ this.slug }}"><h2>{{ this.title }}</h2></a>
+<ul>
+    {{#each collections.posts}}
+        <li>
+          <article>
+            <header>
+              <a href="{{ this.slug }}">
+                <h2>{{ this.title }}</h2>
+              </a>
               <time date-time="{{ date }}">{{ this.date }}</time>
               <a href="#">{{ this.author }}</a>
               <a href="#">{{ this.category }}</a>
@@ -30,12 +19,11 @@
                   <li><a href="/fonts-in-use/{{this}}">{{ this }}</a></li>
                 {{/each}}
               </ul>
-              </header>
-              <article>{{{ this.contents }}}</article>
-          </li>
-      {{/each}}
+            </header>
+            {{{ this.contents }}}
+          </article>
+        </li>
+    {{/each}}
+</ul>
 
-  </ul>
-
-</body>
-</html>
+{{> footer }}

@@ -1,3 +1,4 @@
+{{> header }}
 <h1>Fonts in Use: {{tag}}</h1>
 <ul>
   {{#each pagination.files}}
@@ -6,3 +7,4 @@
       <a href="../../{{ this.path }}" title="{{ this.title }} by {{ this.author }}">{{ title }}</a></li>
   {{/each}}
 </ul>
+{{> footer }}
