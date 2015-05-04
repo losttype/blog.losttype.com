@@ -1,14 +1,29 @@
 {{> header }}
 
+{{!--
+  {{#if paginate.num}}
+--}}
+<nav>
+  <h2>Paginate</h2>
+  {{{ pagination.next }}}
+  {{ pagination.num }}
+  {{!-- {{ pagination.files }}
+  {{ pagination.next }}
+  {{ pagination.previous }} --}}
+</nav>
+{{!--
+  {{/if}}
+--}}
+
 <h1>{{ title }}</h1>
 <p>{{ description }}</p>
 
 <ul>
-    {{#each collections.posts}}
+    {{#each pagination.files}}
         <li>
           <article>
             <header>
-              <a href="{{ this.slug }}">
+              <a href="/{{ this.slug }}">
                 <h2>{{ this.title }}</h2>
               </a>
               <time date-time="{{ date }}">{{ this.date }}</time>
@@ -24,6 +39,17 @@
           </article>
         </li>
     {{/each}}
+
+    <nav>
+      {{#if pagination.next }}
+        <a href="/{{ pagination.next.url }}">Next</a>
+      {{/if}}
+
+      {{#if pagination.previous }}
+      <a href="/{{ pagination.previous.url }}">Previous</a>
+      {{/if}}
+
+    </nav>
 </ul>
 
 {{> footer }}

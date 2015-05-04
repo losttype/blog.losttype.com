@@ -8,9 +8,17 @@
   "plugins": {
     "metalsmith-collections": {
       "posts": {
-        "pattern": "*.md",
+        "pattern": "*-*-*.md",
         "sortBy": "date",
         "reverse": true
+      }
+    },
+    "metalsmith-collections-paginate": {
+      "posts": {
+        "perPage": 2,
+        "template": "index.hbt",
+        "first": "index.md",
+        "path": "page/:num/index.html"
       }
     },
     "metalsmith-markdown": {},
