@@ -10,6 +10,7 @@
   "keywords": [],
   "devDependencies": {
     "handlebars": "^3.0.2",
+    "losttype-contributors": "git://github.com/losttype/contributors.git",
     "metalsmith": "^1.6.0",
     "metalsmith-browser-sync": "^1.0.0",
     "metalsmith-collections": "^0.7.0",
@@ -31,6 +32,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified…yet! Pull requests on https://github.com/losttype/blog.losttype.com are greatly appreciated.\" && exit 1",
     "start": "node_modules/metalsmith/bin/metalsmith",
-    "postinstall": "cp ./node_modules/losttype-contributors/index.json ./src/authors.json"
+    "postinstall": "cp ./node_modules/losttype-contributors/index.json ./src/authors.json",
+    "trigger": "node trigger.js"
   }
 }

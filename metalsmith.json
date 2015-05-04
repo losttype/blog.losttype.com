@@ -23,7 +23,7 @@
       "reverse": true
     },
     "metalsmith-metadata": {
-      "authors": "_authors.json"
+      "authors": "authors.json"
     },
     "metalsmith-register-partials": {
       "directory": "_includes"
