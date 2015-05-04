@@ -1,0 +1,31 @@
+{{> header }}
+
+<div>
+  <header>
+    <h1>{{ title }}</h1>
+    {{{ contents }}}
+  </header>
+
+  <ul>
+      {{#each authors }}
+        {{!--
+          {{#if this.blog }}
+          could also add “blog” as part of a contribution array,
+          then loop through contributions and reference the parent
+          if it’s there
+        --}}
+          <li id="{{ @key }}">
+            <a href="{{{ this.url }}}">
+              <h3>{{{ this.name }}}</h3>
+              <span class="a--faux">{{{ this.url }}}</span>
+              <p>{{{ this.contribution }}}</p>
+            </a>
+          </li>
+        {{!--
+          {{/if}}
+        --}}
+      {{/each}}
+  </ul>
+</div>
+
+{{> footer }}
