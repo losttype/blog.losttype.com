@@ -28,3 +28,7 @@ ul {
 figure {
   margin: 0;
 }
+
+.caps {
+  @extend abbr;
+}
