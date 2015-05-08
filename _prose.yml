@@ -22,13 +22,13 @@ prose:
           value: riley-cran
           options:
             - "name": "Riley Cran"
-              "value": riley-cran
+              "value": rileycran
             - "name": "Danelle Cheney"
-              "value": danelle-cheney
+              "value": danellecheney
             - "name": "Frances MacLeod"
-              "value": frances-macLeod
+              "value": francesmacLeod
             - "name": "Kenneth Ormandy"
-              "value": kenneth-ormandy
+              "value": kennethormandy
       - name: "date"
         field:
           element: "text"

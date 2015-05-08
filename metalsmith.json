@@ -66,10 +66,6 @@
     "metalsmith-sass": {
       "outputStyle": "compressed"
     },
-    "metalsmith-watch": {
-      "pattern": "**/*",
-      "livereload": false
-    },
     "metalsmith-serve": {
       "port": 8081,
       "verbose": true

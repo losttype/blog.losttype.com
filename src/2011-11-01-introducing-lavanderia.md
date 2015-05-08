@@ -1,6 +1,6 @@
 ---
 title: Introducing Lavanderia
-author: james-t-edmonson
+author: jamestedmonson
 category: news
 fonts: lavanderia
 template: post.hbt

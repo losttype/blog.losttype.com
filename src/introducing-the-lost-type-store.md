@@ -2,7 +2,7 @@
 title: Introducing: The Lost Type Store
 category: news
 template: post.hbt
-author: riley-cran
+author: rileycran
 fonts: ribbon
 ---
 

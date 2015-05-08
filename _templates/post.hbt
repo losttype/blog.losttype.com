@@ -1,26 +1,39 @@
 {{> header }}
 
-<article>
-  <header>
-  <h1>{{ title }}</h1>
-  <time date-time="{{ date }}">{{ date }}</time>
-  {{!--
-    Might want to make this go to a listing of
-    all the posts by that author at a later point.
-  --}}
-  <a href="/about#{{ author }}">
-    {{#within authors author }}
-      {{this.name}}
-    {{/within}}
-  </a>
-  <a href="#">{{ category }}</a>
-  <ul>
-    {{#each fonts }}
-      <li><a href="/fonts-in-use/{{this}}">{{ this }}</a></li>
-    {{/each}}
-  </ul>
+<article class="article">
+  <header class="article-header">
+    <h1 class="article-title">{{ title }}</h1>
+    <time date-time="{{ date }}" class="article-pubdate">{{ date }}</time>
+    <div class="author">
+      {{#within authors author }}
+        <a href="/about#{{ ../author }}" class="author-name" title="A post by {{ this.name }}">{{ this.name }}</a>
+      {{/within}}
+    </div>
+    </a>
+    <a href="#">{{ category }}</a>
+    <ul>
+      {{#each fonts }}
+        <li><a href="/fonts-in-use/{{ this }}">{{ this }}</a></li>
+      {{/each}}
+    </ul>
   </header>
   {{{ quotelength contents }}}
+  <footer class="article-footer">
+    <div class="author">
+      {{#within authors author }}
+        <a href="/about#{{ ../author }}" title="A post by {{ this.name }}" class="author-name">{{this.name}}</a>
+        {{#if this.twitter }}
+          <a href="https://twitter.com/{{this.twitter}}" class="author-twitter">@{{ this.twitter }}</a>
+        {{/if}}
+        {{#if this.dribbble }}
+          <a href="https://dribbble.com/{{this.dribbble}}" class="author-dribble">@{{ this.dribbble }}</a>
+        {{/if}}
+        {{#if this.bio }}
+          <p class="author-bio">{{ this.bio }}</p>
+        {{/if}}
+      {{/within}}
+    </div>
+  </footer>
 </article>
 
 {{> footer }}

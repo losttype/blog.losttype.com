@@ -1,6 +1,6 @@
 ---
 title: Shins poster
-author: riley-cran
+author: rileycran
 fonts: alexis
 category: fonts-in-use
 template: post.hbt
