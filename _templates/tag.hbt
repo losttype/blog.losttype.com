@@ -4,7 +4,8 @@
   {{#each pagination.files}}
     <li>
       <time datetime="{{ this.date }}">{{ this.date }}</time>
-      <a href="../../{{ this.path }}" title="{{ this.title }} by {{ this.author }}">{{ title }}</a></li>
+      <a href="../../{{ this.path }}" title="{{ this.title }} by {{ this.author }}">{{ title }}</a>
+    </li>
   {{/each}}
 </ul>
 {{> footer }}
