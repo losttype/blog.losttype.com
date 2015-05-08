@@ -11,6 +11,7 @@
   "devDependencies": {
     "cheerio": "^0.19.0",
     "handlebars": "^3.0.2",
+    "helper-moment": "^0.1.0",
     "losttype-contributors": "git://github.com/losttype/contributors.git",
     "metalsmith": "^1.6.0",
     "metalsmith-browser-sync": "^1.0.0",

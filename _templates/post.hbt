@@ -3,7 +3,7 @@
 <article class="article">
   <header class="article-header">
     <h1 class="article-title">{{ title }}</h1>
-    <time date-time="{{ date }}" class="article-pubdate">{{ date }}</time>
+    <time date-time="{{ date }}" class="article-pubdate">{{ moment date format="MMMM Do, YYYY"}}</time>
     <div class="author">
       {{#within authors author }}
         <a href="/about#{{ ../author }}" class="author-name" title="A post by {{ this.name }}">{{ this.name }}</a>
