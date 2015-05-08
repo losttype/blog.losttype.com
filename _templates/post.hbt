@@ -20,7 +20,7 @@
     {{/each}}
   </ul>
   </header>
-  {{{ contents }}}
+  {{{ quotelength contents }}}
 </article>
 
 {{> footer }}

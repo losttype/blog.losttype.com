@@ -33,6 +33,9 @@
     "metalsmith-metadata": {
       "authors": "authors.json"
     },
+    "metalsmith-register-helpers": {
+      "directory": "_helpers"
+    },
     "metalsmith-register-partials": {
       "directory": "_includes"
     },
