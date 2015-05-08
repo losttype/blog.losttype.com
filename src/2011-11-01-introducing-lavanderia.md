@@ -10,7 +10,10 @@ template: post.hbt
 > A script font in three weights, [Lavanderia](http://www.losttype.com/font/?name=lavanderia) is an enormously complex font, with hundreds of ligatures and numerous opentype features.
 > James was kind enough to jot down the history of the font, take it away James!
 
-I’ve always thought of laundromats as some of the saddest places in the world, but after spending a lot of time in them since moving to San Francisco four years ago, I’ve found they have two things going for them: 1) they smell great, and 2) there is the occasional bit of dope lettering.
+I’ve always thought of laundromats as some of the saddest places in the world, but after spending a lot of time in them since moving to San Francisco four years ago, I’ve found they have two things going for them:
+
+1. They smell great, and
+2. There is the occasional bit of dope lettering.
 
 <figure>
 ![](http://losttype.com/blog/wp-content/uploads/2011/11/Bienvenidos.jpg "Bienvenidos")
