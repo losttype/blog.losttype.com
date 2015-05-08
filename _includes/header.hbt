@@ -9,5 +9,14 @@
 
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="stylesheet" href="/css/index.css">
+
+  <script>
+    WebFontConfig = {
+      timeout: 1500,
+      typekit: { id: 'lma3xaj' }
+    };
+  </script>
+  <script async src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.10/webfont.js"></script>
+
 </head>
 <body>

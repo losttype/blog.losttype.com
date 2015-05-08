@@ -33,11 +33,13 @@
     "metalsmith-typogr": "^0.1.0",
     "metalsmith-watch": "^0.2.0",
     "surge": "^0.11.1"
+    "normalize-opentype.css": "^0.2.4",
+    "normalize.css": "^3.0.3",
   },
   "scripts": {
     "test": "echo \"Error: no test specified…yet! Pull requests on https://github.com/losttype/blog.losttype.com are greatly appreciated.\" && exit 1",
     "start": "node_modules/metalsmith/bin/metalsmith",
-    "postinstall": "cp ./node_modules/losttype-contributors/index.json ./src/authors.json",
+    "postinstall": "cp ./node_modules/normalize.css/normalize.css ./node_modules/normalize.css/normalize.scss && cp ./node_modules/losttype-contributors/index.json ./src/authors.json",
     "trigger": "node trigger.js"
   }
 }

@@ -64,7 +64,8 @@
       }]
     },
     "metalsmith-sass": {
-      "outputStyle": "compressed"
+      "outputStyle": "compressed",
+      "includePaths": ["node_modules"]
     },
     "metalsmith-serve": {
       "port": 8081,
