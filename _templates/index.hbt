@@ -1,22 +1,9 @@
 {{> header }}
 
-{{!--
-  {{#if paginate.num}}
---}}
-<nav>
-  <h2>Paginate</h2>
-  {{{ pagination.next }}}
-  {{ pagination.num }}
-  {{!-- {{ pagination.files }}
-  {{ pagination.next }}
-  {{ pagination.previous }} --}}
-</nav>
-{{!--
-  {{/if}}
---}}
-
 <h1>{{ title }}</h1>
 <p>{{ description }}</p>
+
+{{{ content }}}
 
 <ul>
     {{#each pagination.files}}
