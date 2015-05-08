@@ -1,0 +1,24 @@
+// Horisontal List
+//
+// .u-horizontalList--comma  - A comma-seperated list
+//
+// No styleguide reference.
+.u-horizontalList {
+  list-style: none;
+  li {
+    display: inline-block;
+  }
+}
+
+.u-horizontalList--comma {
+  li {
+    &:after {
+      content: ",";
+    }
+    &:last-child {
+      &:after {
+        content: "";
+      }
+    }
+  }
+}
