@@ -9,9 +9,14 @@
         <a href="/about#{{ ../author }}" class="author-name" title="A post by {{ this.name }}">{{ this.name }}</a>
       {{/within}}
     </div>
-    </a>
-    <a href="#">{{ category }}</a>
-    <ul>
+    <div class="">Published under
+      <ul class="u-horizontalList u-horizontalList--comma">
+        {{!-- {{#each category }} --}}
+          <li><a href="/{{ category }}">{{ category }}</a></li>
+        {{!-- {{/each}} --}}
+      </ul>
+    </div>
+    <ul class="u-horizontalList u-horizontalList--comma">
       {{#each fonts }}
         <li><a href="/fonts-in-use/{{ this }}">{{ this }}</a></li>
       {{/each}}
