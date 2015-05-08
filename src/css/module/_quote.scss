@@ -1,0 +1,32 @@
+// Quote
+
+// Blockquote
+//
+// .blockquote--short   - A quote less than 300 characters
+// .blockquote--medium  - An average blockquote
+// .blockquote--long    - A quote more than 600 characters
+//
+// No styleguide reference.
+blockquote,
+.blockquote {
+  font-style: italic;
+}
+
+.blockquote--short {
+
+}
+
+.blockquote--medium {
+
+}
+
+.blockquote--long {
+
+}
+
+// Pullquote
+//
+// No styleguide reference.
+[data-pullquote] {
+
+}
