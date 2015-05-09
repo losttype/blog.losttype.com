@@ -1,5 +1,5 @@
 ---
-title: Introducing: The Lost Type Store
+title: Introducing The Lost Type Store
 category: news
 template: post.hbt
 author: rileycran
