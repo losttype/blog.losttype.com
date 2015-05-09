@@ -28,14 +28,18 @@
     {{/each}}
 
     <nav>
-      {{#if pagination.next }}
-        <a href="/{{ pagination.next.url }}">Next</a>
-      {{/if}}
-
-      {{#if pagination.previous }}
-      <a href="/{{ pagination.previous.url }}">Previous</a>
-      {{/if}}
-
+      <ul class="u-horizontalList">
+        <li>
+          {{#if pagination.next }}
+            <a href="/{{ pagination.next.url }}">← Older</a>
+          {{/if}}
+        <li>
+        <li>
+          {{#if pagination.previous }}
+          <a href="/{{ pagination.previous.url }}">Newer →</a>
+          {{/if}}
+        </li>
+      </ul>
     </nav>
 </ul>
 
