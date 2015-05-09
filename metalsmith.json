@@ -70,6 +70,7 @@
     "metalsmith-serve": {
       "port": 8081,
       "verbose": true
+    "metalsmith-autoprefixer": {},
     }
   }
 }

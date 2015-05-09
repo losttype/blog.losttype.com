@@ -2,19 +2,42 @@
 
 html {
   font-size: 100%;
-  font-family: "ff-meta-serif-web-pro";
-  line-height: 1.45;
+  font-family: "ff-meta-serif-web-pro", Gerogia, serif;
+  line-height: $base-line-height;
   text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-tap-highlight-color: transparent;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: $color-background;
+  color: $color-text;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  text-shadow: 1px 0 0 $color-background, -1px 0 0 $color-background, 0 0 2px $color-background;
+  background-image: linear-gradient(to bottom, transparent 85%, $color-primary 85%, transparent 87%);
+  color: $color-primary;
+  transition: color 0.125s ease-in-out; // Don’t make Ben sad
+  &:hover,
+  &:focus {
+    color: $color-primary;
+  }
+  &:active {
+    color: darken($color-primary, 5%);
+
+  }
 }
 
 body {
-  font-size: 1.25em;
-  max-width: 35em;
-  margin: 0 auto;
+  font-size: $base-font-size;
+  max-width: $max-width;
+  height: 100%;
+}
+
+p {
+  margin: 0 0 $base-line-height * 0.75rem 0;
 }
 
 img {

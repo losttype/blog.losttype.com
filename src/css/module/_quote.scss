@@ -10,6 +10,13 @@
 blockquote,
 .blockquote {
   font-style: italic;
+  p {
+    margin: 0;
+    text-indent: 0;
+    & + p {
+      text-indent: $gutter;
+    }
+  }
 }
 
 .blockquote--short {
@@ -22,6 +29,15 @@ blockquote,
 
 .blockquote--long {
 
+  @media (min-width: 50em) {
+    width: 150%;
+    min-height: 20em;
+    margin-left: -25%;
+    columns: 3 12em;
+    column-gap: $gutter;
+    column-fill: balance;
+    break-inside: avoid;
+  }
 }
 
 // Pullquote

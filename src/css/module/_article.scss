@@ -4,8 +4,31 @@
 //
 // No styleguide reference.
 .article {
-
+  padding: $gutter $gutter $gutter * 1.1 $gutter;
 }
+
+.article-contents {
+
+  // Article Lead
+  //
+  // The lead-in paragraph for articles.
+  //
+  // No styleguide reference.
+  & > p:first-of-type {
+    font-size: 1.25em;
+    line-height: 1.35;
+  }
+
+  // Article Links
+  //
+  // Less intrusive links inside articles.
+  //
+  // No styleguide reference.
+  a {
+    color: mix($color-text, $color-primary, 33%);
+  }
+}
+
 
 .article-header {
 
@@ -20,5 +43,5 @@
 }
 
 .article-footer {
-  
+
 }
