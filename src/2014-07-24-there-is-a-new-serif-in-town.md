@@ -98,7 +98,7 @@ No wood type collection is complete without a set of Manicules. [Cade Cran](http
 
 <figure>
   ![](http://losttype.com/blog/wp-content/uploads/2014/06/11.jpg)
-  ![](http://losttype.com/blog/wp-content/uploads/2014/06/cade_manicule_sketch.jpg)  
+  ![](http://losttype.com/blog/wp-content/uploads/2014/06/cade_manicule_sketch.jpg)
   ![](http://losttype.com/blog/wp-content/uploads/2014/06/12.jpg)
   ![](http://losttype.com/blog/wp-content/uploads/2014/06/manicules.jpg)
   <figcaption>[Design Credit: Dan Gneiding & Cade Cran](http://cadecran.com/) Manicule Process</ficaption>  
@@ -109,8 +109,7 @@ For good measure and posterity, we thought we’d bring Dude all the way back ar
 <figure>
   ![](http://losttype.com/blog/wp-content/uploads/2014/06/17.jpg)
   ![](http://losttype.com/blog/wp-content/uploads/2014/06/19.jpg)
-  [Photo Credit: Scott Moore](http://moorewoodtype.com/)
-  <figcaption>Catchword Blocks cut by Scott Moore</ficaption>
+  <figcaption>[Photo Credit: Scott Moore](http://moorewoodtype.com/) Catchword Blocks cut by Scott Moore</ficaption>
 </figure>
 
 The Blocks were then shipped over to [Starshaped Press](http://starshaped.com/) in Chicago, where Jen locked ‘em up, wood and ink hit sheets of French Paper™, and Dude returned to the medium that inspired the whole project! (Jen wrote a wonderful, [detailed post](http://starshapedblog.com/2014/06/16/lost-type-and-found/) about the printing process on the Starshaped blog). This poster comes free with every commercial license purchase of Hank Pro.
