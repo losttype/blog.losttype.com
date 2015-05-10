@@ -1,5 +1,8 @@
 body {
   @include media($mid) {
+    padding: 0 $gutter / 2;
+  }
+  @include media($wide) {
     padding: 0 $gutter;
   }
 }

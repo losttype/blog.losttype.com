@@ -72,8 +72,11 @@ figure {
     width: calc(50% - #{ $fig-gutter / 2 });
     flex-basis: auto;
     flex-basis: main-size;
-    margin-right: $fig-gutter;
+    margin-right: $fig-gutter / 2;
     margin-top: $fig-gutter;
+    @include media($mid) {
+      margin-right: $fig-gutter;
+    }
     &:first-child {
       margin-top: 0;
     }
