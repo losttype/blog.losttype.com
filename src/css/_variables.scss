@@ -6,11 +6,11 @@ $base-font-size: 1.43em;
 $base-line-height: 1.4;
 
 // Fonts
-$font-size-small: 0.8rem;
+$font-size-small: 0.8em;
 
 // Modular Scale
 $modular-scale-base: 1em;
-$modular-scale-ratio: $golden;
+$modular-scale-ratio: $major-third;
 
 // Grid
 //
@@ -19,15 +19,46 @@ $modular-scale-ratio: $golden;
 // No styleguide reference.
 $column: modular-scale(3) !global;
 $gutter: modular-scale(1);
-$grid-columns: 9;
-$max-width: 32em;
+$grid-columns: 11;
+$max-width: em(900);
 $visual-grid: true !global;
 $visual-grid-index: front !global;
+
+// Breakpoints
+//
+// No styleguide reference.
+$narrow-col: 5;
+$narrow-width: em(550);
+$narrow: new-breakpoint(min-width $narrow-width $narrow-col);
+
+$mid-col: 9;
+$mid-width: em(733);
+$mid: new-breakpoint(min-width $mid-width $mid-col);
+
+$wide-col: 11;
+$wide-width: em(990);
+$wide: new-breakpoint(min-width $wide-width $wide-col);
+
+// Fonts
+//
+// Font Stack Still Matter.
+//
+// No styleguide reference.
+$font-family-sans:      "Morriston", "Avenir Next", "AvenirNext-SemiBold", "Futura-Medium", Futura, "Futura Std", "Trebuchet MS", Helvetica, Arial, sans-serif;
+$font-family-serif:     "ff-meta-serif-web-pro", Georgia, serif;
+// $font-family-display: "Majesti Banner", "Didot-Bold", Didot, "Didot LT STD", "Bodoni MT", Garamond, "Times New Roman", serif;
+$font-family-display:    $font-family-sans;
+$font-family-caption:    $font-family-serif;
+$font-family-monospace: "Codee Mono", "Source Code Pro", "Monaco", monospace, monospace;
+$base-font-family:       $font-family-serif;
+
+
 
 // Colors
 
 // Grays
 $gray-dark: #323232;
+$gray: #CCC;
 
 // Reds
 $red: #E85623;
@@ -45,7 +76,7 @@ $color-border: #36201A; // Change this
 $fig-numbered: false;
 $fig-border-color: $color-border;
 $fig-bg-color: $color-background;
-$fig-container: $max-width;
+$fig-container: em(800); // The max .container width, rather than the $max-width
 $fig-gutter: $gutter;
 $fig-outer: 0;
 $fig-line-height: $base-line-height;
