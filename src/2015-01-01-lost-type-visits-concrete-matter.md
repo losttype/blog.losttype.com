@@ -22,9 +22,9 @@ Hours:
 - Tues–Sat 10–18
 - Sun 12–17
 
+<figure class="figure--aside">
 ![](/media/10631960_440908216050421_1750052278_n.jpg)
 ![](/media/10691725_715163155225286_557123074_n.jpg)
-<figure class="figure--aside">
 <figcaption>Exterior and interior of [Concrete Matter](http://www.concrete-matter.com/).</figcaption>
 </figure>
 
