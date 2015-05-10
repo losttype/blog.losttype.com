@@ -3,6 +3,7 @@
 // Dependencies
 @import "normalize.css/normalize";
 @import "bourbon/app/assets/stylesheets/bourbon";
+@import "variables"; // Intentionally imported twice for Neat grid
 @import "bourbon-neat/app/assets/stylesheets/neat";
 
 // Variables
