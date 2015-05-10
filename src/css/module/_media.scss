@@ -1,0 +1,18 @@
+// Media
+//
+// Flexbox version of the media object.
+// MIT via http://git.io/vUsKa
+//
+// No styleguide reference.
+.media {
+  display: flex;
+  align-items: flex-start;
+}
+
+.media-figure {
+  margin-right: $gutter;
+}
+
+.media-body {
+  flex: 1;
+}
