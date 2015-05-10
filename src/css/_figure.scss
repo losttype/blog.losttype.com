@@ -1,0 +1,406 @@
+/*! Figment v0.7.0-beta.1 • github.com/kennethormandy/figment • MIT License */
+
+// Variables
+//
+// No styleguide reference.
+$fig-numbered:     true             !default;
+$fig-border-color: #555             !default;
+$fig-bg-color:     rgba(#FFF, 0.75) !default;
+$fig-container:    43em             !default;
+$fig-gutter:       1em              !default;
+$fig-outer:        0                !default;
+$fig-line-height:  1.5              !default;
+$fig-font-size-sm: 0.8em            !default;
+$fig-col-width:    ($fig-container - ($fig-gutter * 7)) / 8 !default;
+@if($fig-bg-color != "transparent" and $fig-bg-color != "none") {
+  $fig-browser-color: opacify($fig-bg-color, 1.0);
+} @else {
+  $fig-browser-color: #FFF !default;
+}
+
+body {
+  counter-reset: fig;
+}
+
+// Figure
+//
+// Media referenced within set text.
+//
+// Markup:
+// <figure class="{{modifier_class}}">
+//   <a href="#">
+//     <img src="public/images/example-1.jpg" alt="Napoleon Crossing the Alps" />
+//   </a>
+// </figure>
+//
+// .figure--border    - A figure framed with a border.
+// .figure--browser   - A figure framed with browser chrome. Implementation partially based on <a href="http://codepen.io/rendro/pen/nbxli">Robert Fleischmann’s pen</a>.
+// .figure--breakout  - A figure that visually breaks the container when there is space available.
+//
+// Styleguide 1.
+
+// .figure--breakout.figure--browser  - A combination of the breakout and browser modules. (needs flexbox for url box)
+// .figure--cropped  - A figure that can be acceptably cropped at certain screen sizes.
+// .figure--device   - A figure framed with a mobile device. (Undecided how to specfiy a device.)
+
+.figure,
+figure {
+  display: block;
+  counter-increment: fig;
+  margin-left: 0;
+  margin-right: 0;
+  display: block;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  // Need to figure out how to properly unset previous flex-pectations
+  // Otherwise breaks with Neat
+  justify-content: flex-start;
+  align-content: flex-start;
+  iframe {
+    border: 0;
+  }
+  img,
+  svg,
+  & > a,
+  video,
+  embed,
+  object,
+  iframe,
+  .embed-container {
+    display: block;
+    width: calc(50% - #{ $fig-gutter / 2 });
+    flex-basis: auto;
+    flex-basis: main-size;
+    margin-right: $fig-gutter;
+    margin-top: $fig-gutter;
+    &:first-child {
+      margin-top: 0;
+    }
+    &:nth-child(2) {
+      margin-top: 0;
+    }
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
+    &:only-of-type:first-of-type {
+      width: 100%;
+      max-width: 100%;
+      flex-basis: 100%;
+      margin-top: 0;
+      margin-right: 0
+    }
+    // Figure with Children
+    //
+    // Diptychs, triptychs, etc.
+    //
+    // Markup:
+    // <figure class="{{modifier_class}}">
+    //   <img src="public/images/example-1.jpg" alt="Napoleon Crossing the Alps" />
+    //   <img src="public/images/example-5.jpg" alt="Napoleon Crossing the Alps (Belvedere version)" />
+    //   <img src="public/images/example-2.jpg" alt="Napoleon Crossing the Alps (Second version)" />
+    //   <figcaption>Three of the five versions of Jacques-Louis David’s <cite>Napoleon Crossing the Alps</cite>: the first Versailles, Belvedere, and second Versailles.</figcaption>
+    // </figure>
+    //
+    // .figure--aside                    - A figure with the caption as marginalia when possible.
+    // .figure--border                   - A figure framed with a border.
+    // .figure--breakout                 - A figure that visually breaks the container when there is space available.
+    // .figure--breakout.figure--border  - A combination of the breakout and border modules.
+    // .figure--triptych                 - Three images shown as equals
+    // .figure--triptych.figure--aside   - Three images shown as equals
+    // .figure--triptych.figure--border  - Three images shown as equals
+    //
+    // Styleguide 1.2.
+  }
+}
+
+.figure--border {
+  display: block;
+  img,
+  svg,
+  video,
+  iframe,
+  object,
+  embed {
+    width: calc(50% - #{ $fig-gutter / 2 } 2px);
+    border: 1px solid $fig-border-color;
+    &:only-of-type:first-of-type {
+      width: calc(100% - 2px);
+    }
+  }
+}
+
+.figure--breakout {
+  margin-left: -$fig-outer;
+  margin-right: -$fig-outer;
+  @include media($mid) {
+    @include span-columns(11 of 9);
+    @include shift(-1 of 9);
+  }
+  @include media($wide) {
+    @include span-columns(15 of 11);
+    @include shift(-2 of 11);
+  }
+}
+
+// Figure with Caption
+//
+// Descriptions of figures.
+//
+// Markup:
+// <figure class="{{modifier_class}}">
+//   <img src="public/images/example-1.jpg" alt="Napoleon Crossing the Alps" />
+//   <figcaption>Jacques-Louis David, <cite>Napoleon Crossing the Alps</cite> or <cite>Bonaparte at the St Bernard Pass</cite>, <time>1800–1</time>. Oil on canvas, 102 × 87<abbr>in</abbr> (260 × 221<abbr>cm</abbr>). Chateau de Malmaison, Rueil-Malmaison.</figcaption>
+// </figure>
+//
+// .figure--aside                    - A figure with the caption as marginalia when possible.
+// .figure--border                   - A figure framed with a border.
+// .figure--browser                  - A figure framed with browser chrome. (Should respond to vertical media queries to change device.)
+// .figure--breakout                 - A figure that visually breaks the container when there is space available.
+// .figure--overlay                  - An image with an optional overlayed caption.
+// .figure--overlay.figure--breakout - A combination of the breakout and overlay modules.
+//
+// Styleguide 1.1.
+
+// .figure--cropped  - A figure that can be acceptably cropped at certain screen sizes.
+// .figure--device   - A figure framed with a mobile device. (Undecided how to specfiy a device.)
+// .figure--embed    - A figure with media embedded from another service. (ex. Instagram, Vimeo, Twitter card.)
+// .figure--square   - A figure contained within the largest square possible. (Could be part of embed.)
+
+.figure-caption,
+figcaption {
+  display: block;
+  margin-top: 1em * ($fig-line-height / 3);
+  margin-bottom: 1em * $fig-line-height;
+  width: 100%;
+  flex: 1 1 100%;
+  align-self: flex-end;
+  line-height: $fig-line-height;
+  @if $fig-numbered == true {
+    &:before {
+      content: "Fig. " counter(fig) " ";
+      font-weight: 600;
+      font-style: normal;
+      text-transform: lowercase;
+      font-feature-settings: "liga", "kern", "pnum", "lnum", "smcp", "c2sc";
+    }
+  }
+}
+
+.figure--breakout {
+  > figcaption,
+  .figure-caption {
+    margin-left: $fig-outer;
+    margin-right: $fig-outer;
+    @include media($mid) {
+      margin-left: 0;
+      margin-right: 0;
+      @include span-columns(9 of 11);
+      @include shift(1 of 11);
+    }
+    @include media($wide) {
+      @include span-columns(11 of 15);
+      @include shift(2 of 15);
+    }
+  }
+}
+
+.figure--aside,
+figure.figure--aside, // For specificity!
+.figure.figure--aside {
+  // position: relative;
+  @include media($wide) {
+    @include span-columns(13 of 11);
+    img,
+    svg,
+    & > a,
+    video,
+    embed,
+    object,
+    iframe,
+    .embed-container {
+      @include span-columns(5.5 of 13);
+      &:only-of-type:first-of-type {
+        @include span-columns(11 of 13);
+      }
+    }
+    > figcaption,
+    .figure-caption {
+      font-size: $fig-font-size-sm;
+      @include shift(0);
+      @include span-columns(2 of 13);
+    }
+  }
+  &.figure--breakout {
+    @include media($wide) {
+      @include span-columns(15 of 11);
+      img,
+      svg,
+      & > a,
+      video,
+      embed,
+      object,
+      iframe,
+      .embed-container {
+        @include span-columns(7.5 of 15);
+        &:only-of-type:first-of-type {
+          @include span-columns(13 of 15);
+        }
+      }
+      > figcaption,
+      .figure-caption {
+        font-size: $fig-font-size-sm;
+        @include shift(0);
+        @include span-columns(2 of 15);
+      }
+    }
+    //   @include media($mid) {
+    //     position: relative;
+    //     right: auto;
+    //     top: 0;
+    //     width: auto;
+    //     // @include shift(1 of 11);
+    //     // @include span-columns(9 of 11);
+    //   }
+    //   @include media($wide) {
+    //     // position: absolute;
+    //     // right: 0;
+    //     // top: 0;
+    //     align-self: flex-start;
+    //     @include shift(13 of 13);
+    //     @include span-columns(3 of 13);
+    //   }
+    // }
+  }
+}
+
+.figure--overlay {
+  position: relative;
+  .figure-caption,
+  > figcaption {
+    @media (min-width: $fig-container * 0.75) {
+      font-size: $fig-font-size-sm; // ?
+      margin-top: 0;
+      margin-bottom: 0;
+      position: absolute;
+      top: $fig-gutter;
+      left: $fig-gutter;
+      padding: $fig-gutter;
+      max-width: $fig-container / 3;
+      // float: left;
+      background-color: $fig-bg-color;
+      @if($fig-bg-color == "transparent") {
+        text-shadow: 0 0 5px rgba(#FFF, 0.5);
+      } @else {
+        text-shadow: 0 0 5px opacify($fig-bg-color, 1.0);
+      }
+    }
+  }
+  &.figure--breakout {
+    > figcaption {
+      @media (min-width: $fig-container * 1.33) {
+        font-size: 1em;
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+// Figure with Responsive Embeded Media
+//
+// Generic embedded media, like a YouTube video or Twitter card.
+//
+// Markup:
+// <figure class="figure--embed {{modifier_class}}">
+//   <div class="embed-container">
+//     <iframe async defer src="http://player.vimeo.com/video/35152332" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+//   </div>
+//   <figcaption>Hand-painted reproduction of Jacques-Louis David’s <cite>Napoleon Crossing the Alps</cite>, using oil on blank linen canvas.</figcaption>
+// </figure>
+//
+// .figure--aside                    - Embeded media that has a caption as marginalia, when possible.
+// .figure--border                   - Embeded media framed with a border.
+// .figure--breakout                 - Embeded media that visually breaks the container when there is space available.
+// .figure--overlay                  - Embeded media with an overlayed caption.
+// .figure--overlay.figure--breakout - A combination of the breakout and overlay modules.
+// .figure--square                   - Embeded media scaled or cropped within a square. Works especially well with Vine and Instagram.
+//
+// Styleguide 1.3.
+.figure--embed {
+  position: relative;
+  display: block;
+  &.figure--border {
+    .embed-container {
+      border: 1px solid $fig-border-color;
+      iframe,
+      object,
+      embed {
+        border-width: 0;
+      }
+    }
+  }
+}
+
+// Possibly use [~instagram] kinda thing to get the numbers right
+// Basically, should be able to drop in the iframe from Embed Responsively
+// without needing the inline CSS
+.embed-container {
+  width: 100%;
+  display: block;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  iframe,
+  object,
+  embed {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: auto;
+    min-width: auto;
+    height: 100%;
+  }
+}
+
+// Figure with Square Embed
+//
+// A pre-sized embed, like an Instagram photo.
+//
+// Markup:
+// <figure class="figure--embed figure--square {{modifier_class}}">
+//   <div class="embed-container">
+//     <iframe async defer src="//instagram.com/p/kz8ibZkn0C/embed/" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+//   </div>
+//   <figcaption>A contemporary, Kurdish version of <cite>Napoleon Crossing the Alps</cite>, seen on the streets of Arbil.</figcaption>
+// </figure>
+//
+// .figure--aside  - A figure with the caption as marginalia when possible.
+// .figure--border - A figure with a border.
+//
+// Styleguide 1.3.1.
+.figure--square {
+  .embed-container {
+    padding-bottom: 100%;
+  }
+  iframe[src*="instagram.com/p"] {
+    // Instagram relies on cropping
+    max-width: 612px;
+  }
+  iframe[src*="vine.co"] {
+  }
+  &.figure--border.figure--embed {
+    .embed-container {
+      border-width: 0;
+      padding-bottom: calc(100% + 1px);
+      overflow: visible;
+    }
+    iframe,
+    embed,
+    object {
+      border-width: 1px;
+    }
+  }
+}
