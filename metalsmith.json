@@ -61,10 +61,9 @@
       "outputStyle": "compressed",
       "includePaths": ["node_modules"]
     },
-    "metalsmith-serve": {
-      "port": 8081,
-      "verbose": true
     "metalsmith-autoprefixer": {},
+    "metalsmith-browser-sync": {
+      "files": ["src/**/*.scss"]
     }
   }
 }
