@@ -20,8 +20,8 @@ $modular-scale-ratio: $major-third;
 $column: modular-scale(3) !global;
 $gutter: modular-scale(1);
 $grid-columns: 11;
-$max-width: em(900);
-$visual-grid: true !global;
+$max-width: em(804);
+$visual-grid: false !global;
 $visual-grid-index: front !global;
 
 // Breakpoints
