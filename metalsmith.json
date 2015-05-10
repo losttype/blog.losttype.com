@@ -57,12 +57,6 @@
       "relative": false,
       "pattern": ":slug"
     },
-    "metalsmith-imagemin": {
-      "optimizationLevel": 3,
-      "svgoPlugins": [{
-        "removeViewBox": false
-      }]
-    },
     "metalsmith-sass": {
       "outputStyle": "compressed",
       "includePaths": ["node_modules"]
