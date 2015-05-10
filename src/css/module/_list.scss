@@ -1,0 +1,49 @@
+// List
+//
+// No styleguide reference.
+ul,
+ol,
+dl {
+  padding-left: 0;
+}
+
+ul,
+ol {
+  // Indent on small screens…
+  @include shift(1);
+  margin-bottom: $base-line-height * 1em;
+  // …hang after there’s enough space
+  // @include media($mid) {
+  @media (min-width: 35em) {
+    @include shift(0);
+  }
+  ul,
+  ol {
+    margin-top: $base-line-height * 0.5em;
+    margin-bottom: $base-line-height * 0.5em;
+    margin-left: modular-scale(3);
+  }
+}
+
+// Ordered Lists
+//
+// Tabular, hanging numerals. Yeah, we do it up.
+//
+// No styleguide reference.
+ol {
+  counter-reset: li;
+  & > li {
+    list-style: none;
+    position: relative;
+    &:before {
+      content: counter(li) "."; // Use the counter as content
+      counter-increment: li; // Increment the counter by 1
+      text-align: right;
+      min-width: modular-scale(4); // Min-width of area for number
+      margin-left: -1 * modular-scale(4); // Hang number
+      padding-right: modular-scale(-3); // Space between number and list item
+      position: absolute;
+      font-feature-settings: "kern" 0, "tnum" 1, "onum" 1, "liga" 1;
+    }
+  }
+}
