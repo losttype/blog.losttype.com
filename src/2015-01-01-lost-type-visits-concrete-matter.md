@@ -22,21 +22,21 @@ Hours:
 - Tues–Sat 10–18
 - Sun 12–17
 
-![](http://losttype.com/blog/wp-content/uploads/2014/09/10631960_440908216050421_1750052278_n.jpg)
-![](http://losttype.com/blog/wp-content/uploads/2014/09/10691725_715163155225286_557123074_n.jpg)
+![](/media/10631960_440908216050421_1750052278_n.jpg)
+![](/media/10691725_715163155225286_557123074_n.jpg)
 <figure class="figure--aside">
 <figcaption>Exterior and interior of [Concrete Matter](http://www.concrete-matter.com/).</figcaption>
 </figure>
 
 <figure class="figure--breakout figure--aside">
-![](http://losttype.com/blog/wp-content/uploads/2014/09/2014-09-22-14.55.29-1.jpg)
+![](/media/2014-09-22-14.55.29-1.jpg)
 <figcaption>James T. Edmondson’s lettering.</figcaption>
 </figure>
 
 <figure>
-![](http://losttype.com/blog/wp-content/uploads/2014/09/Photo-Sep-22-14-33-04.jpg)
+![](/media/Photo-Sep-22-14-33-04.jpg)
 </figure>
 
 <figure>
-![](http://losttype.com/blog/wp-content/uploads/2014/09/Photo-Sep-22-14-23-02-e1411579436548.jpg)
+![](/media/Photo-Sep-22-14-23-02-e1411579436548.jpg)
 </figure>
