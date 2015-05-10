@@ -9,7 +9,16 @@
 // No styleguide reference.
 blockquote,
 .blockquote {
+  padding-bottom: $base-line-height * 1.1em;
+  padding-top: $base-line-height * 0.9em;
+  margin: 0 0 $base-line-height * 1em 0;
+  border: 1px solid $gray;
+  border-width: 1px 0;
   font-style: italic;
+  em,
+  cite {
+    font-style: normal;
+  }
   p {
     margin: 0;
     text-indent: 0;
@@ -29,7 +38,10 @@ blockquote,
 
 .blockquote--long {
 
-  @media (min-width: 50em) {
+  font-size: $font-size-small;
+  line-height: 1.575;
+
+  @include media($mid) {
     width: 150%;
     min-height: 20em;
     margin-left: -25%;
