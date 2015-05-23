@@ -51,5 +51,8 @@
     "start": "node_modules/metalsmith/bin/metalsmith",
     "postinstall": "cp ./node_modules/normalize.css/normalize.css ./node_modules/normalize.css/normalize.scss && cp ./node_modules/losttype-contributors/index.json ./src/authors.json",
     "trigger": "node trigger.js"
+  },
+  "dependencies": {
+    "zoom.js": "fat/zoom.js"
   }
 }
