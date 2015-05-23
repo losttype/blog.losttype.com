@@ -1,7 +1,7 @@
 {
   "source": "./src",
   "destination": "./build",
-  "clean": true,
+  "clean": false,
   "metadata": {
     "title": "Lost Type Co-op Blog",
     "description": "Articles, resources, inspiration, and lessons learned by contributors to the Lost Type Co-op."
