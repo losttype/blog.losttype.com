@@ -1,8 +1,24 @@
+// Utility
+//
+// Utility classes only have block or block and modifier styles, not element. They
+// are always prefaces with `.u-`.
+//
+// Styleguide: module.utility
+
 // Horisontal List
+//
+// Markup:
+// <ul class="u-horizontalList {{ modifier_class }}">
+//   <li>Abraham Lincoln</li>
+//   <li>Nelma</li>
+//   <li>Tommaso</li>
+//   <li>Airplane</li>
+//   <li>Vevey</li>
+// </ul>
 //
 // .u-horizontalList--comma  - A comma-seperated list
 //
-// No styleguide reference.
+// Styleguide: module.utility.horizontalList
 .u-horizontalList { // TODO Change to .u-listHorizontal
   list-style: none;
   li {
@@ -23,6 +39,20 @@
   }
 }
 
+// Basic List
+//
+// An explicit reset class for lists.
+//
+// Markup:
+// <ul class="u-basicList">
+//   <li>Abraham Lincoln</li>
+//   <li>Nelma</li>
+//   <li>Tommaso</li>
+//   <li>Airplane</li>
+//   <li>Vevey</li>
+// </ul>
+//
+// Styleguide: module.utility.basicList
 .u-basicList { // TODO Change to .u-listBasic
   list-style: none;
   margin: 0;

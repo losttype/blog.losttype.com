@@ -2,33 +2,81 @@
 //
 // Styles for all blog posts.
 //
-// No styleguide reference.
+// Markup:
+// <div class="frame {{ modifier_class }}">
+//   <article class="article">
+//     <header class="container article-header">
+//       <h1 class="article-title">Introducing The Lost Type&nbsp;Store</h1>
+//       <time date-time="Tue Dec 20 2011 12:00:00 GMT-0800 (PST)" class="article-pubdate">December 20<span class="ord">th</span>, 2011</time>
+//     </header>
+//     <div class="container article-contents">
+//       <p>This is the first paragraph style. We’ve been talking about a Lost Type Official Store for quite some time, and we are proud to announce that our first 2 products are <a href="http://losttype.com/store/">here</a>!</p>
+//       <p>This is the regular paragraph style. So pick up a book and some buttons, and help support Lost&nbsp;Type!</p>
+//     </div>
+//     <footer class="container article-footer">
+//       <div class="author">
+//         <a href="/about#rileycran" title="A post by Riley Cran" class="author-name">Riley Cran</a>
+//           <a href="http://rileycran.com" class="author-avatar">
+//             <img src="https://avatars.io/twitter/rileycran?size=large" async="" defer="" alt="Riley Cran’s avatar">
+//           </a>
+//         <a href="https://twitter.com/rileycran" class="author-twitter">@rileycran</a>
+//         <a href="https://dribbble.com/xelent" class="author-dribble">@xelent</a>
+//         <p class="author-bio">Riley Cran is a designer based in the Pacific Northwest with a specialty in Identity, Packaging and Illustration. He is the co-founder of the Lost Type&nbsp;Co-op.</p>
+//       </div>
+//     </footer>
+//   </article>
+// </div>
+//
+// Styleguide: module.article
 .article {
 }
 
 .article-contents {
-
-  // Article Lead
+  // Lead
   //
   // The lead-in paragraph for articles.
   //
-  // No styleguide reference.
+  // Markup:
+  // <div class="container article-contents">
+  //   <p>This is the first paragraph style. We’ve been talking about a Lost Type Official Store for quite some time, and we are proud to announce that our first 2 products are <a href="http://losttype.com/store/">here</a>!</p>
+  // </div>
+  //
+  // Styleguide: module.article.lead
   & > p:first-of-type {
     font-size: 1.25em;
     line-height: 1.35;
   }
 
-  // Article Links
+  // Anchor
   //
   // Less intrusive links inside articles.
   //
-  // No styleguide reference.
+  // Markup:
+  // <article class="article">
+  //   <p>This is a first paragraph inside an article. Our first 2 products are <a href="http://losttype.com/store/">here</a>!</p>
+  // </article>
+  //
+  // Styleguide: module.article.anchor
   a {
     color: mix($color-text, $color-primary, 33%);
   }
+
+  img {
+    width: 100%;
+  }
 }
 
-
+// Header
+//
+// Article headers.
+//
+// Markup:
+// <header class="container article-header">
+//   <h1 class="article-title">Introducing The Lost Type&nbsp;Store</h1>
+//   <time date-time="Tue Dec 20 2011 12:00:00 GMT-0800 (PST)" class="article-pubdate">December 20<span class="ord">th</span>, 2011</time>
+// </header>
+//
+// Styleguide: module.article.header
 .article-header {
 
 }
@@ -41,6 +89,24 @@
 
 }
 
+// Footer
+//
+// Article footer and metadata.
+//
+// Markup:
+// <footer class="container article-footer">
+//   <div class="author">
+//     <a href="/about#rileycran" title="A post by Riley Cran" class="author-name">Riley Cran</a>
+//     <a href="http://rileycran.com" class="author-avatar">
+//       <img src="https://avatars.io/twitter/rileycran?size=large" async="" defer="" alt="Riley Cran’s avatar">
+//     </a>
+//     <a href="https://twitter.com/rileycran" class="author-twitter">@rileycran</a>
+//     <a href="https://dribbble.com/xelent" class="author-dribble">@xelent</a>
+//     <p class="author-bio">Riley Cran is a designer based in the Pacific Northwest with a specialty in Identity, Packaging and Illustration. He is the co-founder of the Lost Type&nbsp;Co-op.</p>
+//   </div>
+// </footer>
+//
+// Styleguide: module.article.footer
 .article-footer {
 
 }

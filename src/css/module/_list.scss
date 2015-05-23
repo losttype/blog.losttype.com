@@ -1,6 +1,21 @@
 // List
 //
-// No styleguide reference.
+// Base list styles.
+//
+// Styleguide: base.list
+
+// Unordered list
+//
+// Markup:
+// <ul>
+//   <li>Abraham Lincoln</li>
+//   <li>Nelma</li>
+//   <li>Tommaso</li>
+//   <li>Airplane</li>
+//   <li>Vevey</li>
+// </ul>
+//
+// Styleguide: base.list.unordered list
 ul,
 ol,
 dl {
@@ -27,11 +42,23 @@ ol,
   }
 }
 
-// Ordered Lists
+// Ordered list
 //
 // Tabular, hanging numerals. Yeah, we do it up.
 //
-// No styleguide reference.
+// Markup:
+// <ol>
+//   <li>James T. Edmondson</li>
+//   <li>Joe Prince</li>
+//   <li>Riley Cran</li>
+//   <li>Dan Gneiding</li>
+//   <li>Dai Foldes</li>
+//   <li>Ben Dalrymple</li>
+//   <li>Trevor Baum</li>
+//   <li>Shiva Nallaperumal</li>
+// </ol>
+//
+// Styleguide: base.list.ordered list
 ol {
   counter-reset: li;
   & > li {

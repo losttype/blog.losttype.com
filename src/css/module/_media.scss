@@ -1,16 +1,26 @@
 // Media
 //
-// Flexbox version of the media object.
-// MIT via http://git.io/vUsKa
+// Flexbox version of the media object. Used under the MIT license,
+// [via Philip Walton](http://git.io/vUsKa).
 //
-// No styleguide reference.
+// Markup:
+// <div class="media">
+//   <img class="media-figure" src="https://avatars.io/twitter/danellecheney?size=large" alt="">
+//   <div class="media-body">
+//     <h3>Danelle</h3>
+//     <p>everyone at @losttypecoop has been VERY BUSY. exciting updates today, and there's more where that came from!</p>
+//   </div>
+// </div>
+//
+// Styleguide: module.media
 .media {
   display: flex;
   align-items: flex-start;
 }
 
-.media-figure {
+.media-figure { // For specificity
   margin-right: $gutter;
+  width: auto;
 }
 
 .media-body {

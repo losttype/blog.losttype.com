@@ -16,6 +16,8 @@
 @import "layout";
 
 // Module
+//
+// Styleguide: module
 @import "module/utilities";
 @import "module/media";
 @import "module/list";
@@ -23,7 +25,6 @@
 @import "module/article";
 @import "module/author";
 @import "module/quote";
-@import "module/knockout";
 @import "module/figure";
 @import "normalize-opentype.css/normalize-opentype";
 
@@ -31,7 +32,7 @@
 // @import "state";
 
 // Theme
-// @import "theme";
+@import "theme/knockout";
 
 // Shame
 //

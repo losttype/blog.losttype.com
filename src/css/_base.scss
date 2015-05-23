@@ -1,4 +1,6 @@
 // Base
+//
+// Styleguide: base
 
 html {
   font-size: 100%;
@@ -14,22 +16,6 @@ html {
   height: 100%;
 }
 
-a {
-  text-decoration: none;
-  text-shadow: 1px 0 0 $color-background, -1px 0 0 $color-background, 0 0 2px $color-background;
-  background-image: linear-gradient(to bottom, transparent 85%, $color-primary 85%, transparent 87%);
-  color: $color-primary;
-  transition: color 0.125s ease-in-out; // Don’t make Ben sad
-  &:hover,
-  &:focus {
-    color: $color-primary;
-  }
-  &:active {
-    color: darken($color-primary, 5%);
-
-  }
-}
-
 body {
   font-size: $base-font-size;
   height: 100%;
@@ -40,7 +26,20 @@ body {
 
 // Headings
 //
-// No styleguide reference.
+// Base heading styles. `.h1` through `.h6` may also be used, for when you want
+// to propertly use a specific level of HTML heading while having it visually
+// appear like another. Other inline elements, like `<em>`, `<code>`, and `<cite>`
+// can also safely be used within headings.
+//
+// Markup:
+// <h1>Heading 1. Address Numerals of Copenhagen</h1>
+// <h2>Heading 2. <cite>Counterpunch</cite>, by Fred Smeijers</h2>
+// <h3>Heading 3. Using Lost Type fonts in <abbr title="Cascading Style Sheets">CSS</abbr> with <code>@font-face</code></h3>
+// <h4>Heading 4. Address Numerals of Copenhagen</h4>
+// <h5>Heading 5. <cite>Counterpunch</cite>, by Fred Smeijers</h5>
+// <h6>Heading 6. Using Lost Type fonts in <abbr title="Cascading Style Sheets">CSS</abbr> with <code>@font-face</code></h6>
+//
+// Styleguide: base.headings
 h1, h2, h3 {
   margin-top: 0;
   margin-bottom: $base-line-height * 1em;
@@ -74,12 +73,17 @@ h3,
   font-size: modular-scale(1);
 }
 
+// Paragraphs
+//
+// Base paragraph styles.
+//
+// Markup:
+// <p>I started sketching and the basic concept of Dude began to emerge, a family where the shift is not in weight or width, but in the styling of the serifs.</p>
+// <p>A key landmark in the progress of the Dude family was the Lost Type inaugural Field Trip to San Francisco. Getting the input of several members of the <span class="caps">LT</span> team was a huge leap forward in the evolution of Dude. I can’t thank all those folks enough for their feedback.</p>
+//
+// Styleguide: base.paragraphs
 p {
   margin: 0 0 $base-line-height * 0.5em 0;
-}
-
-img {
-  width: 100%;
 }
 
 dt,
@@ -91,6 +95,30 @@ dd {
   padding-left: $gutter / 2;
   margin-left: $gutter;
   border-left: 1px solid;
+}
+
+// Anchors
+//
+// Base link styles.
+//
+// Markup:
+// <a href="http://losttype.com">Lost Type</a>
+//
+// Styleguide: base.anchors
+a {
+  text-decoration: none;
+  text-shadow: 1px 0 0 $color-background, -1px 0 0 $color-background, 0 0 2px $color-background;
+  background-image: linear-gradient(to bottom, transparent 85%, $color-primary 85%, transparent 87%);
+  color: $color-primary;
+  transition: color 0.125s ease-in-out; // Don’t make Ben sad
+  &:hover,
+  &:focus {
+    color: $color-primary;
+  }
+  &:active {
+    color: darken($color-primary, 5%);
+
+  }
 }
 
 figure {

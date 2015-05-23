@@ -1,12 +1,26 @@
 // Quote
+//
+// Quotation styles.
+//
+// Styleguide: module.quote
 
 // Blockquote
+//
+// Longer-form quotes. These get additional modifier classes applied automatically
+// based upon their length.
+//
+// Markup:
+// <blockquote class="{{ modifier_class }}">You read best what you read most.
+//   <footer>Zuzana Licko,
+//     <cite><a href="http://www.emigre.com/Licko3.php">Emigre 15.</a></cite>
+//   </footer>
+// </blockquote>
 //
 // .blockquote--short   - A quote less than 300 characters
 // .blockquote--medium  - An average blockquote
 // .blockquote--long    - A quote more than 600 characters
 //
-// No styleguide reference.
+// Styleguide: module.quote.blockquote
 blockquote,
 .blockquote {
   padding-bottom: $base-line-height * 1.1em;
@@ -54,7 +68,13 @@ blockquote,
 
 // Pullquote
 //
-// No styleguide reference.
+// A pullquote that omits duplicating the quote in the markup. This approach is
+// entirely based upon Maykel Loomans’s [Pull quotes with HTML5 and CSS](http://miekd.com/articles/pull-quotes-with-html5-and-css/)
+//
+// Markup:
+// <div data-pullquote="You read best what you read most"></div>
+//
+// Styleguide: module.quote.pullquote
 [data-pullquote] {
 
 }

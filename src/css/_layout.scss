@@ -1,3 +1,19 @@
+// Layout
+//
+// Styleguide: layout
+
+// Body
+//
+// Layout styles for the body element. Padding is added on the left and right for
+// smaller screens.
+//
+// Markup:
+// <body>
+//   <h1>The Lost Type Co-op Blog</h1>
+//   <p>Welcome to the blog.</p>
+// </body>
+//
+// Styleguide: layout.body
 body {
   @include media($mid) {
     padding: 0 $gutter / 2;
@@ -7,9 +23,24 @@ body {
   }
 }
 
-// Frame
+// Container
 //
-// No styleguide reference.
+// The outer frame and the the main container. The frame allows different sections
+// to have self-contained theme styles.
+//
+// Markup:
+// <body>
+//   <div class="frame {{modifier_class}}">
+//     <div class="container">
+//       <h1>Introducing Klinic Slab</h1>
+//       <p>We’re excited to show you our new typeface, designed by Joe Prince!</p>
+//     </div>
+//   </div>
+// </body>
+//
+// .knockout - The global Knockout modifier class can be applied to frames to theme posts.
+//
+// Styleguide: layout.container
 .frame {
   @include outer-container();
   padding: modular-scale(-1) modular-scale(-1) modular-scale(-1)*1.1 modular-scale(-1);
@@ -20,9 +51,6 @@ body {
   }
 }
 
-// Container
-//
-// No styleguide reference.
 .container {
   @include span-columns(5 of 5);
 
@@ -38,11 +66,27 @@ body {
 
 // Simple Grid
 //
-// For those occasions where declarative
-// grid classes really are the best choice,
-// like in the site footer.
+// Very basic responsive grid helper classes. Useful those occasions where
+// declarative grid classes really are the best choice. For example, we use these
+// in the footer, where  establishing a grid is independent from the kind of
+// content that’s being marking up. (The rest of the time, we use the
+// `span-columns()` mixin within modules themselves.)
 //
-// No styleguide reference.
+// Markup:
+// <div class="cols">
+//   <div class="cols-1of3">One of three</div>
+//   <div class="cols-1of3">One of three</div>
+//   <div class="cols-1of3">One of three</div>
+// </div>
+// <div class="cols">
+//   <div class="cols-1of3">One of three</div>
+//   <div class="cols-2of3">Two of three</div>
+// </div>
+// <div class="cols">
+//   <div class="cols-3of3">Three of three</div>
+// </div>
+//
+// Styleguide: layout.simple grid
 .cols {
   @include outer-container();
 }
