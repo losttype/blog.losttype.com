@@ -3,14 +3,14 @@
 // .u-horizontalList--comma  - A comma-seperated list
 //
 // No styleguide reference.
-.u-horizontalList {
+.u-horizontalList { // TODO Change to .u-listHorizontal
   list-style: none;
   li {
     display: inline-block;
   }
 }
 
-.u-horizontalList--comma {
+.u-horizontalList--comma { // TODO Change to .u-listHorizontal--comma
   li {
     &:after {
       content: ",";
@@ -20,5 +20,14 @@
         content: "";
       }
     }
+  }
+}
+
+.u-basicList { // TODO Change to .u-listBasic
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  &:before {
+    content: "" // Remove the tabular hanging-list items
   }
 }

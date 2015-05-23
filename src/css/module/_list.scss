@@ -8,7 +8,9 @@ dl {
 }
 
 ul,
-ol {
+ol,
+.article-contents ul, // Reset list styles for lists within post lists
+.article-contents ol {
   // Indent on small screens…
   @include shift(1);
   margin-bottom: $base-line-height * 1em;
