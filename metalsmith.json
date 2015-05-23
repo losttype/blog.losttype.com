@@ -1,11 +1,22 @@
 {
   "source": "./src",
   "destination": "./build",
+  "clean": true,
   "metadata": {
     "title": "Lost Type Co-op Blog",
     "description": "Articles, resources, inspiration, and lessons learned by contributors to the Lost Type Co-op."
   },
   "plugins": {
+    "metalsmith-browser-sync": {
+      "port": 5000,
+      "server": "build",
+      "files": [
+        "src/*.md",
+        "_templates/*.hbt",
+        "_includes/*.hbt",
+        "css/**/*.scss"
+      ]
+    },
     "metalsmith-collections": {
       "posts": {
         "pattern": "*-*-*.md",
@@ -15,9 +26,9 @@
     },
     "metalsmith-collections-paginate": {
       "posts": {
-        "perPage": 2,
+        "perPage": 4,
         "template": "index.hbt",
-        "first": "index.md",
+        "first": "index.html",
         "path": "page/:num/index.html"
       }
     },
@@ -44,14 +55,6 @@
       "engine": "handlebars",
       "directory": "_templates"
     },
-    "metalsmith-publish": {
-      "articles": {
-        "draft": true,
-        "private": true,
-        "future": true,
-        "futureFn": "npm run trigger"
-      }
-    },
     "metalsmith-typogr": {},
     "metalsmith-permalinks": {
       "relative": false,
@@ -61,9 +64,6 @@
       "outputStyle": "compressed",
       "includePaths": ["node_modules"]
     },
-    "metalsmith-autoprefixer": {},
-    "metalsmith-browser-sync": {
-      "files": ["src/**/*.scss"]
-    }
+    "metalsmith-autoprefixer": {}
   }
 }
