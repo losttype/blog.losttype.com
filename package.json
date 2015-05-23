@@ -17,6 +17,7 @@
     "figment": "git://github.com/kennethormandy/figment.git#v0.6.2",
     "handlebars": "^3.0.2",
     "helper-moment": "^0.1.0",
+    "kss": "^2.1.0",
     "losttype-contributors": "git://github.com/losttype/contributors.git",
     "metalsmith": "^1.6.0",
     "metalsmith-autoprefixer": "^1.0.2",
@@ -50,6 +51,7 @@
     "test": "echo \"Error: no test specified…yet! Pull requests on https://github.com/losttype/blog.losttype.com are greatly appreciated.\" && exit 1",
     "start": "node_modules/metalsmith/bin/metalsmith",
     "postinstall": "cp ./node_modules/normalize.css/normalize.css ./node_modules/normalize.css/normalize.scss && cp ./node_modules/losttype-contributors/index.json ./src/authors.json",
+    "styleguide": "kss-node --source ./src/css --destination ./build/styleguide --css /css/index.css",
     "trigger": "node trigger.js"
   },
   "dependencies": {
