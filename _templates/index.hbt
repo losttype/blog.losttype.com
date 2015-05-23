@@ -3,42 +3,63 @@
 <h1>{{ title }}</h1>
 <p>{{ description }}</p>
 
-<ul>
-    {{#each pagination.files}}
-        <li>
-          <article>
-            <header>
-              <a href="{{ this.slug }}">
-                <h2>{{ this.title }}</h2>
-              </a>
-              <time date-time="{{ date }}">{{ this.date }}</time>
-              <a href="#">{{ this.author }}</a>
-              <a href="#">{{ this.category }}</a>
-              <ul>
-                {{#each this.fonts }}
-                  <li><a href="/fonts-in-use/{{this}}">{{ this }}</a></li>
-                {{/each}}
-              </ul>
-            </header>
-            {{{ this.contents }}}
-          </article>
-        </li>
-    {{/each}}
+<ul class="u-basicList">
+  {{#each pagination.files }}
+    <li class="frame {{#if gallery}}knockout{{/if}}" data-item="{{ add 1 @index }}">
+      <div class="article">
+        <header class="container article-header">
+          <a href="/{{ this.slug }}" class="article-title">
+            <h1>{{ this.title }}</h1>
+          </a>
+          <time date-time="{{ date }}" class="article-pubdate">{{ moment date format="MMMM Do, YYYY"}}</time>
+            <div class="author">
+              {{#within ../authors author }}
+                <a href="/about#{{ ../author }}" class="author-name" title="A post by {{ this.name }}">{{ this.name }}</a>
+              {{/within}}
+            </div>
+          <div class="">Published under
+            <ul class="u-horizontalList u-horizontalList--comma">
+              {{!-- {{#each category }} --}}
+                <li><a href="/{{ category }}">{{ this.category }}</a></li>
+              {{!-- {{/each}} --}}
+            </ul>
+          </div>
+        </header>
+        <div class="container article-contents">
+          {{{ quotelength contents }}}
+          {{!-- Should change to More… --}}
+        </div>
+      </div>
+    </li>
+  {{/each}}
 
-    <nav>
-      <ul class="u-horizontalList">
-        <li>
-          {{#if pagination.next }}
-            <a href="/{{ pagination.next.url }}">← Older</a>
-          {{/if}}
-        <li>
-        <li>
-          {{#if pagination.previous }}
-          <a href="/{{ pagination.previous.url }}">Newer →</a>
-          {{/if}}
-        </li>
-      </ul>
-    </nav>
+  <nav>
+    {{!-- Make these massive, like full width. --}}
+    <ul class="u-horizontalList">
+      <li>
+        {{#if pagination.next }}
+          <a href="/{{ pagination.next.url }}">← Older</a>
+        {{/if}}
+      <li>
+      {{!-- <li>
+        <ol>
+          {{#each pagination.pages }}
+            <pre><code>{{ add 1 @index }} {{ pagination.num }}</code></pre>
+            {{#equal (add 1 @index) pagination.num }}
+              <li class="current">CURRENT
+            {{ else }}
+              <li>
+            {{/equal}}
+            Page {{ add 1 @index }}</li>
+          {{/each}}
+        </ol>
+      <li> --}}
+        {{#if pagination.previous }}
+        <a href="/{{ pagination.previous.url }}">Newer →</a>
+        {{/if}}
+      </li>
+    </ul>
+  </nav>
 </ul>
 
 {{> footer }}
