@@ -8,16 +8,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <link rel="stylesheet" href="/css/index.css">
 
   <script>
     WebFontConfig = {
       timeout: 500,
-      typekit: { id: 'lma3xaj' }
+      typekit: {
+        id: 'lma3xaj'
+      },
+      custom: {
+        families: ['SSSocialRegular']
+      }
     };
   </script>
   <script async src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.10/webfont.js"></script>
 
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="/webfonts/ss-social-regular.css">
   <script>
     // // Cut the mustard, choose your own method here—querySelector is an easy one.
     // if( "querySelector" in win.document ) {

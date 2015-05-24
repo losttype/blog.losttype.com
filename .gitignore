@@ -13,6 +13,7 @@ node_modules
 components
 bower_components
 src/authors.json
+src/webfonts
 
 # Compile directories
 build/

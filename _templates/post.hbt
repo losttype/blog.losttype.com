@@ -27,22 +27,48 @@
       {{{ quotelength contents }}}
     </div>
     <footer class="container article-footer">
-      <div class="author">
-
+      <div class="author media">
         {{#within authors author }}
-          <a href="/about#{{ ../author }}" title="A post by {{ this.name }}" class="author-name">{{this.name}}</a>
-          {{#if this.social.twitter }}
-            <a href="{{ this.url }}" class="author-avatar">
+          <a href="/about#{{ ../author }}" class="author-avatar media-figure">
+            {{#if this.social.twitter }}
               <img src="https://avatars.io/twitter/{{ this.social.twitter}}?size=large" async defer alt="{{ this.name }}’s avatar" />
-            </a>
-            <a href="https://twitter.com/{{this.social.twitter}}" class="author-twitter">@{{ this.social.twitter }}</a>
-          {{/if}}
-          {{#if this.social.dribbble }}
-            <a href="https://dribbble.com/{{this.social.dribbble}}" class="author-dribble">@{{ this.social.dribbble }}</a>
-          {{/if}}
-          {{#if this.bio }}
-            <p class="author-bio">{{ this.bio }}</p>
-          {{/if}}
+            {{else}}
+              {{!-- Some kind of placeholder avatar? Or just use the logo? --}}
+              <img src="https://avatars.io/twitter/losttype?size=large" async defer alt="The Lost Type avatar" />
+            {{/if }}
+          </a>
+          <div class="media-body">
+            <h4>
+              <a class="author-name" href="/about#{{ ../author }}" title="A post by {{ this.name }}">{{this.name}}</a>
+              {{#if this.social.twitter }}
+                <a class="author-handle" href="https://twitter.com/{{ this.social.twitter }}" title="Follow {{ this.name }} on Twitter.">@{{ this.social.twitter }}</a>
+              {{/if}}
+            </h4>
+            {{#if this.bio }}
+              <p class="author-bio">{{{ this.bio }}}</p>{{!-- TODO Maybe allow Markdown in bios here? --}}
+            {{/if}}
+            {{#if this.social }}
+              <ul class="u-listHorizontal u-listBasic">
+              {{#if this.url }}
+                <li><a href="{{ this.url }}" class="author-url ss-icon ss-link"></a></li>
+              {{/if }}
+              {{#if this.social.twitter }}
+                <li><a href="https://twitter.com/{{ this.social.twitter }}" class="author-social ss-icon">Twitter</a></li>
+              {{/if}}
+              {{#if this.social.dribbble }}
+                <li><a href="https://dribbble.com/{{ this.social.dribbble }}" class="author-social ss-icon">Dribbble</a></li>
+              {{/if}}
+              {{#if this.social.github }}
+                <li><a href="https://github.com/{{ this.social.twitter }}" class="author-social ss-icon">GitHub</a></li>
+              {{else}}
+                {{!-- Gotta cap the icons at a limit at some point… --}}
+                {{#if this.social.instagram }}
+                  <li><a href="https://instagram.com/{{ this.social.twitter }}" class="author-social ss-icon">Instagram</a></li>
+                {{/if}}
+              {{/if}}
+              </ul>
+            {{/if}}
+          </div>
         {{/within}}
       </div>
     </footer>
