@@ -43,7 +43,7 @@ body {
 // Styleguide: layout.container
 .frame {
   @include outer-container();
-  padding: modular-scale(-1) modular-scale(-1) modular-scale(-1)*1.1 modular-scale(-1);
+  padding: 0 modular-scale(-1);
   @include media($mid) {
     // padding: $gutter $gutter $gutter * 1.1 $gutter;
     padding-left: 0;
@@ -89,6 +89,21 @@ body {
 // Styleguide: layout.simple grid
 .cols {
   @include outer-container();
+}
+
+.cols-1of2 {
+  @include span-columns(2.5 of 5);
+  @include media($mid) {
+    @include span-columns(4.5 of 9);
+  }
+  @include media($wide) {
+    @include span-columns(5.5 of 11);
+  }
+
+}
+
+.cols-2of2 {
+  @include span-columns(2 of 2);
 }
 
 .cols-1of3,
