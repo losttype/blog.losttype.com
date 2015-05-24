@@ -21,6 +21,9 @@ body {
   @include media($wide) {
     padding: 0 $gutter;
   }
+  @include media($huge) {
+    padding: 0;
+  }
 }
 
 // Container

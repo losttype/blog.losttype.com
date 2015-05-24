@@ -74,14 +74,16 @@
     </footer>
   </article>
 </div>
-<div class="frame">
-  <nav class="article-postnav">
-    <a class="article-postnavItem" href="/{{ next.url }}">
-      <em>← Older</em><br/>{{!-- Ugh --}}
-      <h3 class="article-title">There’s a new serif in town</h3>
-      <p>The history of American Wood Type offers a rich and eclectic range of styles. Blackletter, two toned circus type, exaggerated tuscans and of course…</p>
+{{!-- <div class="frame"> --}}
+  <nav class="nextprev">
+    <a class="nextprev-item frame" href="/{{ next.url }}">
+      <div class="nextprev-body container">
+        <em>← Older</em><br/>{{!-- Ugh --}}
+        <h3 class="article-title">There’s a new serif in town</h3>
+        <p>The history of American Wood Type offers a rich and eclectic range of styles. Blackletter, two toned circus type, exaggerated tuscans and of course…</p>
+      </div>
     </a>
-    <a class="article-postnavItem" href="/{{ previous.url }}">Newer →</a>
+    <a class="nextprev-item" href="/{{ previous.url }}">Newer →</a>
   </nav>
-</div>
+{{!-- </div> --}}
 {{> footer }}

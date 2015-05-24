@@ -39,6 +39,10 @@ $wide-col: 11;
 $wide-width: em(990);
 $wide: new-breakpoint(min-width $wide-width $wide-col);
 
+$huge-col: $wide-col;
+$huge-width: $wide-width + ($gutter * 10);
+$huge: new-breakpoint(min-width $huge-width $huge-col);
+
 // Fonts
 //
 // Font Stack Still Matter.
