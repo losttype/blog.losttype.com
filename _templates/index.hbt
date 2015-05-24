@@ -3,7 +3,7 @@
 <h1>{{ title }}</h1>
 <p>{{ description }}</p>
 
-<ul class="u-basicList">
+<ul class="u-listBasic">
   {{#each pagination.files }}
     <li class="frame {{#if gallery}}knockout{{/if}}" data-item="{{ add 1 @index }}">
       <div class="article">
@@ -18,7 +18,7 @@
               {{/within}}
             </div>
           <div class="">Published under
-            <ul class="u-horizontalList u-horizontalList--comma">
+            <ul class="u-listHorizontal u-listHorizontal--comma">
               {{!-- {{#each category }} --}}
                 <li><a href="/{{ category }}">{{ this.category }}</a></li>
               {{!-- {{/each}} --}}

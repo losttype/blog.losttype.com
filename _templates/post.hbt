@@ -11,13 +11,13 @@
         {{/within}}
       </div>
       <div class="">Published under
-        <ul class="u-horizontalList u-horizontalList--comma">
+        <ul class="u-listHorizontal u-listHorizontal--comma">
           {{!-- {{#each category }} --}}
             <li><a href="/{{ category }}">{{ category }}</a></li>
           {{!-- {{/each}} --}}
         </ul>
       </div>
-      <ul class="u-horizontalList u-horizontalList--comma">
+      <ul class="u-listHorizontal u-listHorizontal--comma">
         {{#each fonts }}
           <li><a href="/fonts-in-use/{{ this }}">{{ this }}</a></li>
         {{/each}}
