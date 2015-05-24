@@ -57,7 +57,7 @@ blockquote,
 
   @include media($mid) {
     width: 150%;
-    min-height: 20em;
+    height: 100%;
     margin-left: -25%;
     columns: 3 12em;
     column-gap: $gutter;
