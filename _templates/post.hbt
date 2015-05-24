@@ -34,7 +34,7 @@
               <img src="https://avatars.io/twitter/{{ this.social.twitter}}?size=large" async defer alt="{{ this.name }}’s avatar" />
             {{else}}
               {{!-- Some kind of placeholder avatar? Or just use the logo? --}}
-              <img src="https://avatars.io/twitter/losttype?size=large" async defer alt="The Lost Type avatar" />
+              <img src="https://avatars.io/twitter/losttypecoop?size=large" async defer alt="The Lost Type avatar" />
             {{/if }}
           </a>
           <div class="media-body">
