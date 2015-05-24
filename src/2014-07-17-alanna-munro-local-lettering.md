@@ -1,16 +1,15 @@
 ---
-title: Alanna Munro: Local Lettering
+title: 'Alanna Munro: Local Lettering'
 author: rileycran
+template: post.hbt
 ---
 
-# Alanna Munro: Local Lettering
-
-My friend here in Vancouver, [Alanna Munro](http://www.alannamunro.com/), has been working on a [really fun project](http://www.locallettering.com/) to preserve the multitude of hand painted apartment signage here in the city. Presumably done by a small selection of lettering artists in the 1940’s – 1960’s, these logotypes are abundant in entire neighborhoods of Vancouver, particular the ones with buildings that span back to the early 1920s. Each one seems to have its own quirky flavor and an imprint of its creator, and it would be such a shame to see them gone someday, without being archived.
+My friend here in Vancouver, [Alanna Munro](http://www.alannamunro.com/), has been working on a [really fun project](http://www.locallettering.com/) to preserve the multitude of hand painted apartment signage here in the city. Presumably done by a small selection of lettering artists in the 1940’s–1960’s, these logotypes are abundant in entire neighborhoods of Vancouver, particular the ones with buildings that span back to the early 1920s. Each one seems to have its own quirky flavor and an imprint of its creator, and it would be such a shame to see them gone someday, without being archived.
 
 In an effort to study these artifacts in more detail and practice drawing letters, Alanna has started [Local Lettering](http://www.locallettering.com/), a blog where she recreates these logotypes in vector, preserving and cataloging them with information on their quirks and characteristics, and even places them on an interactive map.  
 
-> “Many of the apartment buildings in Vancouver proudly display their name in golden paint on their front doors. Many of these have been hand-lettered and almost all of them boast interesting shapes and type design choices.”
->
+> Many of the apartment buildings in Vancouver proudly display their name in golden paint on their front doors. Many of these have been hand-lettered and almost all of them boast interesting shapes and type design choices.
+> <footer>Alanna Munro, <cite><a href="http://locallettering.com">Local Lettering</a></cite></footer>
 
 Below you’ll find some samples of the source material, and Alanna’s recreations. Be sure to check out the [blog](http://www.locallettering.com/)!
 
