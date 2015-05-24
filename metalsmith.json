@@ -62,7 +62,12 @@
     },
     "metalsmith-sass": {
       "outputStyle": "compressed",
-      "includePaths": ["node_modules"]
+      "includePaths": [
+        "node_modules/normalize-opentype.css/",
+        "node_modules/normalize.css/",
+        "node_modules/bourbon/app/assets/stylesheets/",
+        "node_modules/bourbon-neat/app/assets/stylesheets/"
+      ]
     },
     "metalsmith-autoprefixer": {}
   }
