@@ -32,34 +32,34 @@
       </div>
     </li>
   {{/each}}
-
-  <nav>
-    {{!-- Make these massive, like full width. --}}
-    <ul class="u-horizontalList">
-      <li>
-        {{#if pagination.next }}
-          <a href="/{{ pagination.next.url }}">← Older</a>
-        {{/if}}
-      <li>
-      {{!-- <li>
-        <ol>
-          {{#each pagination.pages }}
-            <pre><code>{{ add 1 @index }} {{ pagination.num }}</code></pre>
-            {{#equal (add 1 @index) pagination.num }}
-              <li class="current">CURRENT
-            {{ else }}
-              <li>
-            {{/equal}}
-            Page {{ add 1 @index }}</li>
-          {{/each}}
-        </ol>
-      <li> --}}
-        {{#if pagination.previous }}
-        <a href="/{{ pagination.previous.url }}">Newer →</a>
-        {{/if}}
-      </li>
-    </ul>
-  </nav>
 </ul>
+
+<nav>
+  {{!-- Make these massive, like full width. --}}
+  <ol class="u-listHorizontal">
+    <li>
+      {{#if pagination.next }}
+        <a href="/{{ pagination.next.url }}">← Older</a>
+      {{/if}}
+    <li>
+    {{!-- <li>
+      <ol>
+        {{#each pagination.pages }}
+          <pre><code>{{ add 1 @index }} {{ pagination.num }}</code></pre>
+          {{#equal (add 1 @index) pagination.num }}
+            <li class="current">CURRENT
+          {{ else }}
+            <li>
+          {{/equal}}
+          Page {{ add 1 @index }}</li>
+        {{/each}}
+      </ol>
+    <li> --}}
+      {{#if pagination.previous }}
+      <a href="/{{ pagination.previous.url }}">Newer →</a>
+      {{/if}}
+    </li>
+  </ol>
+</nav>
 
 {{> footer }}
