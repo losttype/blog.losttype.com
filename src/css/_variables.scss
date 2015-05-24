@@ -62,9 +62,10 @@ $gray: #CCC;
 
 // Reds
 $red: #E85623;
+$red-dark: darken($red, 5%);
 
 $color-background: #FFFEFE;
-$color-primary: #E85623;
+$color-primary: $red;
 $color-text: #36201A;
 $color-border: #36201A; // Change this
 
