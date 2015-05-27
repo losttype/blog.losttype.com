@@ -1,29 +1,44 @@
 {{!-- <div class="frame"> --}}
   <nav class="nextprev {{ modifier_class }}">
-    <a class="frame nextprev-item {{ modifier_class }}" href="/{{#if pagination.next }}{{ pagination.next.url }}{{else}}{{ next.url }}{{/if}}">
+    <a class="nextprev-item {{ modifier_class }}" href="/{{#if pagination.next }}{{ pagination.next.path }}{{else}}{{ next.slug }}{{/if}}">
       <div class="container nextprev-body {{ modifier_class }}">
-        <div>← Older</div>
-        <h3 class="article-title">There’s a new serif in town</h3>
-        <p>The history of American Wood Type offers a rich and eclectic range of styles. Blackletter, two toned circus type, exaggerated tuscans and of course…</p>
+        {{#if pagination.next }}
+          {{!-- Archive level pagination  --}}
+          {{#if pagination.next.url }}
+            {{!-- Archive level pagination  --}}
+            <div>← Older</div>
+          {{else}}
+            {{!-- No more archive pages --}}
+            {{!-- Okay, this doesn’t work since there shouldn’t be a link here at all. --}}
+          {{/if}}
+        {{else}}
+          {{#if next.slug }}
+            {{!-- Post level pagination --}}
+            <div>← Older</div>
+            <h3 class="article-title">{{ next.title }}</h3>
+            <time date-time="{{ next.date }}" class="article-pubdate">{{ moment next.date format="MMMM Do, YYYY"}}</time>
+          {{else}}
+            {{!-- No more pages --}}
+          {{/if}}
+        {{/if}}
       </div>
     </a>
-    {{!-- <li>
-      <ol>
-        {{#each pagination.pages }}
-          <pre><code>{{ add 1 @index }} {{ pagination.num }}</code></pre>
-          {{#equal (add 1 @index) pagination.num }}
-            <li class="current">CURRENT
-          {{ else }}
-            <li>
-          {{/equal}}
-          Page {{ add 1 @index }}</li>
-        {{/each}}
-      </ol>
-    <li> --}}
-    <a class="nextprev-item {{ modifier_class }}" href="/{{#if pagination.previous }}{{ pagination.previous.url }}{{else}}{{ previous.url }}{{/if}}">
-      <div>Newer →</div>
-        <h3 class="article-title">Introducing the new Lost Type blog</h3>
-        <p>Whatever</p>
+    <a class="nextprev-item {{ modifier_class }}" href="/{{#if pagination.previous }}{{ pagination.previous.url }}{{else}}{{ previous.slug }}{{/if}}">
+      <div class="container nextprev-body {{ modifier_class }}">
+          {{#if pagination.previous }}
+            {{!-- Doesn’t need as many conditionals since there is a built-in redirect back to / for 1st page --}}
+            <div>Newer →</div>
+          {{else}}
+            {{#if previous.slug }}
+              {{!-- Post level pagination --}}
+              <div>Newer →</div>
+              <h3 class="article-title">{{ previous.title }}</h3>
+              <time date-time="{{ previous.date }}" class="article-pubdate">{{ moment previous.date format="MMMM Do, YYYY"}}</time>
+            {{else}}
+              {{!-- No more posts --}}
+            {{/if}}
+          {{/if}}
+        </div>
       </div>
     </a>
   </nav>

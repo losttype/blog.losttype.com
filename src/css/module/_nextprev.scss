@@ -13,9 +13,9 @@
 .nextprev-item { // For specificity over knockout
   transition: color 0.125s ease-in-out, background-color 0.125s ease-in-out; // TODO Don’t make Ben sad
   font-family: $font-family-sans;
-  .article-title {
-    text-align: center;
-  }
+  // .article-title {
+  //   text-align: center;
+  // }
   &:link,
   &:visited {
     // Maybe make resetting the link underline
@@ -42,6 +42,5 @@
   @include media($huge) {
     // Align with frame again
     @include span-columns(6.5 of 11);
-    outline: 2px solid purple;
   }
 }
