@@ -7,16 +7,7 @@
     "description": "Articles, resources, inspiration, and lessons learned by contributors to the Lost Type Co-op."
   },
   "plugins": {
-    "metalsmith-browser-sync": {
-      "port": 5000,
-      "server": "build",
-      "files": [
-        "src/*.md",
-        "_templates/*.hbt",
-        "_includes/*.hbt",
-        "css/**/*.scss"
-      ]
-    },
+    "metalsmith-serve": {},
     "metalsmith-collections": {
       "posts": {
         "pattern": "*-*-*.md",
