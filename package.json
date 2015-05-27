@@ -18,7 +18,7 @@
     "handlebars": "^3.0.2",
     "helper-moment": "^0.1.0",
     "kss": "^2.1.0",
-    "losttype-contributors": "git://github.com/losttype/contributors.git",
+    "losttype-contributors": "^0.3.1",
     "metalsmith": "^1.6.0",
     "metalsmith-autoprefixer": "^1.0.2",
     "metalsmith-browser-sync": "^1.0.0",

@@ -1,30 +1,71 @@
 {{> header }}
 
-<div>
+<div class="container">
   <header>
     <h1>{{ title }}</h1>
     {{{ contents }}}
   </header>
 
-  <ul>
-      {{#each authors }}
-        {{!--
-          {{#if this.blog }}
-          could also add “blog” as part of a contribution array,
-          then loop through contributions and reference the parent
-          if it’s there
-        --}}
-          <li id="{{ @key }}">
-            <a href="{{{ this.url }}}">
-              <h3>{{{ this.name }}}</h3>
-              <span class="a--faux">{{{ this.url }}}</span>
-              <p>{{{ this.contribution }}}</p>
-            </a>
-          </li>
-        {{!--
-          {{/if}}
-        --}}
-      {{/each}}
+  <ul class="u-listBasic cols">
+    {{#each authors }}
+      {{!--
+        {{#if this.blog }}
+        could also add “blog” as part of a contribution array,
+        then loop through contributions and reference the parent
+        if it’s there
+      --}}
+      {{!-- use both 2 cols and then 3 cols with just these classes somehow --}}
+      <li class="cols-1of2 cols-1of3" id="{{ @key }}">
+        <div class="media">
+          <a href="/about#{{ ../author }}" class="author-avatar media-figure">
+            {{#if this.social.twitter }}
+              <img src="https://avatars.io/twitter/{{ this.social.twitter}}?size=large" async defer alt="{{ this.name }}’s avatar" />
+            {{else}}
+              {{!-- Some kind of placeholder avatar? Or just use the logo? --}}
+              <img src="https://avatars.io/twitter/losttypecoop?size=large" async defer alt="The Lost Type avatar" />
+            {{/if }}
+          </a>
+          <div class="media-body">
+            <h4>
+              <a class="author-name" href="/about#{{ ../author }}" title="A post by {{ this.name }}">{{this.name}}</a>
+              {{#if this.social.twitter }}
+                <a class="author-handle" href="https://twitter.com/{{ this.social.twitter }}" title="Follow {{ this.name }} on Twitter.">@{{ this.social.twitter }}</a>
+              {{/if}}
+            </h4>
+            <p class="author-bio">
+              {{#if this.bio }}
+                {{{ this.bio }}}{{!-- TODO Maybe allow Markdown in bios here? --}}
+              {{ else }}
+                {{{ this.contribution }}}
+              {{/if}}
+            {{#if this.social }}
+              <ul class="u-listHorizontal u-listBasic">
+              {{#if this.url }}
+                <li><a href="{{ this.url }}" class="author-url ss-icon ss-link"></a></li>
+              {{/if }}
+              {{#if this.social.twitter }}
+                <li><a href="https://twitter.com/{{ this.social.twitter }}" class="author-social ss-icon">Twitter</a></li>
+              {{/if}}
+              {{#if this.social.dribbble }}
+                <li><a href="https://dribbble.com/{{ this.social.dribbble }}" class="author-social ss-icon">Dribbble</a></li>
+              {{/if}}
+              {{#if this.social.github }}
+                <li><a href="https://github.com/{{ this.social.twitter }}" class="author-social ss-icon">GitHub</a></li>
+              {{else}}
+                {{!-- Gotta cap the icons at a limit at some point… --}}
+                {{#if this.social.instagram }}
+                  <li><a href="https://instagram.com/{{ this.social.twitter }}" class="author-social ss-icon">Instagram</a></li>
+                {{/if}}
+              {{/if}}
+              </ul>
+            {{/if}}
+          </div>
+        </div>
+      </li>
+      {{!--
+        {{/if}}
+      --}}
+    {{/each}}
   </ul>
 </div>
 
