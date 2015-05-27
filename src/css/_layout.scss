@@ -77,6 +77,13 @@ body {
 //
 // Markup:
 // <div class="cols">
+//   <div class="cols-1of2">One of two</div>
+//   <div class="cols-1of2">One of two</div>
+// </div>
+// <div class="cols">
+//   <div class="cols-2of2">Two of two</div>
+// </div>
+// <div class="cols">
 //   <div class="cols-1of3">One of three</div>
 //   <div class="cols-1of3">One of three</div>
 //   <div class="cols-1of3">One of three</div>
@@ -89,13 +96,15 @@ body {
 //   <div class="cols-3of3">Three of three</div>
 // </div>
 //
-// Styleguide: layout.simple grid
+// Styleguide: layout.simpleGrid
 .cols {
   @include outer-container();
 }
 
 .cols-1of2 {
-  @include span-columns(2.5 of 5);
+  @include media($narrow) {
+    @include span-columns(2.5 of 5);    
+  }
   @include media($mid) {
     @include span-columns(4.5 of 9);
   }
@@ -113,6 +122,7 @@ body {
 .cols-2of3,
 .cols-3of3 {
   @include span-columns(3 of 3);
+  @include omega(3n);
 }
 
 @include media($mid) {
