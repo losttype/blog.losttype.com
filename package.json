@@ -44,7 +44,7 @@
     "metalsmith-watch": "^0.2.0",
     "normalize-opentype.css": "^0.2.4",
     "normalize.css": "^3.0.3",
-    "surge": "^0.11.1",
+    "surge": "latest",
     "travis-ci": "^2.0.3"
   },
   "scripts": {
