@@ -1,0 +1,30 @@
+{{!-- <div class="frame"> --}}
+  <nav class="nextprev {{ modifier_class }}">
+    <a class="frame nextprev-item {{ modifier_class }}" href="/{{#if pagination.next }}{{ pagination.next.url }}{{else}}{{ next.url }}{{/if}}">
+      <div class="container nextprev-body {{ modifier_class }}">
+        <div>← Older</div>
+        <h3 class="article-title">There’s a new serif in town</h3>
+        <p>The history of American Wood Type offers a rich and eclectic range of styles. Blackletter, two toned circus type, exaggerated tuscans and of course…</p>
+      </div>
+    </a>
+    {{!-- <li>
+      <ol>
+        {{#each pagination.pages }}
+          <pre><code>{{ add 1 @index }} {{ pagination.num }}</code></pre>
+          {{#equal (add 1 @index) pagination.num }}
+            <li class="current">CURRENT
+          {{ else }}
+            <li>
+          {{/equal}}
+          Page {{ add 1 @index }}</li>
+        {{/each}}
+      </ol>
+    <li> --}}
+    <a class="nextprev-item {{ modifier_class }}" href="/{{#if pagination.previous }}{{ pagination.previous.url }}{{else}}{{ previous.url }}{{/if}}">
+      <div>Newer →</div>
+        <h3 class="article-title">Introducing the new Lost Type blog</h3>
+        <p>Whatever</p>
+      </div>
+    </a>
+  </nav>
+{{!-- </div> --}}
