@@ -50,7 +50,7 @@
     "test": "echo \"Error: no test specified…yet! Pull requests on https://github.com/losttype/blog.losttype.com are greatly appreciated.\" && exit 1",
     "start": "nodemon -e hbt,hbs,scss,md node_modules/metalsmith/bin/metalsmith",
     "postinstall": "cp ./node_modules/normalize.css/normalize.css ./node_modules/normalize.css/normalize.scss && cp ./node_modules/losttype-contributors/index.json ./src/authors.json",
-    "styleguide": "kss-node --source ./src/css --destination ./build/styleguide --css /css/index.css",
+    "styleguide": "kss-node --source ./src/css --destination ./build/styleguide --css /css/index.css --placeholder=\"\" --homepage README.md",
     "trigger": "node trigger.js"
   },
   "dependencies": {
