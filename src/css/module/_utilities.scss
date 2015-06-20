@@ -8,7 +8,7 @@
 // Horisontal List
 //
 // Markup:
-// <ul class="u-horizontalList {{ modifier_class }}">
+// <ul class="u-listHorizontal {{ modifier_class }}">
 //   <li>Abraham Lincoln</li>
 //   <li>Nelma</li>
 //   <li>Tommaso</li>
@@ -16,9 +16,9 @@
 //   <li>Vevey</li>
 // </ul>
 //
-// .u-horizontalList--comma  - A comma-seperated list
+// .u-listHorizontal--comma  - A comma-seperated list
 //
-// Styleguide: module.utility.horizontalList
+// Styleguide: module.utility.listHorizontal
 .u-listHorizontal {
   list-style: none;
   & > li {
@@ -44,7 +44,7 @@
 // An explicit reset class for lists.
 //
 // Markup:
-// <ul class="u-basicList">
+// <ul class="u-listBasic">
 //   <li>Abraham Lincoln</li>
 //   <li>Nelma</li>
 //   <li>Tommaso</li>
@@ -52,7 +52,7 @@
 //   <li>Vevey</li>
 // </ul>
 //
-// Styleguide: module.utility.basicList
+// Styleguide: module.utility.listBasic
 .u-listBasic {
   margin: 0;
   padding: 0;
