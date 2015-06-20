@@ -1,0 +1,8 @@
+# Redirects
+
+301   /blog/:year/:month/:day/:slug   /:slug
+301   /:year/:month/:day/:slug        /:slug
+
+303   /font/?name=:name               http://losttype.com/font/:name
+303   /browse                         http://losttype.com/browse
+303   /font                           http://losttype.com/browse
