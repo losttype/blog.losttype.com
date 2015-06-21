@@ -54,6 +54,7 @@
     "trigger": "node trigger.js"
   },
   "dependencies": {
+    "dropcap.js": "^1.0.0",
     "zoom.js": "fat/zoom.js"
   }
 }
