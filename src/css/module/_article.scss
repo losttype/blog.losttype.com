@@ -91,7 +91,7 @@
     // Override .container
     @include span-columns(2 of 7);
     @include shift(-2 of 7);
-    padding: $gutter;
+    padding: $gutter/2;
   }
 }
 
@@ -118,5 +118,8 @@
 //
 // Styleguide: module.article.footer
 .article-footer {
-
+  margin-bottom: $gutter;
+  @include media($mid) {
+    margin-bottom: modular-scale(5);
+  }
 }
