@@ -4,26 +4,28 @@
   <article class="article">
     <header class="container article-header">
       <h1 class="article-title">{{ title }}</h1>
-      <time date-time="{{ date }}" class="article-pubdate">{{ moment date format="MMMM Do, YYYY"}}</time>
-      <div class="author">
-        {{#within authors author }}
-          <a href="/about#{{ ../author }}" class="author-name" title="A post by {{ this.name }}">{{ this.name }}</a>
-        {{/within}}
-      </div>
-      <div class="">Published under
-        <ul class="u-listHorizontal u-listHorizontal--comma">
-          {{!-- {{#each category }} --}}
-            <li><a href="/{{ category }}">{{ category }}</a></li>
-          {{!-- {{/each}} --}}
-        </ul>
-      </div>
-      <ul class="u-listHorizontal u-listHorizontal--comma">
-        {{#each fonts }}
-          <li><a href="/fonts-in-use/{{ this }}">{{ this }}</a></li>
-        {{/each}}
-      </ul>
     </header>
     <div class="container article-contents">
+      <div class="article-meta">
+        <time date-time="{{ date }}" class="article-pubdate">{{ moment date format="MMMM Do, YYYY"}}</time>
+        <div class="author">
+          {{#within authors author }}
+            <a href="/about#{{ ../author }}" class="author-name" title="A post by {{ this.name }}">{{ this.name }}</a>
+          {{/within}}
+        </div>
+        <div class="">Published under
+          <ul class="u-listHorizontal u-listHorizontal--comma">
+            {{!-- {{#each category }} --}}
+              <li><a href="/{{ category }}">{{ category }}</a></li>
+            {{!-- {{/each}} --}}
+          </ul>
+        </div>
+        <ul class="u-listHorizontal u-listHorizontal--comma">
+          {{#each fonts }}
+            <li><a href="/fonts-in-use/{{ this }}">{{ this }}</a></li>
+          {{/each}}
+        </ul>
+      </div>
       {{{ quotelength contents }}}
     </div>
     <footer class="container article-footer">

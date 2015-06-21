@@ -74,11 +74,25 @@
 //
 // Styleguide: module.article.header
 .article-header {
-
+  margin-top: $gutter;
+  @include media($mid) {
+    margin-top: modular-scale(5);
+  }
 }
 
 .article-title {
 
+}
+
+.article-meta {
+  font-size: $font-size-small;
+
+  @include media($wide) {
+    // Override .container
+    @include span-columns(2 of 7);
+    @include shift(-2 of 7);
+    padding: $gutter;
+  }
 }
 
 .article-pubdate {
