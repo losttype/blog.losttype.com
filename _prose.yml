@@ -42,7 +42,11 @@ prose:
           placeholder: "Choose fonts…"
           help: "Tag all Lost Type fonts mentioned in the post."
           alterable: true
-          options: [ "Pigeon", "Nelma", "Liberator", "Deming EP", "Tightrope", "Onramp", "Pompadour Numerals", "Highlands", "Saturn V", "Muncie", "Habana", "Tommaso", "Wisdom Script", "Governor", "Ministry", "Duke", "Mensch", "Quaver Sans", "Quaver Serif", "Aldine", "Vevey", "Outage", "Airship 27", "Ranger", "Hellforge", "Oil Can", "Homestead", "Airplane", "Ribbon", "Alexis", "Haymaker", "Valencia", "Carton", "Lavanderia", "Atreyu", "Arvil", "Bender", "Cubano", "Blanch", "Bemio", "Sullivan", "Abraham Lincoln", "Geared", "Edmondsans", "Maven Pro", "Mission Script", "Venera", "Dude", "Mission Gothic", "Cylburn", "Fairview", "Klinic Slab", "Enemy", "Dude Hank Pro", "Orwellian" ]
+          # Currently, these are hard-coded. I could try and make them a new file in losttype-listing
+          # and use a run script to inline them in to the `_prose.yml` file. Everything I tried to
+          # have this get inlined automatically as described in the Prose docs didn’t work. Would
+          # need to decide what losttype-listing was for: web fonts? All fonts? both?
+          options: [ "Pigeon", "Nelma", "Liberator", "Deming EP", "Tightrope", "Onramp", "Pompadour Numerals", "Highlands", "Saturn V", "Muncie", "Habana", "Tommaso", "Wisdom Script", "Governor", "Ministry", "Duke", "Mensch", "Quaver Sans", "Quaver Serif", "Aldine", "Vevey", "Outage", "Airship 27", "Ranger", "Hellforge", "Oil Can", "Homestead", "Airplane", "Ribbon", "Alexis", "Haymaker", "Valencia", "Carton", "Lavanderia", "Atreyu", "Arvil", "Bender", "Cubano", "Blanch", "Bemio", "Sullivan", "Abraham Lincoln", "Geared", "Edmondsans", "Maven Pro", "Mission Script", "Venera", "Dude", "Mission Gothic", "Cylburn", "Fairview", "Klinic Slab", "Enemy", "Dude Hank Pro", "Orwellian", "Majesti Banner" ]
       - name: "category"
         field:
           element: "select"
