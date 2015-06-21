@@ -75,6 +75,41 @@ blockquote,
 // <div data-pullquote="You read best what you read most"></div>
 //
 // Styleguide: module.quote.pullquote
-[data-pullquote] {
+[data-pullquote]:before {
+  @include media($mid) {
+    content: attr(data-pullquote);
+    display: block;
+    float: left;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25em;
+    width: 40%;
+    margin-right: $gutter;
+    margin-bottom: $base-line-height * 1em;
+    color: $color-primary;
+    font-family: $font-family-sans;
+  }
+  @include media($mid) {
+    @include span-columns(3 of 7);
+    @include shift(-1 of 7);
+  }
+  @include media($wide) {
+    font-size: 1.5em;
+    @include span-columns(4 of 7);
+    @include shift(-2 of 7);
+  }
+  @include media($huge) {
+    @include span-columns(4 of 7);
+    @include shift(-2 of 7);
+  }
 
+}
+
+blockquote [data-pullquote]:before,
+.blockquote [data-pullquote]:before {
+  width: 100%;
+  @include shift(0);
+  margin-bottom: $base-line-height  * 0.5em;
+  margin-top: $base-line-height  * 0.5em;
+  text-align: center;
 }
