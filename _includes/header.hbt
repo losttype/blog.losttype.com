@@ -16,7 +16,7 @@
         id: 'lma3xaj'
       },
       custom: {
-        families: ['SSSocialRegular', 'Moriston:n8,n4']
+        families: ['Moriston:n8,n4', 'SSSocialRegular']
       }
     };
   </script>
