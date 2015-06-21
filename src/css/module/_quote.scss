@@ -23,8 +23,8 @@
 // Styleguide: module.quote.blockquote
 blockquote,
 .blockquote {
-  padding-bottom: $base-line-height * 1.1em;
-  padding-top: $base-line-height * 0.9em;
+  padding-bottom: $base-line-height * 1em;
+  padding-top: $base-line-height * 1em;
   margin: 0 0 $base-line-height * 1em 0;
   border: 1px solid $gray;
   border-width: 1px 0;
@@ -54,15 +54,23 @@ blockquote,
 
   font-size: $font-size-small;
   line-height: 1.575;
-
   @include media($mid) {
-    width: 150%;
+    @include span-columns(9 of 7);
+    @include shift(-1 of 7);
+    padding-left: $gutter;
+    padding-right: $gutter;
+    // width: 150%;
     height: 100%;
-    margin-left: -25%;
-    columns: 3 12em;
+    columns: 2 12em;
     column-gap: $gutter;
     column-fill: balance;
     break-inside: avoid;
+  }
+  @include media($wide) {
+    @include span-columns(11 of 7);
+    @include shift(-2 of 7);
+    padding: $base-line-height * 1em $gutter;
+    columns: 3 12em;
   }
 }
 
