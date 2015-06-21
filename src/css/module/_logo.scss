@@ -1,0 +1,31 @@
+// Logo
+//
+// The Lost Type logo module.
+//
+// Markup:
+// <a class="logo" href="/">
+//   <img src="/images/losttype-logo.svg" alt="The Lost Type Co-op">
+// </a>
+//
+// Styleguide: module.logo
+.logo {
+  background-image: none;
+  display: block;
+}
+
+// Logo inlined
+//
+// The Lost Type logo, with the SVG inlined so the colour can be changed contextually.
+//
+// Markup: ../../../_includes/logo.hbs
+//
+// .knockout - The logo, light on dark.
+//
+// Styleguide: module.logo-inlined
+.logo-shape {
+  fill: $gray-dark;
+
+  .knockout & {
+    fill: $color-background;
+  }
+}

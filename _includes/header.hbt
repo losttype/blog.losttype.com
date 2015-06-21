@@ -54,8 +54,9 @@
 </head>
 <body>
   <nav class="nav">
-    <a href="http://losttype.com" class="logo">
-      <img src="http://losttype.com/images/lost_type_logo.png" />
+    <a href="/" class="logo">
+      {{!-- <img src="/images/losttype-logo.svg" /> --}}
+      {{> logo }}
     </a>
     <ol class="u-basicList">
       <li><a href="http://losttype.com/browse">Fonts</a></li>
