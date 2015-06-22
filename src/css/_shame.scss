@@ -8,3 +8,16 @@
 // where it is being used and what it is accomplishing. (Otherwise: 😭)
 //
 // Styleguide: shame
+
+
+// Disretionary Widows
+//
+// Currently hard-coded into typogr.js
+//
+// Styleguide: shame.widont
+.widont {
+  display: inline-block;
+  @include media($wide) {
+    display: inline;
+  }
+}
