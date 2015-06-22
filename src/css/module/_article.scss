@@ -29,6 +29,11 @@
 //
 // Styleguide: module.article
 .article {
+  display: block;
+  @include span-columns(5 of 5);
+  @include media($mid) {
+    @include span-columns(7 of 7);
+  }
 }
 
 .article-contents {

@@ -1,35 +1,21 @@
 {{> header }}
 
-<h1>{{ title }}</h1>
-<p>{{ description }}</p>
-
 <ul class="u-listBasic">
   {{#each pagination.files }}
     <li class="frame {{#if gallery}}knockout{{/if}}" data-item="{{ add 1 @index }}">
-      <div class="article">
+      <a class="article" href="/{{ this.slug }}">
         <header class="container article-header">
-          <a href="/{{ this.slug }}" class="article-title">
-            <h1>{{ this.title }}</h1>
-          </a>
-          <time date-time="{{ date }}" class="article-pubdate">{{ moment date format="MMMM Do, YYYY"}}</time>
+          <div class="article-meta">
+            <time date-time="{{ date }}" class="article-pubdate">{{ moment date format="MMMM Do, YYYY"}}</time>
             <div class="author">
               {{#within ../authors author }}
-                <a href="/about#{{ ../author }}" class="author-name" title="A post by {{ this.name }}">{{ this.name }}</a>
+                <span class="author-name" title="A post by {{ this.name }}">{{ this.name }}</span>
               {{/within}}
             </div>
-          <div class="">Published under
-            <ul class="u-listHorizontal u-listHorizontal--comma">
-              {{!-- {{#each category }} --}}
-                <li><a href="/{{ category }}">{{ this.category }}</a></li>
-              {{!-- {{/each}} --}}
-            </ul>
           </div>
+          <h1 class="article-title">{{ this.title }}</h1>
         </header>
-        <div class="container article-contents">
-          {{{ quotelength contents }}}
-          {{!-- Should change to More… --}}
-        </div>
-      </div>
+      </a>
     </li>
   {{/each}}
 </ul>
