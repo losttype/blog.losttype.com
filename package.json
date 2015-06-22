@@ -55,6 +55,7 @@
   },
   "dependencies": {
     "dropcap.js": "^1.0.0",
+    "uglify-js": "^2.4.23",
     "zoom.js": "fat/zoom.js"
   }
 }

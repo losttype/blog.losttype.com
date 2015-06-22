@@ -10,45 +10,46 @@
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
   <script>
-    WebFontConfig = {
-      timeout: 500,
-      typekit: {
-        id: 'lma3xaj'
-      },
-      custom: {
-        families: ['Moriston:n8,n4', 'SSSocialRegular']
-      }
-    };
+
   </script>
   <script async src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
 
   <link rel="stylesheet" href="/css/index.css">
   <link rel="stylesheet" href="/css/fonts.css">
   <script>
-    // // Cut the mustard, choose your own method here—querySelector is an easy one.
-    // if( "querySelector" in win.document ) {
-    //
-    //   WebFontConfig = {
-    //     timeout: 1500,
-    //     typekit: { id: 'lma3xaj' }
-    //   };
-    //   loadJS('https://ajax.googleapis.com/ajax/libs/webfont/1.5.10/webfont.js')
-    //
-    //   // test for font-face version to load via Data URI'd CSS
-    //   var fontFile = "/url/to/woff.css",
-    //       ua = window.navigator.userAgent;
-    //
-    //   // Android's default browser needs TTF instead of WOFF
-    //   if( ua.indexOf( "Android 4." ) > -1 && ua.indexOf( "like Gecko" ) > -1 && ua.indexOf( "Chrome" ) === -1 ) {
-    //       fontFile = "/url/to/ttf.css";
-    //   }
-    //
-    //   // load fonts
-    //   if( fontFile ) {
-    //       loadCSS( fontFile );
-    //   }
-    //
-    // }
+    /*! loadCSS & loadJS © 2014 @scottjehl, Filament Group, Inc. Licensed MIT */
+    {{{inline "node_modules/fg-loadjs/loadJS.js" }}}
+    {{{inline "node_modules/fg-loadcss/loadCSS.js" }}}
+
+    // Cut the mustard, choose your own method here—querySelector is an easy one.
+    if( "querySelector" in window.document ) {
+
+      WebFontConfig = {
+        timeout: 500,
+        typekit: {
+          id: 'lma3xaj'
+        },
+        custom: {
+          families: ['Moriston:n8,n4', 'SSSocialRegular']
+        }
+      }
+      loadJS('https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js')
+
+      // test for font-face version to load via Data URI'd CSS
+      var fontFile = "/css/fonts.css"
+      var ua = window.navigator.userAgent
+
+      // Android's default browser needs TTF instead of WOFF
+      if( ua.indexOf( "Android 4." ) > -1 && ua.indexOf( "like Gecko" ) > -1 && ua.indexOf( "Chrome" ) === -1 ) {
+        fontFile = "/css/ttf.css"
+      }
+
+      // load fonts
+      if (fontFile) {
+        loadCSS(fontFile)
+      }
+
+    }
   </script>
 
 </head>
