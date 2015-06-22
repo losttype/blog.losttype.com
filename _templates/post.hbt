@@ -3,9 +3,6 @@
 <div class="frame {{#if gallery}}knockout{{/if}}">
   <article class="article">
     <header class="container article-header">
-      <h1 class="article-title">{{ title }}</h1>
-    </header>
-    <div class="container article-contents">
       <div class="article-meta">
         <time date-time="{{ date }}" class="article-pubdate">{{ moment date format="MMMM Do, YYYY"}}</time>
         <div class="author">
@@ -13,22 +10,22 @@
             <a href="/about#{{ ../author }}" class="author-name" title="A post by {{ this.name }}">{{ this.name }}</a>
           {{/within}}
         </div>
-        <div class="">Published under
-          <ul class="u-listHorizontal u-listHorizontal--comma">
-            {{!-- {{#each category }} --}}
-              <li><a href="/{{ category }}">{{ category }}</a></li>
-            {{!-- {{/each}} --}}
-          </ul>
-        </div>
+      </div>
+      <h1 class="article-title">{{ title }}</h1>
+    </header>
+    <div class="container article-contents">
+      {{{ quotelength contents }}}
+    </div>
+    <footer class="container article-footer">
+      <div class="">Filed under <a href="/{{ category }}">{{ category }}</a></div>
+      {{#if fonts }}
+        Fonts in Use
         <ul class="u-listHorizontal u-listHorizontal--comma">
           {{#each fonts }}
             <li><a href="/fonts-in-use/{{ this }}">{{ this }}</a></li>
           {{/each}}
         </ul>
-      </div>
-      {{{ quotelength contents }}}
-    </div>
-    <footer class="container article-footer">
+      {{/if}}
       <div class="author media">
         {{#within authors author }}
           <a href="/about#{{ ../author }}" class="author-avatar media-figure">
@@ -72,7 +69,6 @@
             {{/if}}
           </div>
         {{/within}}
-      </div>
     </footer>
   </article>
 </div>

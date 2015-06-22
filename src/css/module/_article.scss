@@ -82,6 +82,11 @@
 
 .article-title {
 
+  @include media($wide) {
+    @include span-columns(7 of 7);
+    @include shift(0);
+  }
+
 }
 
 .article-meta {
@@ -91,8 +96,14 @@
     // Override .container
     @include span-columns(2 of 7);
     @include shift(-2 of 7);
-    padding: $gutter/2;
+    padding-left: $gutter/2;
+    text-align: right;
+    margin-top: modular-scale(-1);
   }
+}
+
+.article-metaList {
+
 }
 
 .article-pubdate {

@@ -57,6 +57,7 @@ blockquote,
   @include media($mid) {
     @include span-columns(9 of 7);
     @include shift(-1 of 7);
+    @include omega();
     padding-left: $gutter;
     padding-right: $gutter;
     width: 150%;
@@ -70,6 +71,7 @@ blockquote,
   @include media($wide) {
     @include span-columns(11 of 7);
     @include shift(-2 of 7);
+    @include omega();
     padding: $base-line-height * 1em $gutter;
     columns: 3 12rem;
   }

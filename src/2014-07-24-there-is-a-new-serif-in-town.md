@@ -7,24 +7,20 @@ fonts: dude, dude hank
 template: post.hbt
 ---
 
+> Often times when you know someone on the internet, no matter for how long, meeting them in person for the first time is full of anticipation. A hope that they will be the person you imagine them to be. When I met Dan Gneiding in person for the first time on a June San Francisco morning in 2012, after digitally collaborating with him online for over a year, it was in a room filled with Lost Type contributors from around the world. We shook hands, and exchanged pleasantries, but the first thing I remember him saying to me as he reached into his bag and produced eight 13×19 proofs of his new typeface, was “Oh I wanted to show you this. I’m sorry I only had time to finish 8 of these. My Dad had a stroke last night, but he’s tough as nails, and he’s ok.” It was at that moment that I realized that Dan Gneiding was as dedicated and prolific a person as I had come to assume that he was.
+> What I couldn’t assume at the time, was that these proofs would lead to over 2 years of development on a family of reverse contrast faces that (to my knowledge) rivals any other single reverse contrast family currently available in digital font form. <div data-pullquote="I’m sorry I only had time to finish 8 of these..."></div> I didn’t realize that on the mornings when I woke up at the San Francisco Field Trip to head upstairs and meet everyone else for the day, that Dan would already be awake, throwing bezier curves around, fully dressed on the couch he had volunteered to sleep on. I didn’t realize that the scope of the project would later involve scouring through cases of wood type in Brooklyn, having my hand photographed as I posed it under my desk lamp, hand painted signs above my fireplace in my apartment, crying over first screenings of a stop motion animated film or flipping through the pages of a hard cover specimen book. And I did not realize that my jesting suggestion to call this project “Dude” would be taken so seriously. Dan blew me away on this project, and I was honored to watch it all happen. His most unique skill (in type design and his graphic design work) seems to be the ability to take a novelty and create something that makes you question your preconceived notions. Below, Dan has cataloged some of the landmarks of this process. Take it away, Dan!
+
 <figure class="figure--aside">
   ![There’s a new serif in town! Hank Sr. Hank Jr. Hank III](http://www.losttype.com/images/hank_banner.jpg)
   <figcaption>There’s a new serif in town! Hank Sr. Hank Jr. Hank III</figcaption>
 </figure>
 
-> Often times when you know someone on the internet, no matter for how long, meeting them in person for the first time is full of anticipation. A hope that they will be the person you imagine them to be. When I met Dan Gneiding in person for the first time on a June San Francisco morning in 2012, after digitally collaborating with him online for over a year, it was in a room filled with Lost Type contributors from around the world. We shook hands, and exchanged pleasantries, but the first thing I remember him saying to me as he reached into his bag and produced eight 13×19 proofs of his new typeface, was “Oh I wanted to show you this. I’m sorry I only had time to finish 8 of these. My Dad had a stroke last night, but he’s tough as nails, and he’s ok.” It was at that moment that I realized that Dan Gneiding was as dedicated and prolific a person as I had come to assume that he was.
-> What I couldn’t assume at the time, was that these proofs would lead to over 2 years of development on a family of reverse contrast faces that (to my knowledge) rivals any other single reverse contrast family currently available in digital font form. <div data-pullquote="I’m sorry I only had time to finish 8 of these..."></div> I didn’t realize that on the mornings when I woke up at the San Francisco Field Trip to head upstairs and meet everyone else for the day, that Dan would already be awake, throwing bezier curves around, fully dressed on the couch he had volunteered to sleep on. I didn’t realize that the scope of the project would later involve scouring through cases of wood type in Brooklyn, having my hand photographed as I posed it under my desk lamp, hand painted signs above my fireplace in my apartment, crying over first screenings of a stop motion animated film or flipping through the pages of a hard cover specimen book. And I did not realize that my jesting suggestion to call this project “Dude” would be taken so seriously. Dan blew me away on this project, and I was honored to watch it all happen. His most unique skill (in type design and his graphic design work) seems to be the ability to take a novelty and create something that makes you question your preconceived notions. Below, Dan has cataloged some of the landmarks of this process. Take it away, Dan!
-
-<p class="lead">
-March 2012. The internet.
 <p>
+March 2012. The internet.<br><br>
 
-<p class="lead">
-Me: “I want to make a cowboy font.
-Riley: “You should call it Dude.”
-</p>
+Me: “I want to make a cowboy font.”<br>
+Riley: “You should call it Dude.”<br><br>
 
-<p class="lead">
 …and so the first steps down this long dusty trail began.
 </p>
 

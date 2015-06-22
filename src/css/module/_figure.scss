@@ -46,6 +46,7 @@ body {
 .figure,
 figure {
   display: block;
+  clear: left;
   counter-increment: fig;
   margin-left: 0;
   margin-right: 0;

@@ -42,9 +42,9 @@ body {
 // Styleguide: base.headings
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: $base-line-height * 1em;
-  font-weight: 700;
-  line-height: 1.15;
+  margin-bottom: modular-scale(1);
+  font-weight: 800;
+  line-height: 1.3;
   font-family: $font-family-sans;
   // word-break
   em,
@@ -65,7 +65,7 @@ h1,
 .h1 {
   font-size: modular-scale(3);
   @include media($narrow) {
-    font-size: modular-scale(4);
+    font-size: modular-scale(5);
   }
 }
 
