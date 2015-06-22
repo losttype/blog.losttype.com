@@ -1,45 +1,38 @@
 {{!-- <div class="frame"> --}}
   <nav class="nextprev {{ modifier_class }}">
-    <a class="nextprev-item {{ modifier_class }}" href="/{{#if pagination.next }}{{ pagination.next.path }}{{else}}{{ next.slug }}{{/if}}">
-      <div class="container nextprev-body {{ modifier_class }}">
-        {{#if pagination.next }}
-          {{!-- Archive level pagination  --}}
-          {{#if pagination.next.url }}
-            {{!-- Archive level pagination  --}}
-            <div>← Older</div>
-          {{else}}
-            {{!-- No more archive pages --}}
-            {{!-- Okay, this doesn’t work since there shouldn’t be a link here at all. --}}
-          {{/if}}
-        {{else}}
-          {{#if next.slug }}
-            {{!-- Post level pagination --}}
+    {{#if pagination.next }}
+      <a class="nextprev-item {{ modifier_class }}" href="/{{#if pagination.next }}{{ pagination.next.path }}{{else}}{{ next.slug }}{{/if}}">
+        <div class="container nextprev-body {{ modifier_class }}">
+          <div>← Older</div>
+        </div>
+      </a>
+    {{else}}
+      {{#if next.slug }}
+        <a class="nextprev-item {{ modifier_class }}" href="/{{#if pagination.next }}{{ pagination.next.path }}{{else}}{{ next.slug }}{{/if}}">
+          <div class="container nextprev-body {{ modifier_class }}">
             <div>← Older</div>
             <h3 class="article-title">{{ next.title }}</h3>
             <time date-time="{{ next.date }}" class="article-pubdate">{{ moment next.date format="MMMM Do, YYYY"}}</time>
-          {{else}}
-            {{!-- No more pages --}}
-          {{/if}}
-        {{/if}}
-      </div>
-    </a>
-    <a class="nextprev-item {{ modifier_class }}" href="/{{#if pagination.previous }}{{ pagination.previous.url }}{{else}}{{ previous.slug }}{{/if}}">
-      <div class="container nextprev-body {{ modifier_class }}">
-          {{#if pagination.previous }}
-            {{!-- Doesn’t need as many conditionals since there is a built-in redirect back to / for 1st page --}}
-            <div>Newer →</div>
-          {{else}}
-            {{#if previous.slug }}
-              {{!-- Post level pagination --}}
-              <div>Newer →</div>
-              <h3 class="article-title">{{ previous.title }}</h3>
-              <time date-time="{{ previous.date }}" class="article-pubdate">{{ moment previous.date format="MMMM Do, YYYY"}}</time>
-            {{else}}
-              {{!-- No more posts --}}
-            {{/if}}
-          {{/if}}
+          </div>
+        </a>
+      {{/if}}
+    {{/if}}
+    {{#if pagination.previous }}
+      <a class="nextprev-item {{ modifier_class }}" href="/{{#if pagination.previous }}{{ pagination.previous.url }}{{else}}{{ previous.slug }}{{/if}}">
+        <div class="container nextprev-body {{ modifier_class }}">
+          Newer →
         </div>
-      </div>
-    </a>
+      </a>
+    {{else}}
+      {{#if previous.slug }}
+        <a class="nextprev-item {{ modifier_class }}" href="/{{#if pagination.previous }}{{ pagination.previous.url }}{{else}}{{ previous.slug }}{{/if}}">
+          <div class="container nextprev-body {{ modifier_class }}">
+            Newer →
+            <h3 class="article-title">{{ previous.title }}</h3>
+            <time date-time="{{ previous.date }}" class="article-pubdate">{{ moment previous.date format="MMMM Do, YYYY"}}</time>
+          </div>
+        </a>
+      {{/if}}
+    {{/if}}
   </nav>
 {{!-- </div> --}}

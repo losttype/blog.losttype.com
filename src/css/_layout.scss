@@ -52,6 +52,9 @@ body {
     padding-left: 0;
     padding-right: 0;
   }
+  @include media($huge) {
+    margin-bottom: modular-scale(6);
+  }
 }
 
 .container {
@@ -103,7 +106,7 @@ body {
 
 .cols-1of2 {
   @include media($narrow) {
-    @include span-columns(2.5 of 5);    
+    @include span-columns(2.5 of 5);
   }
   @include media($mid) {
     @include span-columns(4.5 of 9);

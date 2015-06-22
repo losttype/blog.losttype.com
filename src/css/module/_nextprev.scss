@@ -8,14 +8,28 @@
 .nextprev {
   @include span-columns(5 of 5);
   display: flex;
+  background-color: $gray;
+}
+
+.knockout + .nextprev {
+  background-color: $gray-darker;
+  @include media($huge) {
+    background-color: $gray;
+  }
 }
 
 .nextprev-item { // For specificity over knockout
   transition: color 0.125s ease-in-out, background-color 0.125s ease-in-out; // TODO Don’t make Ben sad
   font-family: $font-family-sans;
+  color: $color-background;
   // .article-title {
   //   text-align: center;
   // }
+  flex: 100%;
+  width: 100%;
+  @include media($mid) {
+    flex: 50%;
+  }
   &:link,
   &:visited {
     // Maybe make resetting the link underline
@@ -32,15 +46,12 @@
     color: $color-background;
     background-color: $red-dark;
   }
-  @include media($narrow) {
-    flex: 50%;
-    padding: 3em;
-  }
 }
 
 .nextprev-body {
-  @include media($huge) {
-    // Align with frame again
-    @include span-columns(6.5 of 11);
-  }
+  // @include media($huge) {
+  //   // Align with frame again
+  //   outline: 1px solid blue;
+  //   @include span-columns(3.5 of 7);
+  // }
 }
