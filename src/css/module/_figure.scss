@@ -48,10 +48,6 @@ figure {
   display: block;
   clear: left;
   counter-increment: fig;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: $fig-line-height * 0.5em;
-  margin-bottom: $fig-line-height * 1em;
   display: block;
   display: flex;
   flex-flow: row wrap;
@@ -60,6 +56,24 @@ figure {
   // Otherwise breaks with Neat
   justify-content: flex-start;
   align-content: flex-start;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: $fig-line-height * 0.5em;
+  margin-bottom: $fig-line-height * 1em;
+  figure + & {
+    margin-top: $fig-line-height * 0.5em;
+    margin-bottom: $fig-line-height * 1em;
+    &:last-child {
+      margin-bottom: modular-scale(7);
+    }
+  }
+
+  * + & {
+    margin-top: modular-scale(7);
+  }
+  & + * {
+    margin-top: modular-scale(7);
+  }
   iframe {
     border: 0;
   }
@@ -96,6 +110,18 @@ figure {
       margin-top: 0;
       margin-right: 0
     }
+
+    // Border
+    width: calc(50% - #{ $fig-gutter / 2 } 2px);
+    border: 1px solid $fig-border-color;
+    &:only-of-type:first-of-type {
+      width: 100%;
+    }
+
+    .knockout & {
+      border-color: lighten($gray-darker, 7%);
+    }
+
     // Figure with Children
     //
     // Diptychs, triptychs, etc.
@@ -182,6 +208,16 @@ figcaption {
   flex: 1 1 100%;
   align-self: flex-end;
   line-height: $fig-line-height;
+  font-size: $fig-font-size-sm;
+  color: $gray;
+  a {
+    color: $gray;
+    &:hover,
+    &:focus,
+    &:active {
+      color: $gray-darker;
+    }
+  }
   @if $fig-numbered == true {
     &:before {
       content: "Fig. " counter(fig) " ";
