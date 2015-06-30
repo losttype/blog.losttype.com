@@ -11,6 +11,19 @@
 .logo {
   background-image: none;
   display: block;
+  &:hover,
+  &:focus {
+    outline: 0;
+    // .logo-shape {
+    //   fill: $gray;
+    // }
+    // .logo-badge {
+    //   fill: $color-primary;
+    // }
+    .logo-shape {
+      fill: $color-primary;
+    }
+  }
 }
 
 // Logo inlined
