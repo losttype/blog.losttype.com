@@ -2,4 +2,56 @@
 //
 // Styleguide: module.navigation
 .nav {
+  font-family: $font-family-sans;
+  padding-left: $gutter/2;
+  padding-right: $gutter/2;
+  @include omega();
+  @include media($mid) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .logo {
+    padding-top: $gutter/2;
+    @include span-columns(2 of 7);
+    @include media($mid) {
+      @include span-columns(1 of 7);
+    }
+  }
+}
+
+.nav-list {
+  height: 3.5em;
+  display: flex;
+  flex-wrap: wrap;
+  @include span-columns(5 of 7);
+  @include media($mid) {
+    @include span-columns(5 of 7);
+  }
+}
+
+.nav-item {
+  height: 100%;
+  display: flex;
+  // text-transform: uppercase;
+}
+
+.nav-link {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: modular-scale(-1);
+  padding-top: $gutter/2;
+  padding-left: modular-scale(-4);
+  padding-right: modular-scale(-4);
+  color: $gray-dark;
+  &:hover,
+  &:focus {
+    outline: 0;
+    color: $color-primary;
+  }
+}
+
+.container {
 }
