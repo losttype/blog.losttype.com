@@ -61,7 +61,7 @@ The Dude specimen book is printed offset in three colors and casebound with a br
 
 [Colt Bowden’s](http://coltbowden.com/) promo video for Dude is delightful combination of traditional sign painting captured through time lapse photography and stop motion animation.
 
-<figure class="figure__embed">
+<figure class="figure--embed figure--breakout">
   <div class="embed-container">
     <iframe src="//player.vimeo.com/video/53715033?portrait=0&amp;color=f41e23" allowfullscreen="allowfullscreen" frameborder="0" height="506" width="100%"></iframe>
   </div>
@@ -111,8 +111,11 @@ No wood type collection is complete without a set of Manicules. [Cade Cran](http
 
 For good measure and posterity, we thought we’d bring Dude all the way back around to the original inspiration and get it cut in wood. We got in touch with Scott Moore of [Moore Wood Type](http://moorewoodtype.com/) and a select few of our catch words were cut as real wood type blocks!
 
-<figure>
+<figure class="figure--breakout">
   ![](http://losttype.com/blog/wp-content/uploads/2014/06/17.jpg)
+</figure>
+
+<figure class="figure--breakout figure--aside">
   ![](http://losttype.com/blog/wp-content/uploads/2014/06/19.jpg)
   <figcaption>[Photo Credit: Scott Moore](http://moorewoodtype.com/) Catchword Blocks cut by Scott Moore</ficaption>
 </figure>
