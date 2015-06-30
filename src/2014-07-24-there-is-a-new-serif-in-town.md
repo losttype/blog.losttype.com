@@ -5,6 +5,7 @@ date: 2014-07-24
 category: news
 fonts: dude, dude hank
 template: post.hbt
+# header: 2014/06/7.jpg
 ---
 
 > Often times when you know someone on the internet, no matter for how long, meeting them in person for the first time is full of anticipation. A hope that they will be the person you imagine them to be. When I met Dan Gneiding in person for the first time on a June San Francisco morning in 2012, after digitally collaborating with him online for over a year, it was in a room filled with Lost Type contributors from around the world. We shook hands, and exchanged pleasantries, but the first thing I remember him saying to me as he reached into his bag and produced eight 13×19 proofs of his new typeface, was “Oh I wanted to show you this. I’m sorry I only had time to finish 8 of these. My Dad had a stroke last night, but he’s tough as nails, and he’s ok.” It was at that moment that I realized that Dan Gneiding was as dedicated and prolific a person as I had come to assume that he was.

@@ -53,9 +53,6 @@ body {
     padding-left: 0;
     padding-right: 0;
   }
-  @include media($huge) {
-    margin-bottom: modular-scale(6);
-  }
 }
 
 .container {

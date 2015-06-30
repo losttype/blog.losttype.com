@@ -1,76 +1,80 @@
 {{> header }}
 
-<div class="frame {{#if gallery}}knockout{{/if}}">
-  <article class="article">
-    <header class="container article-header">
-      <div class="article-meta">
-        <time date-time="{{ date }}" class="article-pubdate">{{ moment date format="MMMM Do, YYYY"}}</time>
-        <div class="author">
-          {{#within authors author }}
-            <a href="/about#{{ ../author }}" class="author-name" title="A post by {{ this.name }}">{{ this.name }}</a>
-          {{/within}}
-        </div>
-      </div>
-      <h1 class="article-title">{{ title }}</h1>
-    </header>
-    <div class="container article-contents">
-      {{{ quotelength contents }}}
-    </div>
-    <footer class="container article-footer">
-      <div class="">Filed under <a href="/{{ category }}">{{ category }}</a></div>
-      {{#if fonts }}
-        Fonts in Use
-        <ul class="u-listHorizontal u-listHorizontal--comma">
-          {{#each fonts }}
-            <li><a href="/fonts-in-use/{{ this }}">{{ this }}</a></li>
-          {{/each}}
-        </ul>
-      {{/if}}
-      <div class="author media">
-        {{#within authors author }}
-          <a href="/about#{{ ../author }}" class="author-avatar media-figure">
-            {{#if this.social.twitter }}
-              <img src="https://avatars.io/twitter/{{ this.social.twitter}}?size=large" async defer alt="{{ this.name }}’s avatar" />
-            {{else}}
-              {{!-- Some kind of placeholder avatar? Or just use the logo? --}}
-              <img src="https://avatars.io/twitter/losttypecoop?size=large" async defer alt="The Lost Type avatar" />
-            {{/if }}
-          </a>
-          <div class="media-body">
-            <h4>
-              <a class="author-name" href="/about#{{ ../author }}" title="A post by {{ this.name }}">{{this.name}}</a>
-              {{#if this.social.twitter }}
-                <a class="author-handle" href="https://twitter.com/{{ this.social.twitter }}" title="Follow {{ this.name }} on Twitter.">@{{ this.social.twitter }}</a>
-              {{/if}}
-            </h4>
-            {{#if this.bio }}
-              <p class="author-bio">{{{ this.bio }}}</p>{{!-- TODO Maybe allow Markdown in bios here? --}}
-            {{/if}}
-            {{#if this.social }}
-              <ul class="u-listHorizontal u-listBasic">
-              {{#if this.url }}
-                <li><a href="{{ this.url }}" class="author-url ss-icon ss-link"></a></li>
-              {{/if }}
-              {{#if this.social.twitter }}
-                <li><a href="https://twitter.com/{{ this.social.twitter }}" class="author-social ss-icon">Twitter</a></li>
-              {{/if}}
-              {{#if this.social.dribbble }}
-                <li><a href="https://dribbble.com/{{ this.social.dribbble }}" class="author-social ss-icon">Dribbble</a></li>
-              {{/if}}
-              {{#if this.social.github }}
-                <li><a href="https://github.com/{{ this.social.twitter }}" class="author-social ss-icon">GitHub</a></li>
-              {{else}}
-                {{!-- Gotta cap the icons at a limit at some point… --}}
-                {{#if this.social.instagram }}
-                  <li><a href="https://instagram.com/{{ this.social.twitter }}" class="author-social ss-icon">Instagram</a></li>
-                {{/if}}
-              {{/if}}
-              </ul>
-            {{/if}}
+<article class="article">
+  <header {{#if header }} style="background-image: url('/media/{{ header }}'); background-size: cover; background-position: center center;"{{/if}}>
+    <div class="frame {{#if gallery}}knockout{{/if}}">
+      <div class="container article-header">
+        <div class="article-meta">
+          <time date-time="{{ date }}" class="article-pubdate">{{ moment date format="MMMM Do, YYYY"}}</time>
+          <div class="author">
+            {{#within authors author }}
+              <a href="/about#{{ ../author }}" class="author-name" title="A post by {{ this.name }}">{{ this.name }}</a>
+            {{/within}}
           </div>
-        {{/within}}
-    </footer>
-  </article>
-</div>
+        </div>
+        <h1 class="article-title">{{ title }}</h1>
+      </div>
+    </div>
+  </header>
+  <div class="frame {{#if gallery}}knockout{{/if}}">
+      <div class="container article-contents">
+        {{{ quotelength contents }}}
+      </div>
+      <footer class="container article-footer">
+        <div class="">Filed under <a href="/{{ category }}">{{ category }}</a></div>
+        {{#if fonts }}
+          Fonts in Use
+          <ul class="u-listHorizontal u-listHorizontal--comma">
+            {{#each fonts }}
+              <li><a href="/fonts-in-use/{{ this }}">{{ this }}</a></li>
+            {{/each}}
+          </ul>
+        {{/if}}
+        <div class="author media">
+          {{#within authors author }}
+            <a href="/about#{{ ../author }}" class="author-avatar media-figure">
+              {{#if this.social.twitter }}
+                <img src="https://avatars.io/twitter/{{ this.social.twitter}}?size=large" async defer alt="{{ this.name }}’s avatar" />
+              {{else}}
+                {{!-- Some kind of placeholder avatar? Or just use the logo? --}}
+                <img src="https://avatars.io/twitter/losttypecoop?size=large" async defer alt="The Lost Type avatar" />
+              {{/if }}
+            </a>
+            <div class="media-body">
+              <h4>
+                <a class="author-name" href="/about#{{ ../author }}" title="A post by {{ this.name }}">{{this.name}}</a>
+                {{#if this.social.twitter }}
+                  <a class="author-handle" href="https://twitter.com/{{ this.social.twitter }}" title="Follow {{ this.name }} on Twitter.">@{{ this.social.twitter }}</a>
+                {{/if}}
+              </h4>
+              {{#if this.bio }}
+                <p class="author-bio">{{{ this.bio }}}</p>{{!-- TODO Maybe allow Markdown in bios here? --}}
+              {{/if}}
+              {{#if this.social }}
+                <ul class="u-listHorizontal u-listBasic">
+                {{#if this.url }}
+                  <li><a href="{{ this.url }}" class="author-url ss-icon ss-link"></a></li>
+                {{/if }}
+                {{#if this.social.twitter }}
+                  <li><a href="https://twitter.com/{{ this.social.twitter }}" class="author-social ss-icon">Twitter</a></li>
+                {{/if}}
+                {{#if this.social.dribbble }}
+                  <li><a href="https://dribbble.com/{{ this.social.dribbble }}" class="author-social ss-icon">Dribbble</a></li>
+                {{/if}}
+                {{#if this.social.github }}
+                  <li><a href="https://github.com/{{ this.social.twitter }}" class="author-social ss-icon">GitHub</a></li>
+                {{else}}
+                  {{!-- Gotta cap the icons at a limit at some point… --}}
+                  {{#if this.social.instagram }}
+                    <li><a href="https://instagram.com/{{ this.social.twitter }}" class="author-social ss-icon">Instagram</a></li>
+                  {{/if}}
+                {{/if}}
+                </ul>
+              {{/if}}
+            </div>
+          {{/within}}
+      </footer>
+    </div>
+</article>
 {{> nextprev }}
 {{> footer }}
