@@ -3,7 +3,7 @@
 // Variables
 
 $base-font-size: 1.43em;
-$base-line-height: 1.4;
+$base-line-height: 1.55;
 
 // Fonts
 $font-size-small: 0.8em;
@@ -63,16 +63,18 @@ $base-font-family:       $font-family-serif;
 // Grays
 $gray-darker: #323232;
 $gray-dark: #515151; // Lost Type’s gray
-$gray: #CCC;
+$gray: mix(orange, #CCC, 5%);
+$gray-light: mix(#FFF, $gray, 10%);
+$gray-lighter: mix(#FFF, $gray, 20%);
 
 // Reds
 $red: #E85623;
 $red-dark: darken($red, 5%);
 
-$color-background: #FFFEFE;
+$color-background: #FAF9F7;
 $color-primary: $red;
-$color-text: #36201A;
-$color-border: #36201A; // Change this
+$color-text: #303030;
+$color-border: $gray;
 
 // Figures
 //
