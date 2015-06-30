@@ -45,6 +45,7 @@ body {
 //
 // Styleguide: layout.container
 .frame {
+  clear: left;
   @include outer-container();
   padding: 0 modular-scale(-1);
   @include media($mid) {
