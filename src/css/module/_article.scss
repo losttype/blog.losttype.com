@@ -33,6 +33,22 @@
   @include media($huge) {
     margin-bottom: modular-scale(6);
   }
+
+  // Anchor
+  //
+  // Less intrusive links inside articles.
+  //
+  // Markup:
+  // <article class="article">
+  //   <p>This is a first paragraph inside an article. Our first 2 products are <a href="http://losttype.com/store/">here</a>!</p>
+  // </article>
+  //
+  // Styleguide: module.article.anchor
+  a {
+    color: mix($color-text, $color-primary, 33%);
+    text-shadow: 1px 0 0 $color-background, -1px 0 0 $color-background, 0 0 2px $color-background;
+    // background-image: linear-gradient(to bottom, transparent 85%, $color-primary 85%, transparent 87%);
+  }
 }
 
 .article-contents {
@@ -50,21 +66,8 @@
     font-size: 1.25em;
     line-height: 1.35;
   }
-
-  // Anchor
-  //
-  // Less intrusive links inside articles.
-  //
-  // Markup:
-  // <article class="article">
-  //   <p>This is a first paragraph inside an article. Our first 2 products are <a href="http://losttype.com/store/">here</a>!</p>
-  // </article>
-  //
-  // Styleguide: module.article.anchor
-  a {
-    color: mix($color-text, $color-primary, 33%);
-  }
 }
+
 
 // Header
 //

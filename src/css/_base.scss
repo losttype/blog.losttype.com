@@ -135,11 +135,6 @@ a {
   }
   &:active {
     color: $red-dark;
-
-  }
-  article & {
-    text-shadow: 1px 0 0 $color-background, -1px 0 0 $color-background, 0 0 2px $color-background;
-    background-image: linear-gradient(to bottom, transparent 85%, $color-primary 85%, transparent 87%);
   }
 }
 

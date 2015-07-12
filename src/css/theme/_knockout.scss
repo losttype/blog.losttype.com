@@ -7,7 +7,7 @@
   background-color: $gray-darker;
   color: darken($color-background, 5%);
 
-  article {
+  .article & {
     a {
       text-shadow: 1px 0 0 $gray-darker, -1px 0 0 $gray-darker, 0 0 2px $gray-darker;
       color: desaturate(mix($color-primary, white, 66%), 33%);
