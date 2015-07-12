@@ -36,8 +36,18 @@ blockquote,
   p {
     margin: 0;
     text-indent: 0;
-    & + p {
-      text-indent: $gutter;
+  }
+  p + p,
+  [data-pullquote] + p {
+    text-indent: $gutter;
+  }
+  @include media($mid) {
+    // Paragraphs should indent when pullquotes
+    // aren’t visible (at small screen sizes)
+    // and then shouldn’t indent once the pullquotes
+    // dissapear
+    [data-pullquote] + p {
+      text-indent: 0;
     }
   }
 }
@@ -60,7 +70,6 @@ blockquote,
     @include omega();
     padding-left: $gutter;
     padding-right: $gutter;
-    width: 150%;
     height: 100%;
     columns: 2 12rem;
     column-gap: $gutter * 2;

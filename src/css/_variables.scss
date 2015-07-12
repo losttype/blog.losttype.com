@@ -20,7 +20,7 @@ $modular-scale-ratio: $major-third;
 $column: modular-scale(3) !global;
 $gutter: modular-scale(1);
 $grid-columns: 11;
-$max-width: em(804);
+$max-width: em(834);
 $visual-grid: false !global;
 $visual-grid-index: front !global;
 
@@ -32,7 +32,7 @@ $narrow-width: em(550);
 $narrow: new-breakpoint(min-width $narrow-width $narrow-col);
 
 $mid-col: 9;
-$mid-width: em(733);
+$mid-width: em(745);
 $mid: new-breakpoint(min-width $mid-width $mid-col);
 
 $wide-col: 11;
