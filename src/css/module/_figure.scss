@@ -215,11 +215,11 @@ figcaption {
   font-style: italic;
   .article & a,
   a {
-    color: $gray-dark;
+    color: darken($gray, 10%);
     &:hover,
     &:focus,
     &:active {
-      color: $gray-darker;
+      color: darken($gray, 15%);
     }
   }
   @if $fig-numbered == true {
