@@ -4,19 +4,34 @@
 //
 // Styleguide: module.author
 .author {
-
+  font-size: $font-size-small;
+  @include media($mid) {
+    font-size: inherit;
+  }
 }
 
 .author-name {
 
 }
 
-.author-handle {
-  font-weight: normal;
-  font-style: noraml;
-  background-image: none;
-  color: $gray-dark; // TODO Muted link style?
+.author-avatar {
+  img {
+    width: modular-scale(5);
+    border-radius: 50%;
+    @include media($mid) {
+      width: modular-scale(7);
+    }
+  }
+}
 
+.author-handle,
+a.author-handle {
+  font-family: $font-family-serif;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1.12em; // Match x-height with Morison
+  background-image: none;
+  color: $gray; // TODO Muted link style?
 }
 
 .author-social {
