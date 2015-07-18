@@ -23,8 +23,6 @@
 // Styleguide: module.quote.blockquote
 blockquote,
 .blockquote {
-  padding-bottom: $base-line-height * 1em;
-  padding-top: $base-line-height * 1em;
   margin: 0 0 $base-line-height * 1em 0;
   // border: 1px solid $gray;
   // border-width: 1px 0;
@@ -42,6 +40,9 @@ blockquote,
     text-indent: $gutter;
   }
   @include media($mid) {
+    padding-bottom: $base-line-height * 0.5em;
+    padding-top: $base-line-height * 0.5em;
+
     // Paragraphs should indent when pullquotes
     // aren’t visible (at small screen sizes)
     // and then shouldn’t indent once the pullquotes
@@ -57,7 +58,11 @@ blockquote,
 }
 
 .blockquote--medium {
-
+  @include media($mid) {
+    @include shift(1);
+    @include span-columns(($mid-col - 2) of ($mid-col));
+    @include omega();
+  }
 }
 
 .blockquote--long {
