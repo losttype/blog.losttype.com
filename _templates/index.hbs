@@ -1,10 +1,10 @@
 {{> header }}
 
-<ul class="u-listBasic">
+<ul class="u-listBasic article-list">
   {{#each pagination.files }}
     <li class="frame {{#if gallery}}knockout{{/if}}" data-item="{{ add 1 @index }}">
       <a class="article" href="/{{ this.slug }}">
-        <header class="container article-header">
+        {{!-- <header class="container article-header"> --}}
           <div class="article-meta">
             <time date-time="{{ date }}" class="article-pubdate">{{ moment date format="MMMM Do, YYYY"}}</time>
             <div class="author">
@@ -13,8 +13,10 @@
               {{/within}}
             </div>
           </div>
-          <h1 class="article-title">{{ this.title }}</h1>
-        </header>
+          <h1 class="article-title">
+          {{ this.title }}
+          </h1>
+        {{!-- </header> --}}
       </a>
     </li>
   {{/each}}

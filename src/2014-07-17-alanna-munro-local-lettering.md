@@ -1,7 +1,7 @@
 ---
 title: 'Alanna Munro: Local Lettering'
 author: rileycran
-template: post.hbt
+template: post.hbs
 ---
 
 My friend here in Vancouver, [Alanna Munro](http://www.alannamunro.com/), has been working on a [really fun project](http://www.locallettering.com/) to preserve the multitude of hand painted apartment signage here in the city. Presumably done by a small selection of lettering artists in the 1940’s–1960’s, these logotypes are abundant in entire neighborhoods of Vancouver, particular the ones with buildings that span back to the early 1920s. Each one seems to have its own quirky flavor and an imprint of its creator, and it would be such a shame to see them gone someday, without being archived.

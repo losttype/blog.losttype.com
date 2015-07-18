@@ -3,7 +3,7 @@ title: Shins poster
 author: rileycran
 fonts: alexis
 category: fonts-in-use
-template: post.hbt
+template: post.hbs
 ---
 
 A gorgeous gig poster by [Benjamin Garner](/web/20121004182558/http://www.benjamingarner.com/), featuring our font [Alexis](http://www.losttype.com/font/?name=alexis).  

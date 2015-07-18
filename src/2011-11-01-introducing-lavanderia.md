@@ -3,7 +3,7 @@ title: Introducing Lavanderia
 author: jamestedmonson
 category: news
 fonts: lavanderia
-template: post.hbt
+template: post.hbs
 ---
 
 > This morning we are proud to introduce Mr. [James T. Edmondson’s](http://work.jamestedmondson.com/) third contribution to Lost Type, and man… it’s a beast.

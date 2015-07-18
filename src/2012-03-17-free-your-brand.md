@@ -3,7 +3,7 @@ title: Free Your Brand
 author: rileycran
 fonts: wisdom script, deming, duke, aldine, pompadour numerals
 category: fonts-in-use
-template: post.hbt
+template: post.hbs
 ---
 
 A few months back [For Print Only](http://www.underconsideration.com/fpo/archives/2011/11/free-your-brand-mailer.php) covered a nice mailer project by [MCM Communications](http://mcmcomm.net/), which features [Wisdom Script](http://www.losttype.com/font/?name=wisdom%20script), [Deming](http://www.losttype.com/font/?name=deming), [Duke](http://www.losttype.com/font/?name=duke), [Aldine Expanded](http://www.losttype.com/font/?name=aldine) and [Pompadour Numerals](http://www.losttype.com/font/?name=pompadour) on a screen-printed box.

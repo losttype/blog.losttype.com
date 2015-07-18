@@ -1,5 +1,5 @@
 ---
-template: about.hbt
+template: about.hbs
 ---
 
 <!-- This page better have a map on it! -->

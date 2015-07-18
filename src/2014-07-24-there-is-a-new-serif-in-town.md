@@ -4,7 +4,7 @@ author: dangneiding
 date: 2014-07-24
 category: news
 fonts: dude, dude hank
-template: post.hbt
+template: post.hbs
 # header: 2014/06/7.jpg
 ---
 

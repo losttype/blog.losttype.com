@@ -17,7 +17,7 @@
     "metalsmith-collections-paginate": {
       "posts": {
         "perPage": 30,
-        "template": "index.hbt",
+        "template": "index.hbs",
         "first": "index.html",
         "path": "page/:num/index.html"
       }
@@ -27,7 +27,7 @@
     "metalsmith-tags": {
       "handle": "fonts",
       "path": "fonts-in-use/:tag/index.html",
-      "template": "tag.hbt",
+      "template": "tag.hbs",
       "sortBy": "date",
       "reverse": true
     },

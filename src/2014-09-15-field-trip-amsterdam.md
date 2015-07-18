@@ -3,7 +3,7 @@ title: Field Trip Amsterdam!
 author: rileycran
 date: 2014-09-15
 category: fieldtripam
-template: post.hbt
+template: post.hbs
 ---
 
 <figure>

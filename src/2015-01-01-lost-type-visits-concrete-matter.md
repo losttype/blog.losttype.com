@@ -2,7 +2,7 @@
 title: Lost Type visits Concrete Matter
 author: danellecheney
 category: fieldtripam
-template: post.hbt
+template: post.hbs
 gallery: true # Change how this is decided
 ---
 
