@@ -7,6 +7,9 @@
   background-color: $gray-darker;
   color: darken($color-background, 5%);
 
+  hr {
+    border-color: darken($color-background, 5%);
+  }
   .article & {
     a {
       text-shadow: 1px 0 0 $gray-darker, -1px 0 0 $gray-darker, 0 0 2px $gray-darker;
