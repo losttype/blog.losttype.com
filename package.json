@@ -58,9 +58,9 @@
     "build-css": "node-sass src/css/index.scss | autoprefixer > build/css/index.css",
     "build": "npm run build-html && npm run build-css",
     "watch-html": "onchange './_templates/*.hbs' './_includes/*.hbs' 'src/**/*.md' 'src/**/*.html' -- npm run build-html",
-    "watch-css": "onchange './src/css/*.scss' -- npm run build-css",
+    "watch-css": "onchange './src/**/*.scss' -- npm run build-css",
     "sync": "browser-sync start --files './build/css/*.css' --server \"build\" --no-open",
-    "start": "npm run build && npm run watch-html & npm run watch-css & npm run sync",
+    "start": "npm run build && npm run watch-css & npm run watch-html & npm run sync",
     "styleguide": "kss-node --source ./src/css --destination ./build/styleguide --css /css/index.css --placeholder=\"\" --homepage README.md",
     "trigger": "node trigger.js"
   }
