@@ -21,3 +21,8 @@
     display: inline;
   }
 }
+
+// Used on the archive page
+tbody {
+  font-feature-settings: "kern" 1, "liga" 0, "calt" 1, "pnum" 0, "tnum" 1, "onum" 1, "lnum" 0, "zero" 0;
+}

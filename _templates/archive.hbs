@@ -1,19 +1,21 @@
 {{> header }}
 
 <div class="container">
-  <ul class="u-listBasic">
+  {{!-- <ul class="u-listBasic"> --}}
+  <ul>
+
     {{#each collections.posts }}
     {{#equal (moment this.date format="YYYY") (moment this.previous.date format="YYYY") }}
-      {{#equal @index 0 }}
-        <li><h2>{{ moment this.date format="YYYY" }}</h2></li>
-      {{/equal }}
+    {{#equal @index 0 }}
+    <li><strong class="tnum">{{ moment this.date format="YYYY" }}</strong></li>
+    {{/equal }}
     {{else}}
-      <li><h2>{{ moment this.date format="YYYY" }}</h2></li>
+    <li><strong class="tnum">{{ moment this.date format="YYYY" }}</strong></li>
     {{/equal}}
-
-      <li data-item="{{ add 1 @index }}">
-        <a href="/{{ this.slug }}">{{ this.title }}</a>
-      </li>
+    <li data-item="{{ add 1 @index }}">
+      <time date-time="{{ date }}" class="article-pubdate tnum">{{ moment date format="YYYY MM DD"}}</time>
+      <a href="/{{ this.slug }}">{{ this.title }}</a>
+    </li>
     {{/each }}
   </ul>
 </div>
