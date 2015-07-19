@@ -1,7 +1,6 @@
 ---
 title: There’s a new serif in town
 author: dangneiding
-date: 2014-07-24
 category: news
 fonts: dude, dude hank
 template: post.hbs
