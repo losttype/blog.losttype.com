@@ -51,10 +51,14 @@ A key landmark in the progress of the Dude family was the Lost Type inaugural Fi
 
 When all was said and done Dude ended up with 12 distinct serif styles, each named after a country music legend. One is called Dolly- for its voluptuous serif implants.
 
-<figure>
-  ![](http://losttype.com/blog/wp-content/uploads/2014/06/2A.jpg)![](http://losttype.com/blog/wp-content/uploads/2014/06/2B.jpg)
-  ![](http://losttype.com/blog/wp-content/uploads/2014/06/31.jpg)![](http://losttype.com/blog/wp-content/uploads/2014/06/4.jpg)
+<figure class="figure--aside">
+  ![](http://losttype.com/blog/wp-content/uploads/2014/06/2A.jpg)
+  ![](http://losttype.com/blog/wp-content/uploads/2014/06/2B.jpg)
   <figcaption>[Photo Credit: Dan Gneiding](http://grayhood.com/) Posing with proofs at the SF Field Trip</ficaption>
+</figure>
+<figure>
+  ![](http://losttype.com/blog/wp-content/uploads/2014/06/31.jpg)
+  ![](http://losttype.com/blog/wp-content/uploads/2014/06/4.jpg)
 </figure>
 
 <figure>
