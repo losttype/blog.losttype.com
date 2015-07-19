@@ -208,11 +208,12 @@ figcaption {
   margin-bottom: -1em * ($fig-line-height / 3);
   width: 100%;
   flex: 1 1 100%;
+  font-family: $font-family-caption;
+  // font-style: italic;
   align-self: flex-end;
   line-height: modular-scale(1);
   font-size: $fig-font-size-sm;
   color: $gray;
-  font-style: italic;
   .article & a,
   a {
     color: darken($gray, 10%);
