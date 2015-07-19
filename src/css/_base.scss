@@ -107,19 +107,6 @@ p {
   margin: 0 0 $base-line-height * 0.5em 0;
 }
 
-// Bold
-//
-// Default bold styles.
-//
-// Markup:
-// <p>Included in our inaugural product lineup are <strong>The Ribbon Specimen Book</strong>, and <strong>The Official Button Kit</strong>.</p>
-//
-// Styleguide: base.bold
-b, strong {
-  font-weight: 500;
-}
-
-
 dt,
 .caps {
   @extend abbr;
