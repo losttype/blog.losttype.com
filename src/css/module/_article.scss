@@ -70,8 +70,37 @@
   //
   // Styleguide: module.article.lead
   & > p:first-of-type {
-    font-size: modular-scale(1);
-    line-height: $base-line-height;
+    @include media($narrow) {
+      font-size: modular-scale(1);
+      line-height: $base-line-height;
+    }
+  }
+  // Editoral intro
+  //
+  // Blockquote classes are applied automatically.
+  // If it gets more complicated than this, we should use
+  // the blockquote helper to apply different classes instead.
+  //
+  // Markup
+  // <div class="container article-contents">
+  //   <blockquote class="blockquote">This morning we are proud to introduce Mr. James T. Edmondson’s third contribution to Lost Type, and man… it’s a beast. A script font in three weights, Lavanderia is an enormously complex font, with hundreds of ligatures and numerous opentype features. James was kind enough to jot down the history of the font, take it away James!</blockquote>
+  //   <p>This is the first paragraph style. We’ve been talking about a Lost Type Official Store for quite some time, and we are proud to announce that our first 2 products are <a href="http://losttype.com/store/">here</a>!</p>
+  // </div>
+  //
+  // Styleguide: module.article.editoral-intro
+  .blockquote:first-child {
+    &:before {
+      content: "";
+    }
+    p:last-child {
+      &:after {
+        content: " —LT";
+        color: $red;
+        @extend .caps;
+        font-style: normal;
+        display: inline;
+      }
+    }
   }
 }
 
