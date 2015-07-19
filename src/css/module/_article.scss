@@ -134,6 +134,7 @@
 
 .article-meta {
   font-size: $font-size-small;
+  font-family: $font-family-caption;
 
   @include media($wide) {
     // Override .container
