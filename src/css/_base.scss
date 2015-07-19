@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1,
 .h1 {
-  font-size: modular-scale(3);
+  font-size: modular-scale(2);
   @include media($narrow) {
     font-size: modular-scale(4);
   }
@@ -74,7 +74,7 @@ h1,
 
 h2,
 .h2 {
-  font-size: modular-scale(2);
+  font-size: modular-scale(1);
   @include media($narrow) {
     font-size: modular-scale(3);
   }
