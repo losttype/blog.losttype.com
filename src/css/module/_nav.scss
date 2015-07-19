@@ -5,6 +5,7 @@
   font-family: $font-family-sans;
   padding-left: $gutter/2;
   padding-right: $gutter/2;
+  @include span-columns(5 of 5);
   @include omega();
   @include media($mid) {
     padding-left: 0;
@@ -15,9 +16,10 @@
     padding-top: $gutter/2;
     @include span-columns(2 of 7);
     @include media($mid) {
-      @include span-columns(1 of 7);
+      @include span-columns(1 of 9);
     }
   }
+
 }
 
 .nav-list {
@@ -26,7 +28,7 @@
   flex-wrap: wrap;
   @include span-columns(5 of 7);
   @include media($mid) {
-    @include span-columns(5 of 7);
+    @include span-columns(6 of 9);
   }
 }
 
