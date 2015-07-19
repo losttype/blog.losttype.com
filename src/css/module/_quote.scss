@@ -39,6 +39,57 @@ blockquote,
   [data-pullquote] + p {
     text-indent: $gutter;
   }
+  &:before {
+    content: "“";
+    font-family: $font-family-sans;
+    speak: none;
+    user-select: none;
+    display: block;
+    cursor: default;
+    color: $gray;
+    transform: translateY(-0.1em); // Align with the top of the text
+    height: 0;
+    overflow: visible;
+    font-weight: 800;
+    top: 0;
+    line-height: 1;
+    margin-left: -1 * modular-scale(-1);
+    font-style: normal;
+    font-size: modular-scale(6);
+  }
+  footer {
+    font-style: normal;
+    font-family: $font-family-sans;
+    font-weight: 400;
+    display: block;
+    margin-left: modular-scale(3);
+    &:before {
+      content: "—";
+    }
+    a {
+      display: block;
+      margin-left: 0.75em; // Aprox. Moriston’s em-dash
+      @include media($mid) {
+        display: inline;
+        margin-left: 0;
+      }
+    }
+    // strong {
+    //   font-style: normal;
+    //   font-weight: 600;
+    //   font-family: @font-family-base;
+    //   display: block;
+    //   &:before {
+    //     content: "\2014";
+    //   }
+    //   a {
+    //     display: block;
+    //     color: lighten(@color-link, 20%);
+    //     margin-left: 1rem; // One rem should equal the width of the em dash
+    //     font-weight: 400;
+    //   }
+    // }
+  }
   @include media($mid) {
     padding-bottom: $base-line-height * 0.5em;
     padding-top: $base-line-height * 0.5em;
@@ -53,15 +104,13 @@ blockquote,
   }
 }
 
-.blockquote--short {
-
-}
-
+.blockquote--short,
 .blockquote--medium {
   @include media($mid) {
     @include shift(1);
     @include span-columns(($mid-col - 2) of ($mid-col));
     @include omega();
+    float: none;
   }
 }
 
