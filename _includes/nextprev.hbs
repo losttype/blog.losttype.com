@@ -20,14 +20,14 @@
     {{#if pagination.previous }}
       <a class="nextprev-item {{ modifier_class }}" href="/{{#if pagination.previous }}{{ pagination.previous.url }}{{else}}{{ previous.slug }}{{/if}}">
         <div class="container nextprev-body {{ modifier_class }}">
-          Newer →
+          <div>Newer →</div>
         </div>
       </a>
     {{else}}
       {{#if previous.slug }}
         <a class="nextprev-item {{ modifier_class }}" href="/{{#if pagination.previous }}{{ pagination.previous.url }}{{else}}{{ previous.slug }}{{/if}}">
           <div class="container nextprev-body {{ modifier_class }}">
-            Newer →
+            <div>Newer →</div>
             <h3 class="article-title">{{ previous.title }}</h3>
             <time date-time="{{ previous.date }}" class="article-pubdate">{{ moment previous.date format="MMMM Do, YYYY"}}</time>
           </div>
