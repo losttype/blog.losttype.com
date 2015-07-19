@@ -4,6 +4,7 @@
 
 $base-font-size: 1.43em;
 $base-line-height: 1.55;
+$base-border-radius: 3px;
 
 // Font sizes
 $font-size-large: modular-scale(1);
@@ -90,4 +91,5 @@ $fig-gutter: $gutter;
 $fig-outer: 0;
 $fig-line-height: $base-line-height;
 $fig-col-width: $column;
-$fig-font-size-sm: 0.65em;
+$fig-font-size: modular-scale(-1);
+$fig-font-size-sm: modular-scale(-2);
