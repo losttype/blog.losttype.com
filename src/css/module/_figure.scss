@@ -148,6 +148,9 @@ figure,
     //
     // Styleguide: figment.children
   }
+  & > a img {
+    border: 0;
+  }
 }
 
 .figure--border {
