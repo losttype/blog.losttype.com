@@ -9,7 +9,7 @@ template: post.hbs
 categories: 
   - Uncategorized
 ---
-We&#8217;re very excited to watch this documentary which accompanies the wonderful [Sign Painters book][1], released recently.
+We’re very excited to watch this documentary which accompanies the wonderful [Sign Painters book][1], released recently.
 
 [SIGN PAINTERS (OFFICIAL TRAILER)][2] from [samuel j macon][3] on [Vimeo][4].
 

@@ -1,5 +1,5 @@
 ---
-title: 'What&#8217;s So Popular About The Powerball Lottery?'
+title: 'What’s So Popular About The Powerball Lottery?'
 author: rileycran
 
 permalink: /2014/01/15/whats-so-popular-about-the-powerball-lottery/
@@ -7,11 +7,11 @@ template: post.hbs
 categories: 
   - Uncategorized
 ---
-You&#8217;ll find people all over the US playing the Powerball lottery.  Some even wrap their lives around when to play, how much, and what numbers they&#8217;ll choose. It&#8217;s become not only an industry but an event of major proportions like a big entertainment venue.
+You’ll find people all over the US playing the Powerball lottery.  Some even wrap their lives around when to play, how much, and what numbers they’ll choose. It’s become not only an industry but an event of major proportions like a big entertainment venue.
 
  
 
-People hold Powerball lottery parties to see if anyone even gets close to the winning numbers. It&#8217;s sort of an excuse to have friends and family get together for the evening and enjoy one another&#8217;s company.  Some people take their Powerball fun to churches and school events like Bingo night.  It&#8217;s all in the name of spending a few dollars and hoping to hit it big in the lottery.
+People hold Powerball lottery parties to see if anyone even gets close to the winning numbers. It’s sort of an excuse to have friends and family get together for the evening and enjoy one another’s company.  Some people take their Powerball fun to churches and school events like Bingo night.  It’s all in the name of spending a few dollars and hoping to hit it big in the lottery.
 
  
 
@@ -41,15 +41,15 @@ When someone wins, they can either cash out, which means two installments or as 
 
  
 
-After each jackpot, the clock turns back to a guaranteed $40 million per contest.  If that contest isn&#8217;t won, an additional $10 million is tacked on.  Winners have to claim the ticket where the ticket was purchased.
+After each jackpot, the clock turns back to a guaranteed $40 million per contest.  If that contest isn’t won, an additional $10 million is tacked on.  Winners have to claim the ticket where the ticket was purchased.
 
  
 
-One other note, you&#8217;ll have to be 18 years or older to play.
+One other note, you’ll have to be 18 years or older to play.
 
  
 
-Overall, the Powerball lottery has become one of the most successful lotteries in history.  There are more fine tuned details in how to play and what goes on behind the scenes regarding earnings but it&#8217;s all good.
+Overall, the Powerball lottery has become one of the most successful lotteries in history.  There are more fine tuned details in how to play and what goes on behind the scenes regarding earnings but it’s all good.
 
  
 

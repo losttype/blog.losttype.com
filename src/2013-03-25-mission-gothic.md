@@ -11,7 +11,7 @@ categories:
 ---
 **HISTORY**
 
-[Mission Gothic][1] began as a one weight, all-caps typeface during Field Trip SF — a trip to San Francisco with the Lost Type designers. As a group, we spent hours wandering the streets of the Mission neighborhood, known for its hand-painted signs. One of the many photographs we took was of a small hanging sign in the storefront of an optician on Valencia Street:
+[Mission Gothic][1] began as a one weight, all-caps typeface during Field Trip SF—a trip to San Francisco with the Lost Type designers. As a group, we spent hours wandering the streets of the Mission neighborhood, known for its hand-painted signs. One of the many photographs we took was of a small hanging sign in the storefront of an optician on Valencia Street:
 
 <img class="blog-image-double" src="/media/2013/03/missiongothicblog1.jpeg" /> <img class="blog-image-double" src="/media/2013/03/missiongothicblog2.jpeg" /> 
 

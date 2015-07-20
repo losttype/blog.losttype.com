@@ -19,5 +19,5 @@ categories:
 
 <p class="p2">
   <p>
-    If you&#8217;re interested in more, this <a href="http://issuu.com/p4live/docs/p4045_catalogue#"><span class="s1">catalogue</span></a> from the 2008 auction of his estate shows the range of his interests and aesthetic language across a lifetime of disciplines: photography, painting, drawing, ceramics, and architecture.
+    If you’re interested in more, this <a href="http://issuu.com/p4live/docs/p4045_catalogue#"><span class="s1">catalogue</span></a> from the 2008 auction of his estate shows the range of his interests and aesthetic language across a lifetime of disciplines: photography, painting, drawing, ceramics, and architecture.
   </p>

@@ -7,7 +7,7 @@ template: post.hbs
 categories: 
   - Uncategorized
 ---
-[55 Hi&#8217;s][1] made excellent use of [Muncie][2] and [Deming][3] in the packaging for [The Ampersand Collection][4], a collection of 10 hand pulled screenprints created by various Designers/Artists.  
+[55 Hi’s][1] made excellent use of [Muncie][2] and [Deming][3] in the packaging for [The Ampersand Collection][4], a collection of 10 hand pulled screenprints created by various Designers/Artists.  
   
 Great to see the Muncie and Deming Ampersands in print.
 

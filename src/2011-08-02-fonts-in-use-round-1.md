@@ -13,9 +13,9 @@ fonts:
   - Highlands
   - Liberator
 ---
-Lost Type&#8217;s fonts are being used every day by some talented folks, in some great designs.  
-Things have moved so fast, it&#8217;s amazing to see these fonts in use just weeks (sometimes hours) after they are launched, in printed posters, logos for relief efforts, and laser cut drinking glasses.  
-We&#8217;re going to start displaying these more often, but here is a selection to get started!
+Lost Type’s fonts are being used every day by some talented folks, in some great designs.  
+Things have moved so fast, it’s amazing to see these fonts in use just weeks (sometimes hours) after they are launched, in printed posters, logos for relief efforts, and laser cut drinking glasses.  
+We’re going to start displaying these more often, but here is a selection to get started!
 
 <figure>
 [![JP Boneyard][1]][2]
@@ -49,7 +49,7 @@ We&#8217;re going to start displaying these more often, but here is a selection 
 
 <figure>
 [![][13]][14]
-<figcaption>Father&#8217;s Day Pilsner Glass &#8211; Rob Quigley (Liberator)</figcaption>
+<figcaption>Father’s Day Pilsner Glass &#8211; Rob Quigley (Liberator)</figcaption>
 </figure>
 
  [1]: http://dribbble.com/system/users/23365/screenshots/191478/pan_mass_june_print.jpg?1309371242

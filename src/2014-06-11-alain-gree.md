@@ -6,14 +6,14 @@ permalink: /2014/06/11/alain-gree/
 thumbnail:
   - /media/2014/06/AlainGree_1.jpg
 template: post.hbs
-categories: 
+categories:
   - Uncategorized
 tags:
   - Illustration
 ---
-I recently discovered the work of the french illustrator Alain Grée (b. 1937). What struck me about his work is his unique combination of the technical — he loves diagramming and dissecting and much of his work features boats, planes, trains or machinery — and the childlike warmth and joy with which he draws.
+I recently discovered the work of the french illustrator Alain Grée (b. 1937). What struck me about his work is his unique combination of the technical—he loves diagramming and dissecting and much of his work features boats, planes, trains or machinery—and the childlike warmth and joy with which he draws.
 
-Grée has illustrated more than 300 children&#8217;s books primarily during the 1960&#8217;s and 70&#8217;s, which were translated into over 20 languages. He also designed more than a dozen board games, and is a passionate sailor (which you can tell from his repetition of boats throughout his work).
+Grée has illustrated more than 300 children’s books primarily during the 1960’s and 70’s, which were translated into over 20 languages. He also designed more than a dozen board games, and is a passionate sailor (which you can tell from his repetition of boats throughout his work).
 
 &nbsp;
 

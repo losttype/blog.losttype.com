@@ -7,7 +7,7 @@ template: post.hbs
 categories: 
   - Uncategorized
 ---
-A couple of kind twitter followers, [Renee Hong][1] and [Matt Scribner][2] sent us some photos from Disneyland&#8217;s ***Cars Land***.
+A couple of kind twitter followers, [Renee Hong][1] and [Matt Scribner][2] sent us some photos from Disneyland’s ***Cars Land***.
 
 I spot Wisdom Script, Outage, Oil Can, and Muncie!
 

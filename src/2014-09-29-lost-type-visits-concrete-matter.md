@@ -9,9 +9,9 @@ template: post.hbs
 categories: 
   - Uncategorized
 ---
-Our time in Amsterdam wouldn&#8217;t be complete without a visit to Lost Type contributor Tim Boelaar&#8217;s store, [Concrete Matter][1]. Tim, along with Tomas and Jacob, opened Concrete Matter as an [online shop][2] in 2012 and the physical location <span style="color: #191a17">on Amsterdam’s Haarlemmerdijk in 2013.</span>
+Our time in Amsterdam wouldn’t be complete without a visit to Lost Type contributor Tim Boelaar’s store, [Concrete Matter][1]. Tim, along with Tomas and Jacob, opened Concrete Matter as an [online shop][2] in 2012 and the physical location <span style="color: #191a17">on Amsterdam’s Haarlemmerdijk in 2013.</span>
 
-Tim, Tomas and Jacob&#8217;s excellent taste manifests in a beautifully curated store: school maps, prints, globes, pins, books, model kits, and memorabilia that is all well-crafted and durable. Many of the products are sold in packaging that looks as though it hasn&#8217;t been updated since the 1940s.
+Tim, Tomas and Jacob’s excellent taste manifests in a beautifully curated store: school maps, prints, globes, pins, books, model kits, and memorabilia that is all well-crafted and durable. Many of the products are sold in packaging that looks as though it hasn’t been updated since the 1940s.
 
 Of course we admired [James Edmondson][3]&#8216;s handiwork on the door, commemorating the store opening on October 3, 2013.
 

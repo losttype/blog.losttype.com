@@ -7,13 +7,13 @@ template: post.hbs
 categories: 
   - Uncategorized
 ---
-[Dustin Wallace][1] is a texas-based Art Director and Designer at [Fossil][2], and American manufacturer of watches and leathergoods. I&#8217;ve always admired the importance that Fossil has placed on the design and packaging of their products, placing many of their retail items inside decorative and functional metal tins, and employing designers in the past such as [Brent Couchman][3] (a good friend of Dustin&#8217;s).
+[Dustin Wallace][1] is a texas-based Art Director and Designer at [Fossil][2], and American manufacturer of watches and leathergoods. I’ve always admired the importance that Fossil has placed on the design and packaging of their products, placing many of their retail items inside decorative and functional metal tins, and employing designers in the past such as [Brent Couchman][3] (a good friend of Dustin’s).
 
 Freelancing on the side, and running a small team of designers at Fossil (which includes [Aaron Eiland][4] and [Jonathan Schubert][5]) Dustin pumps out some amazing work for their in-store signage and packaging, as well as a slew of logos and illustrations for everything from Charities to Softball Leagues.
 
-His use of type feels so genuine, he really manages to get frightfully close to authentic looking vintage packaging. So much so that he&#8217;s been featured on [The Dieline][6] for striking that &#8216;vintage paint can&#8217; chord.
+His use of type feels so genuine, he really manages to get frightfully close to authentic looking vintage packaging. So much so that he’s been featured on [The Dieline][6] for striking that &#8216;vintage paint can’ chord.
 
-I understand Dustin is in the process of remodeling his newly acquired Mid Century home, and I can&#8217;t help but feel his work will be perfectly at home inside it.
+I understand Dustin is in the process of remodeling his newly acquired Mid Century home, and I can’t help but feel his work will be perfectly at home inside it.
 
 More from Dustin [here][7], [here][1] and [here][8].
 

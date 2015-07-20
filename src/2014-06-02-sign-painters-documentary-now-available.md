@@ -9,7 +9,7 @@ template: post.hbs
 categories: 
   - Uncategorized
 ---
-Back in March of 2013 I posted a trailer for a film about Sign Painters, which I have since seen at a screening when it came through town. It&#8217;s a wonderful film, and you can now watch/download it online [here][1]!
+Back in March of 2013 I posted a trailer for a film about Sign Painters, which I have since seen at a screening when it came through town. It’s a wonderful film, and you can now watch/download it online [here][1]!
 
 [Use the coupon code below for $1 off.][1]
 

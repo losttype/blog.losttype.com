@@ -13,7 +13,7 @@ I have a lot of respect and admiration for places that value and care for elemen
 
 One such case is the &#8220;Neon Museum&#8221; I visited recently, where we travel back in time to see the Neon Signs that founded Las Vegas. Marquees that still amaze us today.
 
-Personally I&#8217;m a fan of this type of work where there are lots of &#8220;cowboy&#8221; styles with perfectly placed neon lights and bulbs. Several of them have different timing patterns that generate different effects when you observe them. 
+Personally I’m a fan of this type of work where there are lots of &#8220;cowboy&#8221; styles with perfectly placed neon lights and bulbs. Several of them have different timing patterns that generate different effects when you observe them. 
 
 Signs such as &#8220;Stardust&#8221; to &#8220;Sassy Saly´s&#8221; etc., make us want to travel in a time machine to Freemont Street about 30 or 40 years ago when these neon lights glowed in the desert.
 

@@ -1,5 +1,5 @@
 ---
-title: 'Mary Blair&#8217;s killer color palettes'
+title: 'Mary Blair’s killer color palettes'
 author: Frances MacLeod
 
 permalink: /2014/06/05/mary-blairs-killer-color-palettes/
@@ -9,9 +9,9 @@ template: post.hbs
 categories: 
   - Uncategorized
 ---
-Mary Blair is best known for her illustration and consulting work for the Walt Disney studio. Her modernist, stylized illustrations informed the *It&#8217;s a Small World* ride and park murals, and she drew concept art for several animated features. Regarded highly for her innate sense of color styling, Walt Disney recruited Blair&#8217;s expertise for projects like *Alice in Wonderland*, *Peter Pan*, and *Dumbo.*
+Mary Blair is best known for her illustration and consulting work for the Walt Disney studio. Her modernist, stylized illustrations informed the *It’s a Small World* ride and park murals, and she drew concept art for several animated features. Regarded highly for her innate sense of color styling, Walt Disney recruited Blair’s expertise for projects like *Alice in Wonderland*, *Peter Pan*, and *Dumbo.*
 
-A retrospective of Blair&#8217;s work is on display at the [Walt Disney Family Museum][1] until September 2014.
+A retrospective of Blair’s work is on display at the [Walt Disney Family Museum][1] until September 2014.
 
 <img class="blog-image-full" class="blog-image-full" src="/media/2014/05/LT_MaryBlair_01.jpeg" />  
 <img class="blog-image-full" src="/media/2014/05/LT_MaryBlair_02.jpeg" />  

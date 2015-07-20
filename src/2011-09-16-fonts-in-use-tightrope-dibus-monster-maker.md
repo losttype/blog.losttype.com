@@ -1,5 +1,5 @@
 ---
-title: 'Fonts in Use: Tightrope + Dibu&#8217;s Monster Maker'
+title: 'Fonts in Use: Tightrope + Dibu’s Monster Maker'
 author: rileycran
 
 permalink: /2011/09/16/fonts-in-use-tightrope-dibus-monster-maker/
@@ -9,7 +9,7 @@ categories:
 fonts:
   - Tightrope
 ---
-Alonzo Felix&#8217;s &#8216;Tightrope&#8217; (a part of the Lost Type collection) was used in this iPad app geared towards children.
+Alonzo Felix’s &#8216;Tightrope’ (a part of the Lost Type collection) was used in this iPad app geared towards children.
 
 Way to go Alonzo!
 

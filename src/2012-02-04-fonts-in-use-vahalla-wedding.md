@@ -7,7 +7,7 @@ template: post.hbs
 categories: 
   - Uncategorized
 ---
-Dan from [Vahalla Studios][1] got married, and we&#8217;re pleased to see some Ranger in their fabulous [wedding photos][2]. Congrats!
+Dan from [Vahalla Studios][1] got married, and we’re pleased to see some Ranger in their fabulous [wedding photos][2]. Congrats!
 
 [<img src="/media/2012/02/melissaDan_wedBLOG_070.jpg" alt="" title="melissaDan_wedBLOG_070"   class="alignnone size-full wp-image-425" />][3]
 

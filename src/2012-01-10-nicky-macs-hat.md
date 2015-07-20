@@ -1,5 +1,5 @@
 ---
-title: 'Nick Mac&#8217;s Hat'
+title: 'Nick Mac’s Hat'
 author: rileycran
 
 permalink: /2012/01/10/nicky-macs-hat/
@@ -7,7 +7,7 @@ template: post.hbs
 categories: 
   - Uncategorized
 ---
-Our Australian contributor and friend [Nick McCosker][1] (creator of [Carton][2], and part of the trio Tiple Type, creators of [Quaver][3]) has installed a Lost Type button on his hat. Lookin&#8217; good, Nick.
+Our Australian contributor and friend [Nick McCosker][1] (creator of [Carton][2], and part of the trio Tiple Type, creators of [Quaver][3]) has installed a Lost Type button on his hat. Lookin’ good, Nick.
 
 Get yourself an Official Button Kit [here][4]!  
   

@@ -13,7 +13,7 @@ Our buddy (and early contributor) [Mike Fortress][1] has create a letraset of hi
 
 Check it out [here][3], and wear your Deming with pride! (pics via [Tattly][3])
 
-(Also, keep an eye out for [Evan Huwa&#8217;s Ranger Tattoo][4] as well!)
+(Also, keep an eye out for [Evan Huwa’s Ranger Tattoo][4] as well!)
 
 <figure>
 [<img class="alignnone size-full wp-image-82" title="deming_web_set_grande" src="/media/2011/08/deming_web_set_grande.jpg" alt="" />][5]

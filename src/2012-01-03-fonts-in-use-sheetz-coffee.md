@@ -7,7 +7,7 @@ template: post.hbs
 categories: 
   - Uncategorized
 ---
-We&#8217;ve received a lot of tips over the last few months, that [Sheetz][1] (a national chain in the USA) is using [Homestead][2] and [Wisdom Script][3] in their coffee stands, and touch screen interfaces. Nice one!
+We’ve received a lot of tips over the last few months, that [Sheetz][1] (a national chain in the USA) is using [Homestead][2] and [Wisdom Script][3] in their coffee stands, and touch screen interfaces. Nice one!
 
 [<img src="/media/2012/01/sheetz.png" alt="" title="sheetz"  class="alignnone size-full wp-image-358" />][4]
 

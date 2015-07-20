@@ -9,7 +9,7 @@ template: post.hbs
 categories: 
   - Uncategorized
 ---
-Turn on your google translate and saddle up to the Museum of Printing in Lyon&#8217;s impressive [online archive][1]. Featuring dense cataloguing and sortable by time period, publishers, and font names, this collection of specimens is filled with treasures. Below are a few of my favorites from the Belle Époque (1890-1918), but there are plenty more to filter through!
+Turn on your google translate and saddle up to the Museum of Printing in Lyon’s impressive [online archive][1]. Featuring dense cataloguing and sortable by time period, publishers, and font names, this collection of specimens is filled with treasures. Below are a few of my favorites from the Belle Époque (1890-1918), but there are plenty more to filter through!
 
 <img class="blog-image-full" src="/media/2014/07/LT_Lyon05.jpg" alt="" />
 

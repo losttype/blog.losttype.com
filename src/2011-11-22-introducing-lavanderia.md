@@ -7,24 +7,24 @@ template: post.hbs
 categories: 
   - Uncategorized
 ---
-*This morning we are proud to introduce Mr. [James T. Edmondson&#8217;s][1] third contribution to Lost Type, and man&#8230; it&#8217;s a beast.  
+*This morning we are proud to introduce Mr. [James T. Edmondson’s][1] third contribution to Lost Type, and man&#8230; it’s a beast.  
 A script font in three weights, [Lavanderia][2] is an enormously complex font, with hundreds of ligatures and numerous opentype features.  
 James was kind enough to jot down the history of the font, take it away James!  
 *
 
-I&#8217;ve always thought of laundromats as some of the saddest places in the world, but after spending a lot of time in them since moving to San Francisco four years ago, I&#8217;ve found they have two things going for them: 1) they smell great, and 2) there is the occasional bit of dope lettering. 
+I’ve always thought of laundromats as some of the saddest places in the world, but after spending a lot of time in them since moving to San Francisco four years ago, I’ve found they have two things going for them: 1) they smell great, and 2) there is the occasional bit of dope lettering. 
 
 [<img src="/media/2011/11/Bienvenidos.jpg" alt="" title="Bienvenidos" class="alignnone size-full wp-image-288" />][3]
 
-Laundry is an incredibly tedious task—the antithesis of glamour, so I have massive appreciation for the guy that decided to letter the window with a script that captures all the essence of what a laundromat lacks. Excitement, passion, love. It&#8217;s all in that script.
+Laundry is an incredibly tedious task—the antithesis of glamour, so I have massive appreciation for the guy that decided to letter the window with a script that captures all the essence of what a laundromat lacks. Excitement, passion, love. It’s all in that script.
 
 How nice it is to create something beautiful, where boring, stagnant lettering would have easily sufficed! My latest typeface Lavanderia is a celebration and a tribute to the enthusiasm that influences those who go above and beyond to create beauty where there is none.
 
-Inspiration came for San Francisco&#8217;s Mission District, a vibrant and at times foul smelling part of town, rich with dive bars, taquerias, and unemployed twenty-somethings who look extremely creative but actually do very little. It&#8217;s a magical place.
+Inspiration came for San Francisco’s Mission District, a vibrant and at times foul smelling part of town, rich with dive bars, taquerias, and unemployed twenty-somethings who look extremely creative but actually do very little. It’s a magical place.
 
 [<img src="/media/2011/11/la_rondalla.jpg" alt="" title="la_rondalla" class="alignnone size-full wp-image-286" />][4]
 
-The Mission is famous for it&#8217;s signage. Even after living in the city for years, I&#8217;m still finding amazing things I haven&#8217;t seen before, from charmingly amaturish painted letterforms, to expertly crafted gold leaf. 
+The Mission is famous for it’s signage. Even after living in the city for years, I’m still finding amazing things I haven’t seen before, from charmingly amaturish painted letterforms, to expertly crafted gold leaf. 
 
 [<img src="/media/2011/11/uppercase_sketch.jpg" alt="" title="uppercase_sketch" class="alignnone size-full wp-image-283" />][5]
 
@@ -42,11 +42,11 @@ Contextual alternates on the e, k, r, a, and y provide elaborate finishes for a 
 
 [<img src="/media/2011/11/contextual_alternates.png" alt="" title="contextual_alternates" class="alignnone size-full wp-image-287" />][8]
 
-In a similar fashion, swashes on the p, y, g, j, d, n, m, l, and t make a party out of descenders, ascenders, or crossbars. But don&#8217;t overdo it like I did here. See how nasty that looks?
+In a similar fashion, swashes on the p, y, g, j, d, n, m, l, and t make a party out of descenders, ascenders, or crossbars. But don’t overdo it like I did here. See how nasty that looks?
 
 [<img src="/media/2011/11/swash_alternates.png" alt="" title="swash_alternates" class="alignnone size-full wp-image-284" />][9]
 
-I&#8217;ve enjoyed working on Lavanderia immensely, nonetheless I&#8217;m happy to be moving on to other type projects as this has been eating up a good amount of time! The fonts are not perfect, and if you spot any bugs, please let me know so we can update the files. It&#8217;s difficult to test fonts thoroughly. That is something I am working on. Please let me know (via twitter or email) if you use Lavanderia on anything, I&#8217;d be thrilled to see it!
+I’ve enjoyed working on Lavanderia immensely, nonetheless I’m happy to be moving on to other type projects as this has been eating up a good amount of time! The fonts are not perfect, and if you spot any bugs, please let me know so we can update the files. It’s difficult to test fonts thoroughly. That is something I am working on. Please let me know (via twitter or email) if you use Lavanderia on anything, I’d be thrilled to see it!
 
  [1]: http://work.jamestedmondson.com/
  [2]: http://www.losttype.com/font/?name=lavanderia

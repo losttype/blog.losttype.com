@@ -1,5 +1,5 @@
 ---
-title: 'Fonts in Use: Lucky&#8217;s Doughnuts'
+title: 'Fonts in Use: Lucky’s Doughnuts'
 author: rileycran
 
 permalink: /2012/06/15/fonts-in-use-luckys-doughnuts/

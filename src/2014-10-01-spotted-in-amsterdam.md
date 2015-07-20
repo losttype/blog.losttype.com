@@ -9,7 +9,7 @@ template: post.hbs
 categories:
   - Uncategorized
 ---
-My favorite part of Field Trip Amsterdam was walking the city and spotting signage, prints, door markers, gable stones, engravings, etc. It&#8217;s truly a beautiful city, and we discovered something new each time we ventured out to explore.
+My favorite part of Field Trip Amsterdam was walking the city and spotting signage, prints, door markers, gable stones, engravings, etc. It’s truly a beautiful city, and we discovered something new each time we ventured out to explore.
 
 In addition to seeing the wonderful historical examples, it was exciting to spot Lost Type fonts in use around the city, and even on products we picked up from the grocery store. Below, a few of our sightings in Amsterdam:
 

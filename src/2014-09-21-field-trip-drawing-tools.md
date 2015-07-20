@@ -9,7 +9,7 @@ template: post.hbs
 categories: 
   - Uncategorized
 ---
-The paper-covered drawing table is a fixture on Lost Type field trips. This year, we made sure to place a hefty order from JetPens ahead of time so we&#8217;d be set for the week. Below are links to a few of our favorites:
+The paper-covered drawing table is a fixture on Lost Type field trips. This year, we made sure to place a hefty order from JetPens ahead of time so we’d be set for the week. Below are links to a few of our favorites:
 
 <img class="blog-image-full-margin" src="/media/2014/09/Photo-1820-01.png" />
 

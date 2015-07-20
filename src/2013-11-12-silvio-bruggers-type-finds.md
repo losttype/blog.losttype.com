@@ -1,5 +1,5 @@
 ---
-title: 'Silvio Brügger&#8217;s Type Finds'
+title: 'Silvio Brügger’s Type Finds'
 author: rileycran
 
 permalink: /2013/11/12/silvio-bruggers-type-finds/
@@ -9,9 +9,9 @@ template: post.hbs
 categories: 
   - Uncategorized
 ---
-I recently noticed lots of beautiful vintage type finds on [Silvio Brügger&#8217;s instagram feed][1]. 
+I recently noticed lots of beautiful vintage type finds on [Silvio Brügger’s instagram feed][1]. 
 
-I&#8217;ve been speaking with Silvio, sounds like he has more to share with us soon! 
+I’ve been speaking with Silvio, sounds like he has more to share with us soon! 
 
 <img class="blog-image-double" src="/media/2013/11/1.jpg" /> <img class="blog-image-double" src="/media/2013/11/2.jpg" />
 

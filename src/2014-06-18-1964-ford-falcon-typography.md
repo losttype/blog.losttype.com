@@ -9,7 +9,7 @@ template: post.hbs
 categories: 
   - Uncategorized
 ---
-I just recently purchased a new car, a 1964 Ford Falcon. After owning the car for a short time now, I&#8217;ve noticed lots of cool little typographical nuggets in and outside of this awesome new old ride. Here are some shots I took of all of the cool stuff we found.
+I just recently purchased a new car, a 1964 Ford Falcon. After owning the car for a short time now, I’ve noticed lots of cool little typographical nuggets in and outside of this awesome new old ride. Here are some shots I took of all of the cool stuff we found.
 
 I love that Ford put enough thought into designing this car that they used three different styles of sans for &#8220;Falcon&#8221;.
 
@@ -66,5 +66,5 @@ I love that Ford put enough thought into designing this car that they used three
 <img class="blog-image-double" src="/media/2014/06/ford_10.jpg" alt="" /><img class="blog-image-double" src="/media/2014/06/ford_11.jpg" alt="" />
 
 <div class="img-caption">
-  And as if that wasn&#8217;t enough, the right headlight has the GE logotype on it. <a class="photo-credit" href="http://cadecran.com/">Photo Credit: Cade Cran</a>
+  And as if that wasn’t enough, the right headlight has the GE logotype on it. <a class="photo-credit" href="http://cadecran.com/">Photo Credit: Cade Cran</a>
 </div>

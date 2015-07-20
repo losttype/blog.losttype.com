@@ -49,11 +49,11 @@ DG: There is a border set included in the download as a vector .eps. I love when
 
 **LT: The Ribbon Specimen Book is the first printed piece for Lost Type, how did that project come about?**
 
-DG: As legend has it Alonzo (designer of Lost Type&#8217;s amazing Tightrope font) and I had the same idea on the same day. We both emailed Riley separately and he was very supportive. The friendly competition of knowing Alonzo was also thinking about a book really lit the fire under me to make this book a reality.
+DG: As legend has it Alonzo (designer of Lost Type’s amazing Tightrope font) and I had the same idea on the same day. We both emailed Riley separately and he was very supportive. The friendly competition of knowing Alonzo was also thinking about a book really lit the fire under me to make this book a reality.
 
 **LT: What was the logic behind the pricing?**
 
-DG: We did not want to mess with the &#8216;pay what you want&#8217; model of the site, but obviously needed to cover the cost of production and shipping. So this sort of kickstarter-like reward system seemed like a good way to achieve that. You can still get the face for any price you desire but if you chip in $30 you get the book sent to you, shipping is on us.
+DG: We did not want to mess with the &#8216;pay what you want’ model of the site, but obviously needed to cover the cost of production and shipping. So this sort of kickstarter-like reward system seemed like a good way to achieve that. You can still get the face for any price you desire but if you chip in $30 you get the book sent to you, shipping is on us.
 
 **LT: The book is a collaborative piece with many designers contributing spreads. Why did you go this route as apposed to designing the whole thing yourself?**
 
