@@ -4,7 +4,7 @@ author: Riley Cran
 
 permalink: /2014/09/21/address-numerals-of-copenhagen/
 thumbnail:
-  - http://losttype.com/blog/wp-content/uploads/2014/09/4.jpg
+  - /media/2014/09/4.jpg
 template: post.hbs
 categories: 
   - Uncategorized
@@ -17,16 +17,16 @@ I regularly stop to look at address numerals back at home, so I found myself kee
 
 Below are a selection of them that I stopped to photograph while we were exploring the city!
 
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/09/2.jpg" />
+<img class="blog-image-full-margin" src="/media/2014/09/2.jpg" />
 
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/09/3.jpg" />
+<img class="blog-image-full-margin" src="/media/2014/09/3.jpg" />
 
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/09/4.jpg" />
+<img class="blog-image-full-margin" src="/media/2014/09/4.jpg" />
 
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/09/5.jpg" />
+<img class="blog-image-full-margin" src="/media/2014/09/5.jpg" />
 
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/09/1.jpg" />
+<img class="blog-image-full-margin" src="/media/2014/09/1.jpg" />
 
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/09/6.jpg" />
+<img class="blog-image-full-margin" src="/media/2014/09/6.jpg" />
 
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/09/7.jpg" />
+<img class="blog-image-full-margin" src="/media/2014/09/7.jpg" />

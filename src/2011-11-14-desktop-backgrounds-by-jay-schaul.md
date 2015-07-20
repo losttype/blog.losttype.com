@@ -11,7 +11,7 @@ Back when we initially launched, we asked our buddy [Jay Schaul][1] to draw up s
 Download the complete set [here][2].
 
 <figure class="figure-breakout">
-[<img src="http://losttype.com/blog/wp-content/uploads/2011/11/ltbg1.png" alt="" title="ltbg1" class="alignnone size-full wp-image-219" />][3]
+[<img src="/media/2011/11/ltbg1.png" alt="" title="ltbg1" class="alignnone size-full wp-image-219" />][3]
 </figure>
 
  [1]: http://www.jayschaul.com/

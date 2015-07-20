@@ -4,7 +4,7 @@ author: Riley Cran
 
 permalink: /2014/06/11/making-of-the-manicule-animation/
 thumbnail:
-  - http://losttype.com/blog/wp-content/uploads/2014/06/cade_cran_manicules_1.jpg
+  - /media/2014/06/cade_cran_manicules_1.jpg
 template: post.hbs
 categories: 
   - Uncategorized
@@ -17,7 +17,7 @@ Although I watched 4 separate people around the world send in progress and work 
 
 It began with lettering artist [Matthew Tapia][4], who sketched the &#8216;Bang&#8217; catchword for Hank Pro from his office in Hawaii, using a 2H pencil. He then vectorized the lettering and it was included in the catchwords font in Hank Pro, along with many others (that I will be blogging about soon).
 
-<img class="blog-image-full" src="http://losttype.com/blog/wp-content/uploads/2014/06/matthew_tapia_bang_Sketch.jpg" />
+<img class="blog-image-full" src="/media/2014/06/matthew_tapia_bang_Sketch.jpg" />
 
 <div class="img-caption">
   Matthew&#8217;s Sketch for the &#8216;Bang&#8217; Catchword <a href="http://matthewtapia.tumblr.com/" class="photo-credit">Design Credit: Matthew Tapia</a>
@@ -25,7 +25,7 @@ It began with lettering artist [Matthew Tapia][4], who sketched the &#8216;Bang&
 
 Next, [Dan Gneiding][5] and I decided that Hank Pro should also include a series of glyphs called &#8216;Manicules&#8217;, also known as an &#8216;[indexes][6]&#8216;, to fit with the cowboy-esque wild west theme that the reverse contrast style always gives off. 
 
-<img class="blog-image-full" src="http://losttype.com/blog/wp-content/uploads/2014/06/dan_gneiding_manicule_sketches.jpg" />
+<img class="blog-image-full" src="/media/2014/06/dan_gneiding_manicule_sketches.jpg" />
 
 <div class="img-caption">
   Dan&#8217;s original sketches for the &#8216;pointing hand&#8217; traditional manicule. <a href="http://grayhood.com/" class="photo-credit">Design Credit: Dan Gneiding</a>
@@ -33,7 +33,7 @@ Next, [Dan Gneiding][5] and I decided that Hank Pro should also include a series
 
 Next we enlisted my talented Cousin, designer and illustrator [Cade Cran][7], to draw up a series which eventually totaled 14 drawings. He began by photographing my hand (I&#8217;m a hand model now) with a direct light source, and then sketching iterations, stylizing and revising as he went. These were eventually scanned and vectorized.
 
-<img class="blog-image-double" src="http://losttype.com/blog/wp-content/uploads/2014/06/cade_cran_manicules_1.jpg" /> <img class="blog-image-double" src="http://losttype.com/blog/wp-content/uploads/2014/06/cade_cran_manicules_2.jpg" />
+<img class="blog-image-double" src="/media/2014/06/cade_cran_manicules_1.jpg" /> <img class="blog-image-double" src="/media/2014/06/cade_cran_manicules_2.jpg" />
 
 <div class="img-caption">
   Cade sketching the Manicules. <a href="http://cadecran.com/" class="photo-credit">Design Credit: Cade Cran</a>

@@ -4,7 +4,7 @@ author: Danelle Cheney
 
 permalink: /2014/09/29/lost-type-visits-concrete-matter/
 thumbnail:
-  - http://losttype.com/blog/wp-content/uploads/2014/09/2014-09-22-14.55.29-1.jpg
+  - /media/2014/09/2014-09-22-14.55.29-1.jpg
 template: post.hbs
 categories: 
   - Uncategorized
@@ -19,17 +19,17 @@ Visit Concrete Matter for one-of-a-kind gifts and goods (for yourself and others
 
 [<span style="color: #191a17">Haarlemmerdijk 127, 1013 KE, Amsterdam<br /> </span>][4]<span style="color: #191a17">Hours: Mon 13–18; </span><span style="color: #191a17">Tues–Sat 10–18; Sun 12–17</span>
 
-<img class="blog-image-double" src="http://losttype.com/blog/wp-content/uploads/2014/09/10631960_440908216050421_1750052278_n.jpg" /><img class="blog-image-double" src="http://losttype.com/blog/wp-content/uploads/2014/09/10691725_715163155225286_557123074_n.jpg" />
+<img class="blog-image-double" src="/media/2014/09/10631960_440908216050421_1750052278_n.jpg" /><img class="blog-image-double" src="/media/2014/09/10691725_715163155225286_557123074_n.jpg" />
 
 <div class="img-caption">
   Exterior and Interior of Concrete Matter <a href="http://www.concrete-matter.com/" class="photo-credit"></a>
 </div>
 
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/09/2014-09-22-14.55.29-1.jpg" />
+<img class="blog-image-full-margin" src="/media/2014/09/2014-09-22-14.55.29-1.jpg" />
 
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/09/Photo-Sep-22-14-33-04.jpg" />
+<img class="blog-image-full-margin" src="/media/2014/09/Photo-Sep-22-14-33-04.jpg" />
 
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/09/Photo-Sep-22-14-23-02-e1411579436548.jpg" />
+<img class="blog-image-full-margin" src="/media/2014/09/Photo-Sep-22-14-23-02-e1411579436548.jpg" />
 
  [1]: http://www.concrete-matter.com
  [2]: http://www.concrete-matter.com/collections/store

@@ -14,27 +14,27 @@ In an effort to study these artifacts in more detail and practice drawing letter
 Below you’ll find some samples of the source material, and Alanna’s recreations. Be sure to check out the [blog](http://www.locallettering.com/)!
 
 <figure class="figure--aside">
-![](http://losttype.com/blog/wp-content/uploads/2014/07/the-aberdare.png)
+![](/media/2014/07/the-aberdare.png)
 <figcaption>The most recent addition, The Aberdare. [Design Credit: Alanna Munro](http://alannamunro.com/)</figcaption>
 </figure>
 
 <figure class="figure--aside">
-![](http://losttype.com/blog/wp-content/uploads/2014/07/marions-manor-context.jpg)
+![](/media/2014/07/marions-manor-context.jpg)
 <figcaption>Original Source Material [Photo Credit: Alanna Munro](http://alannamunro.com/)</figcaption>
 </figure>
 
 <figure class="figure--aside">
-![](http://losttype.com/blog/wp-content/uploads/2014/07/marions-manor.png)
+![](/media/2014/07/marions-manor.png)
 <figcaption>Alanna’s recreation, preserving the quirky drifting slant. [Design Credit: Alanna Munro](http://alannamunro.com/)</figcaption>
 </figure>
 
 <figure class="figure--aside">
-![](http://losttype.com/blog/wp-content/uploads/2014/07/the-aberdare-study.png)![](http://losttype
+![](/media/2014/07/the-aberdare-study.png)![](http://losttype
   com/blog/wp-content/uploads/2014/07/marions-manor-study.png)
 <figcaption>Charts to point out particular characteristics. [Design Credit: Alanna Munro](http://moorewoodtype.com/)</figcaption>
 </figure>
 
 <figure class="figure--aside">
-![](http://losttype.com/blog/wp-content/uploads/2014/07/local_letter_alanna_munro_map.jpg)
+![](/media/2014/07/local_letter_alanna_munro_map.jpg)
 <figcaption>The interactive map. [Design Credit: Alanna Munro](http://alannamunro.com/)</figcaption>
 </figure>

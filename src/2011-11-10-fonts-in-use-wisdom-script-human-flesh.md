@@ -12,9 +12,9 @@ categories:
 > Gpoy tattoo edition. CMYK in Wisdom Script from Lost Type and the ampersand in Caslon 540 italic.
 
 <figure>
-[<img src="http://losttype.com/blog/wp-content/uploads/2011/11/tumblr_luf2rnu5aq1qzw1bio1_1280.png" alt="" title="tumblr_luf2rnu5aq1qzw1bio1_1280"  class="alignnone size-full wp-image-213" />][3]
+[<img src="/media/2011/11/tumblr_luf2rnu5aq1qzw1bio1_1280.png" alt="" title="tumblr_luf2rnu5aq1qzw1bio1_1280"  class="alignnone size-full wp-image-213" />][3]
 </figure>
 
  [1]: http://drewwallace.tumblr.com/post/12574400910/gpoy-tattoo-edition-cmyk-in-wisdom-script-from
  [2]: http://www.losttype.com/font/?name=wisdom%20script
- [3]: http://losttype.com/blog/wp-content/uploads/2011/11/tumblr_luf2rnu5aq1qzw1bio1_1280.png
+ [3]: /media/2011/11/tumblr_luf2rnu5aq1qzw1bio1_1280.png

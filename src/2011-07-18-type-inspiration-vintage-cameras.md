@@ -19,29 +19,29 @@ Taking pictures with these monstrosities was a complex process that required the
 
 Here is a small sampling of some typographic gems from my collection. I hope you find them as inspiring as I do.
 
-[<img src="http://losttype.com/blog/wp-content/uploads/2011/07/LT-camera-1.jpg" alt="" title="LT-camera-1" class="alignnone size-full wp-image-39" />][2]  
-[<img src="http://losttype.com/blog/wp-content/uploads/2011/07/LT-camera-2.jpg" alt="" title="LT-camera-2" class="alignnone size-full wp-image-40" />][3]  
-[<img src="http://losttype.com/blog/wp-content/uploads/2011/07/LT-camera-3.jpg" alt="" title="LT-camera-3" class="alignnone size-full wp-image-41" />][4]  
-[<img src="http://losttype.com/blog/wp-content/uploads/2011/07/LT-camera-4.jpg" alt="" title="LT-camera-4" class="alignnone size-full wp-image-42" />][5]  
-[<img src="http://losttype.com/blog/wp-content/uploads/2011/07/LT-camera-5.jpg" alt="" title="LT-camera-5" class="alignnone size-full wp-image-43" />][6]  
-[<img src="http://losttype.com/blog/wp-content/uploads/2011/07/LT-camera-6.jpg" alt="" title="LT-camera-6" class="alignnone size-full wp-image-44" />][7]  
-[<img src="http://losttype.com/blog/wp-content/uploads/2011/07/LT-camera-7.jpg" alt="" title="LT-camera-7" class="alignnone size-full wp-image-45" />][8]  
-[<img src="http://losttype.com/blog/wp-content/uploads/2011/07/LT-camera-8.jpg" alt="" title="LT-camera-8" class="alignnone size-full wp-image-46" />][9]  
-[<img src="http://losttype.com/blog/wp-content/uploads/2011/07/LT-camera-9.jpg" alt="" title="LT-camera-9" class="alignnone size-full wp-image-47" />][10]  
-[<img src="http://losttype.com/blog/wp-content/uploads/2011/07/LT-camera-10.jpg" alt="" title="LT-camera-10" class="alignnone size-full wp-image-48" />][11]  
-[<img src="http://losttype.com/blog/wp-content/uploads/2011/07/LT-camera-11.jpg" alt="" title="LT-camera-11" class="alignnone size-full wp-image-49" />][12]  
-[<img src="http://losttype.com/blog/wp-content/uploads/2011/07/LT-camera-12.jpg" alt="" title="LT-camera-12" class="alignnone size-full wp-image-50" />][13]
+[<img src="/media/2011/07/LT-camera-1.jpg" alt="" title="LT-camera-1" class="alignnone size-full wp-image-39" />][2]  
+[<img src="/media/2011/07/LT-camera-2.jpg" alt="" title="LT-camera-2" class="alignnone size-full wp-image-40" />][3]  
+[<img src="/media/2011/07/LT-camera-3.jpg" alt="" title="LT-camera-3" class="alignnone size-full wp-image-41" />][4]  
+[<img src="/media/2011/07/LT-camera-4.jpg" alt="" title="LT-camera-4" class="alignnone size-full wp-image-42" />][5]  
+[<img src="/media/2011/07/LT-camera-5.jpg" alt="" title="LT-camera-5" class="alignnone size-full wp-image-43" />][6]  
+[<img src="/media/2011/07/LT-camera-6.jpg" alt="" title="LT-camera-6" class="alignnone size-full wp-image-44" />][7]  
+[<img src="/media/2011/07/LT-camera-7.jpg" alt="" title="LT-camera-7" class="alignnone size-full wp-image-45" />][8]  
+[<img src="/media/2011/07/LT-camera-8.jpg" alt="" title="LT-camera-8" class="alignnone size-full wp-image-46" />][9]  
+[<img src="/media/2011/07/LT-camera-9.jpg" alt="" title="LT-camera-9" class="alignnone size-full wp-image-47" />][10]  
+[<img src="/media/2011/07/LT-camera-10.jpg" alt="" title="LT-camera-10" class="alignnone size-full wp-image-48" />][11]  
+[<img src="/media/2011/07/LT-camera-11.jpg" alt="" title="LT-camera-11" class="alignnone size-full wp-image-49" />][12]  
+[<img src="/media/2011/07/LT-camera-12.jpg" alt="" title="LT-camera-12" class="alignnone size-full wp-image-50" />][13]
 
  [1]: http://jonashcroft.com
- [2]: http://losttype.com/blog/wp-content/uploads/2011/07/LT-camera-1.jpg
- [3]: http://losttype.com/blog/wp-content/uploads/2011/07/LT-camera-2.jpg
- [4]: http://losttype.com/blog/wp-content/uploads/2011/07/LT-camera-3.jpg
- [5]: http://losttype.com/blog/wp-content/uploads/2011/07/LT-camera-4.jpg
- [6]: http://losttype.com/blog/wp-content/uploads/2011/07/LT-camera-5.jpg
- [7]: http://losttype.com/blog/wp-content/uploads/2011/07/LT-camera-6.jpg
- [8]: http://losttype.com/blog/wp-content/uploads/2011/07/LT-camera-7.jpg
- [9]: http://losttype.com/blog/wp-content/uploads/2011/07/LT-camera-8.jpg
- [10]: http://losttype.com/blog/wp-content/uploads/2011/07/LT-camera-9.jpg
- [11]: http://losttype.com/blog/wp-content/uploads/2011/07/LT-camera-10.jpg
- [12]: http://losttype.com/blog/wp-content/uploads/2011/07/LT-camera-11.jpg
- [13]: http://losttype.com/blog/wp-content/uploads/2011/07/LT-camera-12.jpg
+ [2]: /media/2011/07/LT-camera-1.jpg
+ [3]: /media/2011/07/LT-camera-2.jpg
+ [4]: /media/2011/07/LT-camera-3.jpg
+ [5]: /media/2011/07/LT-camera-4.jpg
+ [6]: /media/2011/07/LT-camera-5.jpg
+ [7]: /media/2011/07/LT-camera-6.jpg
+ [8]: /media/2011/07/LT-camera-7.jpg
+ [9]: /media/2011/07/LT-camera-8.jpg
+ [10]: /media/2011/07/LT-camera-9.jpg
+ [11]: /media/2011/07/LT-camera-10.jpg
+ [12]: /media/2011/07/LT-camera-11.jpg
+ [13]: /media/2011/07/LT-camera-12.jpg

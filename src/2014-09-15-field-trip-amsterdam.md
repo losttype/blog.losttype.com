@@ -6,7 +6,7 @@ template: post.hbs
 ---
 
 <figure>
-![](http://losttype.com/blog/wp-content/uploads/2014/09/amsterdam_post.png)
+![](/media/2014/09/amsterdam_post.png)
 </figure>
 
 We are very excited to be traveling to Amsterdam for our third Field Trip.

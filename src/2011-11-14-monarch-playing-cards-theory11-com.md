@@ -17,4 +17,4 @@ We are proud to see some (modified) [Duke][1] being used at the very end of this
  [2]: http://www.theory11.com/playingcards/monarchs.php
  [3]: http://www.cjinkins.com/
  [4]: http://cdn.theory11.com/images/640x360/monarchs/Monarch-Playing-Cards-19.jpg
- [5]: http://losttype.com/blog/wp-content/uploads/2011/11/Screen-shot-2011-11-13-at-11.58.10-PM.png
+ [5]: /media/2011/11/Screen-shot-2011-11-13-at-11.58.10-PM.png

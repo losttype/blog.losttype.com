@@ -17,21 +17,21 @@ I understand Dustin is in the process of remodeling his newly acquired Mid Centu
 
 More from Dustin [here][7], [here][1] and [here][8].
 
-[<img src="http://losttype.com/blog/wp-content/uploads/2012/03/12.jpg"  />][1]
+[<img src="/media/2012/03/12.jpg"  />][1]
 
-[<img src="http://losttype.com/blog/wp-content/uploads/2012/03/dustin1.jpg"  />][1]
+[<img src="/media/2012/03/dustin1.jpg"  />][1]
 
-[<img src="http://losttype.com/blog/wp-content/uploads/2012/03/dustin2.jpg"  />][1]
+[<img src="/media/2012/03/dustin2.jpg"  />][1]
 
-[<img src="http://losttype.com/blog/wp-content/uploads/2012/03/dustin3.jpg"  />][1]
+[<img src="/media/2012/03/dustin3.jpg"  />][1]
 
-[<img src="http://losttype.com/blog/wp-content/uploads/2012/03/dustin4.jpg"  />][1]
+[<img src="/media/2012/03/dustin4.jpg"  />][1]
 
-[<img src="http://losttype.com/blog/wp-content/uploads/2012/03/dustin5.jpg"  />][1]
+[<img src="/media/2012/03/dustin5.jpg"  />][1]
 
-[<img src="http://losttype.com/blog/wp-content/uploads/2012/03/dustin6.jpg"  />][1]
+[<img src="/media/2012/03/dustin6.jpg"  />][1]
 
-[<img src="http://losttype.com/blog/wp-content/uploads/2012/03/dustin7.jpg"  />][1]
+[<img src="/media/2012/03/dustin7.jpg"  />][1]
 
  [1]: http://www.wallacedesignhouse.com/
  [2]: http://www.fossil.com

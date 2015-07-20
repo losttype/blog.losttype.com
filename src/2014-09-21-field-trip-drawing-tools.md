@@ -4,14 +4,14 @@ author: Frances MacLeod
 
 permalink: /2014/09/21/field-trip-drawing-tools/
 thumbnail:
-  - http://losttype.com/blog/wp-content/uploads/2014/09/pens.jpg
+  - /media/2014/09/pens.jpg
 template: post.hbs
 categories: 
   - Uncategorized
 ---
 The paper-covered drawing table is a fixture on Lost Type field trips. This year, we made sure to place a hefty order from JetPens ahead of time so we&#8217;d be set for the week. Below are links to a few of our favorites:
 
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/09/Photo-1820-01.png" />
+<img class="blog-image-full-margin" src="/media/2014/09/Photo-1820-01.png" />
 
 [  
 1 | Pentel Pigment Ink Brush Pen][1]  

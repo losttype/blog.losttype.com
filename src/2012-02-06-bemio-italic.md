@@ -11,7 +11,7 @@ Last week we launched [Bemio][1], and the response was very positive, thanks eve
 
 [Joe Prince][2] has been working hard, cheers Joe!
 
-[<img src="http://losttype.com/blog/wp-content/uploads/2012/02/bemio2.jpg" alt="" title="bemio2"  />][1]
+[<img src="/media/2012/02/bemio2.jpg" alt="" title="bemio2"  />][1]
 
  [1]: http://www.losttype.com/font/?name=bemio
  [2]: http://cargocollective.com/admixdesigns

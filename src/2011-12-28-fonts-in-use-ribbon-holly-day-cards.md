@@ -9,9 +9,9 @@ categories:
 ---
 [Tommy Perez][1] whipped up some wicked Holiday Cards featuring Ribbon. Excellent use of the ligatures, and various features of the font. I can&#8217;t help but feel that this is just the sort of thing Dan had in mind, when he created the font. Very well done.
 
-[<img src="http://losttype.com/blog/wp-content/uploads/2011/12/HollyDay-Cards-1.jpg" alt="" title="HollyDay-Cards-21"  class="alignnone size-full wp-image-341" />][2]  
-[<img src="http://losttype.com/blog/wp-content/uploads/2011/12/HollyDay-Cards-21.jpg" alt="" title="HollyDay-Cards-21" class="alignnone size-full wp-image-341" />][3]
+[<img src="/media/2011/12/HollyDay-Cards-1.jpg" alt="" title="HollyDay-Cards-21"  class="alignnone size-full wp-image-341" />][2]  
+[<img src="/media/2011/12/HollyDay-Cards-21.jpg" alt="" title="HollyDay-Cards-21" class="alignnone size-full wp-image-341" />][3]
 
  [1]: http://www.tommyperezdesign.com/projects/holly-day-cards
- [2]: http://losttype.com/blog/wp-content/uploads/2011/12/HollyDay-Cards-1.jpg
- [3]: http://losttype.com/blog/wp-content/uploads/2011/12/HollyDay-Cards-21.jpg
+ [2]: /media/2011/12/HollyDay-Cards-1.jpg
+ [3]: /media/2011/12/HollyDay-Cards-21.jpg

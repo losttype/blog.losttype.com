@@ -4,7 +4,7 @@ author: Danelle Cheney
 
 permalink: /2014/09/08/letter-from-grandma/
 thumbnail:
-  - http://losttype.com/blog/wp-content/uploads/2014/09/Danelle_Cheney_Grandma_Note_Lost_Type.jpg
+  - /media/2014/09/Danelle_Cheney_Grandma_Note_Lost_Type.jpg
 template: post.hbs
 categories: 
   - Uncategorized
@@ -19,7 +19,7 @@ And many thanks to [Dropbox][2], our awesome sponsor.
 
 Keep your eyes on this blog and the Lost Type twitter for updates on our adventures!
 
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/09/Danelle_Cheney_Grandma_Note_Lost_Type.jpg" />
+<img class="blog-image-full-margin" src="/media/2014/09/Danelle_Cheney_Grandma_Note_Lost_Type.jpg" />
 
  [1]: https://twitter.com/losttypecoop/status/502890508801568769
  [2]: https://www.dropbox.com

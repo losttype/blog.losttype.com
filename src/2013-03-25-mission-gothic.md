@@ -4,7 +4,7 @@ author: Riley Cran
 
 permalink: /2013/03/25/mission-gothic/
 thumbnail:
-  - http://losttype.com/blog/wp-content/uploads/2013/03/missiongothicblog1.jpeg
+  - /media/2013/03/missiongothicblog1.jpeg
 template: post.hbs
 categories: 
   - Uncategorized
@@ -13,7 +13,7 @@ categories:
 
 [Mission Gothic][1] began as a one weight, all-caps typeface during Field Trip SF — a trip to San Francisco with the Lost Type designers. As a group, we spent hours wandering the streets of the Mission neighborhood, known for its hand-painted signs. One of the many photographs we took was of a small hanging sign in the storefront of an optician on Valencia Street:
 
-<img class="blog-image-double" src="http://losttype.com/blog/wp-content/uploads/2013/03/missiongothicblog1.jpeg" /> <img class="blog-image-double" src="http://losttype.com/blog/wp-content/uploads/2013/03/missiongothicblog2.jpeg" /> 
+<img class="blog-image-double" src="/media/2013/03/missiongothicblog1.jpeg" /> <img class="blog-image-double" src="/media/2013/03/missiongothicblog2.jpeg" /> 
 
 <div class="img-caption">
   Pictures from the SF Field Trip <a href="http://instagram.com/trevorbaum" class="photo-credit">Photo Credit: Trevor Baum</a>
@@ -35,25 +35,25 @@ The first typeface that came out of the Mission Collection from Lost Type was Mi
 
 Mission Gothic is a low contrast sans serif, and is built mostly for display text. While Mission Gothic can be set small, it is intended for sizes larger than fourteen point, in order to let the nuances of this typeface shine. 
 
-<img class="blog-image-full" src="http://losttype.com/blog/wp-content/uploads/2013/03/missiongothicblog3.jpg" /> 
+<img class="blog-image-full" src="/media/2013/03/missiongothicblog3.jpg" /> 
 
 <div class="img-caption">
   <a href="www.life-is-over-you.blogspot.com" class="photo-credit">Photo Credit: Life is Over You</a>
 </div>
 
-<img class="blog-image-full" src="http://losttype.com/blog/wp-content/uploads/2013/03/missiongothicblog4.jpg" /> 
+<img class="blog-image-full" src="/media/2013/03/missiongothicblog4.jpg" /> 
 
 <div class="img-caption">
   <a href="http://www.freeimageslive.co.uk" class="photo-credit">Photo Credit: www.freeimageslive.co.uk</a>
 </div>
 
-<img class="blog-image-full" src="http://losttype.com/blog/wp-content/uploads/2014/06/abrir-um-negocio-24.jpg" /> 
+<img class="blog-image-full" src="/media/2014/06/abrir-um-negocio-24.jpg" /> 
 
 <div class="img-caption">
   <a href="http://www.lineklein.com" class="photo-credit">Photo Credit: www.lineklein.com</a>
 </div>
 
-<img class="blog-image-full" src="http://losttype.com/blog/wp-content/uploads/2013/03/missiongothicblog6.jpg" /> 
+<img class="blog-image-full" src="/media/2013/03/missiongothicblog6.jpg" /> 
 
 <div class="img-caption">
   <a href="http://www.chicagoist.com/tags/artshay" class="photo-credit">Photo Credit: www.chicagoist.com/tags/artshay</a>

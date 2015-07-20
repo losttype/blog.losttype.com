@@ -13,11 +13,11 @@ categories:
 
 And a little bonus. The wonderful font we used, Homestead, was created by Colorado born Luke Lisi.&#8221;</em>
 
-[<img src="http://losttype.com/blog/wp-content/uploads/2011/11/Pine.jpg" alt="" title="Pine3" class="alignnone size-full wp-image-272" />][3]
+[<img src="/media/2011/11/Pine.jpg" alt="" title="Pine3" class="alignnone size-full wp-image-272" />][3]
 
-[<img src="http://losttype.com/blog/wp-content/uploads/2011/11/Pine3.jpg" alt="" title="Pine3" class="alignnone size-full wp-image-272" />][4]
+[<img src="/media/2011/11/Pine3.jpg" alt="" title="Pine3" class="alignnone size-full wp-image-272" />][4]
 
  [1]: http://paperplatespress.blogspot.com/
  [2]: http://www.losttype.com/font/?name=homestead
- [3]: http://losttype.com/blog/wp-content/uploads/2011/11/Pine.jpg
- [4]: http://losttype.com/blog/wp-content/uploads/2011/11/Pine3.jpg
+ [3]: /media/2011/11/Pine.jpg
+ [4]: /media/2011/11/Pine3.jpg

@@ -4,7 +4,7 @@ author: Frances MacLeod
 
 permalink: /2014/06/11/the-book-covers-of-victor-palla/
 thumbnail:
-  - http://losttype.com/blog/wp-content/uploads/2014/06/LT_VP_01.jpg
+  - /media/2014/06/LT_VP_01.jpg
 template: post.hbs
 categories: 
   - Uncategorized
@@ -14,7 +14,7 @@ categories:
 </p>
 
 <p class="p1">
-  <img class="blog-image-full" src="http://losttype.com/blog/wp-content/uploads/2014/06/LT_VP_05.jpg" alt="" /><br /> <img class="blog-image-full" src="http://losttype.com/blog/wp-content/uploads/2014/06/LT_VP_04.jpg" alt="" /><br /> <img class="blog-image-full" src="http://losttype.com/blog/wp-content/uploads/2014/06/LT_VP_03.jpg" alt="" /><br /> <img class="blog-image-full" src="http://losttype.com/blog/wp-content/uploads/2014/06/LT_VP_06.jpg" alt="" /><br /> <img class="blog-image-full" src="http://losttype.com/blog/wp-content/uploads/2014/06/LT_VP_01.jpg" alt="" />
+  <img class="blog-image-full" src="/media/2014/06/LT_VP_05.jpg" alt="" /><br /> <img class="blog-image-full" src="/media/2014/06/LT_VP_04.jpg" alt="" /><br /> <img class="blog-image-full" src="/media/2014/06/LT_VP_03.jpg" alt="" /><br /> <img class="blog-image-full" src="/media/2014/06/LT_VP_06.jpg" alt="" /><br /> <img class="blog-image-full" src="/media/2014/06/LT_VP_01.jpg" alt="" />
 </p>
 
 <p class="p2">

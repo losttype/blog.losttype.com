@@ -17,7 +17,7 @@ fonts:
 via [the donut project][2]
 
 <figure>
-[<img class="alignnone size-full wp-image-178" title="workxunion-imac" src="http://losttype.com/blog/wp-content/uploads/2011/10/workxunion-imac.jpg" alt=""  />][1]
+[<img class="alignnone size-full wp-image-178" title="workxunion-imac" src="/media/2011/10/workxunion-imac.jpg" alt=""  />][1]
 </figure>
 
  [1]: http://www.WORKxUNION.com/

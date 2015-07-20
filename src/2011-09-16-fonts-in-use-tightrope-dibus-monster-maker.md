@@ -14,7 +14,7 @@ Alonzo Felix&#8217;s &#8216;Tightrope&#8217; (a part of the Lost Type collection
 Way to go Alonzo!
 
 <figure>
-[<img src="http://losttype.com/blog/wp-content/uploads/2011/09/Screen-shot-2011-09-15-at-7.26.29-PM-1024x582.png" alt="" title="Screen shot 2011-09-15 at 7.26.29 PM" class="alignnone size-large wp-image-113" />][1]
+[<img src="/media/2011/09/Screen-shot-2011-09-15-at-7.26.29-PM-1024x582.png" alt="" title="Screen shot 2011-09-15 at 7.26.29 PM" class="alignnone size-large wp-image-113" />][1]
 </figure>
 
- [1]: http://losttype.com/blog/wp-content/uploads/2011/09/Screen-shot-2011-09-15-at-7.26.29-PM.png
+ [1]: /media/2011/09/Screen-shot-2011-09-15-at-7.26.29-PM.png

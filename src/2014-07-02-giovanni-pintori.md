@@ -4,7 +4,7 @@ author: Martin Azambuja
 
 permalink: /2014/07/02/giovanni-pintori/
 thumbnail:
-  - http://losttype.com/blog/wp-content/uploads/2014/07/4.jpg
+  - /media/2014/07/4.jpg
 template: post.hbs
 categories: 
   - Uncategorized
@@ -17,11 +17,11 @@ A while ago I bought several &#8220;Graphis Annual&#8221; books published betwee
 
 &nbsp;
 
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/07/1.jpg" />  
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/07/2.jpg" />  
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/07/3.jpg" />  
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/07/4.jpg" />  
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/07/5.jpg" />  
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/07/6.jpg" />  
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/07/7.jpg" />  
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/07/8.jpg" />
+<img class="blog-image-full-margin" src="/media/2014/07/1.jpg" />  
+<img class="blog-image-full-margin" src="/media/2014/07/2.jpg" />  
+<img class="blog-image-full-margin" src="/media/2014/07/3.jpg" />  
+<img class="blog-image-full-margin" src="/media/2014/07/4.jpg" />  
+<img class="blog-image-full-margin" src="/media/2014/07/5.jpg" />  
+<img class="blog-image-full-margin" src="/media/2014/07/6.jpg" />  
+<img class="blog-image-full-margin" src="/media/2014/07/7.jpg" />  
+<img class="blog-image-full-margin" src="/media/2014/07/8.jpg" />

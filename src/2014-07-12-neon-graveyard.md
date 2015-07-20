@@ -4,7 +4,7 @@ author: Martin Azambuja
 
 permalink: /2014/07/12/neon-graveyard/
 thumbnail:
-  - http://losttype.com/blog/wp-content/uploads/2014/07/neon11.jpg
+  - /media/2014/07/neon11.jpg
 template: post.hbs
 categories: 
   - Uncategorized
@@ -17,14 +17,14 @@ Personally I&#8217;m a fan of this type of work where there are lots of &#8220;c
 
 Signs such as &#8220;Stardust&#8221; to &#8220;Sassy Saly´s&#8221; etc., make us want to travel in a time machine to Freemont Street about 30 or 40 years ago when these neon lights glowed in the desert.
 
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/07/neon1.jpg" />  
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/07/neon11.jpg" />  
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/07/neon3.jpg" />  
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/07/neon2.jpg" />  
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/07/neon4.jpg" />  
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/07/neon8.jpg" />  
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/07/neon6.jpg" />  
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/07/neon7.jpg" />  
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/07/neon5.jpg" />  
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/07/neon9.jpg" />  
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/07/neon10.jpg" />
+<img class="blog-image-full-margin" src="/media/2014/07/neon1.jpg" />  
+<img class="blog-image-full-margin" src="/media/2014/07/neon11.jpg" />  
+<img class="blog-image-full-margin" src="/media/2014/07/neon3.jpg" />  
+<img class="blog-image-full-margin" src="/media/2014/07/neon2.jpg" />  
+<img class="blog-image-full-margin" src="/media/2014/07/neon4.jpg" />  
+<img class="blog-image-full-margin" src="/media/2014/07/neon8.jpg" />  
+<img class="blog-image-full-margin" src="/media/2014/07/neon6.jpg" />  
+<img class="blog-image-full-margin" src="/media/2014/07/neon7.jpg" />  
+<img class="blog-image-full-margin" src="/media/2014/07/neon5.jpg" />  
+<img class="blog-image-full-margin" src="/media/2014/07/neon9.jpg" />  
+<img class="blog-image-full-margin" src="/media/2014/07/neon10.jpg" />

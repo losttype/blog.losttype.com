@@ -32,7 +32,7 @@ Riley: “You should call it Dude.”<br><br>
 The history of American Wood Type offers a rich and eclectic range of styles. Blackletter, two toned circus type, exaggerated tuscans and of course all manor of Egyptian Slabs. One can’t very well make a “cowboy” font with out drinking in some serious whiskey and wood type research. If you are lucky enough to be near Two Rivers Wisconsin, the [Hamilton Wood Type Museum](http://woodtype.org) is a wood type mecca. If you are not stopping by Wisconsin anytime soon, Rob Roy Kelly’s <cite>History of American Wood Type</cite> is a great primer.
 
 <figure>
-  ![](http://losttype.com/blog/wp-content/uploads/2014/06/slab_scan_rob_roy.jpg)
+  ![](/media/2014/06/slab_scan_rob_roy.jpg)
   <figcaption>
   [Photo Credit: Rob Roy Kelly](http://www.utexas.edu/cofa/rrk/)
   </figcaption>
@@ -41,7 +41,7 @@ The history of American Wood Type offers a rich and eclectic range of styles. Bl
 Some of the most extreme letterforms ever created were designed and carved in wood in America in the 1800s. Absurdly Condensed to ultra wide faces, crudely drawn sans to intricately carved drop caps, there is no shortage of inspiration here. When it comes to that wild west feel though, nothing can top a good’ol reverse contrast slab serif.
 
 <figure>
-![](http://losttype.com/blog/wp-content/uploads/2014/06/15.jpg)
+![](/media/2014/06/15.jpg)
   <figcaption>[Design Credit: Dan Gneiding](http://grayhood.com/) Original sketches for the concept of the Dude family.</ficaption>  
 </figure>
 
@@ -52,17 +52,17 @@ A key landmark in the progress of the Dude family was the Lost Type inaugural Fi
 When all was said and done Dude ended up with 12 distinct serif styles, each named after a country music legend. One is called Dolly- for its voluptuous serif implants.
 
 <figure class="figure--aside">
-  ![](http://losttype.com/blog/wp-content/uploads/2014/06/2A.jpg)
-  ![](http://losttype.com/blog/wp-content/uploads/2014/06/2B.jpg)
+  ![](/media/2014/06/2A.jpg)
+  ![](/media/2014/06/2B.jpg)
   <figcaption>[Photo Credit: Dan Gneiding](http://grayhood.com/) Posing with proofs at the SF Field Trip</ficaption>
 </figure>
 <figure>
-  ![](http://losttype.com/blog/wp-content/uploads/2014/06/31.jpg)
-  ![](http://losttype.com/blog/wp-content/uploads/2014/06/4.jpg)
+  ![](/media/2014/06/31.jpg)
+  ![](/media/2014/06/4.jpg)
 </figure>
 
 <figure>
-![](http://losttype.com/blog/wp-content/uploads/2014/06/6.jpg)![](http://losttype.com/blog/wp-content/uploads/2014/06/7.jpg)
+![](/media/2014/06/6.jpg)![](/media/2014/06/7.jpg)
   <figcaption>[Photo Credit: Nate Strandberg](http://eighthourday.com/) The Dude Specimen Book</ficaption>
 </figure>
 
@@ -79,8 +79,8 @@ The Dude specimen book is printed offset in three colors and casebound with a br
 My father in law came through with the perfect gift for me with this set of etched beer glasses featuring all the Dude styles!
 
 <figure>
-  ![](http://losttype.com/blog/wp-content/uploads/2014/06/7c.jpg)
-  ![](http://losttype.com/blog/wp-content/uploads/2014/06/7d.jpg)
+  ![](/media/2014/06/7c.jpg)
+  ![](/media/2014/06/7d.jpg)
   <figcaption>[Photo Credit: Dan Gneiding](http://grayhood.com/) Etched Glasses, a gift from my Father in Law</ficaption>  
 </figure>
 
@@ -91,41 +91,41 @@ You would think a 12 style reverse contrast family would satisfy the completist 
 The Lost Type Field trip to San Francisco started the wagon wheels turning on an expansion set for Dude. We rounded up a posse of our favorite letterering artists and type designers to contribute some catch words that would compliment the existing Dude styles. Contributors include Richard Stewart, Justin Mezzell, Ryan Hamrick, Michael Spitz, Jeff Rogers, Frances MacLeod, Matthew Tapia, Greg Christman, Kendrick Kidd, Colt J. Bowden, Tymn Armstrong, Patrick Macomber, Joel Evey, Ryan Kartina, Sean Gallagher and Riley Cran.
 
 <figure class="figure--aside">
-  ![](http://losttype.com/blog/wp-content/uploads/2014/06/13.jpg)
-  ![](http://losttype.com/blog/wp-content/uploads/2014/06/14.jpg)
+  ![](/media/2014/06/13.jpg)
+  ![](/media/2014/06/14.jpg)
   <figcaption>[Photo Credit: Rob Cusick](http://robcusickphoto.com/) Catchword Blocks for Hank Pro</ficaption>
 </figure>
 
 The catchword set was finishing up nicely right as the next annual Lost Type field trip got underway. That’s when Riley found this gem of a letterpress sort at the Brooklyn Flea, just down the road from where we were staying. If Dude had a lower case set—this would be it… So it was back to the drawing board to add condensed and compressed versions of Dude’s Hank style with a full lowercase.
 
 <figure>
-![](http://losttype.com/blog/wp-content/uploads/2014/06/hank_pro.jpg)
+![](/media/2014/06/hank_pro.jpg)
 </figure>
 
 <figure>
-  ![](http://losttype.com/blog/wp-content/uploads/2014/06/8.jpg)
-  ![](http://losttype.com/blog/wp-content/uploads/2014/06/9.jpg)
+  ![](/media/2014/06/8.jpg)
+  ![](/media/2014/06/9.jpg)
   <figcaption>[Photo Credit: Dan Gneiding](http://grayhood.com/) The letterpress sort from the Brooklyn Flea</ficaption>
 </figure>
 
 No wood type collection is complete without a set of Manicules. [Cade Cran](http://cadecran.com) drew up a stellar set of manicules that goes well beyond the traditional pointing hand. Cade’s pointing Manicule pin is available in the [Lost Type store](http://store.losttype.com/products/manicule-pin)!
 
 <figure>
-  ![](http://losttype.com/blog/wp-content/uploads/2014/06/11.jpg)
-  ![](http://losttype.com/blog/wp-content/uploads/2014/06/cade_manicule_sketch.jpg)
-  ![](http://losttype.com/blog/wp-content/uploads/2014/06/12.jpg)
-  ![](http://losttype.com/blog/wp-content/uploads/2014/06/manicules.jpg)
+  ![](/media/2014/06/11.jpg)
+  ![](/media/2014/06/cade_manicule_sketch.jpg)
+  ![](/media/2014/06/12.jpg)
+  ![](/media/2014/06/manicules.jpg)
   <figcaption>[Design Credit: Dan Gneiding & Cade Cran](http://cadecran.com/) Manicule Process</ficaption>  
 </figure>
 
 For good measure and posterity, we thought we’d bring Dude all the way back around to the original inspiration and get it cut in wood. We got in touch with Scott Moore of [Moore Wood Type](http://moorewoodtype.com/) and a select few of our catch words were cut as real wood type blocks!
 
 <figure class="figure--breakout">
-  ![](http://losttype.com/blog/wp-content/uploads/2014/06/17.jpg)
+  ![](/media/2014/06/17.jpg)
 </figure>
 
 <figure class="figure--breakout figure--aside">
-  ![](http://losttype.com/blog/wp-content/uploads/2014/06/19.jpg)
+  ![](/media/2014/06/19.jpg)
   <figcaption>[Photo Credit: Scott Moore](http://moorewoodtype.com/) Catchword Blocks cut by Scott Moore</ficaption>
 </figure>
 
@@ -136,7 +136,7 @@ And so Dude gallops off towards the setting sun. I had a hell of a good time wor
 **The 12 original styles of Dude can be purchased [here](http://www.losttype.com/font/?name=dude). The newcomer, Hank Pro, (featuring 3 widths, 14 manicules, and over a dozen catchwords) is available [here](http://www.losttype.com/font/?name=hankpro).**
 
 <figure>
-  ![](http://losttype.com/blog/wp-content/uploads/2014/06/18.jpg)
-  ![](http://losttype.com/blog/wp-content/uploads/2014/06/20.jpg)
+  ![](/media/2014/06/18.jpg)
+  ![](/media/2014/06/20.jpg)
   <figcaption>[Photo + Printing Credit: Starshaped Press](http://starshapedblog.com/2014/06/16/lost-type-and-found/) The Letterpressed Catchword Poster</ficaption>
 </figure>

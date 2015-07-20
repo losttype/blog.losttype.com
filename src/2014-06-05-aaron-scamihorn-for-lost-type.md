@@ -4,7 +4,7 @@ author: rileycran
 
 permalink: /2014/06/05/aaron-scamihorn-for-lost-type/
 thumbnail:
-  - http://losttype.com/blog/wp-content/uploads/2014/06/LostTypeStore2014.jpg
+  - /media/2014/06/LostTypeStore2014.jpg
 template: post.hbs
 categories: 
   - Uncategorized
@@ -17,19 +17,19 @@ Head on over to the store and check out some of our latest products, the [Manicu
 
 Below you&#8217;ll see the current banner, the original banner, and a tiled pattern of 3&#8217;s found in our fonts, to celebrate Lost Type turning 3 years old. 
 
-[<img class="blog-image-full" src="http://losttype.com/blog/wp-content/uploads/2014/06/LostTypeStore2014.jpg" />][5]
+[<img class="blog-image-full" src="/media/2014/06/LostTypeStore2014.jpg" />][5]
 
 <div class="img-caption">
   Aaron&#8217;s 2014 Banner Design <a href="http://www.ronlewhorn.com" class="photo-credit">Design Credit: www.ronlewhorn.com</a>
 </div>
 
-[<img class="blog-image-full" src="http://losttype.com/blog/wp-content/uploads/2014/06/LostTypeStore2012.jpg" />][5]
+[<img class="blog-image-full" src="/media/2014/06/LostTypeStore2012.jpg" />][5]
 
 <div class="img-caption">
   Aaron&#8217;s 2012 Banner Design <a href="http://www.ronlewhorn.com" class="photo-credit">Design Credit: www.ronlewhorn.com</a>
 </div>
 
-[<img class="blog-image-full" src="http://losttype.com/blog/wp-content/uploads/2014/06/LostTypeStore_3Background.jpg" />][5]
+[<img class="blog-image-full" src="/media/2014/06/LostTypeStore_3Background.jpg" />][5]
 
 <div class="img-caption">
   Aaron&#8217;s Tiling &#8216;3&#8217; Pattern <a href="http://www.ronlewhorn.com" class="photo-credit">Design Credit: www.ronlewhorn.com</a>

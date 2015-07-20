@@ -16,16 +16,16 @@ Check it out [here][3], and wear your Deming with pride! (pics via [Tattly][3])
 (Also, keep an eye out for [Evan Huwa&#8217;s Ranger Tattoo][4] as well!)
 
 <figure>
-[<img class="alignnone size-full wp-image-82" title="deming_web_set_grande" src="http://losttype.com/blog/wp-content/uploads/2011/08/deming_web_set_grande.jpg" alt="" />][5]
+[<img class="alignnone size-full wp-image-82" title="deming_web_set_grande" src="/media/2011/08/deming_web_set_grande.jpg" alt="" />][5]
 </figure>
 
 <figure>
-[<img class="alignnone size-full wp-image-81" title="deming_web_applied2_grande" src="http://losttype.com/blog/wp-content/uploads/2011/08/deming_web_applied2_grande.jpg" alt="" />][6]
+[<img class="alignnone size-full wp-image-81" title="deming_web_applied2_grande" src="/media/2011/08/deming_web_applied2_grande.jpg" alt="" />][6]
 </figure>
 
  [1]: http://www.mfortress.com/
  [2]: http://www.losttype.com/font/?name=deming
  [3]: http://tatt.ly/products/deming
  [4]: http://tatt.ly/products/make-change
- [5]: http://losttype.com/blog/wp-content/uploads/2011/08/deming_web_set_grande.jpg
- [6]: http://losttype.com/blog/wp-content/uploads/2011/08/deming_web_applied2_grande.jpg
+ [5]: /media/2011/08/deming_web_set_grande.jpg
+ [6]: /media/2011/08/deming_web_applied2_grande.jpg

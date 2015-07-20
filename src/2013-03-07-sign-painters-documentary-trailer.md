@@ -4,7 +4,7 @@ author: rileycran
 
 permalink: /2013/03/07/sign-painters-documentary-trailer/
 thumbnail:
-  - http://losttype.com/blog/wp-content/uploads/2013/03/signpainters.jpg
+  - /media/2013/03/signpainters.jpg
 template: post.hbs
 categories: 
   - Uncategorized

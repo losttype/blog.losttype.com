@@ -4,7 +4,7 @@ author: rileycran
 
 permalink: /2014/06/02/sign-painters-documentary-now-available/
 thumbnail:
-  - http://losttype.com/blog/wp-content/uploads/2014/06/sp_code_02.jpg
+  - /media/2014/06/sp_code_02.jpg
 template: post.hbs
 categories: 
   - Uncategorized
@@ -16,4 +16,4 @@ Back in March of 2013 I posted a trailer for a film about Sign Painters, which I
 [![][2]][1]
 
  [1]: http://www.signpaintersfilm.com/
- [2]: http://losttype.com/blog/wp-content/uploads/2014/06/sp_code_02.jpg
+ [2]: /media/2014/06/sp_code_02.jpg

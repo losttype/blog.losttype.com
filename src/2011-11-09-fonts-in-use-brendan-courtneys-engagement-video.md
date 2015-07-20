@@ -14,16 +14,16 @@ fonts:
 
 [Brendan &#038; Courtney&#8217;s Engagement Video][2] from [Brittan Pittman][3] on [Vimeo][4].
 
-[<img src="http://losttype.com/blog/wp-content/uploads/2011/11/1-1024x573.png" alt="" title="1"  class="alignnone size-large wp-image-205" />][5]
+[<img src="/media/2011/11/1-1024x573.png" alt="" title="1"  class="alignnone size-large wp-image-205" />][5]
 
-[<img src="http://losttype.com/blog/wp-content/uploads/2011/11/2-1024x573.png" alt="" title="1"  class="alignnone size-large wp-image-205" />][6]
+[<img src="/media/2011/11/2-1024x573.png" alt="" title="1"  class="alignnone size-large wp-image-205" />][6]
 
-[<img src="http://losttype.com/blog/wp-content/uploads/2011/11/3-1024x573.png" alt="" title="1"  class="alignnone size-large wp-image-205" />][7]
+[<img src="/media/2011/11/3-1024x573.png" alt="" title="1"  class="alignnone size-large wp-image-205" />][7]
 
  [1]: http://dribbble.com/brendanpittman
  [2]: http://vimeo.com/31665737
  [3]: http://vimeo.com/user2626127
  [4]: http://vimeo.com
- [5]: http://losttype.com/blog/wp-content/uploads/2011/11/1.png
- [6]: http://losttype.com/blog/wp-content/uploads/2011/11/2.png
- [7]: http://losttype.com/blog/wp-content/uploads/2011/11/3.png
+ [5]: /media/2011/11/1.png
+ [6]: /media/2011/11/2.png
+ [7]: /media/2011/11/3.png

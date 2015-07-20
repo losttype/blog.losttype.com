@@ -4,7 +4,7 @@ author: Trevor Baum
 
 permalink: /2014/06/11/alain-gree/
 thumbnail:
-  - http://losttype.com/blog/wp-content/uploads/2014/06/AlainGree_1.jpg
+  - /media/2014/06/AlainGree_1.jpg
 template: post.hbs
 categories: 
   - Uncategorized
@@ -17,33 +17,33 @@ Grée has illustrated more than 300 children&#8217;s books primarily during the 
 
 &nbsp;
 
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/06/AlainGree_1.jpg" alt="" />  
-<img class="blog-image-double-margin" src="http://losttype.com/blog/wp-content/uploads/2014/06/AlainGree_4.jpg" alt="" />  
-<img class="blog-image-double-margin" src="http://losttype.com/blog/wp-content/uploads/2014/06/AlainGree_5.jpg" alt="" />  
-<img class="blog-image-double-margin" src="http://losttype.com/blog/wp-content/uploads/2014/06/AlainGree_2.jpg" alt="" />  
-<img class="blog-image-double-margin" src="http://losttype.com/blog/wp-content/uploads/2014/06/AlainGree_3.jpg" alt="" />
+<img class="blog-image-full-margin" src="/media/2014/06/AlainGree_1.jpg" alt="" />  
+<img class="blog-image-double-margin" src="/media/2014/06/AlainGree_4.jpg" alt="" />  
+<img class="blog-image-double-margin" src="/media/2014/06/AlainGree_5.jpg" alt="" />  
+<img class="blog-image-double-margin" src="/media/2014/06/AlainGree_2.jpg" alt="" />  
+<img class="blog-image-double-margin" src="/media/2014/06/AlainGree_3.jpg" alt="" />
 
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/06/AlainGree_7.jpg" alt="" />
+<img class="blog-image-full-margin" src="/media/2014/06/AlainGree_7.jpg" alt="" />
 
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/06/AlainGree_8.jpg" alt="" />
+<img class="blog-image-full-margin" src="/media/2014/06/AlainGree_8.jpg" alt="" />
 
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/06/AlainGree_9.jpg" alt="" />
+<img class="blog-image-full-margin" src="/media/2014/06/AlainGree_9.jpg" alt="" />
 
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/06/AlainGree_10.jpg" alt="" />
+<img class="blog-image-full-margin" src="/media/2014/06/AlainGree_10.jpg" alt="" />
 
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/06/AlainGree_11.jpg" alt="" />
+<img class="blog-image-full-margin" src="/media/2014/06/AlainGree_11.jpg" alt="" />
 
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/06/AlainGree_12.jpg" alt="" />
+<img class="blog-image-full-margin" src="/media/2014/06/AlainGree_12.jpg" alt="" />
 
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/06/AlainGree_13.jpg" alt="" />
+<img class="blog-image-full-margin" src="/media/2014/06/AlainGree_13.jpg" alt="" />
 
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/06/AlainGree_14.jpg" alt="" />
+<img class="blog-image-full-margin" src="/media/2014/06/AlainGree_14.jpg" alt="" />
 
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/06/AlainGree_15.jpg" alt="" />
+<img class="blog-image-full-margin" src="/media/2014/06/AlainGree_15.jpg" alt="" />
 
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/06/AlainGree_17.jpg" alt="" />
+<img class="blog-image-full-margin" src="/media/2014/06/AlainGree_17.jpg" alt="" />
 
-<img class="blog-image-full-margin" src="http://losttype.com/blog/wp-content/uploads/2014/06/AlainGree_18.jpg" alt="" />
+<img class="blog-image-full-margin" src="/media/2014/06/AlainGree_18.jpg" alt="" />
 
 &nbsp;
 

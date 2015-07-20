@@ -11,10 +11,10 @@ categories:
   
 Great to see the Muncie and Deming Ampersands in print.
 
-[<img src="http://losttype.com/blog/wp-content/uploads/2012/01/4.jpg"  />][4]  
-[<img src="http://losttype.com/blog/wp-content/uploads/2012/01/1.jpg"  />][4]  
-[<img src="http://losttype.com/blog/wp-content/uploads/2012/01/21.jpg"  />][4]  
-[<img src="http://losttype.com/blog/wp-content/uploads/2012/01/3.jpg"  />][4]
+[<img src="/media/2012/01/4.jpg"  />][4]  
+[<img src="/media/2012/01/1.jpg"  />][4]  
+[<img src="/media/2012/01/21.jpg"  />][4]  
+[<img src="/media/2012/01/3.jpg"  />][4]
 
  [1]: http://www.55his.com/
  [2]: http://www.losttype.com/font/?name=muncie

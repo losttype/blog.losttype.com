@@ -4,7 +4,7 @@ author: rileycran
 
 permalink: /2013/03/18/monotype-pencil-to-pixel-exhibition/
 thumbnail:
-  - http://losttype.com/blog/wp-content/uploads/2013/03/monotype_pencil_pixel.jpg
+  - /media/2013/03/monotype_pencil_pixel.jpg
 template: post.hbs
 categories: 
   - Uncategorized
