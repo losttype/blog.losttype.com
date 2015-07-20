@@ -4,25 +4,41 @@
 //
 // Styleguide: module.newsletter
 .newsletter { // Maybe this should be a frame?
-  background: $gray-lighter;
+  background: darken($color-background, 5%);
   border-radius: $base-border-radius;
-  padding: $gutter;
   margin-top: modular-scale(0);
-  margin-bottom: modular-scale(1);
+  margin-bottom: modular-scale(0);
   font-size: $font-size-small;
+  padding: modular-scale(2) $gutter $gutter $gutter;
   input[type="email"] {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+    padding-bottom: $base-border-radius;
   }
   .button {
     transform: translateY(-1 * $base-border-radius);
   }
+  // Might be able to turn this into a .button-secondary modifier
+  // for when you want to bump the follower to the next line
+  .button-secondary {
+    margin-bottom: 0;
+    padding: modular-scale(-1);
+    display: block;
+    clear: left;
+    width: 100%;
+    text-align: center;
+  }
   @include media($mid) {
-    padding: modular-scale(4);
+    font-size: inherit;
+    padding: modular-scale(6) (modular-scale(7) + $gutter); // Horizontal padding matches author avatar width
     .button {
-      margin-top: modular-scale(1);
-      transform: translateY(0);
-      border-radius: $base-border-radius;
+      display: block; // Maybe need another button modifier class? Or just make default button bigger and full-width?
+      width: 100%;
+      transform: translateY(-2 * $base-border-radius);
+    }
+    .button-secondary {
+      margin: 0;
+      padding: 0;
     }
   }
 }
