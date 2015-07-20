@@ -72,7 +72,7 @@ The Dude specimen book is printed offset in three colors and casebound with a br
 
 <figure class="figure--embed figure--breakout">
   <div class="embed-container">
-    <iframe src="//player.vimeo.com/video/53715033?portrait=0&amp;color=f41e23" allowfullscreen="allowfullscreen" frameborder="0" height="506" width="100%"></iframe>
+    <iframe src="//player.vimeo.com/video/53715033?portrait=0&amp;color=f41e23" allowfullscreen="allowfullscreen" frameborder="0"  width="100%"></iframe>
   </div>
 </figure>
 
