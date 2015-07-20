@@ -3,6 +3,26 @@
 // Markup: ../../../_includes/newsletter.hbs
 //
 // Styleguide: module.newsletter
-.newsletter {
-  
+.newsletter { // Maybe this should be a frame?
+  background: $gray-lighter;
+  border-radius: $base-border-radius;
+  padding: $gutter;
+  margin-top: modular-scale(0);
+  margin-bottom: modular-scale(1);
+  font-size: $font-size-small;
+  input[type="email"] {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .button {
+    transform: translateY(-1 * $base-border-radius);
+  }
+  @include media($mid) {
+    padding: modular-scale(4);
+    .button {
+      margin-top: modular-scale(1);
+      transform: translateY(0);
+      border-radius: $base-border-radius;
+    }
+  }
 }

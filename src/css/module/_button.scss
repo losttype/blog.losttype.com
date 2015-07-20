@@ -23,6 +23,9 @@ a.button {
   vertical-align: middle;
   white-space: nowrap;
 
+  &:focus {
+    outline: none;
+  }
 }
 
 .button--large,
@@ -72,19 +75,18 @@ a.button.button--muted {
 //
 // Styleguide: module.button-secondary
 .button-secondary {
-  display: inline-block;
+  display: block;
   width: auto;
-  text-align: left;
+  text-align: center;
   font-weight: inherit;
-  input + & {
-    // Fix for weird positioning after inputs
-    transform: translateY($base-line-height * 0.5em);
-  }
+  margin-top: modular-scale(-1);
+  padding: modular-scale(0);
+
   & + .button-secondary {
     display: block;
   }
   .button + & {
-    font-size: 0.8em;
+    font-size: $font-size-small;
     margin-bottom: $base-line-height * 1em;
   }
   // This isn’t very reusable
@@ -98,5 +100,13 @@ a.button.button--muted {
   }
   &.button--muted {
     color: $gray;
+  }
+  @include media($mid) {
+    display: inline-block;
+    text-align: left;
+    input + & {
+      // Fix for weird positioning after inputs
+      transform: translateY($base-line-height * 0.5em);
+    }
   }
 }
