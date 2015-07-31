@@ -4,7 +4,7 @@ author: rileycran
 
 permalink: /2011/11/08/194/
 template: post.hbs
-categories: 
+categories:
   - fonts-in-use
 fonts:
   - Muncie
