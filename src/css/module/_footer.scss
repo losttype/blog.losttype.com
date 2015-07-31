@@ -7,3 +7,24 @@
   width: 100%;
   clear: left;
 }
+
+// Footer Release
+//
+// Styleguide: module.footer.releases
+.footer-releases {
+  margin: 0 (-1 * modular-scale(0));
+  a {
+    display: block;
+    &:hover,
+    &:focus,
+    &:active {
+      .shape {
+        fill: $red;        
+      }
+    }
+  }
+  .shape {
+    transition: fill 0.125s ease-in-out; // Don’t make Ben sad
+    fill: $gray-dark;
+  }
+}
