@@ -10,7 +10,6 @@
   "keywords": [],
   "dependencies": {
     "dropcap.js": "^1.0.0",
-    "uglify-js": "^2.4.23",
     "zoom.js": "fat/zoom.js"
   },
   "devDependencies": {
@@ -23,6 +22,7 @@
     "fg-loadjs": "0.2.0",
     "figment": "git://github.com/kennethormandy/figment.git#v0.6.2",
     "handlebars": "3.0.3",
+    "harp-minify": "0.3.2",
     "helper-moment": "0.1.0",
     "kss": "2.1.0",
     "losttype-contributors": "0.3.1",

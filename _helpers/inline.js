@@ -1,8 +1,8 @@
 // Inline
-var path = require('path');
-var fs = require('fs');
-var UglifyJS = require("uglify-js");
+var fs = require('fs')
+var minify = require('harp-minify')
 
-module.exports = function(src) {
-  return UglifyJS.minify(src, { compress: true, mangle: true }).code;
-};
+module.exports = function (src) {
+  var file = fs.readFileSync(src)
+  return minify.js(file.toString(), { compress: true, mangle: true })
+}
