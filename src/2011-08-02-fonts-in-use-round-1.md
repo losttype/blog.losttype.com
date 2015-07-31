@@ -13,8 +13,10 @@ fonts:
   - Highlands
   - Liberator
 ---
-Lost Type’s fonts are being used every day by some talented folks, in some great designs.  
-Things have moved so fast, it’s amazing to see these fonts in use just weeks (sometimes hours) after they are launched, in printed posters, logos for relief efforts, and laser cut drinking glasses.  
+Lost Type’s fonts are being used every day by some talented folks, in some great designs.
+
+Things have moved so fast, it’s amazing to see these fonts in use just weeks (sometimes hours) after they are launched, in printed posters, logos for relief efforts, and laser cut drinking glasses.
+
 We’re going to start displaying these more often, but here is a selection to get started!
 
 <figure>
