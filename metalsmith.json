@@ -7,9 +7,10 @@
     "description": "Articles, resources, inspiration, and lessons learned by contributors to the Lost Type Co-op."
   },
   "plugins": {
+    "metalsmith-jekyll-dates": {},
     "metalsmith-collections": {
       "posts": {
-        "pattern": "*-*-*.md",
+        "pattern": "*-*-*-*.md",
         "sortBy": "date",
         "reverse": true
       }
@@ -23,7 +24,6 @@
       }
     },
     "metalsmith-markdown": {},
-    "metalsmith-jekyll-dates": {},
     "metalsmith-tags": {
       "handle": "fonts",
       "path": "fonts-in-use/:tag/index.html",
