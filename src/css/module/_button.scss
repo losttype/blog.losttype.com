@@ -7,7 +7,7 @@
 // .button--muted     - A quieter button, for less conspicuious UI.
 //
 // Markup:
-// <a class="button {{modifier_class}}" href="#">Get started</a>
+// <a class="button {{modifier_class}}" href="#">Download</a>
 //
 // Styleguide: module.button
 .button,
@@ -70,8 +70,8 @@ a.button.button--muted {
 // .button--muted     - A link following a button with the muted colour scheme
 //
 // Markup:
-// <a class="button button--large" href="#">Upgrade your project</a>
-// <a class="button-secondary {{modifier_class}}" href="#">Or get started for free</a>
+// <a class="button button--large" href="#">Buy a commercial license</a>
+// <a class="button-secondary {{modifier_class}}" href="#">No thanks, maybe later</a>
 //
 // Styleguide: module.button-secondary
 .button-secondary {

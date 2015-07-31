@@ -12,7 +12,11 @@
 
 // Disretionary Widows
 //
-// Currently hard-coded into typogr.js
+// Currently hard-coded into typogr.js, [more details there](https://github.com/ekalinin/typogr.js/pull/26).
+//
+// Markup:
+// <!-- Note this span is added automatically by typogr.js -->
+// <h1>There’s a new serif in<span class="widont">&nbsp;</span>town</h1>
 //
 // Styleguide: shame.widont
 .widont {
