@@ -6,8 +6,8 @@ permalink: /2014/10/01/spotted-in-amsterdam/
 thumbnail:
   - /media/2014/09/Photo-Sep-22-15-20-10-e1411686176102.jpg
 template: post.hbs
-categories:
-  - Uncategorized
+categories: fieldtripam
+collection: fieldtripam
 ---
 My favorite part of Field Trip Amsterdam was walking the city and spotting signage, prints, door markers, gable stones, engravings, etc. It’s truly a beautiful city, and we discovered something new each time we ventured out to explore.
 

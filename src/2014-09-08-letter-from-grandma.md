@@ -6,8 +6,8 @@ permalink: /2014/09/08/letter-from-grandma/
 thumbnail:
   - /media/2014/09/Danelle_Cheney_Grandma_Note_Lost_Type.jpg
 template: post.hbs
-categories: 
-  - Uncategorized
+category: fieldtripam
+collection: fieldtripam
 ---
 You [may have seen][1] that The Lost Type Co-op is headed to Amsterdam soon (!!!). We’ll be there the 19th–26th of this month. This is Lost Type’s third field trip (previous adventures included New York and San Francisco) and over ten of us will be attending!
 

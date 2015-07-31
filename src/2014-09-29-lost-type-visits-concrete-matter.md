@@ -4,6 +4,8 @@ author: danellecheney
 category: fieldtripam
 template: post.hbs
 gallery: true # Change how this is decided
+categories: fieldtripam
+collection: fieldtripam
 ---
 
 Our time in Amsterdam wouldn’t be complete without a visit to Lost Type contributor Tim Boelaar’s store, [Concrete Matter](http://www.concrete-matter.com). Tim, along with Tomas and Jacob, opened Concrete Matter as an [online shop](http://www.concrete-matter.com/collections/store) in 2012 and the physical location on Amsterdam’s Haarlemmerdijk in 2013.

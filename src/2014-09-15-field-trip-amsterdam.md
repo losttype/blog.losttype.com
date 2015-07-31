@@ -3,6 +3,8 @@ title: Field Trip Amsterdam!
 author: rileycran
 category: fieldtripam
 template: post.hbs
+category: fieldtripam
+collection: fieldtripam
 ---
 
 <figure>

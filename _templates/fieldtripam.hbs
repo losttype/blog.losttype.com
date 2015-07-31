@@ -1,0 +1,14 @@
+{{> header }}
+
+<ul class="u-listBasic article-list">
+  {{#each collections.fieldtripam }}
+    <li data-item="{{ add 1 @index }}">
+      <a class="article" href="/{{ this.slug }}">
+        {{ this.title }}
+      </a>
+    </li>
+  {{/each}}
+</ul>
+
+{{> nextprev }}
+{{> footer }}
