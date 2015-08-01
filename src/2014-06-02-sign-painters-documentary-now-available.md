@@ -1,5 +1,5 @@
 ---
-title: 'Sign Painters Documentary &#8211; Now available!'
+title: 'Sign Painters Documentary – Now available!'
 author: rileycran
 
 permalink: /2014/06/02/sign-painters-documentary-now-available/

@@ -13,7 +13,7 @@ You [may have seen][1] that The Lost Type Co-op is headed to Amsterdam soon (!!
 
 While we’re in Amsterdam, we’ll be sourcing inspiration for upcoming display face, typeface and lettering projects.
 
-Turns out we’re not the only ones who are excited&#8230; and into making fonts. This letter arrived today. Thanks, Grandma!
+Turns out we’re not the only ones who are excited… and into making fonts. This letter arrived today. Thanks, Grandma!
 
 And many thanks to [Dropbox][2], our awesome sponsor.
 
