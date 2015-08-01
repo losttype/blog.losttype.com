@@ -11,12 +11,12 @@
     "metalsmith-collections": {
       "posts": {
         "pattern": "*-*-*-*.md",
-        "sortBy": "date",
-        "reverse": true
+        "reverse": true,
+        "sortBy": "date"
       },
       "fieldtripam": {
-        "sortBy": "date",
-        "reverse": true
+        "reverse": false,
+        "sortBy": "date"
       }
     },
     "metalsmith-collections-paginate": {
