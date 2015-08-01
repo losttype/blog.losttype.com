@@ -74,3 +74,16 @@
 .u-center {
   text-align: center;
 }
+
+
+// Faux Anchor
+//
+// Markup:
+// <a href="http://github.com/losttype">
+//   <p>See Lost Type’s open source projects <span class="u-aFaux">on GitHub</a></p>
+// </a>
+//
+// Styleguide: module.utility.afaux
+.u-aFaux {
+  @extend a;
+}

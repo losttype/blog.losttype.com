@@ -5,7 +5,7 @@
     <li class="frame {{#if gallery}}knockout{{/if}}" data-item="{{ add 1 @index }}">
       <a class="article" href="/{{ this.slug }}">
         {{!-- <header class="container article-header"> --}}
-          <div class="article-meta">
+          <div class="">{{!-- remove .article-meta class for now --}}
             <time date-time="{{ date }}" class="article-pubdate">{{ moment date format="MMMM Do, YYYY"}}</time>
             <div class="author">
               {{#within ../authors author }}

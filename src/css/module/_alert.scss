@@ -1,0 +1,31 @@
+// Alert
+//
+// Like Bootstrap. A simple notification with
+// modifier classes for multiple contexts.
+//
+// Markup:
+// <a class="alert {{ modifier_class }}" role="alert" href="#">
+//   <p><strong>Heads up</strong> We’re doing some major updates on the Lost Type blog, and this post is pretty old. If you think you see a mistake, please <span class="u-aFaux">report it here!</span> Thanks.</p>
+// </a>
+//
+// Styleguide: module.alert
+.alert,
+a.alert {
+  font-size: $font-size-small;
+  font-family: $font-family-sans;
+  padding: modular-scale(0);
+  // border: 1px solid $gray;
+  background: darken($color-background, 5%); // TODO Refactor this into a .panel or .well class, also used in .newsletter
+  border-radius: $base-border-radius;
+  display: block;
+  color: inherit;
+  p {
+    margin-bottom: 0;
+    & + p {
+      text-indent: $gutter;
+    }
+  }
+  @include media($mid) {
+    padding: modular-scale(2);
+  }
+}
