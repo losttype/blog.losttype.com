@@ -4,12 +4,18 @@ author: rileycran
 
 permalink: /2011/11/20/fonts-in-use-tedx-phoenix/
 template: post.hbs
-categories: 
+categories:
   - Uncategorized
 ---
-We are delighted to see TED using [Wisdom Script ][1]in their branding and motion graphics for their [TEDx Phoenix][2] event.
+We are delighted to see TED using [Wisdom Script][1] in their branding and motion graphics for their [<abbr class="caps">TED</abbr>x Phoenix][2] event.
 
-[&#8220;\___\____ for a Change&#8221; / Opening Titles for TEDxPhoenix 2011][3] from [safwat][4] on [Vimeo][5].
+<figure class="figure--embed">
+<div class="embed-container">
+<iframe src="https://player.vimeo.com/video/31961584" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+<figcaption>[<cite>\_\_\_\_\_\_\_ for a Change</cite>, the opening titles for <abbr class="caps">TED</abbr>xPhoenix 2011][3] from [safwat][4] on [Vimeo][5].</figcaption>
+</figure>
+
 
  [1]: http://www.losttype.com/font/?name=wisdom%20script
  [2]: http://www.tedxphoenix.com/

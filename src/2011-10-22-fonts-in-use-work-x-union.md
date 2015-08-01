@@ -4,7 +4,7 @@ author: rileycran
 
 permalink: /2011/10/22/fonts-in-use-work-x-union/
 template: post.hbs
-categories: 
+categories:
   - fonts-in-use
 fonts:
   - Wisdom Script
@@ -12,7 +12,7 @@ fonts:
 ---
 [WORK x UNION][1], a new job listing website, have tastefully implemented Wisdom Script and Liberator throughout their site/identity.
 
-> &#8220;There are tons of job sites, but there is no job site that focuses on giving away just 1 great job.&#8221;
+> There are tons of job sites, but there is no job site that focuses on giving away just 1 great job.
 
 via [the donut project][2]
 

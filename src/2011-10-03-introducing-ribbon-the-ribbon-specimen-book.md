@@ -5,7 +5,7 @@ author: rileycran
 permalink: /2011/10/03/introducing-ribbon-the-ribbon-specimen-book/
 header: /media/2011/10/blogPostHeader.jpg
 template: post.hbs
-categories: 
+categories:
   - news
 fonts:
   - Ribbon
@@ -45,7 +45,7 @@ DG: I had just started dabbling in Open Type coding for another font (which I pu
 
 **LT: Any other surprises in store this time around?**
 
-DG: There is a border set included in the download as a vector .eps. I love when fonts have all the bells, whistles and assorted extra goodies, so I wanted to make sure Ribbon had some of that.
+DG: There is a border set included in the download as a vector `.eps`. I love when fonts have all the bells, whistles and assorted extra goodies, so I wanted to make sure Ribbon had some of that.
 
 **LT: The Ribbon Specimen Book is the first printed piece for Lost Type, how did that project come about?**
 
@@ -53,7 +53,7 @@ DG: As legend has it Alonzo (designer of Lost Type’s amazing Tightrope font) a
 
 **LT: What was the logic behind the pricing?**
 
-DG: We did not want to mess with the &#8216;pay what you want’ model of the site, but obviously needed to cover the cost of production and shipping. So this sort of kickstarter-like reward system seemed like a good way to achieve that. You can still get the face for any price you desire but if you chip in $30 you get the book sent to you, shipping is on us.
+DG: We did not want to mess with the _pay what you want_ model of the site, but obviously needed to cover the cost of production and shipping. So this sort of kickstarter-like reward system seemed like a good way to achieve that. You can still get the face for any price you desire but if you chip in $30 you get the book sent to you, shipping is on us.
 
 **LT: The book is a collaborative piece with many designers contributing spreads. Why did you go this route as apposed to designing the whole thing yourself?**
 

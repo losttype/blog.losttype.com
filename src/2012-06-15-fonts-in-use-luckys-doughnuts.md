@@ -9,7 +9,7 @@ template: post.hbs
 categories: 
   - Uncategorized
 ---
-via &#8211; [kristianhay on Instagram.][1]
+via – [kristianhay on Instagram.][1]
 
 <img alt="Lucky's" src="http://distilleryimage8.instagram.com/ff86be38b71f11e1b10e123138105d6b_7.jpg" title="Lucky Donuts " class="alignnone" />
 
