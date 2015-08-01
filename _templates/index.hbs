@@ -13,6 +13,9 @@
               {{/within}}
             </div>
           </div>
+          {{#if thumbnail }}
+            <img src="{{ thumbnail }}" alt="" />
+          {{/if }}
           <h1 class="article-title">
           {{ this.title }}
           </h1>
