@@ -12,7 +12,7 @@
     <div class="frame {{#if gallery}}knockout{{/if}}">
       <div class="container article-header">
         <div class="article-meta">
-          <time date-time="{{ date }}" class="article-pubdate">{{ moment date format="MMMM Do, YYYY"}}</time>
+          <time datetime="{{ date }}" class="article-pubdate">{{ moment date format="MMMM Do, YYYY"}}</time>
           <div class="author">
             {{#within authors author }}
               <a href="/about#{{ ../author }}" class="author-name" title="A post by {{ this.name }}">{{ this.name }}</a>
