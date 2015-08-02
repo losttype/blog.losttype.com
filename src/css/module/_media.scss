@@ -20,6 +20,12 @@
     display: block;
   }
 }
+
+.media--collapse {
+  display: block;
+  @include media($mid) {
+    @extend .media;
+  }
 }
 
 .media-figure { // For specificity
