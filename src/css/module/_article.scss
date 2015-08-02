@@ -60,23 +60,28 @@
 
   .frame {
     margin-bottom: modular-scale(3);
-    &:nth-child(2n) {
-      background-color: darken($color-background, 5%); // TODO Consolidate to .well or .panel?
-      .media-body {
-        padding: $gutter $gutter modular-scale(3) 0;
+    // &:nth-child(2n) {
+    //   background-color: darken($color-background, 5%); // TODO Consolidate to .well or .panel?
+    //   .media-body {
+    //     padding: $gutter $gutter modular-scale(3) 0;
+    //   }
+    // }
+  }
+
+  .article {
+    margin-bottom: 0;
+    &:hover {
+      .media-figure {
+        img {
+          opacity: 1.0;
+        }
       }
     }
   }
 
-  .article {
-    display: block;
-    overflow: hidden;
-    margin-bottom: 0;
-  }
-
   .article-title {
     font-size: modular-scale(2);
-    font-weight: 600;
+    font-weight: 700;
   }
 
   .article-excerpt {
@@ -88,12 +93,31 @@
 
   .media-figure {
     display: block;
+    // border-radius: $base-border-radius;
+    // border: 1px solid $gray-light;
+    overflow: hidden;
+    max-height: modular-scale(12);
+    display: flex;
+    // background: $red;
+    img {
+      align-self: center;
+      height: 100%;
+      opacity: 0.9;
+      // filter: grayscale(100%);
+      // mix-blend-mode: multiply;
+      transition: opacity 0.075s;
+    }
   }
 
-  @include media($mid) {
-    @include shift(1 of 9);
-    @include span-columns(7 of 9);
+  @include media($wide) {
+    @include shift(0);
+    @include span-columns(14 of 11);
   }
+  @include media($huge) {
+    @include span-columns(12 of 11);
+  }
+
+}
 
 // Article Banner
 //
