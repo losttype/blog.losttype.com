@@ -9,36 +9,26 @@ template: post.hbs
 categories: fieldtripam
 collection: fieldtripam
 ---
-The paper-covered drawing table is a fixture on Lost Type field trips. This year, we made sure to place a hefty order from JetPens ahead of time so we’d be set for the week. Below are links to a few of our favorites:
+The paper-covered drawing table is a fixture on Lost Type field trips. This year, we made sure to place a hefty order from JetPens ahead of time so we’d be set for the week.
+
+Below are links to a few of our favorites:
 
 <img class="blog-image-full-margin" src="/media/2014/09/Photo-1820-01.png" />
 
-[  
-1 | Pentel Pigment Ink Brush Pen][1]  
-[  
-2 | Pilot Hi-Tec-C Gel Ink Pen][2]  
-[  
-3 | Tombow Dual Brush Pens][3]  
-[  
-4 | Staedtler Mars Graphite Pencils][4]  
-[  
-5 | Kuretake Fudegokochi Brush Pen][5]  
-[  
-6 | Pilot Futayaku Double-Sided Brush Pen][6]  
-[  
-7 | Kuretake Bimoji Felt Tip Brush Pen with Special Grip][7]  
-[  
-8 | Copic Sketch Markers][8]  
-[  
-9 | Kuretake Disposable Pocket Brush Pen][9]  
-[  
-10 | Uni-ball Signo UM-151 Gel Ink Pen][10]  
-[  
-11 | Sharpie Water-Based Paint Markers][11]  
-[  
-12 | Sharpie Brush Tip Permanent Markers][12]  
-[  
-13 | Sakura Pigma Micron Pens][13]
+
+1. [Pentel Pigment Ink Brush Pen][1]  
+2. [Pilot Hi-Tec-C Gel Ink Pen][2]  
+3. [Tombow Dual Brush Pens][3]  
+4. [Staedtler Mars Graphite Pencils][4]  
+5. [Kuretake Fudegokochi Brush Pen][5]  
+6. [Pilot Futayaku Double-Sided Brush Pen][6]  
+7. [Kuretake Bimoji Felt Tip Brush Pen with Special Grip][7]  
+8. [Copic Sketch Markers][8]  
+9. [Kuretake Disposable Pocket Brush Pen][9]  
+10. [Uni-ball Signo UM-151 Gel Ink Pen][10]  
+11. [Sharpie Water-Based Paint Markers][11]  
+12. [Sharpie Brush Tip Permanent Markers][12]  
+13. [Sakura Pigma Micron Pens][13]
 
  [1]: http://www.jetpens.com/Pentel-Pigment-Ink-Brush-Pen-Medium/pd/10975
  [2]: http://www.jetpens.com/Pilot-Hi-Tec-C-Gel-Ink-Pen-with-Grip-0.4-mm-Black/pd/2796
