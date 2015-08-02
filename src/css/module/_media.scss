@@ -23,7 +23,7 @@
 
 .media--collapse {
   display: block;
-  @include media($mid) {
+  @include media($wide) {
     @extend .media;
   }
 }
