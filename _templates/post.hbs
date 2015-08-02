@@ -2,6 +2,13 @@
 
 <article class="article">
   <header {{#if header }} style="background-image: url('/media/{{ header }}'); background-size: cover; background-position: center center;"{{/if}}>
+    {{#if thumbnail }}
+      {{#if gallery }}{{!-- TODO Maybe remove this conditional later --}}
+        <div class="frame">
+          <img src="{{ thumbnail }}" alt="" class="article-banner">
+        </div>
+      {{/if }}
+    {{/if }}
     <div class="frame {{#if gallery}}knockout{{/if}}">
       <div class="container article-header">
         <div class="article-meta">
