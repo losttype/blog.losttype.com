@@ -2,7 +2,8 @@
   "name": "blog.losttype.com",
   "version": "3.0.0",
   "description": "The Lost Type Co-op blog.",
-  "homepage": "http://blog.losttype.com",
+  "main": "build/",
+  "homepage": "http://blog.losttype.surge.sh",
   "author": "Kenneth Ormandy <hello@kennethormandy.com> (http://kennethormandy.com)",
   "license": "Copyright © 2011–2015 The Lost Type Co-op",
   "private": true,
@@ -78,6 +79,8 @@
     "sync": "browser-sync start --files './build/css/*.css' --server \"build\" --no-open",
     "start": "npm run build && npm run watch-html & npm run watch-css & npm run watch-js & npm run sync",
     "styleguide": "kss-node --source ./src/css --destination ./build/styleguide --css /css/index.css --placeholder=\"\" --homepage README.md",
-    "trigger": "node trigger.js"
+    "trigger": "node trigger.js",
+    "predeploy": "npm test && npm run build",
+    "deploy": "surge --project $npm_package_main --domain $npm_package_homepage"
   }
 }
