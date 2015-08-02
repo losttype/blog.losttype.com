@@ -11,14 +11,12 @@ dug({
     // })
     // return feed
   },
-  template: '\
-    {{#data}}\
-      <li>\
-        <a href="{{link}}" class="photo" data-content="{{caption.text}}">\
-          <img src="{{images.low_resolution.url}}" alt="">\
-          <!-- <p><strong>{{user.username}}</strong> {{caption.text}}</p> -->\
-        </a>\
-      </li>\
-    {{/data}}'
-    // TODO Could put “more…” link here
+  template: '' +
+    '{{#data}}' +
+      '<li>' +
+        '<a href="{{link}}" class="photo" data-content="{{caption.text}}">' +
+          '<img src="{{images.low_resolution.url}}" alt="">' +
+        '</a>' +
+      '</li>' +
+    '{{/data}}'
   })
