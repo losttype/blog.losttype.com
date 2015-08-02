@@ -4,8 +4,8 @@
   <header {{#if header }} style="background-image: url('/media/{{ header }}'); background-size: cover; background-position: center center;"{{/if}}>
     {{#if thumbnail }}
       {{#if gallery }}{{!-- TODO Maybe remove this conditional later --}}
-        <div class="frame">
-          <img src="{{ thumbnail }}" alt="" class="article-banner">
+        <div class="frame article-banner">
+          <img src="{{ thumbnail }}" alt="">
         </div>
       {{/if }}
     {{/if }}

@@ -95,6 +95,33 @@
     @include span-columns(7 of 9);
   }
 
+// Article Banner
+//
+// Maybe some of this could be merged with
+// `.article-list .media-figure` from above?
+// The vertical media queries are only
+// neede here, probably.
+//
+// Markup
+// <div class="article-banner {{modifier_class}}">
+//   <img src="/media/2014/09/hay_4.jpg" alt="">
+// </div>
+//
+// Styleguide: module.article.article-banner
+.article-banner {
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden;
+  max-height: modular-scale(10); // Vertical media queries here, please!
+  display: flex;
+  img {
+    align-self: center;
+    height: 100%;
+    width: 100%;
+  }
+  @media (min-height: 700px) and (min-width: $mid-width) {
+    max-height: modular-scale(13);
+  }
 }
 
 .article-contents {
