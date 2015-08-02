@@ -75,7 +75,10 @@ $gray-lighter: mix(#FFF, $gray, 20%);
 $red: #E85623;
 $red-dark: darken($red, 5%);
 
-$color-background: #F7F7F7;
+// $color-background: #FFFDFA;
+// $color-background: #F7F7F7;
+$color-background: mix(#FFFDFA, #F7F7F7, 50%);
+
 $color-primary: $red;
 $color-text: $gray-dark;
 $color-border: $gray;
