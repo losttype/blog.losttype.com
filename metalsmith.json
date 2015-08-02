@@ -28,6 +28,11 @@
       }
     },
     "metalsmith-markdown": {},
+    "metalsmith-better-excerpts": {
+      "stripTags": true,
+      "pruneLength": 250,
+      "pruneString": "…"
+    },
     "metalsmith-tags": {
       "handle": "fonts",
       "path": "fonts-in-use/:tag/index.html",
