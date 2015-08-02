@@ -1,7 +1,8 @@
 ---
 title: Field Trip Amsterdam!
 author: rileycran
-category: fieldtripam
+
+thumbnail: /media/2014/09/amsterdam_post.png
 template: post.hbs
 category: fieldtripam
 collection: fieldtripam
