@@ -103,9 +103,8 @@ body {
 }
 
 .cols-1of2 {
-  @include media($narrow) {
-    @include span-columns(2.5 of 5);
-  }
+  @include span-columns(5 of 5);
+  @include omega;
   @include media($mid) {
     @include span-columns(4.5 of 9);
   }
