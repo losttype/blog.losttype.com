@@ -79,16 +79,35 @@
     }
   }
 
+  .article-meta {
+    color: $color-text;
+    font-size: $font-size-xsmall;
+    font-weight: 500;
+
+    // Override default .article-meta
+    @include media($mid) {
+      width: 100%;
+      margin: 0;
+      padding-left: 0;
+      float: none;
+      @include shift(0);
+      text-align: inherit;
+    }
+  }
+
   .article-title {
-    font-size: modular-scale(2);
-    font-weight: 700;
+    font-size: modular-scale(1);
+    font-weight: 900;
+    color: $color-text;
   }
 
   .article-excerpt {
     color: $color-text;
+    font-size: $font-size-small;
   }
 
   .media-body {
+    // margin-top: modular-scale(-4);
   }
 
   .media-figure {

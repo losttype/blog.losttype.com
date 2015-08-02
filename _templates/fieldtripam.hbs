@@ -12,9 +12,19 @@
               </div>
             {{/if }}
             <div class="media-body cols-1of2">
+              <div class="article-meta cols">
+                <time class="article-pubdate cols-1of2 js-dateFuzzy" datetime="{{ moment this.date format="" }}">{{ moment this.date format="YYYY MM DD"}}</time>
+                <div class="author cols-1of2">
+                  {{#within ../authors this.author }}
+                    <span class="author-name" title="A post by {{ this.name }}">{{ this.name }}</span>
+                  {{/within}}
+                </div>
+              </div>
               <h2 class="article-title">{{ this.title }}</h2>
-              <p class="article-excerpt">{{ excerpt }}</p>
-              <span class="u-aFaux" "Read the article “{{ title }}”">Read more…</span>
+              <div class="article-excerpt">
+                <p>{{ this.excerpt }}</p>
+                <span class="u-aFaux" "Read the article “{{ title }}”">Read more…</span>
+              </div>
             </div>
           </div>
         </a>
