@@ -1,25 +1,27 @@
 {{> header }}
 
-<ul class="u-listBasic article-list">
-  {{#each collections.fieldtripam }}
-    <li class="frame {{#if gallery}}knockout{{/if}}" data-item="{{ add 1 @index }}">
-      <a class="article" href="/{{ this.slug }}">
-        <div class="media media--collapse cols">
-          {{#if thumbnail }}
-            <div class="media-figure cols-1of2">
-              <img src="{{ this.thumbnail }}" alt="">
+<div class="container">
+  <ul class="u-listBasic article-list">
+    {{#each collections.fieldtripam }}
+      <li class="frame" data-item="{{ add 1 @index }}">
+        <a class="article" href="/{{ this.slug }}">
+          <div class="media media--collapse cols">
+            {{#if thumbnail }}
+              <div class="media-figure cols-1of2">
+                <img src="{{ this.thumbnail }}" alt="">
+              </div>
+            {{/if }}
+            <div class="media-body cols-1of2">
+              <h2 class="article-title">{{ this.title }}</h2>
+              <p class="article-excerpt">{{ excerpt }}</p>
+              <span class="u-aFaux" "Read the article “{{ title }}”">Read more…</span>
             </div>
-          {{/if }}
-          <div class="media-body cols-1of2">
-            <h2 class="article-title">{{ this.title }}</h2>
-            <p class="article-excerpt">{{ excerpt }}</p>
-            <span class="u-aFaux" "Read the article “{{ title }}”">Read more…</span>
           </div>
-        </div>
-      </a>
-    </li>
-  {{/each}}
-</ul>
+        </a>
+      </li>
+    {{/each}}
+  </ul>
+</div>
 
 {{> nextprev }}
 {{> footer }}
