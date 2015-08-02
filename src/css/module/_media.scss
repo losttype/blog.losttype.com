@@ -16,11 +16,14 @@
 .media {
   display: flex;
   align-items: flex-start;
+  img {
+    display: block;
+  }
+}
 }
 
 .media-figure { // For specificity
   margin-right: $gutter;
-  width: auto;
 }
 
 .media-body {
