@@ -1,15 +1,24 @@
 {{> header }}
 
-<div class="container">
-  <div class="article">
-    <h1>{{ title }}</h1>
-    <div class="article-contents">
-      {{{ contents }}}
+<div class="frame {{ category }}">
+  <div class="col">
+    <div class="article">
+      <header class="article-header">
+        {{#if this.logo }}
+          <a href="/{{ category }}" class="cols-1of3">
+            <img src="/images/{{ category }}-logo.svg" alt="#{{ category }} logo">
+          </a>
+        {{/if }}
+        <h1>{{ title }}</h1>
+      </header>
+      <div class="article-contents {{#if this.logo }}cols-2of3{{/if }}">
+        {{{ contents }}}
+      </div>
     </div>
   </div>
   <ul class="u-listBasic article-list">
     {{#each collections }}
-      {{#equal @key ../permalink }}
+      {{#equal @key ../category }}
       {{#each this }}
       <li class="frame" data-item="{{ add 1 @index }}">
         <a class="article" href="/{{ this.slug }}">
@@ -46,15 +55,16 @@
     {{/each}}
   </ul>
   <div class="article-sidebar">
-    <h2>#{{ permalink }}</h2>
-    <ul id="js-instagram" class="instagram u-listBasic" data-hashtag="{{ permalink }}"></ul>
+    <h2>#{{ category }}</h2>
+    <ul id="js-instagram" class="instagram u-listBasic" data-hashtag="{{ category }}"></ul>
+    {{!-- <div class="container"> --}}
+      {{> newsletter }}
+    {{!-- </div> --}}
   </div>
 </div>
-
-{{> nextprev }}
-{{> footer }}
-
 
 {{!-- TODO Obviously, move this. --}}
 <script src="https://rawgit.com/rogie/Dug.js/master/dug.js"></script>
 <script src="/js/instagram.js"></script>
+
+{{> footer }}
