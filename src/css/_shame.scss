@@ -39,13 +39,25 @@ tbody {
 .instagram {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: modular-scale(5);
   li {
-    flex: 0 0 33%;
+    flex: 0 0 33.33%;
+    @include media($mid) {
+      flex: 0 0 25%;
+    }
+    @include media($wide) {
+      flex: 0 0 20%;
+    }
   }
   li img {
     display: block;
   }
 }
+
+.article-sidebar {
+  @include span-columns(5 of 5);
+}
+
 
 
 // Article Flex Ordering
@@ -83,11 +95,11 @@ tbody {
 //
 //
 //     font-size: $font-size-small;
-//     // @include span-columns(3 of 11);
-//     // @include shift(-16 of 11);
+//     @include span-columns(3 of 11);
+//     @include shift(-16 of 11);
 //   }
-//   // @include media($huge) {
-//   //   @include span-columns(4 of 11);
-//   //   @include shift(-3 of 11);
-//   // }
+//   @include media($huge) {
+//     @include span-columns(4 of 11);
+//     @include shift(-3 of 11);
+//   }
 // }
