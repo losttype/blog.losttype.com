@@ -17,6 +17,10 @@
       "fieldtripam": {
         "reverse": false,
         "sortBy": "date"
+      },
+      "fieldtripsf": {
+        "reverse": false,
+        "sortBy": "date"
       }
     },
     "metalsmith-collections-paginate": {
