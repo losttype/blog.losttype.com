@@ -43,6 +43,21 @@
   @return $num / ($num * 0 + 1);
 }
 
+// Selection
+//
+// Prefixes must still be declared seperately.
+//
+// No styleguide reference.
+@mixin selection($color: $color-primary, $highlight: desaturate(darken($color, 20%), 10%)) {
+  @each $prefix in "::-moz-selection", "::selection" {
+    #{ $prefix } {
+      background-color: $color;
+      color: $highlight;
+      text-shadow: 0 0 0 transparent;      
+    }
+  }
+}
+
 // Theme
 //
 // For the Field Trips. Override the primary

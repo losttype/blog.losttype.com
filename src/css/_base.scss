@@ -1,6 +1,10 @@
 // Base
 //
 // Styleguide: base
+:root {
+  @include selection($red);
+
+}
 
 html {
   font-size: 100%;
