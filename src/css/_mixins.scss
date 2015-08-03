@@ -13,6 +13,7 @@
   line-height: 1.2;
   border-radius: $base-border-radius;
   transition: color $base-transition-duration $base-transition-function, border-color $base-transition-duration $base-transition-function, background $base-transition-duration $base-transition-function, opacity $base-transition-duration $base-transition-function;
+  text-shadow: none;
   &:hover,
   &:focus,
   &:active {
@@ -40,4 +41,29 @@
 // No styleguide reference.
 @function parseInt($num) {
   @return $num / ($num * 0 + 1);
+}
+
+// Theme
+//
+// For the Field Trips. Override the primary
+// colours in promininet places to create
+// a theme with a colour variant.
+//
+// No styleguide reference.
+@mixin theme($color: $color-primary, $highlight: desaturate(darken($color, 20%), 10%)) {
+  @include selection($color, $highlight);
+  a,
+  .article a,
+  .article .u-aFaux {
+    color: $color;
+    &:hover,
+    &:focus,
+    &:active {
+      color: $highlight;
+    }
+  }
+  .button,
+  a.button {
+    @include button($color);
+  }
 }
