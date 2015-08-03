@@ -6,7 +6,7 @@ permalink: /2014/09/21/field-trip-drawing-tools/
 thumbnail:
   - /media/2014/09/pens.jpg
 template: post.hbs
-categories: fieldtripam
+category: fieldtripam
 collection: fieldtripam
 ---
 The paper-covered drawing table is a fixture on Lost Type field trips. This year, we made sure to place a hefty order from JetPens ahead of time so we’d be set for the week.

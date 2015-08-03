@@ -6,7 +6,7 @@ permalink: /2014/09/23/amsterdam-curly-letter/
 thumbnail:
   - /media/2014/09/krulletter-3.jpg
 template: post.hbs
-categories: fieldtripam
+category: fieldtripam
 collection: fieldtripam
 ---
 As the Lost Type crew spent the day exploring the streets of Amsterdam, we were amazed at the range of letters and typographic elements on buildings, billboards, posters and graffiti throughout the city. Our exploration took us to the district of Jordaan, where old, traditional pubs the locals call ‘bruin cafés’ can be found. Some of these historic ‘brown cafés’ still have windows graced with elegantly hand-painted script.

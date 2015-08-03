@@ -6,7 +6,7 @@ permalink: /2014/09/21/address-numerals-of-copenhagen/
 thumbnail:
   - /media/2014/09/4.jpg
 template: post.hbs
-categories: fieldtripam
+category: fieldtripam
 collection: fieldtripam
 ---
 Amsterdam has been such a blast so far, and we are all really enjoying seeing the vernacular typography of the city.

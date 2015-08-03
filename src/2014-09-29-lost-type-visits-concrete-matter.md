@@ -4,7 +4,7 @@ author: danellecheney
 category: fieldtripam
 template: post.hbs
 gallery: true # Change how this is decided
-categories: fieldtripam
+category: fieldtripam
 collection: fieldtripam
 thumbnail: /media/2014/09/10631960_440908216050421_1750052278_n.jpg
 ---
