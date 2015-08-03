@@ -127,12 +127,12 @@
 
   .media-figure {
     display: block;
-    // border-radius: $base-border-radius;
-    // border: 1px solid $gray-light;
     overflow: hidden;
     max-height: modular-scale(12);
     display: flex;
     margin: 0;
+    border-bottom: 1px solid $gray;
+
     // background: $red;
     img {
       align-self: center;
