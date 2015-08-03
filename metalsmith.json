@@ -18,6 +18,10 @@
         "reverse": false,
         "sortBy": "date"
       },
+      "fieldtripny": {
+        "reverse": false,
+        "sortBy": "date"
+      },
       "fieldtripsf": {
         "reverse": false,
         "sortBy": "date"
