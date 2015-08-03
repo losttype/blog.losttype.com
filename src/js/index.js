@@ -1,7 +1,9 @@
 var vagueTime = require('vague-time')
 require('smoothscroll')
+// Check if we cut the mustard inline,
+// otherwise let’s do it again I guess
+if (mustard || 'querySelector' in window.document) {
 
-if (document.getElementsByClassName) {
   var tags = document.getElementsByClassName('js-dateFuzzy')
   for (var i = tags.length - 1; i >= 0; i--) {
     var dateTime = new Date(tags[i].getAttribute('datetime'))
