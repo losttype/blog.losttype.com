@@ -9,7 +9,8 @@
         </div>
       {{/if }}
     {{/if }}
-    <div class="frame {{#if gallery}}knockout{{/if}}">
+    {{!-- TODO Check if these frames still need to be seperate with new header images --}}
+    <div class="frame {{#if gallery }}knockout{{ else }}{{#if category }}{{ category }}{{/if }}{{/if }}">
       <div class="container article-header">
         <div class="article-meta">
           <time datetime="{{ date }}" class="article-pubdate">{{ moment date format="MMMM Do, YYYY"}}</time>
@@ -24,7 +25,7 @@
       </div>
     </div>
   </header>
-  <div class="frame {{#if gallery}}knockout{{/if}}">
+  <div class="frame {{#if gallery }}knockout{{ else }}{{#if category }}{{ category }}{{/if }}{{/if }}">
       <div class="container article-contents">
         {{{ quotelength contents }}}
       </div>
