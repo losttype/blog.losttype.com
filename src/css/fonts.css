@@ -88,148 +88,20 @@ html:hover [class^="ss-"]{-ms-zoom: 1;}
   content: "";
 }
 
-.ss-googleplus:before,.ss-googleplus.right:after {
-  content: "";
-}
-
-.ss-appdotnet:before,.ss-appdotnet.right:after {
-  content: "";
-}
-
-.ss-ello:before,.ss-ello.right:after {
-  content: "";
-}
-
-.ss-aboutme:before,.ss-aboutme.right:after {
-  content: "";
-}
-
-.ss-vk:before,.ss-vk.right:after {
-  content: "";
-}
-
-.ss-weibo:before,.ss-weibo.right:after {
-  content: "";
-}
-
-.ss-linkedin:before,.ss-linkedin.right:after {
-  content: "";
-}
-
-.ss-zerply:before,.ss-zerply.right:after {
-  content: "";
-}
-
-.ss-xing:before,.ss-xing.right:after {
-  content: "";
-}
-
-.ss-reddit:before,.ss-reddit.right:after {
-  content: "";
-}
-
-.ss-steam:before,.ss-steam.right:after {
-  content: "";
-}
-
-.ss-tumblr:before,.ss-tumblr.right:after {
-  content: "";
-}
-
-.ss-wordpress:before,.ss-wordpress.right:after {
-  content: "";
-}
-
-.ss-blogger:before,.ss-blogger.right:after {
-  content: "";
-}
-
-.ss-quora:before,.ss-quora.right:after {
-  content: "";
-}
-
-.ss-youtube:before,.ss-youtube.right:after {
-  content: "";
-}
-
-.ss-vimeo:before,.ss-vimeo.right:after {
-  content: "";
-}
-
-.ss-vine:before,.ss-vine.right:after {
-  content: "";
-}
-
-.ss-letterboxd:before,.ss-letterboxd.right:after {
-  content: "";
-}
-
-.ss-flickr:before,.ss-flickr.right:after {
-  content: "";
-}
-
 .ss-instagram:before,.ss-instagram.right:after {
   content: "";
-}
-
-.ss-vscogrid:before,.ss-vscogrid.right:after {
-  content: "";
-}
-
-.ss-fivehundredpx:before,.ss-fivehundredpx.right:after {
-  content: "";
-}
-
-.ss-feedly:before,.ss-feedly.right:after {
-  content: "";
-}
-
-.ss-pinterest:before,.ss-pinterest.right:after {
-  content: "";
 }
 
 .ss-dropbox:before,.ss-dropbox.right:after {
   content: "";
 }
 
-.ss-pinboard:before,.ss-pinboard.right:after {
-  content: "";
-}
-
-.ss-delicious:before,.ss-delicious.right:after {
-  content: "";
-}
-
 .ss-dribbble:before,.ss-dribbble.right:after {
   content: "";
 }
 
-.ss-behance:before,.ss-behance.right:after {
-  content: "";
-}
-
 .ss-github:before,.ss-github.right:after {
   content: "";
-}
-
-.ss-bitbucket:before,.ss-bitbucket.right:after {
-  content: "";
-}
-
-.ss-stackoverflow:before,.ss-stackoverflow.right:after {
-  content: "";
-}
-
-.ss-stackexchange:before,.ss-stackexchange.right:after {
-  content: "";
-}
-
-.ss-codepen:before,.ss-codepen.right:after {
-  content: "";
-}
-
-.ss-jsfiddle:before,.ss-jsfiddle.right:after {
-  content: "";
 }
 
 .ss-paypal:before,.ss-paypal.right:after {
@@ -238,46 +110,6 @@ html:hover [class^="ss-"]{-ms-zoom: 1;}
 
 .ss-shopify:before,.ss-shopify.right:after {
   content: "";
-}
-
-.ss-kickstarter:before,.ss-kickstarter.right:after {
-  content: "";
-}
-
-.ss-etsy:before,.ss-etsy.right:after {
-  content: "";
-}
-
-.ss-foursquare:before,.ss-foursquare.right:after {
-  content: "";
-}
-
-.ss-swarm:before,.ss-swarm.right:after {
-  content: "";
-}
-
-.ss-yelp:before,.ss-yelp.right:after {
-  content: "";
-}
-
-.ss-skype:before,.ss-skype.right:after {
-  content: "";
-}
-
-.ss-whatsapp:before,.ss-whatsapp.right:after {
-  content: "";
-}
-
-.ss-rdio:before,.ss-rdio.right:after {
-  content: "";
-}
-
-.ss-spotify:before,.ss-spotify.right:after {
-  content: "";
-}
-
-.ss-lastfm:before,.ss-lastfm.right:after {
-  content: "";
 }
 
 .ss-soundcloud:before,.ss-soundcloud.right:after {
@@ -306,10 +138,6 @@ html:hover [class^="ss-"]{-ms-zoom: 1;}
 
 .ss-android:before,.ss-android.right:after {
   content: "";
-}
-
-.ss-blackberry:before,.ss-blackberry.right:after {
-  content: "";
 }
 
 .ss-link:before,.ss-link.right:after {
