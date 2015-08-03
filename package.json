@@ -58,7 +58,6 @@
   },
   "standard": {
     "global": [
-      "FontFaceObserver",
       "loadCSS",
       "loadJS",
       "dug"
