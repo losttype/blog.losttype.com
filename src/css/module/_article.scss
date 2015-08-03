@@ -69,6 +69,7 @@
   }
 
   .article {
+    border-top: 1px solid $gray-dark;
     margin-bottom: 0;
     &:hover {
       .media-figure {
@@ -83,12 +84,18 @@
     color: $color-text;
     font-size: $font-size-xsmall;
     font-weight: 500;
+    border-bottom: 1px solid $gray;
+    display: block;
+    padding-top: modular-scale(-5);
+    padding-right: modular-scale(-2);
 
     // Override default .article-meta
     @include media($mid) {
+      padding-left: $gutter;
+      padding-right: $gutter;
       width: 100%;
-      margin: 0;
-      padding-left: 0;
+      margin-left: 0;
+      margin-right: 0;
       float: none;
       @include shift(0);
       text-align: inherit;
@@ -96,7 +103,8 @@
   }
 
   .article-title {
-    font-size: modular-scale(1);
+    font-size: modular-scale(2);
+    margin-top: 0;
     font-weight: 900;
     color: $color-text;
   }
@@ -104,10 +112,17 @@
   .article-excerpt {
     color: $color-text;
     font-size: $font-size-small;
+    padding-top: $gutter;
+    @include media($mid) {
+      padding-left: $gutter;
+    }
   }
 
   .media-body {
     // margin-top: modular-scale(-4);
+    @include media($wide) {
+      width: 52%; // TODO Why is this 52 and not 50?
+    }
   }
 
   .media-figure {
@@ -117,6 +132,7 @@
     overflow: hidden;
     max-height: modular-scale(12);
     display: flex;
+    margin: 0;
     // background: $red;
     img {
       align-self: center;
