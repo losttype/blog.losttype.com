@@ -62,6 +62,9 @@
       "loadCSS",
       "loadJS",
       "dug"
+    ],
+    "ignore": [
+      "init.js"
     ]
   },
   "scripts": {
