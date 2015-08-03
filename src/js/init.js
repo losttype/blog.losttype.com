@@ -11,5 +11,4 @@ if ('querySelector' in window.document) {
   }
   loadJS('https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js')
   loadCSS('/css/fonts.css')
-  WebFontConfig // This is for Standard, could probably be less dumb
 }
