@@ -255,24 +255,22 @@ figure.figure--aside, // For specificity!
   margin-top: 0;
   // position: relative;
   @include media($wide) {
-    @include span-columns(13 of 11);
-    img,
-    svg,
-    & > a,
-    video,
-    iframe,
-    .embed-container {
-      @include span-columns(5.5 of 13);
+    @include span-columns(14 of 11);
+    & > *:not(figcaption) {
+      @include span-columns(5.5 of 14);
       &:only-of-type:first-of-type {
-        @include span-columns(11 of 13);
+        @include span-columns(11 of 14);
+        img {
+          width: 100%;
+        }
       }
     }
-    > figcaption,
+    & > figcaption,
     .figure-caption {
       font-size: $fig-font-size-sm;
       line-height: 1.35;
       @include shift(0);
-      @include span-columns(2 of 13);
+      @include span-columns(3 of 14);
     }
   }
   &.figure--breakout {
@@ -297,23 +295,6 @@ figure.figure--aside, // For specificity!
         @include span-columns(2 of 15);
       }
     }
-    //   @include media($mid) {
-    //     position: relative;
-    //     right: auto;
-    //     top: 0;
-    //     width: auto;
-    //     // @include shift(1 of 11);
-    //     // @include span-columns(9 of 11);
-    //   }
-    //   @include media($wide) {
-    //     // position: absolute;
-    //     // right: 0;
-    //     // top: 0;
-    //     align-self: flex-start;
-    //     @include shift(13 of 13);
-    //     @include span-columns(3 of 13);
-    //   }
-    // }
   }
 }
 
