@@ -10,7 +10,7 @@
   "repository": "git@github.com:losttype/blog.losttype.com.git",
   "keywords": [],
   "dependencies": {
-    "dropcap.js": "^1.0.0",
+    "dropcap.js": "1.0.0",
     "smoothscroll": "0.1.0",
     "vague-time": "1.2.0",
     "zoom.js": "fat/zoom.js"
