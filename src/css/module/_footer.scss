@@ -2,10 +2,11 @@
 //
 // Styleguide: module.footer
 .footer {
-  display: block;
-  height: 100%;
-  width: 100%;
-  clear: left;
+  @include span-columns(5 of 5);
+
+  // Temp, probably
+  padding-top: modular-scale(0);
+  padding-bottom: modular-scale(1);
 }
 
 // Footer Release
