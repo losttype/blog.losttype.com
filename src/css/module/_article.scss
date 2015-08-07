@@ -70,7 +70,7 @@
 
   .article {
     border-top: 1px solid $gray-dark;
-    margin-bottom: 0;
+    margin-bottom: modular-scale(2);
     &:hover {
       .media-figure {
         img {
@@ -84,15 +84,15 @@
     color: $color-text;
     font-size: $font-size-xsmall;
     font-weight: 500;
-    border-bottom: 1px solid $gray;
     display: block;
-    padding-top: modular-scale(-5);
+    margin-top: 0;
+    padding-top: modular-scale(-2);
     padding-right: modular-scale(-2);
 
     // Override default .article-meta
     @include media($mid) {
-      padding-left: $gutter;
-      padding-right: $gutter;
+      border-bottom: 1px solid $gray;
+      padding: modular-scale(-1) (parseInt($gutter) * 1rem) modular-scale(-2) (parseInt($gutter) * 1rem);
       width: 100%;
       margin-left: 0;
       margin-right: 0;
@@ -104,17 +104,21 @@
 
   .article-title {
     font-size: modular-scale(2);
-    margin-top: 0;
     font-weight: 900;
     color: $color-text;
+    margin-bottom: modular-scale(-2);
+    @include media($mid) {
+      margin-top: parseInt(modular-scale(-2)) * 1rem;
+      padding-left: parseInt($gutter) * 1rem; // This seems dumb
+    }
   }
 
   .article-excerpt {
     color: $color-text;
     font-size: $font-size-small;
-    padding-top: $gutter;
     @include media($mid) {
-      padding-left: $gutter;
+      // padding-top: $gutter;
+      padding-left: parseInt($gutter) * 1rem; // This seems dumb
     }
   }
 
