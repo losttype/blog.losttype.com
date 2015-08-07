@@ -45,7 +45,7 @@
     },
     "metalsmith-collections-paginate": {
       "posts": {
-        "perPage": 30,
+        "perPage": 10,
         "template": "index.hbs",
         "first": "index.html",
         "path": "page/:num/index.html"
