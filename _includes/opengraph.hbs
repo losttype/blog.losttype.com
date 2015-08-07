@@ -2,17 +2,21 @@
 <meta name="og:title" content="{{#if this.title }}{{ title }}{{ else }}{{ site.title }}{{/if }}">
 <meta name="og:description" content="{{#if this.excerpt }}{{ this.excerpt }}{{ else }}{{ site.description }}{{/if }}">
 <meta name="og:site_name" content="{{ site.title }}">
-
-{{#if this.date }}
-  <meta name="article:published_time" content="{{ this.date }}">
-{{/if }}
-{{#equal template post.hbs }}
+{{#equal this.template 'post.hbs' }}
   <meta name="og:type" content="article">
   {{!-- meta(name="article:modified_time" content="{{ this.modified_time }}") --}}
   {{!-- <meta name="article:modified_time" content=""> --}}
   {{#within authors author }}
-    <meta name="article:author" content="{{ site.author.name }}">
+    <meta name="article:author" content="{{ this.name }}">
+    {{#if this.social }}
+      {{#if this.social.twitter }}
+        <meta name="twitter:creator" content="@{{ this.social.twitter }}">
+      {{/if}}
+    {{/if}}
   {{/within }}
+  {{#if this.date }}
+    <meta name="article:published_time" content="{{ this.date }}">
+  {{/if }}
 {{/equal }}
 <meta name="twitter:site" content="@{{ site.author.social.twitter }}">
 {{#if thumbnail }}
