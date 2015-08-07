@@ -10,3 +10,9 @@ The Lost Type Co-op’s Field Trip brings some of North America’s most talente
 Following our successful [trip to Amsterdam](/fieldtripam) last year, we’ll return to the United States for [#fieldtripchi](https://instagram.com/explore/tags/fieldtripchi) in Chicago. We’re thrilled to head to the Windy City to document its type and lettering, and to meet with local designers and respected industry professionals.
 
 Follow [The Lost Type Co-op on Twitter](https://twitter.com/losttypecoop), [Instagram](https://instagram.com/losttype), and right here on the live blog for all the details!
+
+## An evening with Lost Type
+
+Join us in Chicago at 6:30PM on August 12 for an evening of lettering and type lectures, with various Lost Type Co-op contributors.
+
+<iframe src="//eventbrite.com/tickets-external?eid=10419576233&amp;ref=etckt" frameborder="0" height="269" width="100%" vspace="0" hspace="0" scrolling="auto" allowtransparency="true" class="embed embed-eventbrite"></iframe>
