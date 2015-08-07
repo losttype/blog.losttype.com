@@ -1,6 +1,6 @@
 var vagueTime = require('vague-time')
-require('smoothscroll')
-require('dropcap.js')
+require('smoothscroll') // Need to Browserify Shim this
+require('dropcap.js')   // “”
 var mustard = mustard || false
 
 // Check if we cut the mustard inline,
@@ -19,6 +19,6 @@ if (mustard || 'querySelector' in window.document) {
   }
 
   window.Dropcap.layout(elDropcap, 3)
-
+  // Re-run after resize complete
 
 }

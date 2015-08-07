@@ -4,7 +4,7 @@ if ('querySelector' in window.document) {
   var WebFontConfig = {
     timeout: 1000,
     typekit: {
-      id: 'lma3xaj'
+      id: 'lma3xaj' // @losttype cpc2pit
     },
     custom: {
       families: ['Moriston:n8,n4', 'SSSocialRegular']
