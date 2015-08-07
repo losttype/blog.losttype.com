@@ -1,6 +1,6 @@
 ---
 title: Neon Graveyard
-author: Martin Azambuja
+author: martinazambuja
 
 permalink: /2014/07/12/neon-graveyard/
 thumbnail:

@@ -1,6 +1,6 @@
 ---
 title: Letter from Grandma
-author: Danelle Cheney
+author: danellecheney
 
 permalink: /2014/09/08/letter-from-grandma/
 thumbnail: /media/2014/09/Danelle_Cheney_Grandma_Note_Lost_Type.jpg

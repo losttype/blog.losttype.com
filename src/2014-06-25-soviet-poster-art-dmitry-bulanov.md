@@ -1,12 +1,12 @@
 ---
 title: 'Soviet Poster Art: Dmitry Bulanov'
-author: Frances MacLeod
+author: francesmacleod
 
 permalink: /2014/06/25/soviet-poster-art-dmitry-bulanov/
 thumbnail:
   - /media/2014/06/LT_SU_09.jpg
 template: post.hbs
-categories: 
+categories:
   - Uncategorized
 ---
 <p class="p1">
@@ -14,13 +14,13 @@ categories:
 </p>
 
 <img class="blog-image-full-margin" src="/media/2014/06/LT_SU_10.jpg" alt="" />  
-  
+
 <img class="blog-image-full-margin" src="/media/2014/06/LT_SU_01.jpg" alt="" />  
-  
+
 <img class="blog-image-full-margin" src="/media/2014/06/LT_SU_05.jpg" alt="" />  
-  
+
 <img class="blog-image-full-margin" src="/media/2014/06/LT_SU_07.jpg" alt="" />  
-  
+
 <img class="blog-image-full-margin" src="/media/2014/06/LT_SU_09.jpg" alt="" />  
-  
+
 <img class="blog-image-full-margin" src="/media/2014/06/LT_SU_06.jpg" alt="" />

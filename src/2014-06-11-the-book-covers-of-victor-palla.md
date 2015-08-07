@@ -1,12 +1,12 @@
 ---
 title: The Book Covers of Victor Palla
-author: Frances MacLeod
+author: francesmacleod
 
 permalink: /2014/06/11/the-book-covers-of-victor-palla/
 thumbnail:
   - /media/2014/06/LT_VP_01.jpg
 template: post.hbs
-categories: 
+categories:
   - Uncategorized
 ---
 <p class="p1">

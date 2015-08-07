@@ -1,12 +1,12 @@
 ---
 title: 1964 Ford Falcon Typography
-author: Cade Cran
+author: cadecran
 
 permalink: /2014/06/18/1964-ford-falcon-typography/
 thumbnail:
   - /media/2014/06/ford_11.jpg
 template: post.hbs
-categories: 
+categories:
   - Uncategorized
 ---
 I just recently purchased a new car, a 1964 Ford Falcon. After owning the car for a short time now, I’ve noticed lots of cool little typographical nuggets in and outside of this awesome new old ride. Here are some shots I took of all of the cool stuff we found.

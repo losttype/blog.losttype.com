@@ -1,6 +1,6 @@
 ---
 title: French Typography from the Museum of Printing Lyon
-author: Frances MacLeod
+author: francesmacleod
 
 permalink: /2014/07/21/french-typography-from-the-museum-of-printing-lyon/
 thumbnail:

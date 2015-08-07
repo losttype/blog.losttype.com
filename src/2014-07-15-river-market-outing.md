@@ -1,6 +1,6 @@
 ---
 title: River Market Outing
-author: Neil Secretario
+author: neilsecretario
 
 permalink: /2014/07/15/river-market-outing/
 thumbnail:

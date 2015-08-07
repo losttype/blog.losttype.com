@@ -1,6 +1,6 @@
 ---
 title: Address Numerals of Copenhagen
-author: Riley Cran
+author: rileycran
 
 permalink: /2014/09/21/address-numerals-of-copenhagen/
 thumbnail:

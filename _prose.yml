@@ -27,6 +27,12 @@ prose:
               "value": danellecheney
             - "name": "Frances MacLeod"
               "value": francesmacLeod
+            - "name": "Neil Secretario"
+              "value": "neilsecretario"
+            - "name": "Martin Azambuja"
+              "value": "martinazambuja"
+            - "name": "Cade Cran"
+              "value": "cadecran"
             - "name": "Kenneth Ormandy"
               "value": kennethormandy
       - name: "date"

@@ -1,6 +1,6 @@
 ---
 title: 'Making of: The Manicule Animation'
-author: Riley Cran
+author: rileycran
 
 permalink: /2014/06/11/making-of-the-manicule-animation/
 thumbnail:

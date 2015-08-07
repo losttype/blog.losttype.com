@@ -1,6 +1,6 @@
 ---
 title: Alain Grée — Planes, Trains, and Magic
-author: Trevor Baum
+author: trevorbaum
 
 permalink: /2014/06/11/alain-gree/
 thumbnail:

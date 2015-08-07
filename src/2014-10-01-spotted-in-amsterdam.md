@@ -1,6 +1,6 @@
 ---
 title: Spotted in Amsterdam
-author: Danelle Cheney
+author: danellecheney
 
 permalink: /2014/10/01/spotted-in-amsterdam/
 thumbnail:

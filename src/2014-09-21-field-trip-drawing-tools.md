@@ -1,6 +1,6 @@
 ---
 title: Field Trip Drawing Tools
-author: Frances MacLeod
+author: francesmacleod
 
 permalink: /2014/09/21/field-trip-drawing-tools/
 thumbnail:
@@ -13,8 +13,7 @@ The paper-covered drawing table is a fixture on Lost Type field trips. This yea
 
 Below are links to a few of our favorites:
 
-<img class="blog-image-full-margin" src="/media/2014/09/Photo-1820-01.png" />
-
+![](/media/2014/09/pens.jpg)
 
 1. [Pentel Pigment Ink Brush Pen][1]  
 2. [Pilot Hi-Tec-C Gel Ink Pen][2]  

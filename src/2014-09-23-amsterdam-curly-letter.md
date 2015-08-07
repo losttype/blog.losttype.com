@@ -1,6 +1,6 @@
 ---
 title: Amsterdam Curly Letter
-author: Neil Secretario
+author: neilsecretario
 
 permalink: /2014/09/23/amsterdam-curly-letter/
 thumbnail:

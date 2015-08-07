@@ -16,7 +16,7 @@
           <time datetime="{{ date }}" class="article-pubdate">{{ moment date format="MMMM Do, YYYY"}}</time>
           <div class="author">
             {{#within authors author }}
-              <a href="/about#{{ ../author }}" class="author-name" title="A post by {{ this.name }}">{{ this.name }}</a>
+              <a href="{{ this.url }}" class="author-name" title="A post by {{ this.name }}">{{ this.name }}</a>
             {{/within}}
           </div>
         </div>
@@ -34,7 +34,7 @@
         {{#within authors author }}
           {{#if this.name }}
             <div class="author media">
-              <a href="/about#{{ ../author }}" class="author-avatar media-figure">
+              <a href="{{ this.url }}" class="author-avatar media-figure">
                 {{#if this.social.twitter }}
                   <img src="https://avatars.io/twitter/{{ this.social.twitter}}?size=large" async defer alt="{{ this.name }}’s avatar" />
                 {{else}}
@@ -44,7 +44,7 @@
               </a>
               <div class="media-body">
                 <h4>
-                  <a class="author-name" href="/about#{{ ../author }}" title="A post by {{ this.name }}">{{this.name}}</a>
+                  <a class="author-name" href="{{ this.url }}" title="A post by {{ this.name }}">{{this.name}}</a>
                   {{#if this.social.twitter }}
                     <a class="author-handle" href="https://twitter.com/{{ this.social.twitter }}" title="Follow {{ this.name }} on Twitter.">@{{ this.social.twitter }}</a>
                   {{/if}}

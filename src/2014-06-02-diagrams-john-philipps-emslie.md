@@ -1,6 +1,6 @@
 ---
 title: 'Diagrams – John Philipps Emslie'
-author: Frances MacLeod
+author: francesmacleod
 
 permalink: /2014/06/02/diagrams-john-philipps-emslie/
 thumbnail:

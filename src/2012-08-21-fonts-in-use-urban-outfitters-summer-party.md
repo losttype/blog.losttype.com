@@ -1,12 +1,12 @@
 ---
 title: 'Fonts in Use: Urban Outfitters Summer Party'
-author: grayhood
+author: dangneiding
 
 permalink: /2012/08/21/fonts-in-use-urban-outfitters-summer-party/
 thumbnail:
   - /media/2012/08/URBN-Ribbon-Tee.jpg
 template: post.hbs
-categories: 
+categories:
   - photoset
   - typography
 ---

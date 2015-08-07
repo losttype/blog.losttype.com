@@ -1,6 +1,6 @@
 ---
 title: Giovanni Pintori
-author: Martin Azambuja
+author: martinazambuja
 
 permalink: /2014/07/02/giovanni-pintori/
 thumbnail:
