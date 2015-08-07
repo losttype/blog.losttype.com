@@ -54,7 +54,7 @@
     "metalsmith-markdown": {},
     "metalsmith-better-excerpts": {
       "stripTags": true,
-      "pruneLength": 250,
+      "pruneLength": 200,
       "pruneString": "…"
     },
     "metalsmith-tags": {
