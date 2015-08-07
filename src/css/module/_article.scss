@@ -193,9 +193,11 @@
   // The lead-in paragraph for articles.
   //
   // Markup:
-  // <div class="container article-contents">
+  // <div class="container article-contents {{ modifier_class }}">
   //   <p>This is the first paragraph style. We’ve been talking about a Lost Type Official Store for quite some time, and we are proud to announce that our first 2 products are <a href="http://losttype.com/store/">here</a>!</p>
   // </div>
+  //
+  // .article-contents--intro - Category intro, used in `collection.hbs`.
   //
   // Styleguide: module.article.lead
   & > p:first-of-type {
@@ -231,6 +233,10 @@
       }
     }
   }
+}
+
+.article-contents--intro {
+  margin-bottom: modular-scale(5);
 }
 
 

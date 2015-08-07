@@ -1,66 +1,72 @@
 {{> header }}
 
-<div class="frame {{ category }}">
-  <div class="col">
-    <div class="article">
-      <header class="article-header">
-        {{#if this.logo }}
-          <a href="/{{ category }}" class="cols-1of3">
-            <img src="/images/{{ category }}-logo.svg" alt="#{{ category }} logo">
-          </a>
-        {{/if }}
-        <h1>{{ title }}</h1>
-      </header>
-      <div class="article-contents {{#if this.logo }}cols-2of3{{/if }}">
-        {{{ contents }}}
+<div class="{{ category }}">
+  <div class="frame">
+    <div class="col">
+      <div class="article">
+        <header class="article-header">
+          {{#if this.logo }}
+            <a href="/{{ category }}" class="cols-1of3">
+              <img src="/images/{{ category }}-logo.svg" alt="#{{ category }} logo">
+            </a>
+          {{/if }}
+          <h1>{{ title }}</h1>
+        </header>
+        <div class="article-contents article-contents--intro {{#if this.logo }}cols-2of3{{/if }}">
+          {{{ contents }}}
+        </div>
       </div>
     </div>
   </div>
-  <ul class="u-listBasic article-list">
-    {{#each collections }}
-      {{#equal @key ../category }}
-      {{#each this }}
-      <li class="frame" data-item="{{ add 1 @index }}">
-        <a class="article" href="/{{ this.slug }}">
-          <div class="media media--collapse cols">
-            {{#if thumbnail }}
-              <div class="media-figure cols-1of2">
-                <img src="{{ this.thumbnail }}" alt="">
-              </div>
-            {{/if }}
-            <div class="media-body cols-1of2">
-              <ul class="article-meta cols u-listBasic u-listHorizontal">
-                <li class="article-metaItem cols-1of3">
-                  <time class="article-pubdate js-dateFuzzy" datetime="{{ moment this.date format="" }}">{{ moment this.date format="YYYY MM DD"}}</time>
-                </li>
-                <li class="article-metaItem cols-2of3">
-                  <div class="author">
-                    {{#within ../../../authors this.author }}
-                      <span class="author-name" title="A post by {{ this.name }}">{{ this.name }}</span>
-                    {{/within}}
-                  </div>
-                </li>
-              </ul>
-              <div class="article-excerpt">
-                <h2 class="article-title">{{ this.title }}</h2>
-                <p>{{ this.excerpt }}</p>
-                <span class="u-aFaux" "Read the article “{{ title }}”">Read more…</span>
+  <div class="container">
+    <ul class="u-listBasic article-list">
+      {{#each collections }}
+        {{#equal @key ../category }}
+        {{#each this }}
+        <li class="frame" data-item="{{ add 1 @index }}">
+          <a class="article" href="/{{ this.slug }}">
+            <div class="media media--collapse cols">
+              {{#if thumbnail }}
+                <div class="media-figure cols-1of2">
+                  <img src="{{ this.thumbnail }}" alt="">
+                </div>
+              {{/if }}
+              <div class="media-body cols-1of2">
+                <ul class="article-meta cols u-listBasic u-listHorizontal">
+                  <li class="article-metaItem cols-1of3">
+                    <time class="article-pubdate js-dateFuzzy" datetime="{{ moment this.date format="" }}">{{ moment this.date format="YYYY MM DD"}}</time>
+                  </li>
+                  <li class="article-metaItem cols-2of3">
+                    <div class="author">
+                      {{#within ../../../authors this.author }}
+                        <span class="author-name" title="A post by {{ this.name }}">{{ this.name }}</span>
+                      {{/within}}
+                    </div>
+                  </li>
+                </ul>
+                <div class="article-excerpt">
+                  <h2 class="article-title">{{ this.title }}</h2>
+                  <p>{{ this.excerpt }}</p>
+                  <span class="u-aFaux" "Read the article “{{ title }}”">Read more…</span>
+                </div>
               </div>
             </div>
-          </div>
-        </a>
-      </li>
-      {{/each }}
-      {{/equal }}
-    {{/each}}
-  </ul>
+          </a>
+        </li>
+        {{/each }}
+        {{/equal }}
+      {{/each}}
+    </ul>
+  </div>
   {{!-- <div class="article-sidebar"> --}}
-  <div class="container">
-    <h2>#{{ category }}</h2>
-    <ul id="js-instagram" class="instagram u-listBasic" data-hashtag="{{ category }}"></ul>
-    {{!-- <div class="container"> --}}
-      {{> newsletter }}
-    {{!-- </div> --}}
+  <div class="frame">
+    <div class="container">
+      <h2>#{{ category }}</h2>
+      <ul id="js-instagram" class="instagram u-listBasic" data-hashtag="{{ category }}"></ul>
+      {{!-- <div class="container"> --}}
+        {{> newsletter }}
+      {{!-- </div> --}}
+    </div>
   </div>
   {{!-- </div> --}}
 </div>
