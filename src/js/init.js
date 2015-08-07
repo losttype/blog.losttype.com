@@ -2,7 +2,7 @@
 if ('querySelector' in window.document) {
   var mustard = true
   var WebFontConfig = {
-    timeout: 1000,
+    timeout: 1500,
     typekit: {
       id: 'lma3xaj' // @losttype cpc2pit
     },
