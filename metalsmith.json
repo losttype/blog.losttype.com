@@ -31,15 +31,15 @@
         "sortBy": "date"
       },
       "fieldtripam": {
-        "reverse": false,
+        "reverse": true,
         "sortBy": "date"
       },
       "fieldtripny": {
-        "reverse": false,
+        "reverse": true,
         "sortBy": "date"
       },
       "fieldtripsf": {
-        "reverse": false,
+        "reverse": true,
         "sortBy": "date"
       }
     },
