@@ -3,7 +3,7 @@
   "version": "3.0.0",
   "description": "The Lost Type Co-op blog.",
   "main": "build/",
-  "homepage": "blog.losttype.surge.sh",
+  "homepage": "http://blog.losttype.com",
   "author": "Kenneth Ormandy <hello@kennethormandy.com> (http://kennethormandy.com)",
   "license": "Copyright © 2011–2015 The Lost Type Co-op",
   "private": true,
