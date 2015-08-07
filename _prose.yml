@@ -2,7 +2,7 @@ prose:
   rooturl: "src"
   siteurl: "http://blog.losttype.com/"
   # relativeLinks: "http://prose.github.io/starter/links.jsonp"
-  ignore: ["media"]
+  ignore: ["media", "js", "images"]
   media: "media"
   metadata:
     src:
@@ -14,12 +14,12 @@ prose:
         field:
           element: "hidden"
           label: "Template"
-          value: "post.html"
+          value: "post.hbs"
       - name: "author"
         field:
           element: "select"
           label: "Author"
-          value: riley-cran
+          value: rileycran
           options:
             - "name": "Riley Cran"
               "value": rileycran
@@ -46,7 +46,7 @@ prose:
           # and use a run script to inline them in to the `_prose.yml` file. Everything I tried to
           # have this get inlined automatically as described in the Prose docs didn’t work. Would
           # need to decide what losttype-listing was for: web fonts? All fonts? both?
-          options: [ "Pigeon", "Nelma", "Liberator", "Deming EP", "Tightrope", "Onramp", "Pompadour Numerals", "Highlands", "Saturn V", "Muncie", "Habana", "Tommaso", "Wisdom Script", "Governor", "Ministry", "Duke", "Mensch", "Quaver Sans", "Quaver Serif", "Aldine", "Vevey", "Outage", "Airship 27", "Ranger", "Hellforge", "Oil Can", "Homestead", "Airplane", "Ribbon", "Alexis", "Haymaker", "Valencia", "Carton", "Lavanderia", "Atreyu", "Arvil", "Bender", "Cubano", "Blanch", "Bemio", "Sullivan", "Abraham Lincoln", "Geared", "Edmondsans", "Maven Pro", "Mission Script", "Venera", "Dude", "Mission Gothic", "Cylburn", "Fairview", "Klinic Slab", "Enemy", "Dude Hank Pro", "Orwellian", "Majesti Banner" ]
+          options: [ "Pigeon", "Nelma", "Liberator", "Deming EP", "Tightrope", "Onramp", "Pompadour Numerals", "Highlands", "Saturn V", "Muncie", "Habana", "Tommaso", "Wisdom Script", "Governor", "Ministry", "Duke", "Mensch", "Quaver Sans", "Quaver Serif", "Aldine", "Vevey", "Outage", "Airship 27", "Ranger", "Hellforge", "Oil Can", "Homestead", "Airplane", "Ribbon", "Alexis", "Haymaker", "Valencia", "Carton", "Lavanderia", "Atreyu", "Arvil", "Bender", "Cubano", "Blanch", "Bemio", "Sullivan", "Abraham Lincoln", "Geared", "Edmondsans", "Maven Pro", "Mission Script", "Venera", "Dude", "Mission Gothic", "Cylburn", "Fairview", "Klinic Slab", "Enemy", "Dude Hank Pro", "Orwellian", "Majesti Banner", "Moriston" ]
       - name: "category"
         field:
           element: "select"
@@ -57,14 +57,16 @@ prose:
               "value": "news"
             - "name": "Fonts in Use"
               "value": "fonts-in-use"
+            - "name": "Field Trip Chicago"
+              "value": "fieldtripchi"
             - "name": "Field Trip Amsterdam"
               "value": "fieldtripam"
             - "name": "Field Trip New York"
               "value": "fieldtripny"
             - "name": "Field Trip San Francisco"
               "value": "fieldtripsf"
-      - name: "comments"
-        field:
-          element: checkbox
-          label: "Comments"
-          value: false
+      # - name: "comments"
+      #   field:
+      #     element: checkbox
+      #     label: "Comments"
+      #     value: false
