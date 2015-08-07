@@ -54,13 +54,15 @@
       {{/equal }}
     {{/each}}
   </ul>
-  <div class="article-sidebar">
+  {{!-- <div class="article-sidebar"> --}}
+  <div class="container">
     <h2>#{{ category }}</h2>
     <ul id="js-instagram" class="instagram u-listBasic" data-hashtag="{{ category }}"></ul>
     {{!-- <div class="container"> --}}
       {{> newsletter }}
     {{!-- </div> --}}
   </div>
+  {{!-- </div> --}}
 </div>
 
 {{!-- TODO Obviously, move this. --}}
