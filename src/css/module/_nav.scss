@@ -36,6 +36,9 @@
   height: 100%;
   display: flex;
   // text-transform: uppercase;
+  &:before {
+    content: "";
+  }
 }
 
 .nav-link {
