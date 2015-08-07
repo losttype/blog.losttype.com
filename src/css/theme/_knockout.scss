@@ -11,7 +11,7 @@
     border-color: $gray-dark;
   }
   .article & {
-    a {
+    a, a:visited {
       text-shadow: 1px 0 0 $gray-darker, -1px 0 0 $gray-darker, 0 0 2px $gray-darker;
       color: desaturate(mix($color-primary, white, 66%), 33%);
     }
