@@ -3,8 +3,8 @@ template: post.hbs
 published: false
 title: "Chicago, here we come!"
 author: rileycran
-date: "2016-01-01 14:30:00"
-category: news
+date: "2015-08-08 13:18:00"
+category: fieldtripchi
 ---
 
 We are very excited to be heading to Chicago for our 4th annual Field Trip!
