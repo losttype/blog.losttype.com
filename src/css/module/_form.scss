@@ -32,6 +32,9 @@ textarea {
   resize: none;
   width: 100%;
 
+  &:input-placeholder {
+    color: $gray-dark;
+  }
   &:hover,
   &:focus {
     border-color: $gray;
