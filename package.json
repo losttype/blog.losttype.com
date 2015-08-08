@@ -61,7 +61,8 @@
     "global": [
       "loadCSS",
       "loadJS",
-      "dug"
+      "dug",
+      "WebFont"
     ],
     "ignore": [
       "init.js"
