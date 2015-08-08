@@ -28,6 +28,7 @@ textarea {
   font-size: $base-font-size;
   margin-bottom: $base-line-height / 2;
   padding: ($base-line-height / 3) ($base-line-height / 3);
+  min-height: $base-line-height * 1.5em;
   // border: 1px solid $gray-lighter;
   resize: none;
   width: 100%;
