@@ -57,6 +57,7 @@
 }
 
 .article-list {
+  margin-top: modular-scale(0);
 
   .frame {
     margin-bottom: modular-scale(3);
@@ -156,15 +157,18 @@
 
 // Article Banner
 //
+// Currently only used on gallery posts. Article header image.
 // Maybe some of this could be merged with
 // `.article-list .media-figure` from above?
 // The vertical media queries are only
 // neede here, probably.
 //
+// Markup:
 // <div class="article-banner {{modifier_class}}">
 //   <img src="/media/2014/09/hay_4.jpg" alt="">
 // </div>
 //
+// Styleguide: module.article.banner
 .article-banner {
   padding-left: 0;
   padding-right: 0;

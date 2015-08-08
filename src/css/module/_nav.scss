@@ -3,17 +3,18 @@
 // Styleguide: module.navigation
 .nav {
   font-family: $font-family-sans;
-  margin-bottom: modular-scale(0);
   @include span-columns(5 of 5);
   @include omega();
   max-height: 3.5em;
   display: flex;
   align-items: center;
-  padding-bottom: modular-scale(-4);
   background-color: $gray-lighter;
   font-size: $font-size-small;
   @include media($narrow) {
-    font-size: $base-font-size;
+    font-size: modular-scale(0);
+    padding-top: modular-scale(-4);
+    padding-bottom: modular-scale(-4);
+
   }
   @include media($mid) {
     background-color: transparent;
@@ -22,20 +23,20 @@
   }
 
   .logo {
-    padding-top: $gutter/2;
     align-self: center;
     margin-right: $gutter;
-    width: 3.5em;
-    height: 3em; // Required for Safari 6
-    @include media($mid) {
-      height: 3.5em; // Required for Safari 6
+    height: 3.5em; // Required for Safari 6
+    flex-basis: 3.5em;
+    img, svg {
+      width: 3.5em;
+      height: 100%;
     }
   }
 
 }
 
 .nav-list {
-  height: 3.5em;
+  height: 4em;
   display: flex;
   flex-wrap: wrap;
   font-weight: 400;
