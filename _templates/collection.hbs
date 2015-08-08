@@ -25,7 +25,7 @@
         {{#each this }}
         <li class="frame" data-item="{{ add 1 @index }}">
           <a class="article" href="/{{ this.slug }}">
-            <div class="media media--collapse cols">
+            <div class="{{#if thumbnail}}media media--collapse{{/if}} cols">
               {{#if thumbnail }}
                 <div class="media-figure cols-1of2">
                   <div class="media-constrain">
@@ -46,8 +46,8 @@
                     </div>
                   </li>
                 </ul>
+                <h2 class="article-title">{{ this.title }}</h2>
                 <div class="article-excerpt">
-                  <h2 class="article-title">{{ this.title }}</h2>
                   <p>{{ this.excerpt }}</p>
                   <span class="u-aFaux" "Read the article “{{ title }}”">Read more…</span>
                 </div>
@@ -74,7 +74,7 @@
 </div>
 
 {{!-- TODO Obviously, move this. --}}
-<script src="https://rawgit.com/rogie/Dug.js/master/dug.js"></script>
+<script src="https://cdn.rawgit.com/rogie/Dug.js/master/dug.js"></script>
 <script src="/js/instagram.js"></script>
 
 {{> footer }}

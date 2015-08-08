@@ -3,34 +3,38 @@
 <div class="container">
   <ul class="u-listBasic article-list">
     {{#each pagination.files }}
-      <li class="frame" data-item="{{ add 1 @index }}">
-        <a class="article" href="/{{ this.slug }}">
-          <div class="{{#if thumbnail}}media media--collapse{{/if}} cols">
-            {{#if thumbnail }}
-              <div class="media-figure cols-1of2">
-                <div class="media-constrain">
-                  <img src="{{ this.thumbnail }}" alt="">
-                </div>
+    <li class="frame" data-item="{{ add 1 @index }}">
+      <a class="article" href="/{{ this.slug }}">
+        <div class="{{#if thumbnail}}media media--collapse{{/if}} cols">
+          {{#if thumbnail }}
+            <div class="media-figure cols-1of2">
+              <div class="media-constrain">
+                <img src="{{ this.thumbnail }}" alt="">
               </div>
-            {{/if }}
-            <div class="{{#if thumbnail}}media-body cols-1of2{{else}}cols-2of2{{/if}}">
-              <div class="article-meta cols">
-                <time class="article-pubdate cols-1of2 js-dateFuzzy" datetime="{{ moment this.date format="" }}">{{ moment this.date format="YYYY MM DD"}}</time>
-                <div class="author cols-1of2">
+            </div>
+          {{/if }}
+          <div class="{{#if thumbnail}}media-body cols-1of2{{else}}cols-2of2{{/if}}">
+            <ul class="article-meta cols u-listBasic u-listHorizontal">
+              <li class="article-metaItem cols-1of3">
+                <time class="article-pubdate js-dateFuzzy" datetime="{{ moment this.date format="" }}">{{ moment this.date format="YYYY MM DD"}}</time>
+              </li>
+              <li class="article-metaItem cols-2of3">
+                <div class="author">
                   {{#within ../authors this.author }}
                     <span class="author-name" title="A post by {{ this.name }}">{{ this.name }}</span>
                   {{/within}}
                 </div>
-              </div>
-              <h2 class="article-title">{{ this.title }}</h2>
-              <div class="article-excerpt">
-                <p>{{ this.excerpt }}</p>
-                <span class="u-aFaux" "Read the article “{{ title }}”">Read more…</span>
-              </div>
+              </li>
+            </ul>
+            <h2 class="article-title">{{ this.title }}</h2>
+            <div class="article-excerpt">
+              <p>{{ this.excerpt }}</p>
+              <span class="u-aFaux" "Read the article “{{ title }}”">Read more…</span>
             </div>
           </div>
-        </a>
-      </li>
+        </div>
+      </a>
+    </li>
     {{/each}}
   </ul>
 </div>
