@@ -7,9 +7,9 @@ if ('querySelector' in window.document) {
       id: 'lma3xaj' // @losttype cpc2pit
     },
     custom: {
-      families: ['Moriston:n8,n4', 'SSSocialRegular']
+      families: ['Moriston:n8,n4']
     }
   }
-  loadJS('https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js')
-  loadCSS('/css/fonts.css')
+  loadJS('https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.6/webfontloader.js')
+  loadCSS('http://fonts.kennethormandy.com/css/moriston.css')
 }

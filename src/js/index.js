@@ -19,6 +19,13 @@ if (mustard || 'querySelector' in window.document) {
   }
 
   window.Dropcap.layout(elDropcap, 3)
-  // Re-run after resize complete
+  // TODO Re-run after resize complete
 
+  // Social icons
+  WebFont.load({
+    custom: {
+      families: ['SSSocialRegular']
+    }
+  })
+  loadCSS('http://fonts.kennethormandy.com/css/symbolset.css')
 }
