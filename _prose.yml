@@ -2,8 +2,8 @@ prose:
   rooturl: "src"
   siteurl: "http://blog.losttype.com/"
   # relativeLinks: "http://prose.github.io/starter/links.jsonp"
-  ignore: ["media", "js", "images"]
-  media: "media"
+  ignore: ["media", "js", "images", "css"]
+  media: "src/media"
   metadata:
     src:
       - name: "title"
