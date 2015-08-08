@@ -5,7 +5,9 @@
     {{#if thumbnail }}
       {{#if gallery }}{{!-- TODO Maybe remove this conditional later --}}
         <div class="frame article-banner">
-          <img src="{{ thumbnail }}" alt="">
+          <div class="media-constrain">
+            <img src="{{ thumbnail }}" alt="">
+          </div>
         </div>
       {{/if }}
     {{/if }}

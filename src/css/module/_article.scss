@@ -137,8 +137,6 @@
     max-height: modular-scale(12);
     display: flex;
     .media-constrain {
-      align-self: center;
-      height: 100%;
       opacity: 0.9;
       // filter: grayscale(100%);
       // mix-blend-mode: multiply;
@@ -163,12 +161,10 @@
 // The vertical media queries are only
 // neede here, probably.
 //
-// Markup
 // <div class="article-banner {{modifier_class}}">
 //   <img src="/media/2014/09/hay_4.jpg" alt="">
 // </div>
 //
-// Styleguide: module.article.article-banner
 .article-banner {
   padding-left: 0;
   padding-right: 0;
@@ -285,22 +281,6 @@
 
 .article-pubdate {
 
-}
-
-// Article Banner
-//
-// Currently only used on gallery posts. Article header image.
-//
-// Markup:
-// <header class="container article-header">
-//   <img src="http://placehold.it/1200x400" alt="">
-//   <h1 class="article-title">Introducing The Lost Type&nbsp;Store</h1>
-//   <time date-time="Tue Dec 20 2011 12:00:00 GMT-0800 (PST)" class="article-pubdate">December 20<span class="ord">th</span>, 2011</time>
-// </header>
-//
-// Styleguide: module.article.banner
-.article-banner {
-  display: block;
 }
 
 // Footer
