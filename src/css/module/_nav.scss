@@ -11,6 +11,10 @@
   align-items: center;
   padding-bottom: modular-scale(-4);
   background-color: $gray-lighter;
+  font-size: $font-size-small;
+  @include media($narrow) {
+    font-size: $base-font-size;
+  }
   @include media($mid) {
     background-color: transparent;
     padding-left: 0;
@@ -22,7 +26,10 @@
     align-self: center;
     margin-right: $gutter;
     width: 3.5em;
-    height: 3.5em; // Required for Safari 6
+    height: 3em; // Required for Safari 6
+    @include media($mid) {
+      height: 3.5em; // Required for Safari 6
+    }
   }
 
 }
