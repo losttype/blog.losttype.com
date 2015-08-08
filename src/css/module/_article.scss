@@ -88,6 +88,7 @@
     margin-top: 0;
     padding-top: modular-scale(-2);
     padding-right: modular-scale(-2);
+    text-align: left;
 
     // Override default .article-meta
     @include media($mid) {
@@ -98,7 +99,6 @@
       margin-right: 0;
       float: none;
       @include shift(0);
-      text-align: inherit;
     }
   }
 
