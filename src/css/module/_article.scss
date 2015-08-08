@@ -109,8 +109,8 @@
     color: $color-text;
     margin-bottom: modular-scale(-2);
     @include media($mid) {
-      margin-top: parseInt(modular-scale(-2)) * 1rem;
-      padding-left: parseInt($gutter) * 1rem; // This seems dumb
+        margin-top: parseInt(modular-scale(-1)) * 1rem;
+        padding-left: parseInt($gutter) * 1rem; // This seems dumb
     }
   }
 
