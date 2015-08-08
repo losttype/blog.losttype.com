@@ -35,3 +35,14 @@
 .media-body {
   flex: 1;
 }
+
+
+// Media Constrain
+//
+// This class isn’t doing anything except for
+// being a div to help old Safari
+//
+// No styleguide reference.
+.media-constrain {
+  width: 100%;
+}

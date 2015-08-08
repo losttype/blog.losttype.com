@@ -130,15 +130,13 @@
   }
 
   .media-figure {
-    display: block;
-    overflow: hidden;
-    max-height: modular-scale(12);
     display: flex;
     margin: 0;
     border-bottom: 1px solid $gray;
-
-    // background: $red;
-    img {
+    overflow: hidden;
+    max-height: modular-scale(12);
+    display: flex;
+    .media-constrain {
       align-self: center;
       height: 100%;
       opacity: 0.9;

@@ -28,10 +28,12 @@
             <div class="media media--collapse cols">
               {{#if thumbnail }}
                 <div class="media-figure cols-1of2">
-                  <img src="{{ this.thumbnail }}" alt="">
+                  <div class="media-constrain">
+                    <img src="{{ this.thumbnail }}" alt="">
+                  </div>
                 </div>
               {{/if }}
-              <div class="media-body cols-1of2">
+              <div class="{{#if thumbnail}}media-body cols-1of2{{else}}cols-2of2{{/if}}">
                 <ul class="article-meta cols u-listBasic u-listHorizontal">
                   <li class="article-metaItem cols-1of3">
                     <time class="article-pubdate js-dateFuzzy" datetime="{{ moment this.date format="" }}">{{ moment this.date format="YYYY MM DD"}}</time>

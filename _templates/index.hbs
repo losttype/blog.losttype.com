@@ -8,7 +8,9 @@
           <div class="{{#if thumbnail}}media media--collapse{{/if}} cols">
             {{#if thumbnail }}
               <div class="media-figure cols-1of2">
-                <img src="{{ this.thumbnail }}" alt="">
+                <div class="media-constrain">
+                  <img src="{{ this.thumbnail }}" alt="">
+                </div>
               </div>
             {{/if }}
             <div class="{{#if thumbnail}}media-body cols-1of2{{else}}cols-2of2{{/if}}">
