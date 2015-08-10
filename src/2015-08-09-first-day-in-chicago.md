@@ -53,6 +53,6 @@ I’ve loved following along with Lost Type’s field trips, and I feel so lucky
 
 Some incredible work is started at Lost Type’s field trips, from [Mission Gothic](http://www.losttype.com/font/?name=missiongothic), [Dude Hank Pro](http://www.losttype.com/font/?name=hankpro), to Riley’s upcoming release which we’ve started using on this very site. We’re looking forward to showing you whatever is next!
 
-If you’re near Chicago, we’ll happily do that in person at our even, [<cite>An evening with Lost Type</cite>](http://www.eventbrite.com/e/an-evening-with-lost-type-tickets-10419576233). Tickets are still available:
+If you’re near Chicago, we’ll happily do that in person at our event, [<cite>An evening with Lost Type</cite>](http://www.eventbrite.com/e/an-evening-with-lost-type-tickets-10419576233). Tickets are still available:
 
 <iframe src="//eventbrite.com/tickets-external?eid=10419576233&amp;ref=etckt" frameborder="0" height="269" width="100%" vspace="0" hspace="0" scrolling="auto" allowtransparency="true" class="embed embed-eventbrite"></iframe>
