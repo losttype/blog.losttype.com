@@ -20,4 +20,8 @@
   .figure-caption {
     color: $color-background;
   }
+
+  [data-pullquote] {
+    padding-left: modular-scale(0);
+  }
 }
