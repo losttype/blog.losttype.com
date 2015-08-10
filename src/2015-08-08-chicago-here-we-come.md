@@ -5,7 +5,7 @@ title: "Chicago, here we come!"
 author: rileycran
 category: fieldtripchi
 collection: fieldtripchi
-thumbnail: /media/08/chicago-header.png
+thumbnail: /media/2015/08/chicago-header.png
 ---
 
 We are very excited to be heading to Chicago for our 4th annual Field Trip!
