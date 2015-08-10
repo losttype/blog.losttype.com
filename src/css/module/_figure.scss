@@ -217,9 +217,9 @@ figcaption {
   line-height: $base-line-height;
   font-size: $fig-font-size;
   color: lighten($gray-darker, 7%);
-  a:first-child {
-    display: block;
-  }
+  // a:first-child {
+  //   display: block;
+  // }
   @if $fig-numbered == true {
     &:before {
       content: "Fig. " counter(fig) " ";
