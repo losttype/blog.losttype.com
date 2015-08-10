@@ -41,7 +41,7 @@ Later, [Chaun Osburn](https://twitter.com/zooind), who works at the amazing stud
 
 <figure class="figure--breakout">
 ![](/media/2015/08/chicago-pnw-crew.jpg)
-<figcaption>Riley and Kenneth, from Vancouver, and Chaun and Merisol, from Seattle. Photo thanks to [Danelle](https://twitter.com/danellecheney).</figcaption>
+<figcaption>Riley and Kenneth, from Vancouver, and Chaun and Marisol, from Seattle. Photo thanks to [Danelle](https://twitter.com/danellecheney).</figcaption>
 </figure>
 
 I’ve loved following along with Lost Type’s field trips, and I feel so lucky to be an attendee this year. At first we’ve just been getting to know each other better, but today everyone’s working on projects.
