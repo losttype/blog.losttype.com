@@ -11,7 +11,7 @@ thumbnail: /media/08/chicago-header.png
 We are very excited to be heading to Chicago for our 4th annual Field Trip!
 
 <figure class="figure--aside">
-![](/media/08/chicago-header.png)
+![](/media/2015/08/chicago-header.png)
 <figcaption>This year’s logo was drawn by [Cade Cran](http://cadecran.com/).</figcaption>
 </figure>
 
