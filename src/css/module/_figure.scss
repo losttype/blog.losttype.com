@@ -425,3 +425,27 @@ figure.figure--aside, // For specificity!
     }
   }
 }
+
+// Figure left (custom)
+//
+// No styleguide reference.
+.figure--left {
+  @include media($mid) {
+    @include span-columns(3 of 6);
+    @include shift(-1 of 6);
+    figcaption,
+    .figcaption {
+      @include span-columns(5 of 6);
+      @include shift(1 of 6);
+    }
+  }
+  @include media($huge) {
+    @include span-columns(4 of 9);
+    @include shift(-2 of 9);
+    figcaption,
+    .figcaption {
+      @include span-columns(4 of 4);
+      @include shift(0);
+    }
+  }
+}
