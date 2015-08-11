@@ -41,4 +41,4 @@ __Whats your favorite breakfast food?__ Now and forever, Bacon.
 </figcaption>
 </figure>
 
-Make sure to follow [@grayhood on Twitter](https://twitter.com/grayhood) for more amazing animations, or read his opus on [his typeface Dude](http://blog.losttype.com/there-is-a-new-serif-in-town/).
+Make sure to follow [@grayhood on Twitter](https://twitter.com/gray_hood) for more amazing animations, or read his opus on [his typeface Dude](http://blog.losttype.com/there-is-a-new-serif-in-town/).
