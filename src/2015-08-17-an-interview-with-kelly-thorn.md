@@ -3,7 +3,6 @@ title: "That extra oomph: An interview with Kelly Thorn"
 author: danellecheney
 
 template: post.hbs
-published: false
 category: fieldtripchi
 collection: fieldtripchi
 thumbnail: /media/2015/08/chicago-kelly-1.jpg
