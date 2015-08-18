@@ -214,8 +214,6 @@ blockquote,
     margin-bottom: $base-line-height * 1em;
     color: $color-primary;
     font-family: $font-family-sans;
-  }
-  @include media($mid) {
     @include span-columns(3 of 7);
     @include shift(-1 of 7);
   }
@@ -230,7 +228,6 @@ blockquote,
     @include span-columns(4 of 7);
     @include shift(-2 of 7);
   }
-
 }
 
 // Pullquote in an blockquote
