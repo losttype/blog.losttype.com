@@ -8,6 +8,8 @@ collection: fieldtripchi
 thumbnail: /media/2015/08/chicago-kelly-1.jpg
 ---
 
+> It was wonderful to have Kelly and Spencer join us on this years trip. Kelly has a wonderful sense of humor and a jovial spirit about her, which I think shows in her [characterful lettering work](http://kellythorn.com). I hope that both of them will join us on future adventures, they were a joy to share ideas and laugh with. 
+
 __Name__ Kelly “þ” Thorn
 
 __Where do you currently live and work?__ Brooklyn “BedStuy” NY
