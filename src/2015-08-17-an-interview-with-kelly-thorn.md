@@ -8,6 +8,8 @@ collection: fieldtripchi
 thumbnail: /media/2015/08/chicago-kelly-1.jpg
 ---
 
+> It was wonderful to have Kelly and Spencer join us on this years trip. Kelly has a wonderful sense of humor and a jovial spirit about her, which I think shows in her [characterful lettering work](http://kellythorn.com). I hope that both of them will join us on future adventures, they were a joy to share ideas and laugh with. 
+
 __Name__ Kelly “þ” Thorn
 
 __Where do you currently live and work?__ Brooklyn “BedStuy” NY
@@ -34,8 +36,7 @@ I compose an overly ambitious [list](http://thumbs.dreamstime.com/z/to-do-list-t
 
 After my very [important](http://giphy.com/gifs/puppy-animated-12CU8VuAS0dAzu/fullscreen) endeavors, I might head over to meet my [sexy](http://giphy.com/gifs/sexy-stephen-colbert-lick-KAyCDfOolR8hq/tile) [hubby](http://www.spencercharles.com/) at the [Pencil Factory](http://pencilfactory.biz/) and we go eat [various Polish foods](https://upload.wikimedia.org/wikipedia/commons/a/a3/07603_pierogi_zapiekane_z_kapusta_i_kminem.jpg) or drink [fancy mixed drinks](http://giphy.com/gifs/beer-the-simpsons-3vDFxcB9vZNNS) with friends, or just have a [casual dinner for 2](http://aprilchantel.com/blog/wp-content/uploads/2012/06/candlelight-dinner-on-the-water.jpg). Then we’ll saunter home and Spencer will s my d.
 
-How did you first get interested in typography, lettering, and type design?
-In the 5th grade, I wrote a book named <cite>Nightmare of the Living Dummy</cite> (Please don’t sue me, RL Stine) and I illustrated the entire thing complete with [spooky, wacky letters](http://www.6dembroiderysystem.com/assets/img/Lettering/Scary/Spooky-Outline/4.jpg) I loved being able to communicate in that way, especially because I truly thought that my novella was extremely frightening and that my letters added that extra **oomph**.
+__How did you first get interested in typography, lettering, and type design?__ In the 5th grade, I wrote a book named <cite>Nightmare of the Living Dummy</cite> (Please don’t sue me, RL Stine) and I illustrated the entire thing complete with [spooky, wacky letters](http://www.6dembroiderysystem.com/assets/img/Lettering/Scary/Spooky-Outline/4.jpg) I loved being able to communicate in that way, especially because I truly thought that my novella was extremely frightening and that my letters added that extra **oomph**.
 
 <figure class="figure--aside figure--breakout">
 ![](/media/2015/08/chicago-kelly-1.jpg)

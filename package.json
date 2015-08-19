@@ -74,6 +74,7 @@
     "test": "echo \"Error: no test specified…yet! Pull requests on https://github.com/losttype/blog.losttype.com are greatly appreciated.\" && exit 0",
     "posttest": "npm run lint",
     "build-html": "node_modules/metalsmith/bin/metalsmith",
+    "build-nofollow": "echo 'User-agent: *\nDisallow: /' > build/robots.txt",
     "build-css": "node-sass src/css/index.scss | autoprefixer > build/css/index.css",
     "build-js": "browserify src/js/index.js -o build/js/index.js",
     "build": "npm run build-html && npm run build-css && npm run build-js",
@@ -85,6 +86,8 @@
     "styleguide": "kss-node --source ./src/css --destination ./build/styleguide --css /css/index.css --placeholder=\"\" --homepage README.md",
     "trigger": "node trigger.js",
     "predeploy": "npm test && npm run build",
-    "deploy": "surge --project $npm_package_main --domain $npm_package_homepage"
+    "deploy": "surge --project $npm_package_main --domain $npm_package_homepage",
+    "predeploy-pr": "npm test && npm run build && npm run build-nofollow",
+    "deploy-pr": "surge --project $npm_package_main"
   }
 }
