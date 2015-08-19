@@ -22,7 +22,7 @@ __What disciplines do you specialize in?__ Brand, Identity, Illustration, Print.
 <figcaption>Jim Leszczynski, also known as Jacuzzi Jim.</figcaption>
 </figure>
 
-__What’s your typical day like?__ Every day is a little different! After deciding wether or not pants are required for the day, I spend time training my dog in the mornings and working late. Running my own shop has allowed a lot of flexibility to budget my time doing the things I love most.
+__What’s your typical day like?__ Every day is a little different! After deciding whether or not pants are required for the day, I spend time training my dog in the mornings and working late. Running my own shop has allowed a lot of flexibility to budget my time doing the things I love most.
 
 __How did you first get interested in typography / lettering / type design?__ I first discovered the power of typography at my internship with Moxie Sozo in Boulder, CO. I thought it was fascinating how type and lettering were incorporated into their packaging and print collateral. Some of this experience translated to projects with Lost Type, like our button kits.
 
