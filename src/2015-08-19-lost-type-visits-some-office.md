@@ -48,7 +48,7 @@ The middle of the workspace.
 
 ## Independent residents
 
-A personal highlight of this visit was finding out [Greg Wohlwend](http://aeiowu.com/), creator one of my favourite iOS games, [Threes](http://threesgame.com), worked in the space. We also saw some behind the scenes work on a map for someone’s sustainable travel blog which was very impressive.
+A personal highlight of this visit was finding out [Greg Wohlwend](http://aeiowu.com/), creator one of my favourite iOS games, [Threes](http://threesgame.com), worked in the space. We also saw some behind the scenes work on a map for Brent Knepper’s [sustainable travel blog](http://www.everythingwillbenoble.com/) which was very impressive.
 
 <figure class="" data-media="Photo">
 ![](/media/2015/08/chicago-cards-chaun-07.jpg)
@@ -102,7 +102,7 @@ Some Office also collaborated with the Chicago Design Museum to host a [Debbie M
 
 ## Thank you cards
 
-Thanks to Cards Against Humanity and everyone in the Some Office space for letting us hang out and having lunch with us. A special thanks to our new friend—[Frances’](http://losttype.com/font/?name=abraham_lincoln) old friend—[Dave of project](#) for organising everything, and showing us around! He gave us a sneak peak of a game he is working on, and you will definitely want to keep an eye out for that; follow him [on Twitter here](https://twitter.com/???).
+Thanks to Cards Against Humanity, and everyone in the Some Office space, for letting us hang out and having lunch with us. A special thanks to our new friend—[Frances’](http://losttype.com/font/?name=abraham_lincoln) old friend—[Daniel Zarick of #33CC77](http://33cc77.com/) for organising everything, and showing us around! He gave us a sneak peak of a game he is working on, and you will definitely want to keep an eye out for that; follow him [on Twitter here](https://twitter.com/danielzarick).
 
 <figure class="" data-media="Photo">
 ![](/media/2015/08/chicago-cards-11.jpg)
