@@ -212,6 +212,7 @@ figcaption {
   width: 100%;
   flex: 1 1 100%;
   font-family: $font-family-caption;
+  letter-spacing: 0.01em;
   // font-style: italic;
   align-self: flex-end;
   line-height: $base-line-height;
