@@ -55,7 +55,7 @@ And this year we spent an incredible afternoon at [The Newberry library](https:/
 
 <figure class="figure--aside">
 ![](/media/2015/08/chicago-newberry-9.jpg)
-<figcaption>[Mauricio](https://twitter.com/mauriciosgnl) looks over Cooper’s cards.</figcaption>
+<figcaption>[Mauricio](https://twitter.com/mauriciosgnl) looks over Cooper’s cards. You can see various versions of each letter, later proofed in combination with one another. Note the seven—eight!—variations of the letter _a_.</figcaption>
 </figure>
 
 ## The reading room
