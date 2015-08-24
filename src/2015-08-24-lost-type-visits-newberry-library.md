@@ -5,7 +5,7 @@ author: rileycran
 template: post.hbs
 category: fieldtripchi
 collection: fieldtripchi
-thumbnail: /media/2015/08/chicago-newberry-7.jpg
+thumbnail: /media/2015/08/chicago-newberry-9.jpg
 ---
 
 Looking back on each trip we’ve embarked on, the highlights definitely include the archives we’ve had a chance to visit. Although the [Letterform Archive](http://letterformarchive.org/) was not open when we all flew to SF in 2012, it is now open by appointment, which means that every single city we have visited on all 4 trips thus far have had an incredible archive of typographic material. In fact each one is unique and special in its own way, and that has kept us traveling.
