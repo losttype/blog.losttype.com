@@ -26,6 +26,15 @@
   }
 }
 
+h1 .widont {
+  @include media($wide) {
+    display: inline-block;
+  }
+  @include media($huge) {
+    display: inline;
+  }
+}
+
 // Ord
 // .ord {
 //   @extend sup;
