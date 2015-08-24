@@ -29,7 +29,7 @@
     "harp-minify": "0.3.2",
     "helper-moment": "0.1.0",
     "kss": "2.1.0",
-    "losttype-contributors": "0.4.0",
+    "losttype-contributors": "0.4.1",
     "metalsmith": "1.7.0",
     "metalsmith-better-excerpts": "0.1.5",
     "metalsmith-collections": "0.7.0",
