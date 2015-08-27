@@ -12,7 +12,7 @@ thumbnail: /media/2015/08/chicago-kelly-1.jpg
 
 __Name__ Kelly “þ” Thorn
 
-__Where do you currently live and work?__ Brooklyn “BedStuy” NY
+__Based in__ Brooklyn “BedStuy” NY
 
 <figure class="figure--aside">
 ![](/media/2015/08/chicago-kelly-2.jpg)
@@ -45,7 +45,7 @@ __How did you first get interested in typography, lettering, and type design?__ 
 
 __So… How do you feel about Curlz MT?__ Pretty sure I used Curlz for **all body copy** in <cite>Nightmare of the Living Dummy</cite>. It was siiiiiiiiiiick.
 
-__Whats your favorite breakfast food?__ [Lots of things](http://previews.123rf.com/images/elnur/elnur1203/elnur120300961/12531092-Circle-with-lots-of-food-items-Stock-Photo-food-pyramid-diet.jpg) but my palette is particularly partial to leftover Chinese food.
+__What’s your favorite breakfast food?__ [Lots of things](http://previews.123rf.com/images/elnur/elnur1203/elnur120300961/12531092-Circle-with-lots-of-food-items-Stock-Photo-food-pyramid-diet.jpg) but my palette is particularly partial to leftover Chinese food.
 
 <figure class="figure--aside">
 ![](/media/2015/08/kelly-thank-you-card.png)

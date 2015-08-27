@@ -33,6 +33,6 @@ __How did you first get interested in typography / lettering / type design?__ I 
 
 __So… How do you feel about Curlz MT?__ Curlz MT is super cute! What would elementary school teachers and dance studios use if we didn’t have it?
 
-__What's your favorite breakfast food?__ The obvious and only answer to this question – for all individuals on this bountiful green earth – is bacon.
+__What’s your favorite breakfast food?__ The obvious and only answer to this question – for all individuals on this bountiful green earth – is bacon.
 
 <footer>Make sure to follow Jim’s studio, [@goodbehaviorco on Twitter](https://twitter.com/goodbehaviorco), and keep an eye out for our next interview with a [#fieldtripchi](/fieldtripchi) attendee.</footer>

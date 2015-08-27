@@ -32,7 +32,7 @@ __So… How do you feel about Curlz MT?__ I dig Curls MT b/c the name reminds me
 <figcaption>Dan “Grayhood” Gneiding. Photo by Riley Cran with some minor modifications.</figcaption>
 </figure>
 
-__Whats your favorite breakfast food?__ Now and forever, Bacon.
+__What’s your favorite breakfast food?__ Now and forever, Bacon.
 
 <figure>
 [![Breakfast](/media/2015/08/grayhood-breakfast.gif)](https://twitter.com/grayhood)
