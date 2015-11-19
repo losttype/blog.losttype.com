@@ -11,7 +11,7 @@
   "keywords": [],
   "dependencies": {
     "dropcap.js": "1.0.0",
-    "fontfaceobserver": "1.5.5",
+    "fontfaceobserver": "1.5.4",
     "smoothscroll": "0.1.0",
     "vague-time": "1.2.0",
     "zoom.js": "fat/zoom.js"
