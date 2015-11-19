@@ -70,7 +70,7 @@
     ]
   },
   "scripts": {
-    "postinstall": "./node_modules/losttype-contributors/index.json ./src/authors.json",
+    "postinstall": "cp ./node_modules/losttype-contributors/index.json ./src/authors.json",
     "lint": "standard src/js/*.js",
     "test": "echo \"Error: no test specified…yet! Pull requests on https://github.com/losttype/blog.losttype.com are greatly appreciated.\" && exit 0",
     "posttest": "npm run lint",
