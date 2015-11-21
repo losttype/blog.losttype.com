@@ -26,6 +26,10 @@
         "reverse": true,
         "sortBy": "date"
       },
+      "fieldtripvan": {
+        "reverse": true,
+        "sortBy": "date"
+      },
       "fieldtripchi": {
         "reverse": true,
         "sortBy": "date"
