@@ -30,3 +30,29 @@ npm start
 
 # Now available in your browser at http://localhost:3000
 ```
+
+## Adding categories
+
+To add new categories to the site and expose them within the editor, add a new option to the `_prose.yml` file in the `"category"` section. Most likely, you’re adding a new Field Trip category, for example:
+
+```yml
+- "name": "Field Trip Vancouver"
+  "value": "fieldtripvan"
+```
+
+You’ll also need to add it to the `metalsmith.json` file:
+
+```json
+"fieldtripvan": {
+  "reverse": true,
+  "sortBy": "date"
+},
+```
+
+Finally, you’ll likely want to add a page that only shows the posts for this category. This is done with a Markdown file in the `src/` directory that has the same filename as the `value` you just set the category to in the Prose file. In this case, it would be `fieldtripvan.md`. If you’d like, you can add this file via the command line by running:
+
+```sh
+touch src/fieldtripvan.md
+```
+
+Now, “Field Trip Vancouver” will be the category name, and the URL will be at `http://blog.losttype.com/fieldtripvan`.
