@@ -35,6 +35,8 @@ prose:
               "value": "cadecran"
             - "name": "Kenneth Ormandy"
               "value": kennethormandy
+            - "name": "Spencer Charles"
+              "value": spencercharles
       - name: "date"
         field:
           element: "text"
