@@ -23,7 +23,7 @@ After [the clown suit debacle](/visit-to-the-hamilton-wood-type-museum-pt-1), we
 The following day, we arrived at the museum bright and early to chat with [Jim Moran](http://woodtype.org/about/staff) about his role at Hamilton, as well as his many other insights about letterpress printing, and design in general.
 
 <figure class="figure--embed figure--breakout">
-<div class="embed-container"><iframe src="https://player.vimeo.com/video/140883679" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+<div class="embed-container"><iframe src="https://player.vimeo.com/video/146196222" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 <figcaption>An interview with Jim Moran.</figcaption>
 </figure>
 
