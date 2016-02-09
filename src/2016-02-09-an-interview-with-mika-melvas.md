@@ -1,17 +1,17 @@
 ---
 template: post.hbs
-published: false
-title: An interview with Mika Melvas
-author: rileycran
-date: "2016-01-01 14:30:00"
+published: true
+title: "An interview with Mika Melvas"
+author: dangneiding
 category: news
+thumbnail: /media/mika_lost_type_WIP.png
 ---
 
 >Mika Melvas is a lettering artist in Vantaa, Finland. He recently lettered our [latest T-shirt in the store](http://store.losttype.com/products/mika-melvas-for-lost-type-shirt), and I drafted up some interview questions for him.
 
 __What discipline do you specialize in?__
 
-I am a type designer. To be more specific I design retail typefaces and also do some custom typefaces for companies. I also do some interesting lettering projects besides that. 
+I am a type designer. To be more specific I design retail typefaces and also do some custom typefaces for companies. I also do some interesting lettering projects besides that.
 
 __What’s your typical day like?__
 
@@ -45,34 +45,32 @@ I have to say Salmiakki. It is this salty candy that no one else likes than Finn
 __What was your inspiration/process for your lettering for the
 latest Lost Type Tee?__
 
-I sometimes let the process lead the way to the end result. If you know what I mean. And it was the like that with this lettering also. I didn’t have a clear plan or vision in my head to start with. I just did some sketches and started to tweak and twist one of them. 
+I sometimes let the process lead the way to the end result. If you know what I mean. And it was the like that with this lettering also. I didn’t have a clear plan or vision in my head to start with. I just did some sketches and started to tweak and twist one of them.
 
 <figure>
-![]({{site.baseurl}}/src/media/mika_lost_type_WIP.png)
-<figcaption>Mika's first round of explorations for his Lost Type t-shirt. 
+![](/media/mika_lost_type_WIP.png)
+<figcaption>Mika's first round of explorations for his Lost Type t-shirt.
 <footer>[Mika Melvas](http://mahti.fi/)</footer>
 
 </figcaption>
 </figure>
 
-I like to do this kind of projects in several days. So I can look at it with fresh eyes and then I usually figure out if it still needs some more work or if it’s too dull or something. I preferably sleep on it and look it critically at morning. 
+I like to do this kind of projects in several days. So I can look at it with fresh eyes and then I usually figure out if it still needs some more work or if it’s too dull or something. I preferably sleep on it and look it critically at morning.
 
 Then the process will go forward step by step. I also sometimes do so that I print the lettering out and put it on somewhere where I can see it. Then I just look at at it when I go by and start getting ideas what to do next and what parts needs fixing.
 
 
 __Would you rather stab yourself in the eye with a 3 prong fork or have your tombstone set in Comic Sans?__
 
-I take the tombstone set in Comic Sans. Maybe then my grave will become a sight. You never know. And people, other that designers, would think that he must have been a fun and laid-back guy.. with a bad taste. 
+I take the tombstone set in Comic Sans. Maybe then my grave will become a sight. You never know. And people, other that designers, would think that he must have been a fun and laid-back guy.. with a bad taste.
 
 And I kind of need my eyes in my work and personal life too. It would be quite difficult to design typefaces or lettering without them.
 
 __Has the vernacular typography (either of Finland as a whole or specifically in your town) had an impact on your typographic style? (photographic examples welcome)__
 
-In Helsinki, the capital of Finland, we have tons of old buildings that have been built in the beginning of 20th century. Some of those buildings has nice lettering on them. I don’t think it has impact on my style but some of those are very nice and special. 
+In Helsinki, the capital of Finland, we have tons of old buildings that have been built in the beginning of 20th century. Some of those buildings has nice lettering on them. I don’t think it has impact on my style but some of those are very nice and special.
 
 
 __Please draw us a picture of a dinosaur...__
 
-![]({{site.baseurl}}/src/media/dino.jpg)
-
-
+![](/media/dino.jpg)
