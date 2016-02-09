@@ -1,11 +1,15 @@
 ---
 template: post.hbs
 published: true
-title: "An interview with Mika Melvas"
-author: dangneiding
+title: An interview with Mika Melvas
+author: 
+  - dangneiding
+  - rileycran
 category: news
 thumbnail: /media/mika_lost_type_WIP.png
+date: "2016-01-01 14:30:00"
 ---
+
 
 >Mika Melvas is a lettering artist in Vantaa, Finland. He recently lettered our [latest T-shirt in the store](http://store.losttype.com/products/mika-melvas-for-lost-type-shirt), and I drafted up some interview questions for him.
 
@@ -17,7 +21,7 @@ __What’s your typical day like?__
 
 I usually wake up about 8 am. Then I make some coffee and read all the news and check the Instagram and Twitter feeds. I have currently office at home so then I just start working around 9 am.
 
-Then I sit in front of my laptop and do the design work or do some type sketching with pen and paper. I take brakes regularly. I go out or do some scribbling with pen and paper or whatever. I think it’s good to give your eyes a little rest. Then you can spot the imperfections better and spot the places that needs more work.
+Then I sit in front of my laptop and do the design work or do some type sketching with pen and paper. I take breaks regularly. I go out or do some scribbling with pen and paper or whatever. I think it’s good to give your eyes a little rest. Then you can spot the imperfections better and spot the places that needs more work.
 
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="6" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/7Dj82voFey/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Now you can pre-order t-shirts with my lettering on them from Losttype.com. That was fast! http://store.losttype.com/products/mika-melvas-for-lost-type-shirt</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A photo posted by Mika Melvas (@melvastype) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-08-31T17:11:08+00:00">Aug 31, 2015 at 10:11am PDT</time></p></div></blockquote>
 <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
