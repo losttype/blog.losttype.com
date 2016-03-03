@@ -2,12 +2,9 @@
 template: post.hbs
 published: true
 title: An interview with Mika Melvas
-author: 
-  - dangneiding
-  - rileycran
+author: dangneiding
 category: news
 thumbnail: /media/mika_lost_type_WIP.png
-date: "2016-01-01 14:30:00"
 ---
 
 
