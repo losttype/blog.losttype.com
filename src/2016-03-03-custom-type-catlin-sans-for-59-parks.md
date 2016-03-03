@@ -1,6 +1,6 @@
 ---
 template: post.hbs
-published: false
+published: true
 title: "Custom Type: Catlin Sans for 59 Parks"
 author: rileycran
 date: "2016-01-01 14:30:00"
