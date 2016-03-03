@@ -7,7 +7,16 @@ date: "2016-01-01 14:30:00"
 category: news
 ---
 
+
 _I recently had the honor of working with The 59 Parks project, a poster series celebrating the National Parks of the USA. The typeface is used to spell the park names on all 59 posters, and draws from a variety of influences. JP Boneyard, head honcho of 59 Parks, asked me some questions about the process._ - Riley Cran
+
+<figure>
+![]({{site.baseurl}}/src/media/59parks_catlin_sans.jpg)
+<figcaption>Catlin Sans in use
+<footer>[Various 59 Parks Artists](http://www.59parks.net)</footer>
+
+</figcaption>
+</figure>
 
 **How did you prepare for a project like this? How important is research**?
 
@@ -17,13 +26,27 @@ I generally prepare by thinking of the context the type will be used in, the des
 
 I knew the project would have to balance historical influence with a more neutral contemporary tone, so I began by thinking about the graphic design associated historically with the parks, and researching poster designs from the Works Progress Administration. There were literally thousands of poster designs made for the WPA in the first half of the 20th century, and many of them advertised national parks to the public. At that point in time it was largely about reminding the public of the beauty of the parks during the depression, or during war-time. So there’s a real power to the images, in a graphic design history context, and I wanted to examine the role that typography played in those. What I found was that many of the posters featured lettering (as opposed to type), much of which was quirky and a little too characterful to serve as inspiration for a more neutral-looking typeface (as this one aimed to be). But there were many sans-serif lettering examples in the posters that were drawn to resemble (and expand upon) the vernacular type styles of the era, and the country. And that was a quality that I chose to focus on - the idea of what ‘American Letters’ might look like. 
 
+<figure>
+![]({{site.baseurl}}/src/media/wpa-lettering.jpg)
+<figcaption>Various examples from the wonderful 'Posters for the People' book by Ennis Carter.
+<footer>[WPA Posters - Posters for the People](http://www.amazon.ca/Posters-People-Ennis-Carter/dp/1594742928)</footer>
+
+</figcaption>
+</figure>
+
 **It seems as though you've pulled inspiration from American typefaces of the 30's-40's. What other sources played a role in your inspiration for Catlin**?
 
 While chasing the ‘American Letters’ idea, it was natural to pull some inspiration from the ATF Gothic typefaces (Franklin Gothic, Alternate Gothic, etc). In a general way, that inspiration (and the lettering from the posters) made me realize that all-caps condensed sans-serif typesetting seemed to be one of the most quintessential ‘American’ typography traditions. That’s why Catlin Sans ultimately took the form it did: An all-caps display face.
 
 I also turned to the vernacular of the American sign painting tradition. Sign painter alphabets (as they are sometimes documented in specimen books and trade manuals, or seen in-use on actual signs; wonderful letterforms pulled from the memory of the practitioners) seem to have a tendency both to distill the ‘soul’ of many popular typefaces of their respective eras, but also to introduce a human quality that many sans-serif typefaces seem to avoid in favor of a rigid system of geometry. Whether it be the influence of the actual brush itself, or the simple ability to depart from traditional typesetting, sign painting references often represent the lively and characterful side of the sans-serif genre, in my mind. It was fun thinking of how a sign painter would interpret popular typefaces of American history, as it probably is a somewhat similar process to designing Catlin sans, digitally. 
 
+<figure>
+![]({{site.baseurl}}/src/media/drafts_catlin.jpg)
+<figcaption>An early (more more traditional and neutral) exploration for the project (top) and Catlin Sans (bottom). 
+<footer>[Riley Cran](http://www.rileycran.com)</footer>
 
+</figcaption>
+</figure>
 
 **What was the main objective you hoped to achieve with this typeface**? 
 
@@ -31,6 +54,13 @@ Although I’d only seen a few brief art samples when I began the project, it wa
 
 Every now and then I stopped to think of how truly difficult it was to make something that captured this feeling. Probably because sans-serif typefaces are such a ubiquitous part of our landscape now, and we don’t stop to appreciate the meanings they carry. I hope this one succeeds in conveying the ideas that inspired it. 
 
+<figure>
+![]({{site.baseurl}}/src/media/Catlin-Sans.png)
+<figcaption>A specimen of the final Catlin Sans. 
+<footer>[Riley Cran](http://www.rileycran.com)</footer>
+
+</figcaption>
+</figure>
 
 **Where did the name Catlin Sans come from? Can you tell us about the significance there**?
 
