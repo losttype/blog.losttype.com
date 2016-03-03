@@ -8,7 +8,7 @@ category: news
 ---
 
 
-_I recently had the honor of working with The 59 Parks project, a poster series celebrating the National Parks of the USA. The typeface is used to spell the park names on all 59 posters, and draws from a variety of influences. JP Boneyard, head honcho of 59 Parks, asked me some questions about the process._ - Riley Cran
+_I recently had the honor of working with The 59 Parks project (a new poster series celebrating the National Parks of the USA) on a custom typeface for the park names on all 59 posters. JP Boneyard, head honcho of 59 Parks, asked me some questions about the process._ - Riley Cran
 
 <figure>
 ![]({{site.baseurl}}/src/media/59parks_catlin_sans.jpg)
