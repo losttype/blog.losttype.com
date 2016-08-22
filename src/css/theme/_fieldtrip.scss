@@ -13,3 +13,11 @@
 .fieldtripchi {
   @include theme($color-fieldtripchi);
 }
+
+.fieldtripvan {
+  @include theme($color-fieldtripvan);
+}
+
+.fieldtripphl {
+  @include theme($color-fieldtripphl);
+}
