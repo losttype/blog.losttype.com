@@ -35,4 +35,8 @@ Next, we’ll look back at some of the work started on previous Lost Type field 
 
 <iframe src="//eventbrite.com/tickets-external?eid=27264720513&amp;ref=etckt" frameborder="0" height="269" width="100%" vspace="0" hspace="0" scrolling="auto" allowtransparency="true" class="embed embed-eventbrite"></iframe>
 
+You can also attend the Lost Type Art Show:
+
+<iframe src="//eventbrite.com/tickets-external?eid=27287937957&amp;ref=etckt" frameborder="0" height="269" width="100%" vspace="0" hspace="0" scrolling="auto" allowtransparency="true" class="embed embed-eventbrite"></iframe>
+
 More announcements to come—make sure to follow along with [Lost Type on Instagram](https://instagram.com/losttypecoop) and [Twitter](https://twitter.com/losttypecoop) wherever you are. If you’re based near Philadelphia, we hope to see you in person soon!
