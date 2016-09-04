@@ -8,7 +8,7 @@ collection: fieldtripphl
 thumbnail: /media/2016/08/philadelphia-header.png
 ---
 
-This September, we’ll be packing our bags for another Lost Type Field—this time in Philadelphia!
+This September, we’ll be packing our bags for another Lost Type Field Trip—this time in Philadelphia!
 
 After a successful meeting earlier this year in Vancouver, where [Riley Cran](http://twitter.com/rileycran), [Alanna Munro](https://twitter.com/alannamun) and [I](http://twitter.com/kennethormandy) are all based, we’ll be travelling to somewhere new (to me at least), where the Lost Type team will reunite again.
 
