@@ -2,7 +2,7 @@
 if ('querySelector' in window.document) {
   var mustard = true
 
-  if (sessionStorage.loadedMoriston !== true) {
+  if (typeof sessionStorage.loadedMoriston === 'undefined' || sessionStorage.loadedMoriston !== true) {
     loadCSS('http://fonts.kennethormandy.com/css/moriston.css')
 
     var observeMoriston = new FontFaceObserver('Moriston')
@@ -12,13 +12,15 @@ if ('querySelector' in window.document) {
       })
   }
 
-  if (sessionStorage.loadedMetaSerif !== true) {
-    var observeMeta = new FontFaceObserver('ff-meta-serif-web-pro')
-      .check()
-      .then(function() {
-        setFontsLoaded('MetaSerif')
-      })
-  }
+  // if (typeof sessionStorage.loadedProspectus === 'undefined' || sessionStorage.loadedProspectus !== true) {
+  //   loadCSS('../css/fonts.css')
+  //
+  //   var observeProspectus = new FontFaceObserver('Prospectus')
+  //     .check()
+  //     .then(function() {
+  //       setFontsLoaded('Prospectus')
+  //     })
+  // }
 
   var setFontsLoaded = function (name) {
     var html = document.documentElement

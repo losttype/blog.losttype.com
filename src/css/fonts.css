@@ -1,165 +1,37 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: "Moriston";
-  font-weight: 300;
+  font-family: "Prospectus";
+  font-weight: normal;
+  font-style: normal;
   font-stretch: normal;
-  src: url("/fonts/moriston-n3.woff")  format("woff");
+  src: url("/fonts/Prospectus-Regular1208.woff")  format("woff"),
+       url("/fonts/Prospectus-Regular1208.woff2") format("woff");
 }
 
 @font-face {
-  font-family: "Moriston";
-  font-weight: 400;
+  font-family: "Prospectus";
+  font-weight: normal;
   font-stretch: normal;
-  src: url("/fonts/moriston-n4.woff")  format("woff");
+  font-style: italic;
+  src: url("/fonts/Prospectus-Italic1208.woff")  format("woff"),
+       url("/fonts/Prospectus-Italic1208.woff2") format("woff");
 }
 
 @font-face {
-  font-family: "Moriston";
-  font-weight: 600;
-  font-stretch: normal;
-  src: url("/fonts/moriston-n5.woff")  format("woff");
-}
-
-@font-face {
-  font-family: "Moriston";
+  font-family: "Prospectus";
   font-weight: 700;
+  font-style: normal;
   font-stretch: normal;
-  src: url("/fonts/moriston-n7.woff")  format("woff");
+  src: url("/fonts/Prospectus-Bold1208.woff")  format("woff"),
+       url("/fonts/Prospectus-Bold1208.woff2") format("woff");
 }
 
 @font-face {
-  font-family: "Moriston";
-  font-weight: 900;
+  font-family: "Prospectus";
+  font-weight: 800;
   font-style: normal;
   font-stretch: normal;
-  src: url("/fonts/moriston-n9.woff")  format("woff");
-}
-
-
-/* Symbolset
- * www.symbolset.com
- * Copyright © 2014 Oak Studios LLC
- */
-
-@font-face {
-  font-family: "SSSocialRegular";
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  src: url("/fonts/ss-social-regular.woff") format("woff");
-}
-
-/* This triggers a redraw in IE to Fix IE8"s :before content rendering. */
-html:hover [class^="ss-"]{-ms-zoom: 1;}
-
-.ss-icon, .ss-icon.ss-social-regular,
-[class^="ss-"]:before, [class*=" ss-"]:before,
-[class^="ss-"].ss-social-regular:before, [class*=" ss-"].ss-social-regular:before,
-[class^="ss-"].right:after, [class*=" ss-"].right:after,
-[class^="ss-"].ss-social-regular.right:after, [class*=" ss-"].ss-social-regular.right:after {
-  font-family: "SSSocialRegular";
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: none;
-  text-rendering: optimizeLegibility;
-  white-space: nowrap;
-  -webkit-font-feature-settings: "liga"; /* Originally commented out: Currently broken in Chrome >= v22. Falls back to text-rendering. Safari is unaffected. */
-  -moz-font-feature-settings: "liga=1";
-  -moz-font-feature-settings: "liga";
-  -ms-font-feature-settings: "liga" 1;
-  -o-font-feature-settings: "liga";
-  font-feature-settings: "liga";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-[class^="ss-"].right:before,
-[class*=" ss-"].right:before{
-  display:none;
-  content: "";
-}
-
-.ss-facebook:before,.ss-facebook.right:after {
-  content: "";
-}
-
-.ss-twitter:before,.ss-twitter.right:after {
-  content: "";
-}
-
-.ss-instagram:before,.ss-instagram.right:after {
-  content: "";
-}
-
-.ss-dropbox:before,.ss-dropbox.right:after {
-  content: "";
-}
-
-.ss-dribbble:before,.ss-dribbble.right:after {
-  content: "";
-}
-
-.ss-github:before,.ss-github.right:after {
-  content: "";
-}
-
-.ss-paypal:before,.ss-paypal.right:after {
-  content: "";
-}
-
-.ss-shopify:before,.ss-shopify.right:after {
-  content: "";
-}
-
-.ss-soundcloud:before,.ss-soundcloud.right:after {
-  content: "";
-}
-
-.ss-appstore:before,.ss-appstore.right:after {
-  content: "";
-}
-
-.ss-googleplay:before,.ss-googleplay.right:after {
-  content: "";
-}
-
-.ss-appleinc:before,.ss-appleinc.right:after {
-  content: "";
-}
-
-.ss-microsoft:before,.ss-microsoft.right:after {
-  content: "";
-}
-
-.ss-windows:before,.ss-windows.right:after {
-  content: "";
-}
-
-.ss-android:before,.ss-android.right:after {
-  content: "";
-}
-
-.ss-link:before,.ss-link.right:after {
-  content: "🔗";
-}
-
-.ss-phone:before,.ss-phone.right:after {
-  content: "📞";
-}
-
-.ss-mail:before,.ss-mail.right:after {
-  content: "✉";
-}
-
-.ss-like:before,.ss-like.right:after {
-  content: "👍";
-}
-
-.ss-rss:before,.ss-rss.right:after {
-  content: "";
-}
-
-.ss-share:before,.ss-share.right:after {
-  content: "";
+  src: url("/fonts/Prospectus-Black1208.woff")  format("woff"),
+       url("/fonts/Prospectus-Black1208.woff2") format("woff");
 }
