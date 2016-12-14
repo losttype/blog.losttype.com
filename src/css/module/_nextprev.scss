@@ -26,7 +26,7 @@
 
 .nextprev-item { // For specificity over knockout
   transition: color 0.125s ease-in-out, background-color 0.125s ease-in-out; // TODO Don’t make Ben sad
-  font-family: $font-family-sans;
+  font-family: $font-family-ui;
   color: $color-background;
   // .article-title {
   //   text-align: center;

@@ -93,7 +93,7 @@ blockquote,
   }
   &:before {
     content: "“";
-    font-family: $font-family-sans;
+    font-family: $font-family-display;
     speak: none;
     user-select: none;
     display: block;
@@ -111,7 +111,7 @@ blockquote,
   }
   footer {
     font-style: normal;
-    font-family: $font-family-sans;
+    font-family: $font-family-display;
     font-weight: 400;
     display: block;
     margin-left: modular-scale(3);
@@ -213,7 +213,7 @@ blockquote,
     margin-right: $gutter;
     margin-bottom: $base-line-height * 1em;
     color: $color-primary;
-    font-family: $font-family-sans;
+    font-family: $font-family-display;
   }
   @include media($mid) {
     @include span-columns(3 of 7);

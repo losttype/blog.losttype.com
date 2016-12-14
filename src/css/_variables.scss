@@ -3,7 +3,7 @@
 // Variables
 
 $base-font-size: 1.43em;
-$base-line-height: 1.55;
+$base-line-height: 1.45;
 $base-border-radius: 3px;
 $base-transition-duration: 0.125s;
 $base-transition-function: ease-in-out;
@@ -54,13 +54,14 @@ $huge: new-breakpoint(min-width $huge-width $huge-col);
 //
 // No styleguide reference.
 $font-family-sans:      "Moriston", "Avenir Next", "AvenirNext-SemiBold", "Futura-Medium", Futura, "Futura Std", "Trebuchet MS", Helvetica, Arial, sans-serif;
-$font-family-serif:     "ff-meta-serif-web-pro", Georgia, serif;
+$font-family-serif:     "Prospectus", Georgia, serif;
 // $font-family-display: "Majesti Banner", "Didot-Bold", Didot, "Didot LT STD", "Bodoni MT", Garamond, "Times New Roman", serif;
-$font-family-display:    $font-family-sans;
-$font-family-caption:    $font-family-sans;
+$font-family-display:    $font-family-serif;
+$font-weight-display:    800;
+$font-family-ui:         $font-family-sans;
+$font-family-caption:    $font-family-serif;
 $font-family-monospace: "Codee Mono", "Source Code Pro", "Monaco", monospace, monospace;
 $base-font-family:       $font-family-serif;
-
 
 
 // Colors

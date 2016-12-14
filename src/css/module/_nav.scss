@@ -2,7 +2,7 @@
 //
 // Styleguide: module.navigation
 .nav {
-  font-family: $font-family-sans;
+  font-family: $font-family-ui;
   @include span-columns(5 of 5);
   @include omega();
   max-height: 3.5em;
