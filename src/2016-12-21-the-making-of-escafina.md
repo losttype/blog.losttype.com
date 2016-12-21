@@ -19,6 +19,13 @@ The idea for this typeface started from research I had been doing on vernacular 
 
 Even though there are countless wonderful and characterful examples of upright script lettering in signage and advertising, they are almost all just that: lettering drawn for a specific single purpose. There are very few actual typefaces in this genre, and the ones that do exist, upon further research, felt very unresolved. The lettering was rarely systematic enough to be a solid model for a random arrangement of letters (as is necessary in type). It seemed to me that this was a genre of lettering that had been lost to time, and deserved to be re-interpreted in the form of digital type. 
 
+<figure>
+![]({{site.baseurl}}/src/media/2016-09-22-10.44.18.jpg)
+<figcaption>Escafina in the Recent Work specimen.
+
+</figcaption>
+</figure>
+
 When I sat down to begin planning my own contribution to this genre, I found that a brief had just sort of appeared in the back of my mind somewhere after looking at so many historical samples. From my sketches, I seemed to know already that there were a core set of parameters that I was interested in designing around, specifically: Perfectly vertical letters (not even a slight angle of slant), a ‘structured’ construction with very rationalized forms (not especially calligraphic), a slight influence of the brush that could help to disambiguate the forms, and a goal of harmonizing the caps and lowercase.
 
 I had surgery in the summer of 2014, and I was bed-ridden for a week or so while I rested up at home. During this time, a single sheet of letter sized paper ended up being the prototype of the lowercase for Escafina, drawn to the extent that I could imagine it at the time. Looking back, as I assume will always be the case with initial sketches after years of designing a typeface, I see these initial drawings and smile. I see the things that I had already decided on (ball terminals throughout the lowercase for instance, instead of more blunt sans-serif-ish terminations). But I also see all the things I couldn’t anticipate would be an issue, all the lessons I had not learned yet, and the inconsistencies in this single sheet of prototype letters. As is probably always the case with type design sketches, the pencil marks on the paper simply 	represent the first steps towards chasing a real manifestation of an idea that sits in your head. I had no idea that it would be well over a year until these forms were completed, and that I would have to let the file sit many times as I contemplated how to solve show-stopping challenges.
