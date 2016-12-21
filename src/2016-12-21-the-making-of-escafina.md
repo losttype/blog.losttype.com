@@ -9,7 +9,7 @@ category: news
 
 
 
-Escafina is an upright script typeface that I drew from 2014-2016. It threw me a considerable number of challenges, and made me a better type designer. You can’t ask for much more than that from a project.
+Escafina is an [upright script typeface that I drew](http://escafina.losttype.com/) from 2014-2016. It threw me a considerable number of challenges, and made me a better type designer. You can’t ask for much more than that from a project.
 
 ![]({{site.baseurl}}/src/media/header_2.jpg)
 
@@ -121,4 +121,8 @@ The ‘type work wednesday’ meetings have since changed days of the week many 
 
 Escafina was a true challenge to create something that felt comfortable without a practical historical model. It was liberating to solve the puzzles that it presented, and it gave me a new level of confidence to break the mold more often in my type design work, and to seriously respect the role of research in this process.
 
-Thanks for taking the time to read this, and make sure to check out the mini-site, designed and developed by Kenneth, with contributions by Dan Gneiding and Danelle Cheney!
+Thanks for taking the time to read this, and make sure to check out [the mini-site](escafina.losttype.com), designed and developed by [Kenneth](http://kennethormandy.com/), with contributions by [Dan Gneiding](http://grayhood.com/) and [Danelle Cheney](http://www.danellecheney.com/)!
+
+![]({{site.baseurl}}/src/media/escafina_thanks.jpg)
+
+
