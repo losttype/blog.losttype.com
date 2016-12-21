@@ -7,9 +7,11 @@ date: "2016-01-01 14:30:00"
 category: news
 ---
 
+
 Escafina is an upright script typeface that I drew from 2014-2016. It threw me a considerable number of challenges, and made me a better type designer. You can’t ask for much more than that from a project.
 
-![]({{site.baseurl}}/src/media/escafina-print-1.jpg)
+![]({{site.baseurl}}/src/media/header_2.jpg)
+
 
 
 The idea for this typeface started from research I had been doing on vernacular vintage signage and sign painting. I had noticed that there were quite a few samples of ‘upright scripts’. Whereas most script lettering has an angle of slant, upright scripts are drawn at only a very slight angle, or are perfectly upright. They have a charming, a-typical presence in a design. They are just unusual enough that they stand out without being impractical and illegible. Their ultimate relation to both an italic and a roman makes them feel like a clever trick. 
@@ -60,9 +62,14 @@ In the end I realized that the elements of proportion and functionality that wer
 </figcaption>
 </figure>
 
-For the figures I chose modern-stress serif figures as the influence (removing a single serif on the 1, which looked out of place in Escafina’s serif-less world). The ball terminals present elsewhere were featured here, and they felt appropriately elegant and functional. I also incorporated arbitrary fractions, with a split-bar construction that reflects some of the swelling geometry found elsewhere in the typeface.
+For the figures I chose modern-stress serif figures as the influence (removing a single serif on the 1, which looked out of place in Escafina’s serif-less world). The ball terminals present elsewhere were featured here, and they felt appropriately elegant and functional. 
 
-![]({{site.baseurl}}/src/media/escafina_figures2.jpg)
+![]({{site.baseurl}}/src/media/escafina_figures3.jpg)
+
+
+I also incorporated arbitrary fractions, with a split-bar construction that reflects some of the swelling geometry found elsewhere in the typeface.
+
+![]({{site.baseurl}}/src/media/escafina_fractions.jpg)
 
 
 
@@ -70,11 +77,19 @@ It was while completing the caps, and thinking about the influence of serif swas
 
 One trend I notice in my type design is that I often like to throw myself curve balls by expanding the scope of an idea to require adventures into new ways of thinking and drawing. With Escafina, after the idea was almost fully realized, I decided to redesign as a family of 3 styles, each with progressively thinner hairlines. 
 
+![]({{site.baseurl}}/src/media/escafina_Sizes.jpg)
+
 The original drawings would become the ‘low’ style, there would be a version with very thin (10 unit) hairlines, and a style in the middle would now function as the ‘medium’. 
 
 As part of this process, I realized that it would be a nice piece of functionality to allow typographers to set Escafina and switch between these styles without causing re-flow of text or changing the width of a word. This meant that all styles of Escafina would need to match perfectly in the width of letters, the spacing of letters and the kerning of letters. Because the low-contrast style had been designed first, this made it easier to match the versions with thinner hairlines to the original ‘low’ drawings, for which I wrote a robofont script in python to automatically ‘multiplex’ these styles. 
 
+![]({{site.baseurl}}/src/media/escafina_Sizes2.jpg)
+
+
 This feature could be used to ensure that Escafina renders nicely at a certain size on screen, or prints properly on certain equipment. It could also be used as a way to shift the aesthetic tone of the type from the sign painter low-contrast influence, to the serif-inspired high contrast ‘high’ variation. 
+
+![]({{site.baseurl}}/src/media/escafina_sizes_progress.jpg)
+
 
 This drawing process allowed me to revisit the drawings in all styles, and harmonize them even further. To see what a letter would look like across all three levels of contrast gave me the perspective to make the correct adjustments to all three. Suddenly I felt my previous design process had been like designing one corner of something, ignoring the larger picture. 
 
@@ -86,20 +101,15 @@ For the release of Escafina I worked with Kenneth Ormandy once again, who had pr
 
 I also designed a risograph print to be sent out to anyone who purchased the commercial license. For the print I wanted to make something that was inspired in some way by the idea that the flowing words of Escafina were created by placing each letter in a rigid box. 
 
+<figure>
+![escafina-print-1.jpg]({{site.baseurl}}/src/media/escafina-print-1.jpg)
+<figcaption>
+
+</figcaption>
+</figure>
+
 The ‘type work wednesday’ meetings have since changed days of the week many times, and are now more of a ‘type work most mornings of the week’. The type designers I had met are now some of my closest local friends, Alanna Munro, Cody Jones and Kenneth Ormandy, all of whom work on Lost Type projects.
 
 Escafina was a true challenge to create something that felt comfortable without a practical historical model. It was liberating to solve the puzzles that it presented, and it gave me a new level of confidence to break the mold more often in my type design work, and to seriously respect the role of research in this process.
 
 Thanks for taking the time to read this, and make sure to check out the mini-site, designed and developed by Kenneth, with contributions by Dan Gneiding and Danelle Cheney!
-
-
-
-
-
-
-
-
-
-
-
-
