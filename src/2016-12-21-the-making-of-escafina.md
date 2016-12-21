@@ -9,6 +9,9 @@ category: news
 
 Escafina is an upright script typeface that I drew from 2014-2016. It threw me a considerable number of challenges, and made me a better type designer. You can’t ask for much more than that from a project.
 
+![]({{site.baseurl}}/src/media/escafina-print-1.jpg)
+
+
 The idea for this typeface started from research I had been doing on vernacular vintage signage and sign painting. I had noticed that there were quite a few samples of ‘upright scripts’. Whereas most script lettering has an angle of slant, upright scripts are drawn at only a very slight angle, or are perfectly upright. They have a charming, a-typical presence in a design. They are just unusual enough that they stand out without being impractical and illegible. Their ultimate relation to both an italic and a roman makes them feel like a clever trick. 
 
 Even though there are countless wonderful and characterful examples of upright script lettering in signage and advertising, they are almost all just that: lettering drawn for a specific single purpose. There are very few actual typefaces in this genre, and the ones that do exist, upon further research, felt very unresolved. The lettering was rarely systematic enough to be a solid model for a random arrangement of letters (as is necessary in type). It seemed to me that this was a genre of lettering that had been lost to time, and deserved to be re-interpreted in the form of digital type. 
@@ -16,6 +19,9 @@ Even though there are countless wonderful and characterful examples of upright s
 When I sat down to begin planning my own contribution to this genre, I found that a brief had just sort of appeared in the back of my mind somewhere after looking at so many historical samples. From my sketches, I seemed to know already that there were a core set of parameters that I was interested in designing around, specifically: Perfectly vertical letters (not even a slight angle of slant), a ‘structured’ construction with very rationalized forms (not especially calligraphic), a slight influence of the brush that could help to disambiguate the forms, and a goal of harmonizing the caps and lowercase.
 
 I had surgery in the summer of 2014, and I was bed-ridden for a week or so while I rested up at home. During this time, a single sheet of letter sized paper ended up being the prototype of the lowercase for Escafina, drawn to the extent that I could imagine it at the time. Looking back, as I assume will always be the case with initial sketches after years of designing a typeface, I see these initial drawings and smile. I see the things that I had already decided on (ball terminals throughout the lowercase for instance, instead of more blunt sans-serif-ish terminations). But I also see all the things I couldn’t anticipate would be an issue, all the lessons I had not learned yet, and the inconsistencies in this single sheet of prototype letters. As is probably always the case with type design sketches, the pencil marks on the paper simply 	represent the first steps towards chasing a real manifestation of an idea that sits in your head. I had no idea that it would be well over a year until these forms were completed, and that I would have to let the file sit many times as I contemplated how to solve show-stopping challenges.
+
+![]({{site.baseurl}}/src/media/escafina_sketches.jpg)
+
 
 I had begun to spend a lot of time with a few other type designers in Vancouver, whom I had met at the Lettering Club nights I had been hosting. We begun a ‘type work wednesday’ weekly meetup, where we’d spend evenings sitting together drawing quietly, cracking jokes occasionally and sharing some beers. It was at these meetings that Escafina began to progress from paper to the screen.
 
@@ -31,6 +37,9 @@ With all of the goals of Escafina confirmed in my head, I realized this typeface
 
 Thus I began solving the issues. Getting the most common groups of letter shapes (round characters, square characters and diagonal characters) to harmonize didn’t pose a particular challenge, and it was not dissimilar to other styles of type. Careful optical balances of these groups makes them feel they are harmonizing in the context of words, and with a script you have the added benefit of requiring relatively little kerning (as ideally these relationships solve themselves, so to speak, through the conenctions). 
 
+![]({{site.baseurl}}/src/media/escafina_connections.jpg)
+
+
 However Escafina’s parameters of letter construction began to provide some really interesting challenges, quite early on. As an example of the oddities the upright ‘structured’ script genre can produce, Escafina is perhaps the only typeface I will ever design wherein the ‘v’ and ‘b’ are amongst the most closely related drawings. 
 
 In addition to each group having an optical balance of spacing necessary to harmonize them, they each required a connection of some kind to the following glyph, and these needed to be drawn in a way that felt natural to the letter shape and anticipated every other group of letter and letter connection. This required a lot of trial and error, and ultimately I made the decision not to force connections. If, after many attempts to create a convincing, natural feeling connection, a letter was still putting up a struggle, I assumed this was a good indication that it didn’t need a connection at all. This is the case with the ‘o’ for instance, a shape in Escafina that looks like it could similarly belong in a sans or serif design.
@@ -43,7 +52,19 @@ Next to the lowercase connection system, one of the larger chapters of explorati
 
 In the end I realized that the elements of proportion and functionality that were unique to Escafina would require that I synthesize a few different influences to create a unique model for the caps. I realized that 1970s swash caps (such as the ones drawn by the prolific Ed Benguiat for many seriffed faces) were roman (upright) but very elegant and characterful without being impractical. They also incorporated ball terminals, which are often featured in Escafina’s lowercase. Combining that influence with a more traditional script cap model (slanted backwards to become upright) provided caps that felt right for Escafina. The lack of serifs made them feel fresh and rationalized enough to belong with the lowercase, but the script influences allowed them to connect to lowercase letters in a cohesive way. As is the case in many typefaces, the ‘Q’ was a chance to have some fun, one which I took advantage of.
 
+<figure>
+![]({{site.baseurl}}/src/media/escafina_caps.jpg)
+<figcaption>Testing different terminations for the capital letters.
+<footer>[Riley Cran](rileycran.com)</footer>
+
+</figcaption>
+</figure>
+
 For the figures I chose modern-stress serif figures as the influence (removing a single serif on the 1, which looked out of place in Escafina’s serif-less world). The ball terminals present elsewhere were featured here, and they felt appropriately elegant and functional. I also incorporated arbitrary fractions, with a split-bar construction that reflects some of the swelling geometry found elsewhere in the typeface.
+
+![]({{site.baseurl}}/src/media/escafina_figures2.jpg)
+
+
 
 It was while completing the caps, and thinking about the influence of serif swash caps, that I realized that much of the elegance I admired in that source of inspiration was coming from the ultra-thin hairlines in serif faces drawn for large sizes. Escafina was influenced initially by sign painting (where the brush often produces a lower contrast, more charmingly hardworking result), but could Escafina similarly convey elegance if the hairlines were thinner? 
 
