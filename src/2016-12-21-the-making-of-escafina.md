@@ -8,6 +8,7 @@ category: news
 ---
 
 
+
 Escafina is an upright script typeface that I drew from 2014-2016. It threw me a considerable number of challenges, and made me a better type designer. You can’t ask for much more than that from a project.
 
 ![]({{site.baseurl}}/src/media/header_2.jpg)
@@ -94,6 +95,14 @@ This feature could be used to ensure that Escafina renders nicely at a certain s
 This drawing process allowed me to revisit the drawings in all styles, and harmonize them even further. To see what a letter would look like across all three levels of contrast gave me the perspective to make the correct adjustments to all three. Suddenly I felt my previous design process had been like designing one corner of something, ignoring the larger picture. 
 
 I learned a lesson here, about pushing ideas beyond your current understanding of their potential. When you have a chance to expand your idea to incorporate something new, it may provide perspective to make your original scope fundamentally better, in addition to increasing the value and functionality of the result. If you’re a designer (in any discipline) reading this, I challenge you to apply this thinking to your next project.
+
+<figure>
+![]({{site.baseurl}}/src/media/names.png)
+<figcaption>Testing names for Escafina. 
+
+</figcaption>
+</figure>
+![]({{site.baseurl}}/src/media/names.png)
 
 Up until this time I had been referring to this typeface (for years) as ‘Upright Script’ in my development files. I never sat down to name it until mere days before the launch, and I found it quite difficult to find a name. Often a typeface name is derived from the type designer’s favorite glyphs from the typeface, and this was the direction I chose. In the end I wrote a piece of software to quickly generate names based on letters and syllables that I liked, which would then typeset the name in the font for testing. I handed a sheet of several hundred options to my girlfriend Heather, who chose ‘Escafina’. It sounds simultaneously spanish and italian, but it is in fact a nonsense word. 
 
