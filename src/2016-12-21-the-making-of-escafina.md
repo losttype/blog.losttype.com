@@ -7,9 +7,6 @@ date: "2016-01-01 14:30:00"
 category: news
 ---
 
-The Making of Escafina
-
-
 Escafina is an upright script typeface that I drew from 2014-2016. It threw me a considerable number of challenges, and made me a better type designer. You can’t ask for much more than that from a project.
 
 The idea for this typeface started from research I had been doing on vernacular vintage signage and sign painting. I had noticed that there were quite a few samples of ‘upright scripts’. Whereas most script lettering has an angle of slant, upright scripts are drawn at only a very slight angle, or are perfectly upright. They have a charming, a-typical presence in a design. They are just unusual enough that they stand out without being impractical and illegible. Their ultimate relation to both an italic and a roman makes them feel like a clever trick. 
