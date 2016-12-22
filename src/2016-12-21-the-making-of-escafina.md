@@ -19,12 +19,8 @@ The idea for this typeface started from research I had been doing on vernacular 
 
 Even though there are countless wonderful and characterful examples of upright script lettering in signage and advertising, they are almost all just that: lettering drawn for a specific single purpose. There are very few actual typefaces in this genre, and the ones that do exist, upon further research, felt very unresolved. The lettering was rarely systematic enough to be a solid model for a random arrangement of letters (as is necessary in type). It seemed to me that this was a genre of lettering that had been lost to time, and deserved to be re-interpreted in the form of digital type. 
 
-<figure>
 ![]({{site.baseurl}}/src/media/2016-09-22-10.44.18.jpg)
-<figcaption>Escafina in the Recent Work specimen.
 
-</figcaption>
-</figure>
 
 When I sat down to begin planning my own contribution to this genre, I found that a brief had just sort of appeared in the back of my mind somewhere after looking at so many historical samples. From my sketches, I seemed to know already that there were a core set of parameters that I was interested in designing around, specifically: Perfectly vertical letters (not even a slight angle of slant), a ‘structured’ construction with very rationalized forms (not especially calligraphic), a slight influence of the brush that could help to disambiguate the forms, and a goal of harmonizing the caps and lowercase.
 
