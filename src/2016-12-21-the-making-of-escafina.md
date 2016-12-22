@@ -127,6 +127,11 @@ This drawing process allowed me to revisit the drawings in all styles, and harmo
 
 I learned a lesson here, about pushing ideas beyond your current understanding of their potential. When you have a chance to expand your idea to incorporate something new, it may provide perspective to make your original scope fundamentally better, in addition to increasing the value and functionality of the result. If you’re a designer (in any discipline) reading this, I challenge you to apply this thinking to your next project.
 
+<figure class="figure figure--breakout">
+![](/media/2016/12/escafina_final_forms.jpg)
+<figcaption>Final forms are swapped automatically as you type.</figcaption>
+</figure>
+
 Once all the letters were working completely without OpenType, I realized that I could now confidently add OpenType features that supplemented the appearance of the fonts, instead of having the fonts rely on them to function. I added ‘final forms’, versions of the letters meant to work specifically at the end of words (shortening the connections on letters that aren't followed by another letter, to look more similar to how a human would draw them). And of course I added diacritic glyphs so that Escafina can be used in over 100 languages.
 
 <figure class="figure figure--breakout">
