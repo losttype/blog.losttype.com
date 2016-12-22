@@ -1,11 +1,12 @@
 ---
 template: post.hbs
 published: true
-title: "The Making of Escafina"
+title: The Making of Escafina
 author: rileycran
-# date: "2016-01-01 14:30:00"
 category: news
+date: "2016-01-01 14:30:00"
 ---
+
 
 Escafina is an [upright script typeface that I drew](http://escafina.losttype.com/) from 2014-2016. It threw me a considerable number of challenges, and made me a better type designer. You can’t ask for much more than that from a project.
 
@@ -48,7 +49,7 @@ This led to an initial piece of lettering I drew, and posted around on social me
 
 With all of the goals of Escafina confirmed in my head, I realized this typeface was actually influenced quite a bit from my work as a graphic designer. Escafina would be practically a ‘logotype in a can’. A set-it-and-forget it way to make a competent upright script setting suitable for a logotype, with no manual intervention needed.
 
-Thus I began solving the issues. Getting the most common groups of letter shapes (round characters, square characters and diagonal characters) to harmonize didn’t pose a particular challenge, and it was not dissimilar to other styles of type. Careful optical balances of these groups makes them feel they are harmonizing in the context of words, and with a script you have the added benefit of requiring relatively little kerning (as ideally these relationships solve themselves, so to speak, through the conenctions).
+Thus I began solving the issues. Getting the most common groups of letter shapes (round characters, square characters and diagonal characters) to harmonize didn’t pose a particular challenge, and it was not dissimilar to other styles of type. Careful optical balances of these groups makes them feel they are harmonizing in the context of words, and with a script you have the added benefit of requiring relatively little kerning (as ideally these relationships solve themselves, so to speak, through the connections).
 
 <figure>
 ![](/media/2016/12/escafina_connections.jpg)
@@ -118,6 +119,8 @@ This feature could be used to ensure that Escafina renders nicely at a certain s
 This drawing process allowed me to revisit the drawings in all styles, and harmonize them even further. To see what a letter would look like across all three levels of contrast gave me the perspective to make the correct adjustments to all three. Suddenly I felt my previous design process had been like designing one corner of something, ignoring the larger picture.
 
 I learned a lesson here, about pushing ideas beyond your current understanding of their potential. When you have a chance to expand your idea to incorporate something new, it may provide perspective to make your original scope fundamentally better, in addition to increasing the value and functionality of the result. If you’re a designer (in any discipline) reading this, I challenge you to apply this thinking to your next project.
+
+Once all the letters were working completely without opentype, I realized that I could now confidently add OpenType features that supplemented the appearance of the fonts, instead of having the fonts rely on them to function. I added ‘final forms’, versions of the letters meant to work specifically at the end of words (shortening the connections on letters that aren't followed by another letter, to look more similar to how a human would draw them). And of course I added diacritic glyphs so that Escafina can be used in over 100 languages.
 
 <figure class="figure figure--breakout">
 ![](/media/2016/12/names.png)
