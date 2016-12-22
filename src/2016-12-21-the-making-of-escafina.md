@@ -64,6 +64,14 @@ This is where things get particularly tricky. Every script alphabet has a few gl
 
 I could write an entire blog post purely about these glyphs, but let me just shorten this to say: I drew many many many variations of these. Some of which were discarded in a day, some stuck around for months in the development, only for me to realize they were truly awful and causing more problems than they were solving. At one point I literally redrew the entire alphabet purely because of the letter ‘x’, a chapter of this typefaces development that still brings a frustrated tear to my eye. But this is type design; this is the true puzzle that we sign up for, in making typefaces. Especially ones for which there is not a very well documented or agreed upon model of letter construction, like Escafina.
 
+<figure>
+![](![](/media/2016/12/src/media/escafina_x.jpg)
+/src/media/escafina_x.jpg)
+<figcaption>
+
+</figcaption>
+</figure>
+
 <div class="pullquote" data-pullquote="Every script alphabet has a few glyphs that are a pain in the ass"></div>
 
 Next to the lowercase connection system, one of the larger chapters of exploration and iteration in the development of Escafina was the capital letters. Taking lettering as the inspiration, there were rarely many samples of capital letters, and even rarer to find any that agreed with each other very consistently. The beauty of lettering is that you can draw a cap that functions in a specific setting, but wouldn’t (or doesn’t need to) in the context of other caps, or with random lowercase letters. The few samples I could find of script typefaces with a somewhat upright axis seemed to subscribe to a model of construction that was completely wrong for Escafina. Some relied on angled stress, which Escafina did not incorporate. Some were more like Oblique serif caps, which didn’t fit in the world of Escafina at all. Some were more formal script caps, with details that were too fussy to be re-thought for the proportions of Escafina (rather bold, lower-contrast, and with relatively short caps for logo-type-esque word shapes).
