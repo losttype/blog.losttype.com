@@ -47,6 +47,11 @@ The idea of a ‘script connection system’ is an under-discussed concept, beca
 
 This led to an initial piece of lettering I drew, and posted around on social media that said ‘Leisure Enthusiast’. This was created originally as an early draft of the type, and I had yet to visit some of the more complicated issues of its development. However it was inspiring, and the reaction from the design community seemed positive enough to justify it being completed.
 
+<figure>
+![](/media/2016/12/Leisure_Enthusiast.jpg)
+<figcaption>The original lettering (derived from initial type explorations).</figcaption>
+</figure>
+
 With all of the goals of Escafina confirmed in my head, I realized this typeface was actually influenced quite a bit from my work as a graphic designer. Escafina would be practically a ‘logotype in a can’. A set-it-and-forget it way to make a competent upright script setting suitable for a logotype, with no manual intervention needed.
 
 Thus I began solving the issues. Getting the most common groups of letter shapes (round characters, square characters and diagonal characters) to harmonize didn’t pose a particular challenge, and it was not dissimilar to other styles of type. Careful optical balances of these groups makes them feel they are harmonizing in the context of words, and with a script you have the added benefit of requiring relatively little kerning (as ideally these relationships solve themselves, so to speak, through the connections).
