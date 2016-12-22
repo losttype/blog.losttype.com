@@ -65,7 +65,7 @@ This is where things get particularly tricky. Every script alphabet has a few gl
 I could write an entire blog post purely about these glyphs, but let me just shorten this to say: I drew many many many variations of these. Some of which were discarded in a day, some stuck around for months in the development, only for me to realize they were truly awful and causing more problems than they were solving. At one point I literally redrew the entire alphabet purely because of the letter ‘x’, a chapter of this typefaces development that still brings a frustrated tear to my eye. But this is type design; this is the true puzzle that we sign up for, in making typefaces. Especially ones for which there is not a very well documented or agreed upon model of letter construction, like Escafina.
 
 <figure>
-![]({{site.baseurl}}/src/media/escafina_x_2.jpg)
+![](/media/2016/12/escafina_x_2.jpg)
 <figcaption>Everyone has bad relationships with their x's. 
 
 </figcaption>
