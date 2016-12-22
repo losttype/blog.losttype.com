@@ -48,7 +48,7 @@ The idea of a ‘script connection system’ is an under-discussed concept, beca
 This led to an initial piece of lettering I drew, and posted around on social media that said ‘Leisure Enthusiast’. This was created originally as an early draft of the type, and I had yet to visit some of the more complicated issues of its development. However it was inspiring, and the reaction from the design community seemed positive enough to justify it being completed.
 
 <figure>
-![](/media/2016/12/Leisure_Enthusiast.jpg)
+![](/media/2016/12/Leisure-Enthusiast.png)
 <figcaption>The original lettering (derived from initial type explorations).</figcaption>
 </figure>
 
