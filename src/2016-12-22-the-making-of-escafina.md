@@ -4,7 +4,7 @@ published: true
 title: The Making of Escafina
 author: rileycran
 category: news
-date: "2016-12-22 14:30:00"
+thumbnail: /media/2016/12/escafina_collage.jpg
 ---
 
 
@@ -37,7 +37,7 @@ I had begun to spend a lot of time with a few other type designers in Vancouver,
 
 # A ‘script typeface’
 
-In a sense, a ‘script typeface’ is a bit of an oxymoron. Script lettering, particularly the mid century vernacular that we often associate ‘script’ with today, is all about spontaneity. With any script typeface, you’re taking something that is supposed to be derived from the spontaneity of handwriting (to whatever extent) and bottle it up in a system. Very often, as a result of the influence of typesetting technology, scripts have just one version of every letter. In the metal-type era, the genius Roger Excoffon designed Mistral, a high water mark for capturing something very organic in an extremely limited system. Mistral has just one version of every letter AND the added constraint of each piece of metal not being able to ‘overlap’ as script lettering does when drawn. The same constraint means no kerning, as well. Even with these limitations, Mistral emerges as a timeless classic that convincingly conveys jovial handwriting. If this lovely result could be completed within such a limiting system, surely with today’s technology I should be able to create a script with just one variation of each letter?
+In a sense, a ‘script typeface’ is a bit of an oxymoron. Script lettering, particularly the mid century vernacular that we often associate ‘script’ with today, is all about spontaneity. With any script typeface, you’re taking something that is supposed to be derived from the spontaneity of handwriting (to whatever extent) and bottle it up in a system. Very often, as a result of the influence of typesetting technology, scripts have just one version of every letter. In the metal-type era, the genius Roger Excoffon designed Mistral, a high water mark for capturing something very organic in an extremely limited system. Mistral has just one version of every letter _and_ the added constraint of each piece of metal not being able to ‘overlap’ as script lettering does when drawn. The same constraint means no kerning, as well. Even with these limitations, Mistral emerges as a timeless classic that convincingly conveys jovial handwriting. If this lovely result could be completed within such a limiting system, surely with today’s technology I should be able to create a script with just one variation of each letter?
 
 This parameter of my self-initiated brief was there for a variety of reasons. One of them was the simple practicality of designing less variations of letters to produce a solid result. But this goal would also mean that my script wouldn’t require alternate letters and OpenType features to function, making it more likely to produce a quality result in more situations. Another reason for this, perhaps a little more abstract and philosophical, was that relying on just one variation of everything was a way to solidify the ideas in the typeface, and add an underlaying sense of harmony through the system of letter connections itself. Otherwise alternate glyphs might be functioning as a ‘band-aid’ for issues I had come across, and didn’t bother to solve beyond creating an alternate.
 
@@ -71,7 +71,7 @@ I could write an entire blog post purely about these glyphs, but let me just sho
 
 <figure>
 ![](/media/2016/12/escafina_x_2.jpg)
-<figcaption>Everyone has bad relationships with their x's. 
+<figcaption>Everyone has bad relationships with their x's.
 
 </figcaption>
 </figure>
