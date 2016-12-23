@@ -208,14 +208,12 @@ blockquote,
     float: left;
     font-style: normal;
     font-weight: 900;
-    font-size: 1.25em;
+    font-size: 1em;
     width: 40%;
     margin-right: $gutter;
     margin-bottom: $base-line-height * 1em;
     color: $color-primary;
     font-family: $font-family-sans;
-  }
-  @include media($mid) {
     @include span-columns(3 of 7);
     @include shift(-1 of 7);
   }
@@ -225,10 +223,11 @@ blockquote,
     @include shift(-2 of 7);
   }
   @include media($huge) {
+    font-size: 1.88em;
+    text-align: left;
     @include span-columns(4 of 7);
     @include shift(-2 of 7);
   }
-
 }
 
 // Pullquote in an blockquote
