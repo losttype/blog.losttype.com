@@ -10,7 +10,7 @@ thumbnail: /media/2017/01/lost-type-salt-lake-header.jpg
 
 [Danelle Cheney](http://www.danellecheney.com/), one of Lost Type’s most regular contributors, is hosting some of the Lost Type team in her home city of Salt Lake City, Utah!
 
-She’s organised a variety of type and lettering events along with the Lost Type, the [Salt Lake Lettering Club](https://www.instagram.com/saltlakeletteringclub/) (which she also organises), Carolyne Chronister, and the SLCC Art Committee:
+She’s organised a variety of type and lettering events along with Lost Type, the [Salt Lake Lettering Club](https://www.instagram.com/saltlakeletteringclub/) (which she also organises), Carolyne Chronister, and the SLCC Art Committee:
 
 - [Lost Type Lecture](https://www.eventbrite.com/e/the-lost-type-co-op-lecture-tickets-30839521840)
 - [Lost Type Exhibition Opening](https://www.eventbrite.com/e/the-lost-type-co-op-exhibition-opening-lettering-club-tickets-30947848849)
