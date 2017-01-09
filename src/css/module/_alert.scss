@@ -12,7 +12,7 @@
 .alert,
 a.alert {
   font-size: $font-size-small;
-  font-family: $font-family-sans;
+  font-family: $font-family-ui;
   padding: modular-scale(0);
   // border: 1px solid $gray;
   background: darken($color-background, 5%); // TODO Refactor this into a .panel or .well class, also used in .newsletter

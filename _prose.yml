@@ -65,6 +65,8 @@ prose:
               "value": "news"
             - "name": "Fonts in Use"
               "value": "fonts-in-use"
+            - "name": "Field Trip Salt Lake City"
+              "value": "fieldtripslc"
             - "name": "Field Trip Philadelphia"
               "value": "fieldtripphl"
             - "name": "Field Trip Vancouver"
