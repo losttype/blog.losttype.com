@@ -31,7 +31,7 @@ After discussing this sort of planning with the fine folks at SHS, we decided to
 </figcaption>
 </figure>
 
-Aesthetically SONIC’s communications had often drawn from the imagery of the great American highway. One of the main inspirations, in particular, was the idea of license plate typography, and this came up early in the process. Most fonts designed for license plates are designed to be read by computers, and might for instance be something from the long running series of OCR (optical character recognition) fonts that include the fonts you see below bar-codes on groceries and library books. How do you train a computer to read a license plate from a car that is in motion? You draw the glyphs to be very disambiguated, and you give them details that are unmistakably unique to that glyph. 
+Aesthetically SONIC’s communications had often drawn from the imagery of the great American highway. One of the main inspirations, in particular, was the idea of license plate typography, and this came up early in the process. Most fonts designed for license plates are designed in factories to be mass produced, or to be read by computers, and might for instance be something from the long running series of OCR (optical character recognition) fonts that include the fonts you see below bar-codes on groceries and library books. How do you train a computer to read a license plate from a car that is in motion? You draw the glyphs to be very disambiguated, and you give them details that are unmistakably unique to that glyph. 
 
 SONIC had actually used fonts that were strongly reminiscent of license plate typography in the past, and what we discussed was that in many cases the aspects of the OCR fonts designed to appeal to computers weren’t particularly ideal for human readers. There was often a lack of the pleasant rhythm that appeals to the human eye, in words and sentences set in these fonts, and SONIC’s typesetting needs had outgrown these fonts. There were however, various aesthetic details that we could look to in the typography of license plates, as inspiration for what was becoming SONIC Sans. The high waist of the capital ‘R’ and the symmetrical construction of the capital ‘M’, for instance, were qualities reminiscent of OCR fonts. License plates also tended to have ‘rounded’ sans letterforms, with subtle curves instead of sharp angles. After isolating these and many other details we were fond of, I started drafting a typeface that would marry these characteristics with something more ‘informational’ and hard working. 
 
@@ -41,7 +41,7 @@ I drafted a set of extremes that ranged from a hairline ‘thin’ to a powerful
 
 <figure>
 ![I was pleasantly surprised to see that the words ‘CORN DOGS’ naturally justify almost perfectly in the SONIC Sans Extended Light font.]({{site.baseurl}}/src/media/CORNDOGS.png)
-<figcaption>I was even pleasantly surprised to see that the words ‘CORN DOGS’ naturally justify almost perfectly in the SONIC Sans Extended Bold font.
+<figcaption>I was even pleasantly surprised to see that the words ‘CORN DOGS’ naturally justify almost perfectly in the SONIC Sans Extended Light font.
 
 </figcaption>
 </figure>
