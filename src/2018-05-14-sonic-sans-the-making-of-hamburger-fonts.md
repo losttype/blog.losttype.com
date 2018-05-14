@@ -71,7 +71,7 @@ The talented designers at SHS quickly put the fonts to use, and it was a real th
 
 _"The Sonic fonts enhanced our capabilities to design with originality, without fear of what our competitors are doing. It allows us extreme flexibility as designers while knowing our designs are always on brand." - Brian Yates, Art Director, SHS_
 
-_"Being able to partner with Riley Cran on the creation Sonic Sans a custom san serif font and then to also compliment it with two unique script fonts (Sonic Brush and Sonic Upright) has been incredible for our team at SHS. As designers and art directors we all have the same goal of making sure our clients are staying relevant, with that it makes it a challenge to help your client and their brand stand out. Partnering with Riley we were able to help direct the creation of a family of fonts that are unique to SONIC. We now have a foundation to stand on that will help build consistency across all platforms for SONIC and build brand equity."_ - [Sullivan Higdon & Sink](https://wehatesheep.com/)
+_"As designers and art directors we all have the same goal of making sure our clients are staying relevant, with that it makes it a challenge to help your client and their brand stand out. Partnering with Riley we were able to help direct the creation of a family of fonts that are unique to SONIC. We now have a foundation to stand on that will help build consistency across all platforms for SONIC and build brand equity."_ - [Sullivan Higdon & Sink](https://wehatesheep.com/)
 
 ![]({{site.baseurl}}/src/media/DanelleCheney_RileyCran_sonicSpecimen.png)
 
