@@ -53,14 +53,14 @@ $huge: new-breakpoint(min-width $huge-width $huge-col);
 // Font Stack Still Matter.
 //
 // No styleguide reference.
-$font-family-sans:      "Moriston", "Avenir Next", "AvenirNext-SemiBold", "Futura-Medium", Futura, "Futura Std", "Trebuchet MS", Helvetica, Arial, sans-serif;
-$font-family-serif:     "Prospectus", Georgia, serif;
+$font-family-sans:      "LT Prospectus M", "Avenir Next", "AvenirNext-SemiBold", "Futura-Medium", Futura, "Futura Std", "Trebuchet MS", Helvetica, Arial, sans-serif;
+$font-family-serif:     "LT Prospectus M", Georgia, serif;
 // $font-family-display: "Majesti Banner", "Didot-Bold", Didot, "Didot LT STD", "Bodoni MT", Garamond, "Times New Roman", serif;
-$font-family-display:    $font-family-serif;
-$font-weight-display:    800;
+$font-family-display:    "LT Prospectus L", $font-family-serif;
+$font-weight-display:    700;
 $font-family-ui:         $font-family-sans;
 $font-family-caption:    $font-family-serif;
-$font-family-monospace: "Codee Mono", "Source Code Pro", "Monaco", monospace, monospace;
+$font-family-monospace: "Source Code Pro", "Monaco", monospace, monospace;
 $base-font-family:       $font-family-serif;
 
 
