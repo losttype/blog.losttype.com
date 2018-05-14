@@ -1,19 +1,15 @@
 ---
 template: post.hbs
 published: false
-title: "SONIC Sans - the making of Hamburger fonts"
+title: "SONIC Sans - The making of Hamburger fonts"
 author: rileycran
-date: "2019-01-01 14:30:00"
+date: "2018-05-15 10:00:00"
 category: news
 ---
 
-
-
-
-
-SONIC® Sans case study - Riley Cran
-
-![]({{site.baseurl}}/src/media/SONIC_specimen3.png)
+<figure class="figure figure--breakout">
+![](/media/2018/SONIC_specimen3.png)
+</figure>
 
 In the winter of 2015 I was contacted by Parc Masterson at the celebrated Kansas City ad agency [Sullivan Higdon & Sink](https://wehatesheep.com/) (SHS) about designing new custom fonts for SONIC® Drive-in. A beloved burger chain in America for 64 years, SONIC still retains a classic and at times nostalgic presence as a drive-in, while being decidedly modern with innovations like digital menu boards that play motion graphics when you pull up to make your order. 
 
@@ -24,7 +20,7 @@ Advertising for a food-related company is an intense craft. It requires a lot of
 After discussing this sort of planning with the fine folks at SHS, we decided to embark on a project that would include a significantly wider scope of fonts than you’d typically find a company adopting. A sans-serif family was planned that covered a range of widths and weights, allowing for a nearly endless set of combinations that would always feel like SONIC, while remaining fresh and adaptable, just like the advertising it was made to function in. 
 
 <figure>
-![Various widths and weights of the SONIC Sans 'S']({{site.baseurl}}/src/media/sonic_S.png)
+![Various widths and weights of the SONIC Sans 'S'](/media/2018/sonic_S.png)
 <figcaption>Various widths and weights of the SONIC Sans 'S'
 <footer>[Riley Cran](http://rileycran.com/)</footer>
 
@@ -40,7 +36,7 @@ I drew inspiration from sans serifs of the early 20th century, often provided in
 I drafted a set of extremes that ranged from a hairline ‘thin’ to a powerful ‘black’ weight, and from a quite narrow ‘condensed’ width to a sprawling ‘wide’ variation with a powerful stance. These extremes, and all of the relevant fonts that existed between them, created a family of styles that could be mixed and matched for a huge variety of pairings. The number of fonts in the family was growing high, but for good reason. 
 
 <figure>
-![I was pleasantly surprised to see that the words ‘CORN DOGS’ naturally justify almost perfectly in the SONIC Sans Extended Light font.]({{site.baseurl}}/src/media/CORNDOGS.png)
+![I was pleasantly surprised to see that the words ‘CORN DOGS’ naturally justify almost perfectly in the SONIC Sans Extended Light font.](/media/2018/CORNDOGS.png)
 <figcaption>I was even pleasantly surprised to see that the words ‘CORN DOGS’ naturally justify almost perfectly in the SONIC Sans Extended Light font.
 
 </figcaption>
@@ -52,52 +48,43 @@ In typeface design strings like ‘Hamburgerfont’ are often used to test diffe
 During the design process I realized I wanted a rounding effect that didn’t universally round all corners, but instead rounded corners selectively so that the fonts could convey the right rounded aesthetic tone, but also preserve the crispness of counter forms and any other glyph-by-glyph moments where the fidelity of the drawing shouldn’t be compromised by rounding. This avoids the fonts feeling ‘blurry’ instead of ‘charmingly rounded’. In doing so, I essentially set up a process where I was drawing without rounded corners, and adding them after the fact. Which of course led to the realization that non-rounded versions of the fonts would be possible to deliver. And so the scope increased again, for good reason.
 
 <figure>
-![Non-rounded and Rounded versions of the 'R' from the extended semibold weight of SONIC Sans]({{site.baseurl}}/src/media/Sonic_RR.png)
+![Non-rounded and Rounded versions of the 'R' from the extended semibold weight of SONIC Sans](/media/2018/Sonic_RR.png)
 <figcaption>Non-rounded and Rounded versions of the 'R' from the extended semibold weight of SONIC Sans
 <footer>[Riley Cran](http://rileycran.com/)</footer>
 
 </figcaption>
 </figure>
 
-
 With the addition of italic versions of both the rounded and non-rounded versions of the fonts, the scope eventually rose to 60 fonts in total, comprising over 15,800 glyphs. I was even able to bring in some of the inspiration from license-plate typography into the SONIC Sans figures, providing a nice dose of disambiguation. Especially handy for setting lots of prices meant to be seen from a distance. 
 
-![]({{site.baseurl}}/src/media/Sonic-Sans_figures.png)
-
-
+<figure>
+![](/media/2018/Sonic-Sans_figures.png)
+</figure>
 
 The talented designers at SHS quickly put the fonts to use, and it was a real thrill to see them start to pop up in advertising. I followed SONIC on Instagram, and started to see the letterforms I had drawn popping up on advertisements for tater tots and milkshakes. Each ad capturing the aesthetic of SONIC but with a new vibrance and flexibility to their typesetting options. The client wrote down some of their thoughts:
 
+> The Sonic fonts enhanced our capabilities to design with originality, without fear of what our competitors are doing. It allows us extreme flexibility as designers while knowing our designs are always on brand.
+> <footer>Brian Yates, Art Director, <cite><a href="https://wehatesheep.com/">SHS</a></footer>
 
-_"The Sonic fonts enhanced our capabilities to design with originality, without fear of what our competitors are doing. It allows us extreme flexibility as designers while knowing our designs are always on brand." - Brian Yates, Art Director, SHS_
+<div></div>
 
-_"As designers and art directors we all have the same goal of making sure our clients are staying relevant, with that it makes it a challenge to help your client and their brand stand out. Partnering with Riley we were able to help direct the creation of a family of fonts that are unique to SONIC. We now have a foundation to stand on that will help build consistency across all platforms for SONIC and build brand equity."_ - [Sullivan Higdon & Sink](https://wehatesheep.com/)
+> As designers and art directors we all have the same goal of making sure our clients are staying relevant, with that it makes it a challenge to help your client and their brand stand out. Partnering with Riley we were able to help direct the creation of a family of fonts that are unique to SONIC. We now have a foundation to stand on that will help build consistency across all platforms for SONIC and build brand equity.
+> <footer><cite><a href="https://wehatesheep.com/">Sullivan Higdon & Sink</a></footer>
 
-![]({{site.baseurl}}/src/media/DanelleCheney_RileyCran_sonicSpecimen.png)
+<figure>
+![](/media/2018/DanelleCheney_RileyCran_sonicSpecimen.png)
+</figure>
 
 When I visited Salt Lake city in the winter of 2016, I got out of the car in the freezing weather to go snap some photos with my phone of the menu, and bits of advertising on the building. You’re generally not supposed to leave your car when visiting a SONIC drive-in, that’s kind of the whole point. So I can only imagine what the staff thought of seeing me there through the window, with my (not snow friendly) shoes buried in the slushy snow, photographing a digital menu board from 3 inches away because I noticed they used the section symbol I had drawn. 
 
-![]({{site.baseurl}}/src/media/SONIC_menu_SHS.jpg)
+<figure>
+![](/media/2018/SONIC_menu_SHS.jpg)
+</figure>
 
-![]({{site.baseurl}}/src/media/SONIC_SLC.jpg)
-
+<figure>
+![](/media/2018/SONIC_SLC.jpg)
+</figure>
 
 I have very much enjoyed working with both SHS and SONIC, and they returned the following year to increase the selection of fonts for SONIC even further. I’ll be writing more about that story shortly.
 
-
 Thanks to Jessica, Parc, Burke and Amanda for their support on this project. Mastering assistance on the fonts by PSY/OPS type-foundry. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
