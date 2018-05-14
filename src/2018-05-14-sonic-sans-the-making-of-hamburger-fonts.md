@@ -1,9 +1,9 @@
 ---
 template: post.hbs
-published: false
+published: true
 title: "SONIC Sans - The making of Hamburger fonts"
 author: rileycran
-date: "2018-05-15 10:00:00"
+date: "2018-05-15 13:04:00"
 category: news
 ---
 
