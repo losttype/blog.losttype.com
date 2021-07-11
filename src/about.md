@@ -10,6 +10,8 @@ category: news
 
 <!-- This page better have a map on it! -->
 
+# About The Lost Type Co-op
+
 Something about the Lost Type Co-op blog
 
 This is Riley using something called 'Github' which I find very insulting.
