@@ -29,7 +29,11 @@
   </header>
   <div class="frame {{#if gallery }}knockout{{ else }}{{#if category }}{{ category }}{{/if }}{{/if }}">
       <div class="container article-contents">
-        {{{ quotelength contents }}}
+        {{#if dropcap }}
+          {{{ dropwrap contents }}}{{!-- Need to add quotelength back in here too --}}
+        {{ else }}
+          {{{ quotelength contents }}}
+        {{/if }}
       </div>
       <footer class="container article-footer">
         <hr>
